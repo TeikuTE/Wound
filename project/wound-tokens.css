@@ -1,0 +1,263 @@
+/* ============================================================
+   WOUND — Design Tokens
+   A duology of memory, displacement, and fractured identity.
+   Book 1: Dr. Eleanor Chen (The Warmth)
+   Book 2: Alan Rose (The Void)
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  /* ── Book 1 — Eleanor Chen (The Warmth) ─────────────────── */
+  --el-parchment:  #F0E6D0;   /* Page background. Aged ivory. */
+  --el-ink:        #1C1410;   /* Body text. Iron-gall near-black. */
+  --el-burgundy:   #5C1A2E;   /* Display accent — chapter titles. */
+  --el-forest:     #1E3D2F;   /* Section headers, ruled lines. */
+  --el-gold:       #8B6914;   /* Ornamentation, tarnished brass. */
+  --el-faded:      #7A6E5F;   /* Muted text, footnotes. */
+  --el-annotation: #3D2B1F;   /* Marginalia. Warm brown. */
+
+  /* ── Book 2 — Alan Rose (The Void) ──────────────────────── */
+  --al-void:       #0D0F12;   /* Page background. Cold near-black. */
+  --al-ghost:      #DCE4E8;   /* Body text. Cold cream. */
+  --al-electric:  #1E4D6B;   /* Accent. Monitor in a dark room. */
+  --al-steel:      #4A5568;   /* Muted labels, page numbers. */
+  --al-typewriter: #B8C4CC;   /* Faded typewriter-ribbon annotations. */
+
+  /* ── Shared / Cross-narrator ───────────────────────────── */
+  --sf-zaaken:     #4A3560;   /* Zaaken's voice. Belongs to neither. */
+
+  /* ── Page metrics (digest) ─────────────────────────────── */
+  --page-w:  5.5in;
+  --page-h:  8.5in;
+  --page-margin-top:    13mm;
+  --page-margin-out:    22mm;
+  --page-margin-bot:    16mm;
+  --page-margin-spine:  18mm;
+
+  /* ── Type scale — Chen ────────────────────────────────── */
+  --el-h1-size: 26pt;   --el-h1-leading: 30pt;
+  --el-h2-size: 14pt;
+  --el-h3-size: 11pt;
+  --el-body-size:       10.5pt;  --el-body-leading: 15pt;
+  --el-mech-size:       10pt;    --el-mech-leading: 14pt;
+  --el-footnote-size:   8pt;     --el-footnote-leading: 11pt;
+
+  /* ── Type scale — Alan ────────────────────────────────── */
+  --al-h1-size: 22pt;   --al-h1-leading: 24pt;
+  --al-h2-size: 12pt;
+  --al-body-size:       9.5pt;   --al-body-leading: 14.5pt;
+  --al-mech-size:       9.5pt;   --al-mech-leading: 14.5pt;
+  --al-raw-size:        9pt;
+
+  /* ── Families ─────────────────────────────────────────── */
+  --ff-serif-display: 'Playfair Display', 'EB Garamond', Georgia, serif;
+  --ff-serif-body:    'EB Garamond', Georgia, 'Times New Roman', serif;
+  --ff-mono:          'IBM Plex Mono', 'Courier New', monospace;
+  --ff-hand:          'Caveat', 'Segoe Script', cursive;
+}
+
+/* ============================================================
+   SEMANTIC CLASSES
+   Apply to real elements; do not invent new ones on the fly.
+   ============================================================ */
+
+/* ── Chen — Book 1 ─────────────────────────────────────────── */
+.el-h1 {
+  font-family: var(--ff-serif-display);
+  font-weight: 700;
+  font-size: var(--el-h1-size);
+  line-height: var(--el-h1-leading);
+  color: var(--el-burgundy);
+  filter: drop-shadow(0 0 2px rgba(92, 26, 46, 0.15));
+  margin: 0;
+}
+.el-h2 {
+  font-family: var(--ff-serif-display);
+  font-weight: 400;
+  font-size: var(--el-h2-size);
+  line-height: 1.2;
+  color: var(--el-forest);
+  font-variant: small-caps;
+  border-bottom: 0.3pt solid var(--el-gold);
+  padding-bottom: 2mm;
+  margin: 0 0 3mm 0;
+}
+.el-h3 {
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-weight: 700;
+  font-size: var(--el-h3-size);
+  line-height: 1.2;
+  color: var(--el-faded);
+}
+.el-body {
+  font-family: var(--ff-serif-body);
+  font-weight: 400;
+  font-size: var(--el-body-size);
+  line-height: var(--el-body-leading);
+  color: var(--el-ink);
+  text-align: justify;
+  hyphens: auto;
+}
+.el-body--two-col {
+  column-count: 2;
+  column-gap: 5mm;
+}
+.el-mechanical {
+  font-family: var(--ff-serif-body);
+  font-weight: 600;
+  font-size: var(--el-mech-size);
+  line-height: var(--el-mech-leading);
+  color: var(--el-ink);
+  border-top: 0.3pt solid rgba(122, 110, 95, 0.4);
+  border-bottom: 0.3pt solid rgba(122, 110, 95, 0.4);
+  padding: 2mm 0;
+  margin: 3mm 0;
+}
+.el-footnote {
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: var(--el-footnote-size);
+  line-height: var(--el-footnote-leading);
+  color: var(--el-faded);
+}
+
+/* ── Alan — Book 2 ─────────────────────────────────────────── */
+.al-h1 {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: var(--al-h1-size);
+  line-height: var(--al-h1-leading);
+  color: var(--al-electric);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+.al-h2 {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: var(--al-h2-size);
+  line-height: 1.2;
+  color: var(--al-electric);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0 0 2mm 0;
+}
+.al-body {
+  font-family: var(--ff-mono);
+  font-weight: 400;
+  font-size: var(--al-body-size);
+  line-height: var(--al-body-leading);
+  color: var(--al-ghost);
+  text-align: left;  /* ragged right */
+}
+.al-mechanical {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: var(--al-mech-size);
+  line-height: var(--al-mech-leading);
+  color: var(--al-ghost);
+  margin: 6mm 0;  /* generous negative space instead of rules */
+}
+.al-raw {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-style: italic;
+  font-size: var(--al-raw-size);
+  line-height: 1.2;
+  color: var(--el-burgundy);  /* his clinical voice cracks warm */
+}
+
+/* ── Shared / Cross-narrator ──────────────────────────────── */
+.mech-term {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  /* size + color inherit from surrounding text */
+}
+.zaaken {
+  font-family: var(--ff-mono);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 9pt;
+  color: var(--sf-zaaken);
+  border-left: 2pt dashed var(--sf-zaaken);
+  padding-left: 6mm;
+  margin: 4mm 0;
+}
+
+/* ── Intrusions (the core signature) ──────────────────────── */
+
+/* Alan writing in Chen's book — HANDWRITTEN void cutting into parchment */
+.intrusion-alan-in-chen {
+  position: absolute;
+  z-index: 50;
+  background-color: rgba(13, 15, 18, 0.9);
+  color: var(--al-ghost);
+  font-family: var(--ff-hand);
+  font-weight: 400;
+  font-size: 13pt;
+  line-height: 1.15;
+  padding: 3mm 5mm;
+  transform: rotate(-2deg);
+  max-width: 55mm;
+  box-shadow: 0 2px 6px rgba(13,15,18,0.25);
+}
+
+/* Chen typing in Alan's book — warm parchment taped to the void */
+.intrusion-chen-in-alan {
+  position: absolute;
+  z-index: 50;
+  background-color: var(--el-parchment);
+  color: var(--el-forest);
+  font-family: var(--ff-mono);
+  font-weight: 400;
+  font-size: 9pt;
+  line-height: 1.3;
+  padding: 4mm 6mm;
+  transform: rotate(1.5deg);
+  box-shadow: 2px 3px 6px rgba(13, 15, 18, 0.3);
+  max-width: 65mm;
+}
+.intrusion-chen-in-alan__header {
+  font-family: var(--ff-mono);
+  font-weight: 300;
+  font-size: 7pt;
+  color: var(--al-steel);
+  margin-bottom: 2mm;
+  letter-spacing: 0.02em;
+}
+
+/* Alan's own fragments floating on his void */
+.intrusion-alan-fragment {
+  position: absolute;
+  z-index: 50;
+  font-family: var(--ff-mono);
+  font-weight: 300;
+  font-size: 9pt;
+  color: var(--al-typewriter);
+  /* per-instance rotation -4deg..+5deg */
+}
+
+/* Chen's own marginalia in her own book */
+.intrusion-chen-marginalia {
+  position: absolute;
+  z-index: 50;
+  font-family: var(--ff-hand);
+  font-weight: 400;
+  font-size: 12pt;
+  color: var(--el-annotation);
+  line-height: 1.15;
+  transform: rotate(-1.5deg);
+  max-width: 40mm;
+}
+
+/* ── Page surfaces ────────────────────────────────────────── */
+.page--chen {
+  background-color: var(--el-parchment);
+  color: var(--el-ink);
+}
+.page--alan {
+  background-color: var(--al-void);
+  color: var(--al-ghost);
+}

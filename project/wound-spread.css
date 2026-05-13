@@ -1,0 +1,457 @@
+/* ============================================================
+   WOUND — Spread viewer chrome + sample-chapter additions.
+   Layered ON TOP of wound-tokens.css.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #14110d;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #DCE4E8;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* The desk surface behind the book. */
+.desk {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at center, #1c1814 0%, #0a0907 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Spread stage — gets scaled to fit. */
+.spread-stage {
+  position: relative;
+  width: 1056px;   /* 5.5in * 2 * 96dpi */
+  height: 816px;   /* 8.5in * 96dpi */
+  transform-origin: center center;
+  display: flex;
+  filter: drop-shadow(0 30px 60px rgba(0,0,0,0.6))
+          drop-shadow(0 8px 20px rgba(0,0,0,0.4));
+}
+
+/* The spine — subtle inner gutter shadow between the two pages */
+.spread-stage::before {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 50%;
+  width: 28px;
+  margin-left: -14px;
+  pointer-events: none;
+  z-index: 100;
+  background:
+    linear-gradient(to right,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,0.28) 40%,
+      rgba(0,0,0,0.42) 50%,
+      rgba(0,0,0,0.28) 60%,
+      rgba(0,0,0,0) 100%);
+}
+
+/* Page bases — used by both Chen and Alan. */
+.page {
+  position: relative;
+  width: 528px;
+  height: 816px;
+  overflow: hidden;
+}
+.page--chen { background: var(--el-parchment); color: var(--el-ink); }
+.page--alan { background: var(--al-void); color: var(--al-ghost); }
+.page--interlude { background: #FAFAFA; color: #18181B; }
+
+/* Content region — positions are set per-side via inline style. */
+.page__content { position: absolute; z-index: 40; }
+
+/* Paper texture — Chen */
+.page--chen .page__texture {
+  position: absolute; inset: 0; z-index: 20;
+  background-image: url('assets/chen-paper-texture.svg');
+  background-size: 400px 400px;
+  mix-blend-mode: multiply;
+  opacity: 0.22;
+  pointer-events: none;
+}
+/* Faint clock watermark — only on opener / ephemera */
+.page--chen .page__watermark {
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px; height: 380px;
+  background: url('assets/chen-clock-watermark.svg') center/contain no-repeat;
+  opacity: 0.045;
+  pointer-events: none;
+  z-index: 30;
+}
+
+/* Void texture — Alan */
+.page--alan .page__texture {
+  position: absolute; inset: 0; z-index: 20;
+  background-image: url('assets/alan-void-texture.svg');
+  background-size: 600px 600px;
+  mix-blend-mode: screen;
+  opacity: 0.07;
+  pointer-events: none;
+}
+
+/* ── Running chrome (suppressed for sample, but supported) ─── */
+.run-head {
+  position: absolute; z-index: 40;
+  font-family: var(--ff-serif-body);
+  font-size: 7.5pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--el-faded);
+  font-variant: small-caps;
+}
+.page-num--chen {
+  position: absolute; z-index: 40;
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 9pt;
+  color: var(--el-faded);
+}
+.coord-stamp {
+  position: absolute; z-index: 40;
+  font-family: var(--ff-mono);
+  font-weight: 300;
+  font-size: 7.5pt;
+  letter-spacing: 0.06em;
+  color: var(--al-steel);
+}
+
+/* ============================================================
+   CHEN — additional structural styles for chapter
+   ============================================================ */
+
+.el-body p { margin: 0 0 3mm 0; }
+.el-body p + p { text-indent: 4mm; margin-top: 0; }
+.el-body p:first-child { text-indent: 0; }
+
+/* Drop cap for chapter body start */
+.el-dropcap::first-letter {
+  font-family: var(--ff-serif-display);
+  font-weight: 700;
+  font-size: 38pt;
+  line-height: 0.85;
+  float: left;
+  padding: 4mm 2mm 0 0;
+  color: var(--el-burgundy);
+}
+
+/* Footnote markers */
+.el-fnref {
+  font-family: var(--ff-serif-body);
+  font-size: 7pt;
+  vertical-align: super;
+  line-height: 0;
+  color: var(--el-faded);
+}
+
+/* Chen's ruled table — thin gold rules, serif numerics */
+.tbl-chen {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--ff-serif-body);
+  font-size: 9.5pt;
+  line-height: 1.35;
+  color: var(--el-ink);
+  margin: 2mm 0 4mm;
+}
+.tbl-chen caption {
+  font-style: italic;
+  font-size: 9pt;
+  color: var(--el-faded);
+  text-align: left;
+  padding-bottom: 2mm;
+  caption-side: top;
+}
+.tbl-chen thead th {
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--el-forest);
+  text-align: left;
+  padding: 1.6mm 3mm 1.6mm 0;
+  border-top: 0.5pt solid var(--el-gold);
+  border-bottom: 0.5pt solid var(--el-gold);
+}
+.tbl-chen tbody td {
+  padding: 1.4mm 3mm 1.4mm 0;
+  vertical-align: top;
+  border-bottom: 0.3pt solid rgba(139, 105, 20, 0.35);
+}
+.tbl-chen tbody tr:last-child td {
+  border-bottom: 0.5pt solid var(--el-gold);
+}
+.tbl-chen .num {
+  font-feature-settings: 'lnum', 'tnum';
+  text-align: right;
+  padding-right: 6mm;
+  white-space: nowrap;
+}
+
+/* Section header rule, gold underline already in .el-h2 — variant for first */
+.el-section-rule {
+  border: 0;
+  border-top: 0.5pt solid var(--el-gold);
+  margin: 5mm 0;
+  opacity: 0.6;
+}
+
+/* Chen body tweak: alternate body families */
+.page--chen[data-body="cormorant"] { --ff-serif-body: 'Cormorant Garamond', Georgia, serif; }
+.page--chen[data-body="sourceserif"] { --ff-serif-body: 'Source Serif 4', Georgia, serif; }
+
+/* ============================================================
+   ALAN — additional structural styles
+   ============================================================ */
+
+.al-body p { margin: 0 0 3mm 0; }
+
+/* ASCII-style hr made of unicode box-drawing */
+.al-rule {
+  font-family: var(--ff-mono);
+  font-size: 9.5pt;
+  color: var(--al-electric);
+  letter-spacing: 0.05em;
+  margin: 3mm 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.al-rule::before { content: "────────────────────────────────────────────────────────────"; }
+
+/* Alan's terminal table — single rule top/bot, mono */
+.tbl-alan {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--ff-mono);
+  font-size: 9pt;
+  line-height: 1.4;
+  color: var(--al-ghost);
+  margin: 3mm 0 5mm;
+}
+.tbl-alan thead th {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--al-electric);
+  text-align: left;
+  padding: 1.5mm 4mm 1.5mm 0;
+  border-top: 1pt solid var(--al-electric);
+  border-bottom: 0.5pt solid var(--al-steel);
+}
+.tbl-alan tbody td {
+  padding: 1.5mm 4mm 1.5mm 0;
+  vertical-align: top;
+  color: var(--al-ghost);
+}
+.tbl-alan tbody tr:last-child td {
+  border-bottom: 1pt solid var(--al-electric);
+}
+.tbl-alan .num {
+  text-align: right;
+  padding-right: 8mm;
+  white-space: nowrap;
+  color: var(--al-ghost);
+}
+.tbl-alan caption {
+  font-family: var(--ff-mono);
+  font-size: 8pt;
+  color: var(--al-steel);
+  text-align: left;
+  padding-bottom: 2mm;
+  caption-side: top;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Alan coordinate label */
+.al-coord {
+  font-family: var(--ff-mono);
+  font-weight: 300;
+  font-size: 8pt;
+  letter-spacing: 0.06em;
+  color: var(--al-steel);
+}
+
+/* Alan chapter title block */
+.al-chapter-block {
+  margin-top: 16mm;
+}
+.al-chapter-block__pre {
+  font-family: var(--ff-mono);
+  font-weight: 300;
+  font-size: 9pt;
+  letter-spacing: 0.1em;
+  color: var(--al-steel);
+  margin-bottom: 3mm;
+}
+.al-chapter-block__rule {
+  height: 1pt;
+  background: var(--al-electric);
+  margin: 6mm 0;
+}
+
+/* ============================================================
+   INTERLUDE — clean, transitional sans
+   ============================================================ */
+
+.page--interlude {
+  font-family: 'Manrope', system-ui, sans-serif;
+}
+.interlude-eyebrow {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 9pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #71717A;
+}
+.interlude-h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 26pt;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: #18181B;
+  margin: 4mm 0 6mm;
+  max-width: 92mm;
+}
+.interlude-body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  color: #27272A;
+  max-width: 96mm;
+}
+.interlude-body p { margin: 0 0 4mm; }
+.interlude-pull {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #18181B;
+  padding-left: 6mm;
+  border-left: 1pt solid #18181B;
+  margin: 8mm 0;
+  max-width: 92mm;
+}
+.interlude-sig {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 10pt;
+  color: #18181B;
+  margin-top: 6mm;
+}
+.interlude-meta {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 8.5pt;
+  color: #71717A;
+}
+
+/* ============================================================
+   Viewer chrome — outside the spread
+   ============================================================ */
+
+.viewer-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+  color: #c3b69c;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  z-index: 200;
+  pointer-events: none;
+}
+.viewer-bar > * { pointer-events: auto; }
+.viewer-bar__brand {
+  display: flex; align-items: center; gap: 10px;
+  text-transform: uppercase;
+}
+.viewer-bar__brand img { width: 14px; height: 14px; opacity: 0.7; }
+.viewer-bar__progress {
+  display: flex; align-items: center; gap: 12px;
+  color: #8a7d65;
+}
+.viewer-bar__progress strong { color: #d9cba9; font-weight: 500; }
+
+.viewer-nav-arrow {
+  position: fixed;
+  top: 50%; transform: translateY(-50%);
+  width: 56px; height: 84px;
+  background: rgba(20, 17, 13, 0.0);
+  border: 0;
+  color: #9c8e72;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 22px;
+  cursor: pointer;
+  transition: opacity 0.18s, background 0.18s;
+  z-index: 200;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0.55;
+}
+.viewer-nav-arrow:hover { opacity: 1; background: rgba(255,255,255,0.04); }
+.viewer-nav-arrow:active { opacity: 0.5; }
+.viewer-nav-arrow:disabled { opacity: 0.15; cursor: default; background: transparent; }
+.viewer-nav-arrow--prev { left: 16px; }
+.viewer-nav-arrow--next { right: 16px; }
+
+.viewer-toc {
+  position: fixed;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  background: rgba(20, 17, 13, 0.6);
+  padding: 8px 12px;
+  z-index: 200;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+.viewer-toc__seg {
+  display: flex; align-items: center; gap: 4px;
+  padding: 2px 6px;
+  color: #71665a;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.viewer-toc__seg:hover { color: #d9cba9; }
+.viewer-toc__seg.active { color: #f0e6d0; }
+.viewer-toc__seg--alan.active { color: #DCE4E8; }
+.viewer-toc__seg--interlude.active { color: #18181B; background: #FAFAFA; }
+.viewer-toc__sep { color: #3a342a; }
+.viewer-toc__dots {
+  display: flex; gap: 3px;
+}
+.viewer-toc__dot {
+  width: 5px; height: 5px;
+  background: #3a342a;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.viewer-toc__dot.active { background: #d9cba9; }
+.viewer-toc__dot--alan.active { background: #1E4D6B; }
+.viewer-toc__dot--interlude.active { background: #FAFAFA; }
+
+/* hover hint */
+.viewer-toc__dot:hover { background: #6a5e4a; }

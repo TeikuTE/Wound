@@ -1,0 +1,14 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <defs>
+    
+  </defs>
+  
+  <polygon class="frame" points="&#xA;    12,6 28,10 44,4 62,9 82,5 108,11 134,6 162,10 188,5 214,9&#xA;    240,4 268,10 294,7 322,11 348,6 378,10 394,7&#xA;    390,26 396,48 392,74 396,98 390,124 394,150 392,174 396,194&#xA;    378,192 352,196 326,190 298,194 272,188 246,193 220,189 194,194 168,188&#xA;    140,193 114,187 88,192 62,188 38,194 18,190 6,194&#xA;    10,170 4,144 8,118 4,92 8,66 4,40 8,22&#xA;  "></polygon>
+  
+  <text x="24" y="28" class="label">[SYSTEM OUTPUT // FRAGMENT]</text>
+  <line x1="24" y1="36" x2="200" y2="36" stroke="#1E4D6B" stroke-width="0.4"></line>
+  <text x="24" y="56" class="label" opacity="0.6">&gt; content ellided</text>
+  <text x="24" y="72" class="label" opacity="0.6">&gt; error: memory not found</text>
+  <text x="24" y="88" class="label" opacity="0.6">&gt; retry 0/3</text>
+</svg>

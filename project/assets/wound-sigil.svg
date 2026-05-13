@@ -1,0 +1,10 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <filter id="inkbleed">
+      <feGaussianBlur stdDeviation="0.5"></feGaussianBlur>
+    </filter>
+  </defs>
+  <polygon points="40,8 68,24 68,56 40,72 12,56 12,24" fill="none" stroke="#5C1A2E" stroke-width="1.4" filter="url(#inkbleed)"></polygon>
+  <polygon points="40,14 63,27 63,53 40,66 17,53 17,27" fill="none" stroke="#5C1A2E" stroke-width="0.6" opacity="0.5"></polygon>
+</svg>

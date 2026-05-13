@@ -1,0 +1,20 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120">
+  <defs>
+    
+  </defs>
+  
+  <line class="gold" x1="8" y1="60" x2="152" y2="60"></line>
+  <g class="gold">
+    <line x1="20" y1="55" x2="20" y2="65"></line>
+    <line x1="50" y1="55" x2="50" y2="65"></line>
+    <line x1="80" y1="55" x2="80" y2="65"></line>
+    <line x1="110" y1="55" x2="110" y2="65"></line>
+    <line x1="140" y1="55" x2="140" y2="65"></line>
+  </g>
+  
+  <path class="ink" d="&#xA;    M 10 60&#xA;    Q 20 30, 30 60&#xA;    T 50 60&#xA;    Q 62 25, 74 60&#xA;    Q 82 95, 92 60&#xA;    Q 100 20, 112 70&#xA;    Q 120 100, 128 55&#xA;    Q 136 15, 150 75&#xA;  "></path>
+  
+  <text x="8" y="108" class="faded">Coherence (observed)</text>
+  <text x="150" y="108" class="faded" text-anchor="end">t →</text>
+</svg>

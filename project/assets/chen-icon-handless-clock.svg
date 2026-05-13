@@ -1,0 +1,29 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    
+  </defs>
+  
+  <circle class="ink" cx="60" cy="60" r="46"></circle>
+  <circle class="ink" cx="60" cy="60" r="42"></circle>
+  
+  <g class="faded" font-size="8" text-anchor="middle">
+    <text x="60" y="24">XII</text>
+    <text x="94" y="63">III</text>
+    <text x="60" y="102">VI</text>
+    <text x="26" y="63">IX</text>
+  </g>
+  
+  <g class="ink">
+    <line x1="60" y1="18" x2="60" y2="22"></line>
+    <line x1="102" y1="60" x2="98" y2="60"></line>
+    <line x1="60" y1="102" x2="60" y2="98"></line>
+    <line x1="18" y1="60" x2="22" y2="60"></line>
+  </g>
+  
+  <circle class="gold" cx="60" cy="60" r="2.5"></circle>
+  
+  <line x1="60" y1="60" x2="60" y2="30" class="ink" stroke-dasharray="1 2" opacity="0.35"></line>
+  
+  <path class="ink" d="M40 78 L50 70 L54 74 L66 66 L72 72" stroke-dasharray="2 1.5" opacity="0.6"></path>
+</svg>
