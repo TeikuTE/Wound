@@ -30,7 +30,15 @@ const CHAPTER_ORDER = [
   { fn: () => AlanCh4,                section: "alan",       label: "Entry 004 · Faction Pressure",  num: 4 },
   { fn: () => AlanCh5,                section: "alan",       label: "Entry 005 · Fracture Events",   num: 5 },
   { fn: () => AlanCh6,                section: "alan",       label: "Entry 006 · Terminal Configurations", num: 6 },
-  { fn: () => Appendices,             section: "appendix",   label: "Appendices" },
+  { fn: () => AppendixB,              section: "appendix",   label: "Appendix B · Asset Catalogs" },
+  { fn: () => AppendixC,              section: "appendix",   label: "Appendix C · Oracle Tables" },
+  { fn: () => AppendixD,              section: "appendix",   label: "Appendix D · The Factions" },
+  { fn: () => AppendixD1,             section: "appendix",   label: "Appendix D.1 · Field Intelligence" },
+  { fn: () => AppendixE,              section: "appendix",   label: "Appendix E · Captivity Vignettes" },
+  { fn: () => AppendixF,              section: "appendix",   label: "Appendix F · Examples of Play" },
+  { fn: () => AppendixG,              section: "appendix",   label: "Appendix G · Temporal Pathologies" },
+  { fn: () => AppendixH,              section: "appendix",   label: "Appendix H · The Saul Files" },
+  { fn: () => BM_quick_reference_sheet, section: "appendix", label: "Quick Reference Sheet" },
 ];
 
 // ── Build the linear spread list with global page numbering ─
@@ -198,11 +206,26 @@ function WoundTweaks({ tweaks, setTweak }) {
   );
 }
 
+// ── Print mode: render every spread stacked, with page-break-after ───
+function PrintApp({ items }) {
+  return (
+    <div className="print-doc">
+      {items.map((it, i) => (
+        <div className="print-spread" key={i}>{it.el}</div>
+      ))}
+    </div>
+  );
+}
+
 // ── Main app ────────────────────────────────────────────────
 function App() {
   const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);
   const items = useMemo(() => buildSpreadList(tweaks), [tweaks]);
   const total = items.length;
+
+  // ?print activates print mode (used by the PDF exporter).
+  const isPrint = typeof location !== 'undefined' && /[?&]print(=|&|$)/.test(location.search);
+  if (isPrint) return <PrintApp items={items} />;
 
   const [index, setIndex] = useState(() => getInitialIndex(total));
   useEffect(() => {

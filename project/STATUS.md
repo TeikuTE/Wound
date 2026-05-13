@@ -1,59 +1,117 @@
-# WOUND V12 — full book baseline
+# WOUND — Full Book Layout
 
-145-page manuscript laid out as 88 spreads in `WOUND V12.html`. Navigate with ← / → / Space, click edge arrows, or jump from the dotted TOC at the bottom. Tweaks toggle (top-right toolbar) still controls intrusion fidelity + Chen body type.
+A print-style spread viewer (5.5″ × 8.5″) for the WOUND duology, generated from the
+clean Markdown manuscript (`WOUND_V12.md`). Currently 116 spreads end-to-end. Open
+`WOUND V12.html` in a browser; navigate with ← / → / Space; jump from the dotted
+TOC; toggle Tweaks (Tier 1/2 intrusions, Chen body family).
 
-## What's here
+## Pipeline
 
-| File | Role |
+```
+WOUND_V12.md  ──(_fix-md.js)──▶  cleaned MD
+              ──(_generate.js)─▶ chapters/*.jsx
+              ──(build.js)─────▶ chapters/*.compiled.js  ◀── WOUND V12.html loads these
+```
+
+| Command | What it does |
+| --- | --- |
+| `npm run build` | Compile all JSX → `.compiled.js` via Babel |
+| `npm run serve` | Static-serve the project on `:8765` |
+| `node _generate.js --all` | Regenerate every chapter JSX from `WOUND_V12.md` |
+| `node _generate.js chen-1` | Regenerate one chapter |
+| `node _fix-md.js` | Re-apply OCR & markdown fixes to the MD (backups to `.bak`) |
+| `node _screenshot.js 0,7,19,53,82` | Capture screenshots of specific spreads |
+
+## File layout
+
+| Path | Role |
 | --- | --- |
 | `WOUND V12.html` | The viewer. Open this. |
-| `wound-tokens.css` | Design system tokens. Don't edit. |
-| `wound-spread.css` | Viewer chrome + table/interlude styles. |
-| `book-components.jsx` | Page / Spread / intrusion primitives. **Source of truth.** |
-| `app.jsx` | Viewer app — TOC, navigation, Tweaks panel. |
-| `tweaks-panel.jsx` | Tweaks framework (don't touch). |
-| `inline-helper.js` | Runtime: highlights mech-terms + dice in body prose. |
-| `chapters/<slug>.jsx` | Source per chapter — what you edit when you want to refine a chapter. |
-| `*.compiled.js` | Pre-compiled JS the HTML actually loads. **Don't edit these directly.** |
-| `assets/` | SVGs (icons, textures, rule, watermark). |
+| `WOUND_V12.md` | Source manuscript. **Edit prose here.** |
+| `wound-tokens.css` | Design system tokens. |
+| `wound-spread.css` | Layout & component CSS. |
+| `fonts.css` + `fonts/` | Locally-hosted font subsets (works offline). |
+| `vendor/` | React UMD bundles, locally hosted. |
+| `book-components.jsx` | Page / Spread / intrusion primitives. |
+| `app.jsx` | The viewer app (TOC, nav, tweaks). |
+| `chapters/<slug>.jsx` | One per chapter / appendix. **Auto-generated.** |
+| `chapters/<slug>.compiled.js` | Babel output. Loaded by HTML. **Don't edit.** |
+| `assets/` | Icons, textures, watermarks. |
+| `_generate.js` | Markdown → JSX generator. |
+| `_fix-md.js` | OCR & broken-markdown fixer for the manuscript. |
+| `_screenshot.js` | Dev-only headless screenshot helper. |
 
-## Edit workflow
+## What's been done
 
-When you want to fix a specific chapter (move an intrusion, split a page, fix a table):
+* **Clean MD source.** OCR damage in the Harmonic Codex (missing apostrophe-s/t/r,
+  broken parens around Greek letters, equation spacing) corrected. Stray markdown
+  leaks repaired (`**3-4** SESSIONS** etc.`). Run `node _fix-md.js` to re-apply.
 
-1. **Edit the `.jsx` file** under `chapters/`. Never edit the `.compiled.js` — your change will be overwritten.
-2. **Recompile.** Ask me to recompile (one line — I run Babel on the changed file), or use any Babel CLI if you've got one set up.
-3. **Refresh the viewer.** Your edit is live.
+* **Generator-driven layout.** Every chapter's JSX is produced from MD, so any
+  prose edits flow through `_generate.js → build.js`. The generator handles:
+  * heading hierarchy (h2 / h3 / h4 / pseudo-h3),
+  * voice markers (`**[CHEN]**`, `**[ALAN]**`, `**[Z]**`) → intrusion / marginalia
+    components, never rendered as literal text,
+  * dnumbered-list renumber-from-1 (fixes the "1. 1. 1." bug),
+  * resolution-roll detection (`**10+** / **7-9** / **6-**`) → structured block,
+  * MEMO detection (`### MEMO: …`) → found-document treatment with per-faction
+    color (Authority, Chronoclast, Scionfall, Church variants),
+  * d100 oracle row detection → ruled three-column table,
+  * page rebalancing so the last page of a chapter isn't near-empty.
 
-When you want to extend the **design system** (a new component, a new color, a new page type — MEMO documents, the four Faction icons, the Chronoverse map):
+* **Premium typography.**
+  * Title page: half-title verso + full title recto with sigil, Manrope title,
+    decorative rule.
+  * Chapter openers: pen-and-ink icon, italic small-caps "Chapter N", burgundy
+    serif title, gold ornamental rule, faint clock watermark.
+  * Drop cap on the first paragraph of every chapter.
+  * Small-caps section heads underlined in tarnished gold.
+  * Chen's italic reflections inset with a thin gold left rule, signed `— EC`.
+  * Alan's handwritten intrusions: Caveat on a dark void rectangle, slight
+    rotation, signed `—AR`.
+  * Chen → Alan intrusions: parchment "patch" inside the void, cataloged header.
+  * Resolution rolls: three-tier grid (dice in burgundy mono / small-caps title /
+    body), bordered top & bottom.
+  * d100 oracle tables: three columns — burgundy mono range / forest small-caps
+    name / serif description.
+  * MEMOs: classified stamp, faction tint, slight rotation, drop shadow.
 
-1. Edit `book-components.jsx` and/or `wound-spread.css`.
-2. Recompile `book-components.jsx`.
-3. Refresh.
+* **Local fonts.** All seven font families (EB Garamond, Playfair Display,
+  IBM Plex Mono, Caveat, Manrope, Cormorant Garamond, Source Serif 4) hosted in
+  `fonts/`. Works offline.
 
-## What the baseline got right
+## Known caveats
 
-- All 145 manuscript pages laid out and navigable.
-- Voice attribution: every `[CHEN]` / `[ALAN]` block in the manuscript became the correct intrusion in the correct book.
-- Short intrusions → floating marginalia / handwritten cuts / typewriter fragments.
-- Long intrusions → inline blocks (italic Garamond w/ gold rule for Chen, full-bleed handwritten Caveat dark for Alan, parchment-on-void for Chen-in-Alan).
-- Mech-terms highlighted in mono inline (OBSERVE, SYNC, Coherence, Paradox, …).
-- Dice notation + target numbers bolded (1d6, 4+, +1, etc).
-- Page numbers + running heads on every spread.
-- Tier 1 / Tier 2 intrusion fidelity toggle, Chen body family swap.
+* **Page balance.** Auto-pagination is heuristic — most pages fill well, but some
+  chapter endings still leave a half-empty recto. Hand-tune by editing the
+  generated JSX (or the MD) and rebuilding.
 
-## What needs human review (in priority order)
+* **A11y.** Character sheet still uses underscore lines + circle pips. For a
+  print PDF this is correct; for a digital ePub these should become interactive
+  form fields or `[Enter Name]` text. Not addressed in this pass.
 
-1. **Page-break placement.** Auto-paginated by manuscript page markers; some pages are dense (overflow into bottom margin), others sparse (a single sentence). Each chapter wants a hand-pass to split tight pages and merge thin ones.
-2. **`d100` Oracle tables.** Rendered as flowing prose, not as proper tables. Appendix C is the worst offender — every Era / Anomaly / Faction / Atmosphere table is currently a paragraph of numbers and titles. Needs custom table styling.
-3. **MEMO documents in Appendix E.** Currently render as ordinary appendix prose. Per your brief these want individual found-document treatment — different stationery, different typewriters, watermarks. Each MEMO is its own visual problem.
-4. **Character sheets.** Rendered as prose. Need custom sheet layout.
-5. **Saul Files (Appendix H).** Currently placeholder text per the manuscript; will need recovered-evidence styling when written.
-6. **Chapter II "EXCAVATING YOUR ECHO" and similar long mechanic-heavy chapters.** Mechanics blocks flow as paragraphs; some procedure lists would read better as proper numbered steps with hanging indent.
-7. **Faction iconography.** Tier 3 in the brief, placeholders only.
+* **Appendix A (Harmonic Codex).** The MD source doesn't have a clean `##
+  Appendix A:` heading; the content currently lives inside Chapter 8's tail.
+  Will need a tiny MD edit (add `## Appendix A: The Harmonic Codex` before the
+  "If you're reading this, you've experienced enough displacement…" paragraph)
+  for a clean appendix section.
 
-## Known small bugs in the baseline
+* **Flattened tables (Faction Relationships, Tag/Applies, Action/Mode/Reason).**
+  The PDF→MD extractor destroyed the column structure of a few tables. The
+  pseudo-h3 detector now refuses to treat broken table cells as headings, so
+  they render as prose. Reconstructing real two-column tables for these
+  specific sections requires hand-editing the MD.
 
-- A handful of subsection headings (Title-Case lines like "The Four Factions", "What You Need to Play") got concatenated into the paragraph that follows them. The PDF extractor lost the visual gap; a fresh source would fix this.
-- The numbered Faction list (`1. CHURCH TEMPLAR`, `2. AUTHORITY AUDITOR` …) renders correctly but with mech-term highlighting that makes "CHURCH" pop hard. Cosmetic only.
-- Each chapter's content area uses `overflow: hidden` at the page level only, so anything past the page footprint gets clipped. If a page is overflowing badly, you'll see body text running into the bottom margin (still inside the page) but nothing past the page edge.
+* **Visible mech-terms.** `OBSERVE`, `SYNC`, `Coherence`, `Paradox`, etc. are
+  highlighted inline in mono via `inline-helper.js`. The list of recognized
+  terms is hard-coded at the top of that file — add new ones there.
+
+## Editing workflow
+
+1. Make a prose change in `WOUND_V12.md`.
+2. `node _generate.js --all` (or just the chapter slug, e.g. `chen-3`).
+3. `npm run build`.
+4. Refresh `WOUND V12.html` in your browser.
+
+To tune layout for a single chapter without touching the generator, edit the
+generated JSX directly — but be aware that the next regeneration will overwrite it.

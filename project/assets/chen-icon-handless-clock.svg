@@ -1,7 +1,14 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
   <defs>
-    
+    <style>
+      .ink      { fill: none; stroke: #1C1410; stroke-width: 0.75; }
+      .ink-fill { fill: #1C1410; stroke: none; }
+      .gold     { fill: #8B6914; stroke: none; }
+      .faded    { fill: #7A6E5F; stroke: none; font-family: 'EB Garamond', Georgia, serif; font-style: italic; }
+      g.ink line { fill: none; stroke: #1C1410; stroke-width: 0.75; }
+      g.faded text { fill: #7A6E5F; }
+    </style>
   </defs>
   
   <circle class="ink" cx="60" cy="60" r="46"></circle>

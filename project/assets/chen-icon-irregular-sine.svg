@@ -1,7 +1,12 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120">
   <defs>
-    
+    <style>
+      .ink   { fill: none; stroke: #1C1410; stroke-width: 0.85; }
+      .gold  { fill: none; stroke: #8B6914; stroke-width: 0.5; }
+      .faded { fill: #7A6E5F; stroke: none; font-family: 'EB Garamond', Georgia, serif; font-style: italic; font-size: 7px; }
+      g.gold line { fill: none; stroke: #8B6914; stroke-width: 0.5; }
+    </style>
   </defs>
   
   <line class="gold" x1="8" y1="60" x2="152" y2="60"></line>

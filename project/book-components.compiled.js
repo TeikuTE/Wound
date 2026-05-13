@@ -440,6 +440,63 @@ function Zaaken({
     style: style
   }, children);
 }
+
+// ── Inline marginalia / intrusion shorthand (generator-friendly) ─────
+// These follow document flow and are styled by class, not absolutely positioned.
+
+// Chen's own marginalia, inline. Caveat, warm brown, slight rotation.
+function ChenMarginaliaInline({
+  children
+}) {
+  return /*#__PURE__*/React.createElement("aside", {
+    className: "el-marg-inline"
+  }, children, /*#__PURE__*/React.createElement("div", {
+    className: "el-marg-inline__sign"
+  }, "\u2014 EC"));
+}
+
+// Alan intruding into Chen's pages, inline. Two tiers (italic margin / handwritten).
+function AlanIntrusionInline({
+  tier = 2,
+  children
+}) {
+  if (tier === 1) {
+    return /*#__PURE__*/React.createElement("aside", {
+      className: "el-alan-inline el-alan-inline--italic"
+    }, children, /*#__PURE__*/React.createElement("div", {
+      className: "el-alan-inline__sign"
+    }, "\u2014 AR"));
+  }
+  return /*#__PURE__*/React.createElement("aside", {
+    className: "el-alan-inline el-alan-inline--hand"
+  }, children, /*#__PURE__*/React.createElement("div", {
+    className: "el-alan-inline__sign"
+  }, "\u2014AR"));
+}
+
+// Resolution-roll block: one or more rows like 10+ / 7-9 / 6- with their outcomes.
+// Generator can emit this when it detects the pattern.
+function ResolutionBlock({
+  host = 'chen',
+  rows = [],
+  children
+}) {
+  const isChen = host === 'chen';
+  return /*#__PURE__*/React.createElement("div", {
+    className: isChen ? "el-resolution" : "al-resolution"
+  }, rows.length > 0 ? rows.map((r, i) => /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row",
+    key: i
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, r.range), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, r.title && /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, r.title), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, r.text)))) : children);
+}
 Object.assign(window, {
   MM,
   Page,
@@ -449,12 +506,15 @@ Object.assign(window, {
   ChenMech,
   ChenChapterHead,
   ChenMarginalia,
+  ChenMarginaliaInline,
   AlanBody,
   AlanMech,
   AlanRule,
   AlanChapterHead,
   AlanFragment,
   AlanIntrusion,
+  AlanIntrusionInline,
   ChenIntrusion,
+  ResolutionBlock,
   Zaaken
 });

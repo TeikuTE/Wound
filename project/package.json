@@ -1,0 +1,32 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.compiled.js",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "python3 -m http.server 8765",
+    "screenshots": "node _screenshot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "@puppeteer/browsers": "^2.13.2",
+    "puppeteer-core": "^24.43.1"
+  },
+  "dependencies": {
+    "@fontsource/caveat": "^5.2.8",
+    "@fontsource/cormorant-garamond": "^5.2.11",
+    "@fontsource/eb-garamond": "^5.2.7",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@fontsource/manrope": "^5.2.8",
+    "@fontsource/playfair-display": "^5.2.8",
+    "@fontsource/source-serif-4": "^5.2.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

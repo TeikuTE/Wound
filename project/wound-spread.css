@@ -14,6 +14,13 @@ html, body {
   overflow: hidden;
   height: 100vh;
 }
+/* When the document is in print mode, drop the body chrome so spreads
+   can flow and trigger page breaks. */
+html:has(.print-doc), html:has(.print-doc) body {
+  overflow: visible !important;
+  height: auto !important;
+  background: white !important;
+}
 
 /* The desk surface behind the book. */
 .desk {
@@ -208,6 +215,561 @@ html, body {
 /* Chen body tweak: alternate body families */
 .page--chen[data-body="cormorant"] { --ff-serif-body: 'Cormorant Garamond', Georgia, serif; }
 .page--chen[data-body="sourceserif"] { --ff-serif-body: 'Source Serif 4', Georgia, serif; }
+
+/* ── Section + subsection headings (Chen) ──────────────────────────── */
+.el-section {
+  font-family: var(--ff-serif-display);
+  font-weight: 600;
+  font-size: 13pt;
+  line-height: 1.2;
+  color: var(--el-forest);
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  margin: 5mm 0 2mm;
+  padding-bottom: 1.5mm;
+  border-bottom: 0.3pt solid var(--el-gold);
+}
+.el-subsection {
+  font-family: var(--ff-serif-display);
+  font-weight: 600;
+  font-size: 11pt;
+  line-height: 1.2;
+  color: var(--el-forest);
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  margin: 4mm 0 1mm;
+}
+
+/* ── Lists (Chen) ──────────────────────────────────────────────────── */
+.el-list {
+  font-family: var(--ff-serif-body);
+  font-size: var(--el-body-size);
+  line-height: var(--el-body-leading);
+  color: var(--el-ink);
+  margin: 2mm 0 3mm 0;
+  padding-left: 4.5mm;
+  list-style: none;
+}
+.el-list > li {
+  position: relative;
+  margin-bottom: 1mm;
+  padding-left: 4mm;
+}
+.el-list > li::before {
+  content: "⬡";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 6pt;
+  color: var(--el-gold);
+  line-height: var(--el-body-leading);
+}
+.el-numlist {
+  font-family: var(--ff-serif-body);
+  font-size: var(--el-body-size);
+  line-height: var(--el-body-leading);
+  color: var(--el-ink);
+  margin: 2mm 0 3mm 0;
+  padding-left: 6mm;
+}
+.el-numlist > li { margin-bottom: 1mm; padding-left: 1mm; }
+.el-numlist > li::marker {
+  font-family: var(--ff-serif-display);
+  font-weight: 600;
+  color: var(--el-forest);
+  font-feature-settings: 'lnum', 'tnum';
+}
+
+/* ── Chen's own reflection block — sustained Chen voice ────────────── */
+.el-reflection {
+  margin: 3mm 0;
+  padding: 0 0 0 5mm;
+  border-left: 0.5pt solid var(--el-gold);
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 9.8pt;
+  line-height: 1.45;
+  color: var(--el-annotation);
+}
+.el-reflection p { margin: 0 0 2.5mm 0; }
+.el-reflection p:last-of-type { margin-bottom: 1mm; }
+.el-sign {
+  text-align: right;
+  font-style: italic;
+  font-size: 8.5pt;
+  color: var(--el-faded);
+  letter-spacing: 0.04em;
+  margin-top: 0.5mm;
+}
+
+/* ── Alan into Chen — sustained handwritten block (tier 2) ─────────── */
+.el-alan-block {
+  margin: 4mm -2mm;
+  padding: 4mm 6mm 3mm;
+  background: rgba(13, 15, 18, 0.94);
+  color: var(--al-ghost);
+  font-family: var(--ff-hand);
+  font-size: 13pt;
+  line-height: 1.25;
+  transform: rotate(-0.5deg);
+  box-shadow: 0 3px 10px rgba(13,15,18,0.35);
+}
+.el-alan-block p { margin: 0 0 2mm 0; }
+.el-alan-block p:last-of-type { margin-bottom: 0; }
+.el-alan-block .el-alan-sign {
+  text-align: right;
+  margin-top: 2mm;
+  font-size: 11pt;
+  opacity: 0.85;
+}
+.el-alan-block[data-tier="1"] {
+  background: transparent;
+  color: var(--el-annotation);
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 9.5pt;
+  line-height: 1.45;
+  transform: none;
+  box-shadow: none;
+  padding: 2mm 4mm;
+  margin: 3mm 0;
+  border-left: 0.5pt dashed var(--el-annotation);
+  border-right: none;
+}
+.el-alan-block[data-tier="1"] p { margin: 0 0 2mm 0; }
+.el-alan-block[data-tier="1"] .el-alan-sign {
+  color: var(--el-annotation);
+  font-style: italic;
+  font-size: 8.5pt;
+  margin-top: 1mm;
+  opacity: 1;
+}
+
+/* ── Alan inline (short intrusion) — kept in flow as a styled aside ── */
+.el-alan-inline {
+  display: block;
+  margin: 3mm -1mm;
+  padding: 2.5mm 5mm 2mm;
+}
+.el-alan-inline--hand {
+  background: rgba(13, 15, 18, 0.94);
+  color: var(--al-ghost);
+  font-family: var(--ff-hand);
+  font-size: 12.5pt;
+  line-height: 1.22;
+  transform: rotate(-0.4deg);
+  box-shadow: 0 3px 8px rgba(13,15,18,0.30);
+}
+.el-alan-inline--italic {
+  background: transparent;
+  color: var(--el-annotation);
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 9.5pt;
+  line-height: 1.45;
+  border-left: 0.5pt dashed var(--el-annotation);
+  padding-left: 4mm;
+  margin: 3mm 0;
+}
+.el-alan-inline__sign {
+  text-align: right;
+  margin-top: 1mm;
+  font-size: 0.85em;
+  opacity: 0.85;
+}
+
+/* ── Chen's own inline marginalia (single-paragraph CHEN in her own book) ── */
+.el-marg-inline {
+  display: block;
+  margin: 3mm 0;
+  padding: 1mm 0 0 4mm;
+  font-family: var(--ff-hand);
+  font-size: 12pt;
+  line-height: 1.2;
+  color: var(--el-annotation);
+  transform: rotate(-0.7deg);
+}
+.el-marg-inline__sign {
+  text-align: right;
+  font-size: 9pt;
+  opacity: 0.85;
+  margin-top: 1mm;
+}
+
+/* ── Resolution-roll block — clean three-tier layout ────────────────── */
+.el-resolution {
+  margin: 3mm 0 4mm;
+  padding: 2mm 0;
+  border-top: 0.4pt solid rgba(122,110,95,0.4);
+  border-bottom: 0.4pt solid rgba(122,110,95,0.4);
+}
+.el-resolution .resolution-row {
+  display: grid;
+  grid-template-columns: 14mm 1fr;
+  gap: 3mm;
+  margin: 1.2mm 0;
+}
+.el-resolution .resolution-roll {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 10pt;
+  color: var(--el-burgundy);
+  letter-spacing: 0.02em;
+  text-align: right;
+}
+.el-resolution .resolution-title {
+  font-family: var(--ff-serif-display);
+  font-weight: 600;
+  font-size: 10pt;
+  color: var(--el-forest);
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+}
+.el-resolution .resolution-text {
+  font-family: var(--ff-serif-body);
+  font-size: var(--el-body-size);
+  line-height: 1.4;
+  color: var(--el-ink);
+}
+
+/* Drop cap — ensure it doesn't collide with paragraph indent */
+.el-body.el-dropcap > p:first-child { text-indent: 0; }
+.el-body.el-dropcap > p:first-child::first-letter {
+  font-family: var(--ff-serif-display);
+  font-weight: 700;
+  font-size: 42pt;
+  line-height: 0.85;
+  float: left;
+  padding: 4mm 2mm 0 0;
+  color: var(--el-burgundy);
+  filter: drop-shadow(0 0 1.5px rgba(92,26,46,0.18));
+}
+
+/* Hide our default `el-dropcap::first-letter` rule when no firstpara marker */
+.el-dropcap[data-firstpara] {}
+
+/* ── Section headings (Alan) ───────────────────────────────────────── */
+.al-section {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 11pt;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--al-electric);
+  margin: 5mm 0 2mm;
+  border-bottom: 0.5pt solid var(--al-steel);
+  padding-bottom: 1.5mm;
+}
+.al-subsection {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 9.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--al-electric);
+  margin: 4mm 0 1mm;
+}
+.al-list {
+  font-family: var(--ff-mono);
+  font-size: var(--al-body-size);
+  line-height: var(--al-body-leading);
+  color: var(--al-ghost);
+  margin: 2mm 0 3mm 0;
+  padding-left: 0;
+  list-style: none;
+}
+.al-list > li {
+  position: relative;
+  margin-bottom: 1mm;
+  padding-left: 5mm;
+}
+.al-list > li::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--al-electric);
+  font-weight: 700;
+}
+.al-numlist {
+  font-family: var(--ff-mono);
+  font-size: var(--al-body-size);
+  line-height: var(--al-body-leading);
+  color: var(--al-ghost);
+  margin: 2mm 0 3mm 0;
+  padding-left: 7mm;
+}
+.al-numlist > li { margin-bottom: 1mm; }
+.al-numlist > li::marker {
+  font-weight: 700;
+  color: var(--al-electric);
+}
+
+/* ── Alan into Chen's data → parchment "patch" inside the void ───── */
+.al-chen-block {
+  background: var(--el-parchment);
+  color: var(--el-forest);
+  font-family: var(--ff-mono);
+  font-weight: 400;
+  font-size: 9pt;
+  line-height: 1.35;
+  margin: 4mm -2mm 4mm;
+  padding: 4mm 6mm;
+  transform: rotate(1deg);
+  box-shadow: 2px 3px 10px rgba(13,15,18,0.45);
+}
+.al-chen-block__head {
+  font-family: var(--ff-mono);
+  font-weight: 300;
+  font-size: 7pt;
+  color: var(--al-steel);
+  margin-bottom: 2mm;
+  letter-spacing: 0.04em;
+}
+.al-chen-block p { margin: 0 0 2mm 0; }
+.al-chen-block p:last-of-type { margin-bottom: 0; }
+
+/* ── Alan's own fragment (floating mono in his own void) ──────────── */
+.al-fragment {
+  font-family: var(--ff-mono);
+  font-weight: 300;
+  font-style: italic;
+  font-size: 9pt;
+  line-height: 1.4;
+  color: var(--al-typewriter);
+  margin: 4mm 0;
+  padding-left: 4mm;
+  border-left: 0.4pt solid var(--al-typewriter);
+}
+.al-fragment p { margin: 0 0 2mm 0; }
+.al-fragment p:last-of-type { margin-bottom: 0; }
+.al-fragment__sign {
+  text-align: right;
+  font-style: italic;
+  font-size: 8pt;
+  color: var(--al-typewriter);
+  margin-top: 1mm;
+}
+
+/* ── Refined Chen body paragraph rhythm ───────────────────────────── */
+.el-body p { margin: 0 0 2.5mm 0; }
+.el-body p + p { text-indent: 4mm; margin-top: 0; }
+.el-body p:first-child { text-indent: 0; }
+.el-body--two-col { column-count: 2; column-gap: 5mm; }
+
+/* ── Interlude title page / chapter opener styling ─────────────────── */
+.il-halftitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 90mm;
+}
+.il-halftitle__mark {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 200;
+  font-size: 36pt;
+  letter-spacing: 0.32em;
+  color: #18181B;
+  margin-right: -0.32em;
+}
+.il-halftitle__sub {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 9pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #6b6657;
+  margin-top: 8mm;
+}
+
+.il-titlepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32mm 6mm 0;
+}
+.il-titlepage__sigil { margin-bottom: 14mm; }
+.il-titlepage__sigil img { width: 22mm; height: 22mm; opacity: 0.92; }
+.il-titlepage__sup {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 8.5pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #5b574d;
+  margin-bottom: 12mm;
+}
+.il-titlepage__title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 200;
+  font-size: 22pt;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  color: #18181B;
+  margin: 0 0 10mm;
+  max-width: 90mm;
+}
+.il-titlepage__rule {
+  width: 32mm;
+  height: 1pt;
+  background: #18181B;
+  margin: 4mm 0 6mm;
+}
+.il-titlepage__sub {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 9pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #5b574d;
+}
+
+.il-opener {
+  padding: 60mm 8mm 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.il-opener__title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  font-size: 28pt;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: #18181B;
+  margin: 4mm 0 0;
+  max-width: 92mm;
+}
+.il-opener__rule {
+  width: 18mm;
+  height: 0.6pt;
+  background: #18181B;
+  margin: 8mm 0;
+}
+.il-opener__attribution {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 9pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #5b574d;
+}
+
+/* Appendix opener */
+.el-appendix-opener {
+  padding-top: 40mm;
+  text-align: center;
+}
+.el-appendix-eyebrow {
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 9.5pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--el-faded);
+  margin-bottom: 4mm;
+  font-variant: small-caps;
+}
+.el-appendix-opener__title {
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0 6mm 4mm;
+}
+.el-appendix-rule {
+  width: 60mm;
+  height: auto;
+  display: block;
+  margin: 6mm auto 0;
+}
+
+/* d100 oracle table — premium ruled style, three columns */
+.tbl-chen--oracle {
+  margin: 2mm 0 4mm;
+}
+.tbl-chen--oracle tbody td {
+  vertical-align: top;
+  padding: 1.6mm 2mm 1.6mm 0;
+  border-bottom: 0.3pt solid rgba(139, 105, 20, 0.25);
+}
+.tbl-chen--oracle tbody td.num {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 8.5pt;
+  color: var(--el-burgundy);
+  text-align: right;
+  padding-right: 4mm;
+  white-space: nowrap;
+  width: 14mm;
+  letter-spacing: 0.02em;
+}
+.tbl-chen--oracle tbody td.oracle-name {
+  font-family: var(--ff-serif-display);
+  font-weight: 600;
+  font-size: 9pt;
+  color: var(--el-forest);
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  padding-right: 4mm;
+  vertical-align: top;
+}
+.tbl-chen--oracle tbody td.oracle-desc {
+  font-family: var(--ff-serif-body);
+  font-size: 9pt;
+  line-height: 1.36;
+  color: var(--el-ink);
+}
+
+/* Alan oracle terminal style — same data shape but mono */
+.tbl-alan--oracle {
+  margin: 2mm 0 4mm;
+}
+.tbl-alan--oracle tbody td {
+  font-family: var(--ff-mono);
+  font-size: 8.5pt;
+  vertical-align: top;
+  padding: 1mm 2mm 1mm 0;
+}
+.tbl-alan--oracle tbody td.num {
+  color: var(--al-electric);
+  font-weight: 700;
+  text-align: right;
+  padding-right: 3mm;
+  white-space: nowrap;
+}
+.tbl-alan--oracle tbody td.oracle-name {
+  color: var(--al-electric);
+  font-weight: 700;
+  white-space: nowrap;
+  padding-right: 3mm;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.tbl-alan--oracle tbody td.oracle-desc {
+  color: var(--al-ghost);
+  line-height: 1.4;
+}
+
+/* Inline bold in Chen: keep the serif family, just make it heavier.
+   Only the canonical mech-terms list (handled by .mech-term in inline-helper)
+   gets the mono treatment. */
+.el-body b, .el-reflection b, .el-list b, .el-numlist b {
+  font-weight: 700;
+  color: var(--el-ink);
+}
+.al-body b, .al-list b, .al-numlist b {
+  font-weight: 700;
+  color: var(--al-ghost);
+}
+.el-body i, .el-list i { font-style: italic; }
+
+/* Tighten the hexagonal bullet so it doesn't dominate the type */
+.el-list > li::before { font-size: 5pt; top: 1mm; }
+/* Smaller bullet text + slight indent on second line */
+.el-list > li { padding-left: 5mm; }
 
 /* ============================================================
    ALAN — additional structural styles
@@ -455,3 +1017,193 @@ html, body {
 
 /* hover hint */
 .viewer-toc__dot:hover { background: #6a5e4a; }
+
+/* ── Alan resolution rolls ────────────────────────────────────────── */
+.al-resolution {
+  margin: 3mm 0 4mm;
+  padding: 2mm 0;
+}
+.al-resolution .resolution-row {
+  display: grid;
+  grid-template-columns: 14mm 1fr;
+  gap: 4mm;
+  padding: 1.4mm 0;
+}
+.al-resolution .resolution-row + .resolution-row {
+  border-top: 0.3pt solid rgba(74,85,104,0.45);
+}
+.al-resolution .resolution-roll {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 10pt;
+  color: var(--al-electric);
+  text-align: right;
+}
+.al-resolution .resolution-title {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 9.5pt;
+  text-transform: uppercase;
+  color: var(--al-electric);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5mm;
+}
+.al-resolution .resolution-text {
+  font-family: var(--ff-mono);
+  font-size: var(--al-body-size);
+  line-height: 1.45;
+  color: var(--al-ghost);
+}
+
+/* Refine Chen resolution rule between rows */
+.el-resolution .resolution-row + .resolution-row {
+  border-top: 0.2pt solid rgba(139,105,20,0.20);
+}
+
+/* Replace the underscore/circle placeholders that are unfriendly
+   to screen readers. We rely on inline-helper to wrap them in spans. */
+.form-blank {
+  display: inline-block;
+  border-bottom: 0.4pt solid var(--el-faded);
+  width: 24mm;
+  height: 1.1em;
+  vertical-align: text-bottom;
+  margin: 0 0.3mm;
+}
+.form-blank--wide { width: 38mm; }
+.form-blank--xwide { width: 56mm; }
+
+.tracker-row { display: inline-flex; gap: 1.2mm; align-items: center; }
+.tracker-pip {
+  display: inline-block;
+  width: 2.4mm; height: 2.4mm;
+  border: 0.5pt solid var(--el-ink);
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+/* ─────────────────────────────────────────────────────────────────────
+   MEMO — Found-document treatment (Appendix D.1)
+   ───────────────────────────────────────────────────────────────────── */
+
+.el-memo {
+  display: block;
+  margin: 5mm -3mm 6mm;
+  padding: 8mm 8mm 7mm;
+  background: #faf2db;       /* slightly creamier than parchment */
+  color: #1C1410;
+  box-shadow:
+    0 1px 0 rgba(120,90,40,0.18) inset,
+    0 0 0 0.4pt rgba(120,90,40,0.35) inset,
+    0 3px 12px rgba(40,20,5,0.20);
+  transform: rotate(-0.4deg);
+  position: relative;
+  border-radius: 0;
+}
+.el-memo::before {
+  /* Paper-clip / classification stamp accent on top-left */
+  content: '';
+  position: absolute;
+  left: 5mm; top: -3mm;
+  width: 22mm; height: 6mm;
+  background: rgba(92, 26, 46, 0.25);
+  transform: rotate(-3deg);
+  z-index: -1;
+}
+.el-memo__chrome { margin-bottom: 4mm; }
+.el-memo__class {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--el-burgundy);
+  border-bottom: 0.5pt solid var(--el-burgundy);
+  padding-bottom: 1.2mm;
+  margin-bottom: 3mm;
+}
+.el-memo__title {
+  font-family: var(--ff-serif-display);
+  font-weight: 700;
+  font-size: 13pt;
+  line-height: 1.1;
+  color: var(--el-ink);
+  letter-spacing: 0.01em;
+  margin-bottom: 2mm;
+}
+.el-memo__source {
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 8.5pt;
+  color: var(--el-faded);
+  line-height: 1.35;
+}
+.el-memo__body {
+  font-family: var(--ff-serif-body);
+  font-size: 9.5pt;
+  line-height: 1.5;
+  color: var(--el-ink);
+}
+.el-memo__body p { margin: 0 0 2.5mm 0; }
+.el-memo__body p:last-child { margin-bottom: 0; }
+.el-memo__body .el-body p { font-size: 9.5pt; line-height: 1.5; }
+
+/* Variants per faction — slightly different chrome */
+.el-memo--authority {
+  background: #f5ede0;
+  transform: rotate(0.3deg);
+}
+.el-memo--authority .el-memo__class { color: #2b3e8b; border-bottom-color: #2b3e8b; }
+.el-memo--authority::before { background: rgba(43, 62, 139, 0.22); }
+
+.el-memo--chronoclast {
+  background: #fae5d8;
+  transform: rotate(-0.9deg);
+}
+.el-memo--chronoclast .el-memo__class { color: #8d2b1e; border-bottom-color: #8d2b1e; }
+.el-memo--chronoclast::before { background: rgba(141, 43, 30, 0.20); }
+
+.el-memo--scionfall {
+  background: #f3f2eb;
+  transform: rotate(0.5deg);
+}
+.el-memo--scionfall .el-memo__class { color: #4b6f4b; border-bottom-color: #4b6f4b; }
+.el-memo--scionfall::before { background: rgba(75, 111, 75, 0.20); }
+
+.el-memo--church {
+  background: #f3e9d2;
+  transform: rotate(-0.6deg);
+}
+
+/* Interlude list + h2 */
+.il-h2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  font-size: 22pt;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: #18181B;
+  margin: 6mm 0 4mm;
+  max-width: 92mm;
+}
+.interlude-list, .interlude-numlist {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  color: #27272A;
+  margin: 2mm 0 4mm;
+  padding-left: 6mm;
+}
+.interlude-list { list-style: none; padding-left: 4mm; }
+.interlude-list > li::before {
+  content: "·";
+  color: #18181B;
+  margin-right: 1.5mm;
+  font-weight: 700;
+}
+.interlude-numlist > li { margin-bottom: 1mm; }
+
+/* Disable heavy textures in print mode (massive PDF reduction) */
+html:has(.print-doc) .page__texture,
+html:has(.print-doc) .page__watermark { display: none !important; }

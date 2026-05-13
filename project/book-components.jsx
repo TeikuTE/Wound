@@ -354,11 +354,47 @@ function Zaaken({ children, style }) {
   return <div className="zaaken" style={style}>{children}</div>;
 }
 
+// ── Inline marginalia / intrusion shorthand (generator-friendly) ─────
+// These follow document flow and are styled by class, not absolutely positioned.
+
+// Chen's own marginalia, inline. Caveat, warm brown, slight rotation.
+function ChenMarginaliaInline({ children }) {
+  return <aside className="el-marg-inline">{children}<div className="el-marg-inline__sign">— EC</div></aside>;
+}
+
+// Alan intruding into Chen's pages, inline. Two tiers (italic margin / handwritten).
+function AlanIntrusionInline({ tier = 2, children }) {
+  if (tier === 1) {
+    return <aside className="el-alan-inline el-alan-inline--italic">{children}<div className="el-alan-inline__sign">— AR</div></aside>;
+  }
+  return <aside className="el-alan-inline el-alan-inline--hand">{children}<div className="el-alan-inline__sign">—AR</div></aside>;
+}
+
+// Resolution-roll block: one or more rows like 10+ / 7-9 / 6- with their outcomes.
+// Generator can emit this when it detects the pattern.
+function ResolutionBlock({ host = 'chen', rows = [], children }) {
+  const isChen = host === 'chen';
+  return (
+    <div className={isChen ? "el-resolution" : "al-resolution"}>
+      {rows.length > 0 ? rows.map((r, i) => (
+        <div className="resolution-row" key={i}>
+          <div className="resolution-roll">{r.range}</div>
+          <div className="resolution-body">
+            {r.title && <div className="resolution-title">{r.title}</div>}
+            <div className="resolution-text">{r.text}</div>
+          </div>
+        </div>
+      )) : children}
+    </div>
+  );
+}
+
 Object.assign(window, {
   MM, Page, Spread,
   Mech,
-  ChenBody, ChenMech, ChenChapterHead, ChenMarginalia,
+  ChenBody, ChenMech, ChenChapterHead, ChenMarginalia, ChenMarginaliaInline,
   AlanBody, AlanMech, AlanRule, AlanChapterHead, AlanFragment,
-  AlanIntrusion, ChenIntrusion,
+  AlanIntrusion, AlanIntrusionInline, ChenIntrusion,
+  ResolutionBlock,
   Zaaken,
 });
