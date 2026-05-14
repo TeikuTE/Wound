@@ -1,0 +1,109 @@
+
+/* emiT title page (Book 2 frontispiece, severed sigil) */
+.emit-titlepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 38mm;
+  color: var(--al-ghost);
+}
+.emit-titlepage__sigil {
+  width: 38mm; height: 38mm;
+  color: var(--al-electric);
+  opacity: 0.85;
+  margin-bottom: 14mm;
+}
+.emit-titlepage__sigil .gly { width: 38mm; height: 38mm; opacity: 1; }
+.emit-titlepage__sup {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.32em;
+  color: var(--al-electric);
+  margin-bottom: 8mm;
+}
+.emit-titlepage__title {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 56pt;
+  letter-spacing: -0.02em;
+  color: var(--al-ghost);
+  margin: 0 0 6mm;
+  line-height: 1;
+}
+.emit-titlepage__rule {
+  width: 22mm;
+  height: 1pt;
+  background: var(--al-electric);
+  margin: 4mm 0 6mm;
+}
+.emit-titlepage__sub {
+  font-family: var(--ff-mono);
+  font-weight: 400;
+  font-size: 10pt;
+  color: var(--al-typewriter);
+  margin-bottom: 28mm;
+}
+.emit-titlepage__stamp {
+  font-family: var(--ff-mono);
+  font-weight: 300;
+  font-size: 7pt;
+  letter-spacing: 0.08em;
+  color: var(--al-steel);
+  margin-top: auto;
+}
+
+/* Saul Files closing page (with-memory sigil) */
+.saul-closing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 38mm;
+  color: var(--el-ink);
+}
+.saul-closing__rule-top, .saul-closing__rule-bot {
+  width: 40mm;
+  height: 0.4pt;
+  background: var(--el-gold);
+  opacity: 0.6;
+}
+.saul-closing__rule-top { margin-bottom: 12mm; }
+.saul-closing__rule-bot { margin: 14mm 0 8mm; }
+.saul-closing__sigil {
+  width: 42mm; height: 42mm;
+  color: var(--el-burgundy);
+  opacity: 0.85;
+}
+.saul-closing__sigil .gly { width: 42mm; height: 42mm; opacity: 1; }
+.saul-closing__text {
+  margin-top: 10mm;
+  max-width: 80mm;
+}
+.saul-closing__text p {
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: var(--el-annotation);
+  margin: 0 0 2mm;
+}
+.saul-closing__finder {
+  font-family: 'Caveat', cursive;
+  font-size: 14pt;
+  color: var(--el-annotation);
+  opacity: 0.85;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5mm;
+}
+.saul-closing__finder span {
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 9pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--el-faded);
+}

@@ -1627,3 +1627,121 @@ h1.el-h1 [data-alan-quote] {
 .page:has(.page__footnotes) .page__content {
   bottom: 16mm !important;
 }
+
+/* emiT title page (Book 2 frontispiece, severed sigil) */
+.emit-titlepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 38mm;
+  color: var(--al-ghost) !important;
+  height: 100%;
+}
+.emit-titlepage__sigil {
+  width: 40mm; height: 40mm;
+  color: var(--al-electric);
+  opacity: 0.85;
+  margin-bottom: 14mm;
+}
+.emit-titlepage__sigil .gly {
+  width: 40mm !important; height: 40mm !important; opacity: 1 !important;
+}
+.emit-titlepage__sup {
+  font-family: var(--ff-mono) !important;
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.32em;
+  color: var(--al-electric) !important;
+  margin-bottom: 6mm;
+}
+.emit-titlepage__title {
+  font-family: var(--ff-mono) !important;
+  font-weight: 700;
+  font-size: 64pt !important;
+  letter-spacing: -0.04em;
+  color: var(--al-ghost) !important;
+  margin: 0 0 4mm !important;
+  line-height: 1;
+}
+.emit-titlepage__rule {
+  width: 22mm;
+  height: 1pt;
+  background: var(--al-electric);
+  margin: 4mm 0 6mm;
+}
+.emit-titlepage__sub {
+  font-family: var(--ff-mono) !important;
+  font-weight: 400;
+  font-size: 11pt;
+  color: var(--al-typewriter) !important;
+  margin-bottom: 8mm;
+}
+.emit-titlepage__stamp {
+  font-family: var(--ff-mono) !important;
+  font-weight: 300;
+  font-size: 7pt;
+  letter-spacing: 0.08em;
+  color: var(--al-steel) !important;
+  margin-top: 30mm;
+}
+
+/* Saul Files closing page (with-memory sigil) */
+.saul-closing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 28mm;
+  color: var(--el-ink);
+  height: 100%;
+}
+.saul-closing__rule-top, .saul-closing__rule-bot {
+  width: 40mm;
+  height: 0.4pt;
+  background: var(--el-gold);
+  opacity: 0.6;
+}
+.saul-closing__rule-top { margin-bottom: 12mm; }
+.saul-closing__rule-bot { margin: 14mm 0 8mm; }
+.saul-closing__sigil {
+  width: 44mm; height: 44mm;
+  color: var(--el-burgundy);
+}
+.saul-closing__sigil .gly {
+  width: 44mm !important; height: 44mm !important; opacity: 1 !important;
+}
+.saul-closing__text {
+  margin-top: 12mm;
+  max-width: 86mm;
+}
+.saul-closing__text p {
+  font-family: var(--ff-serif-body) !important;
+  font-style: italic;
+  font-size: 12pt;
+  line-height: 1.55;
+  color: var(--el-annotation) !important;
+  margin: 0 0 3mm;
+}
+.saul-closing__finder {
+  font-family: 'Caveat', cursive !important;
+  font-size: 16pt;
+  color: var(--el-annotation) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1mm;
+}
+.saul-closing__finder span {
+  font-family: var(--ff-serif-body) !important;
+  font-style: italic;
+  font-size: 8.5pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--el-faded) !important;
+}
+.saul-closing__finder strong {
+  font-family: 'Caveat', cursive !important;
+  font-weight: 400;
+  font-size: 16pt;
+}
