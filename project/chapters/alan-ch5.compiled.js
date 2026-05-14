@@ -30,7 +30,13 @@ function AlanCh5({
   }), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     label: "alan-5 \xB7 opener"
-  }, /*#__PURE__*/React.createElement(AlanChapterHead, {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "chapter-sigil"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "collapse",
+    size: "sigil",
+    stage: 0
+  })), /*#__PURE__*/React.createElement(AlanChapterHead, {
     entry: 5,
     sub: "FRACTURE EVENTS",
     coord: "[TEMPORAL LOG // ENTRY_005 // ERA: 62 // NODE: FRACTURE]"
@@ -58,7 +64,14 @@ function AlanCh5({
     className: "al-fragment__sign"
   }, "// AR")), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Fractures occur when your current configuration becomes untenable. Three triggers: `), /*#__PURE__*/React.createElement("b", null, inline(`Coherence -6`)), inline(` (Desynchronization), `), /*#__PURE__*/React.createElement("b", null, inline(`Paradox 10+`)), inline(` (Breach), `), /*#__PURE__*/React.createElement("b", null, inline(`Corruption Vector 0`)), inline(` (Final Transformation).`))), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
-  }, inline(`Three-Phase Resolution`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PHASE 1: MANIFESTATION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Roll on the appropriate Oracle. Pay the immediate cost: lose 1 Coherence, one Scar becomes Fading, mark 1 Asset Stress.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PHASE 2: ESCALATION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`If Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` (Breach), Faction Intervention occurs during Phase 2. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`: 1 = Church, 2 = Authority, 3 = Scionfall, 4 = Chronoclasts. Or pick whichever makes narrative sense.`)))), /*#__PURE__*/React.createElement(AlPage, {
+  }, inline(`Three-Phase Resolution`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PHASE 1: MANIFESTATION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Roll on the appropriate Oracle. Pay the immediate cost: lose 1 Coherence, one Scar becomes Fading, mark 1 Asset Stress.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PHASE 2: ESCALATION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`If Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` (Breach), Faction Intervention occurs during Phase 2. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`: 1 = Church, 2 = Authority, 3 = Scionfall, 4 = Chronoclasts. Or pick whichever makes narrative sense.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 45,
+      "text": "[PARADOX glyph] every time I try to write my wife's name.",
+      "act": 4,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     runHead: "ENTRY_005",
     pageNum: basePage + 3,

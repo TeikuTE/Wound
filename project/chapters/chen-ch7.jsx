@@ -9,19 +9,21 @@ function ChenCh7({ tweaks, basePage = 1 }) {
     <Spread id="chen-7-opener" label={"ADVANCED SYSTEMS · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label="ADVANCED SYSTEMS · opener">
+        
         <ChenChapterHead icon="assets/chen-icon-broken-compass.svg" number="VII" title="Advanced Systems" />
       </ChPage>
     </Spread>
     <Spread id="chen-7-02" label={"ADVANCED SYSTEMS · spread 2"}>
       <ChPage side="verso" runHead={"Advanced Systems"} pageNum={basePage + 2} label={`ADVANCED SYSTEMS · p.${basePage + 2}`}>
         <h4 className="el-subsection">{inline(`THE HOLDING ACTION`)}</h4>
-        <div className="el-body el-dropcap" data-firstpara><p>{inline(`Once per session, when you would suffer a consequence you cannot afford to bear in this scene, you may declare the Holding Action. The consequence does not vanish. It defers — by exactly one scene, no longer.`)}</p></div>
+        <div className="el-body el-dropcap" data-firstpara><p>{inline(`Once per session, when you would suffer a consequence you cannot afford to bear in this scene, you may declare the Holding Action. The consequence does not vanish. It defers — by exactly one scene, no longer.`)}<FootnoteMarker n={28} act={3} /></p><span className="gly-inline-row"><Glyph name="burden" size="inline" stage={0} /></span></div>
         <div className="el-body"><p>{inline(`The Holding Action is not a tool. It is a refusal. You are telling the timeline that this is not the right moment. The timeline accepts this once. It does not forget you asked. The deferred consequence will arrive, intensified, in the scene that follows. You buy yourself the room to handle it on better ground; you do not avoid handling it.`)}</p></div>
         <div className="el-body"><p>{inline(`The Holding Action cannot be repeated until you have completed a Repreival.* *I have used the Holding Action twice in fifteen years. Once it saved someone. Once it cost me the person I used it to save. I will not tell you which was which. — EC`)}</p></div>
         <h4 className="el-subsection">{inline(`Reducing Paradox`)}</h4>
         <h4 className="el-subsection">{inline(`STABILIZE REALITY MOVE (2 COHERENCE)`)}</h4>
         <div className="el-body"><p>{inline(`Spend 2 Coherence, then roll `)}<b>{inline(`2d6`)}</b>{inline(` + SYNC or OBSERVE:`)}</p></div>
         <div className="el-resolution"><div className="resolution-row"><div className="resolution-roll">{`10+`}</div><div className="resolution-body"><div className="resolution-text">{inline(`Reduce Paradox by `)}<b>{inline(`1d6`)}</b>{inline(`.`)}</div></div></div><div className="resolution-row"><div className="resolution-roll">{`7-9`}</div><div className="resolution-body"><div className="resolution-text">{inline(`Reduce Paradox by `)}<b>{inline(`1d3`)}</b>{inline(`.`)}</div></div></div><div className="resolution-row"><div className="resolution-roll">{`6-`}</div><div className="resolution-body"><div className="resolution-title">{inline(`No reduction`)}</div><div className="resolution-text">{inline(`But you don't generate more.`)}</div></div></div></div>
+        <FinderFootnotes notes={[{"n":28,"text":"The Holding Action is the most honest mechanic in the book. You can refuse the consequence once. Once. Then the bill comes due. I have used it twice this week in real life.","act":3,"late":false}]} />
       </ChPage>
       <ChPage side="recto" runHead={"Advanced Systems"} pageNum={basePage + 3} label={`ADVANCED SYSTEMS · p.${basePage + 3}`}>
         <h4 className="el-subsection">{inline(`OTHER METHODS`)}</h4>
@@ -73,7 +75,7 @@ function ChenCh7({ tweaks, basePage = 1 }) {
     </Spread>
     <Spread id="chen-7-04" label={"ADVANCED SYSTEMS · spread 4"}>
       <ChPage side="verso" runHead={"Advanced Systems"} pageNum={basePage + 6} label={`ADVANCED SYSTEMS · p.${basePage + 6}`}>
-        <div className="el-body"><p>{inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`)}</p></div>
+        <div className="el-body"><p>{inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`)}<FootnoteMarker n={29} act={3} /></p><span className="gly-inline-row"><Glyph name="burden" size="inline" stage={0} /></span></div>
         <div className="el-body"><p>{inline(`To repair, roll `)}<b>{inline(`2d6`)}</b>{inline(` + OBSERVE (for Chrono-Tech) or ENDURE (for Echo Traits):`)}</p></div>
         <div className="el-body"><p><b>{inline(`10+`)}</b>{inline(` Clear all Stress. Asset functions perfectly.`)}</p></div>
         <table className="tbl-chen tbl-chen--oracle"><tbody><tr><td className="num">{`7-9`}</td><td className="oracle-name">{``}</td><td className="oracle-desc">{inline(`Clear 2 Stress.`)}</td></tr></tbody></table>
@@ -88,6 +90,7 @@ function ChenCh7({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Reinforce Anchor: see Anchor Reinforcement above`)}</p></div>
         <div className="el-body"><p>{inline(`Reduce Paradox: see Stabilize Reality Move above`)}</p></div>
         <Zaaken><i>{inline(`Ludum longum lude.`)}</i></Zaaken>
+        <FinderFootnotes notes={[{"n":29,"text":"My watch stopped today. Not the battery. The hands melted into the face. Checked the sheet — Saul's Asset Stress is maxed. The math knew before I did.","act":3,"late":false}]} />
       </ChPage>
       <ChPage side="recto" runHead={"Advanced Systems"} pageNum={basePage + 7} label={`ADVANCED SYSTEMS · p.${basePage + 7}`}>
         

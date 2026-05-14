@@ -30,7 +30,13 @@ function AlanCh4({
   }), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     label: "alan-4 \xB7 opener"
-  }, /*#__PURE__*/React.createElement(AlanChapterHead, {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "chapter-sigil"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "ripple",
+    size: "sigil",
+    stage: 0
+  })), /*#__PURE__*/React.createElement(AlanChapterHead, {
     entry: 4,
     sub: "FACTION PRESSURE",
     coord: "[TEMPORAL LOG // ENTRY_004 // ERA: 50 // NODE: FACTION]"
@@ -52,7 +58,19 @@ function AlanCh4({
     className: "al-fragment"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The factions think they can use you. Other way around. You use THEM.`)), /*#__PURE__*/React.createElement("p", null, inline(`The Church of the Holy Second: pain-loving pious torturers who correctly believe that suffering stabilizes reality. The Loop Authority: punchclock middle management, ruthlessly efficient, motto being that recursion eliminates deviation. The Scionfall Directive: killers disguising themselves with kindness. The Chronoclasts: my kind of people, once. A bit too extreme for my tastes these days.`)), /*#__PURE__*/React.createElement("div", {
     className: "al-fragment__sign"
-  }, "// AR")), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`FACTION ATTENTION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Tied to Paradox. Shadow (0-3): invisible to them. Flux (4-6): Scouts observe when you roll 6-. Anomaly (7-9): Agents intervene when you roll `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, they make Offers. Breach (10+): direct intervention during Fracture Event Phase 2.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Agent Offers`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`When an Agent appears, choose: Accept (pay the cost, gain the benefit), Refuse (they Impose consequence and Mark you), or Drive Off (roll DISRUPT to force them away, `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`).`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Offers are your non-roll path to Paradox relief. Sell pieces of yourself to regain control.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`AGENT OFFER / COST`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Church Templar Offer: Take 1 Mutation + lose 2 Coherence →Reduce Paradox by 3 Refused: Lose 1 Coherence. Marked — next encounter automatic. Authority Corrector Offer: Normalize 1 Scar (bonus drops to +0) →Reduce Paradox by 2, clear Asset Stress Refused: -1 to Navigation until Repreival. Marked. Scionfall Herald Offer: Character retired. Game ends peacefully. Refused: -1 ENDURE while present. Marked — returns during next Crisis. Chronoclast Remixer Offer: +2 Paradox now →+3 to next DISRUPT roll (Complication guaranteed) Refused: Roll Timeline Shift Oracle. Marked — brings gift next time.`)))), /*#__PURE__*/React.createElement(AlPage, {
+  }, "// AR")), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`FACTION ATTENTION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Tied to Paradox. Shadow (0-3): invisible to them. Flux (4-6): Scouts observe when you roll 6-. Anomaly (7-9): Agents intervene when you roll `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, they make Offers. Breach (10+): direct intervention during Fracture Event Phase 2.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Agent Offers`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`When an Agent appears, choose: Accept (pay the cost, gain the benefit), Refuse (they Impose consequence and Mark you), or Drive Off (roll DISRUPT to force them away, `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`).`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Offers are your non-roll path to Paradox relief. Sell pieces of yourself to regain control.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`AGENT OFFER / COST`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Church Templar Offer: Take 1 Mutation + lose 2 Coherence →Reduce Paradox by 3 Refused: Lose 1 Coherence. Marked — next encounter automatic. Authority Corrector Offer: Normalize 1 Scar (bonus drops to +0) →Reduce Paradox by 2, clear Asset Stress Refused: -1 to Navigation until Repreival. Marked. Scionfall Herald Offer: Character retired. Game ends peacefully. Refused: -1 ENDURE while present. Marked — returns during next Crisis. Chronoclast Remixer Offer: +2 Paradox now →+3 to next DISRUPT roll (Complication guaranteed) Refused: Roll Timeline Shift Oracle. Marked — brings gift next time.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 43,
+      "text": "The bells. They are in the vents now. Not in the prose. Chen — if you can hear me — tell me how to SYNC. I am losing the frequency.",
+      "act": 4,
+      "late": false
+    }, {
+      "n": 44,
+      "text": "The Church wants me to take the ritual. The Authority wants me to take the loop. Scionfall wants me to take the dignity-of-stillness. Rose wants me to take the needle. None of them want me to put the book down.",
+      "act": 4,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     runHead: "ENTRY_004",
     pageNum: basePage + 3,

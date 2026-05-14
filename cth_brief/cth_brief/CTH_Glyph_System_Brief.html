@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The CTH Glyph System — Master Brief</title>
+<style>
+:root {
+  --parchment: #FBFAF6;
+  --ink: #1A1A1A;
+  --burgundy: #6B3232;
+  --forest: #3D5A47;
+  --annotation: #8B7355;
+  --rule: #C9C4B3;
+  --muted: #6B6657;
+  --secondary-bg: #F4F0E4;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0;
+  background: var(--parchment);
+  color: var(--ink);
+  font-family: 'Charter', 'Iowan Old Style', 'Cambria', Georgia, serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 4rem 3rem 6rem;
+}
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.3;
+  margin: 0;
+}
+h1 {
+  font-size: 2.4rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.4rem;
+}
+h2 {
+  font-size: 1.6rem;
+  color: var(--burgundy);
+  margin: 4rem 0 0.4rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rule);
+}
+h3 {
+  font-size: 1.2rem;
+  margin: 2.5rem 0 0.6rem;
+}
+h4 {
+  font-size: 1rem;
+  margin: 1.5rem 0 0.4rem;
+  font-weight: 600;
+}
+p { margin: 0 0 1rem; }
+p.lede {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--muted);
+  margin-bottom: 2.5rem;
+}
+.section-tag {
+  font-family: 'Iosevka', 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: var(--annotation);
+  text-transform: uppercase;
+  margin: 0 0 0.4rem;
+}
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 3rem 0;
+}
+.cover {
+  border-bottom: 2px solid var(--burgundy);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.cover .mark { color: var(--burgundy); margin: 1rem 0; }
+.cover .mark svg { width: 120px; height: 120px; }
+.cover .subtitle {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 1.1rem;
+  margin: 0.5rem 0 1rem;
+}
+.cover .meta {
+  font-family: 'Iosevka', 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: var(--annotation);
+  text-transform: uppercase;
+}
+.toc {
+  background: var(--secondary-bg);
+  padding: 1.5rem 2rem;
+  border-radius: 4px;
+  margin-bottom: 3rem;
+}
+.toc h3 { margin-top: 0; color: var(--burgundy); }
+.toc ol {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.toc li {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+/* Glyph cards */
+.glyph-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.glyph-card {
+  background: var(--parchment);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 1.2rem;
+}
+.glyph-card .render {
+  color: var(--burgundy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  margin-bottom: 0.8rem;
+}
+.glyph-card .render svg { width: 80px; height: 80px; }
+.glyph-card .name {
+  font-family: 'Iosevka', 'JetBrains Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--burgundy);
+}
+.glyph-card .concept {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  text-align: center;
+  margin: 0.2rem 0 0.8rem;
+}
+.glyph-card .desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.glyph-card .spec {
+  font-family: 'Iosevka', 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--muted);
+  background: var(--secondary-bg);
+  padding: 0.4rem 0.6rem;
+  margin-top: 0.6rem;
+  border-radius: 3px;
+  border-left: 2px solid var(--rule);
+}
+
+/* Composition diagram */
+.composition {
+  background: var(--secondary-bg);
+  border-left: 3px solid var(--burgundy);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+.composition h4 {
+  color: var(--burgundy);
+  margin-top: 0;
+}
+.comp-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.2rem 0 0.5rem;
+  color: var(--burgundy);
+}
+.comp-row svg { width: 56px; height: 56px; }
+.comp-row .small svg { width: 36px; height: 36px; }
+.comp-row .op {
+  font-family: 'Iosevka', monospace;
+  font-size: 1.4rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+.comp-label {
+  text-align: center;
+  font-family: 'Iosevka', monospace;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* Equations */
+.equation {
+  background: var(--parchment);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--burgundy);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+.eq-name {
+  font-family: 'Iosevka', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: var(--annotation);
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.eq-standard {
+  font-family: 'Charter', 'Cambria', Georgia, serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--ink);
+  text-align: center;
+  margin: 0.8rem 0;
+  letter-spacing: 0.02em;
+}
+.eq-glyph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  background: var(--secondary-bg);
+  padding: 1.2rem;
+  border-radius: 3px;
+  margin: 1rem 0;
+  color: var(--burgundy);
+}
+.eq-glyph svg { width: 40px; height: 40px; }
+.eq-glyph .op {
+  font-family: 'Iosevka', monospace;
+  font-size: 1.3rem;
+  color: var(--muted);
+  font-weight: 400;
+  margin: 0 0.3rem;
+}
+.eq-glyph .var {
+  font-family: 'Charter', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--muted);
+}
+.eq-meaning {
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-top: 0.8rem;
+}
+.eq-use {
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--rule);
+}
+
+/* Dialect comparison */
+.dialect-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.dialect-card {
+  background: var(--parchment);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 1rem;
+  text-align: center;
+}
+.dialect-card .render {
+  color: var(--burgundy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.dialect-card .render svg { width: 70px; height: 70px; }
+.dialect-card .name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 0.6rem;
+  color: var(--ink);
+}
+.dialect-card .rule {
+  font-family: 'Iosevka', monospace;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.3rem;
+}
+
+.callout {
+  background: var(--secondary-bg);
+  border-left: 3px solid var(--forest);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.95rem;
+}
+.callout strong { color: var(--forest); }
+
+ul.spec-list, ol.spec-list {
+  font-size: 0.95rem;
+  padding-left: 1.4rem;
+}
+ul.spec-list li, ol.spec-list li {
+  margin: 0.4rem 0;
+}
+
+table.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 2rem;
+  font-size: 0.9rem;
+}
+table.spec-table th, table.spec-table td {
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid var(--rule);
+}
+table.spec-table th {
+  background: var(--secondary-bg);
+  color: var(--burgundy);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+table.spec-table code {
+  font-family: 'Iosevka', monospace;
+  font-size: 0.85rem;
+  background: var(--secondary-bg);
+  padding: 1px 5px;
+  border-radius: 2px;
+}
+code, pre {
+  font-family: 'Iosevka', 'JetBrains Mono', 'Consolas', monospace;
+  background: var(--secondary-bg);
+  border-radius: 3px;
+}
+code { padding: 1px 5px; font-size: 0.9em; }
+pre {
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  border-left: 2px solid var(--rule);
+  margin: 1rem 0;
+}
+.footer {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--annotation);
+  letter-spacing: 0.05em;
+}
+@media print {
+  .page { padding: 1in; max-width: none; }
+  h2 { page-break-before: auto; break-before: auto; }
+  .glyph-card, .equation, .composition { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- ============== COVER ============== -->
+<div class="cover">
+  <h1>The CTH Glyph System</h1>
+  <p class="subtitle">Master Brief — Writing System, Atomic Strokes, Conceptual Glyphs, Faction Dialects, and the Inscription Grammar of the Chronoverse</p>
+  <div class="mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter">
+<circle cx="50" cy="50" r="42"/>
+<line x1="35" y1="22" x2="65" y2="22"/>
+<line x1="50" y1="22" x2="50" y2="82"/>
+<line x1="30" y1="40" x2="30" y2="62"/>
+<line x1="70" y1="40" x2="70" y2="62"/>
+<line x1="30" y1="50" x2="70" y2="50"/>
+<line x1="30" y1="40" x2="34" y2="40"/>
+<line x1="66" y1="40" x2="70" y2="40"/>
+<line x1="30" y1="62" x2="34" y2="62"/>
+<line x1="66" y1="62" x2="70" y2="62"/>
+</svg></div>
+  <p class="meta">For WOUND · Temporal Echoes / emiT · v1.0</p>
+</div>
+
+<div class="toc">
+  <h3>Contents</h3>
+  <ol>
+    <li>Overview — what the system is and what it does</li>
+    <li>Design principles — the five laws</li>
+    <li>The atomic alphabet — eleven strokes</li>
+    <li>Composition grammar — how atomics combine</li>
+    <li>The twelve conceptual glyphs — game-mechanic words</li>
+    <li>The master sigil — the unified inscription</li>
+    <li>The CTH equations — the system's load-bearing math</li>
+    <li>Faction dialects — four scripts, one alphabet</li>
+    <li>Writing in CTH — practical guide</li>
+    <li>Asset library — file names, color tokens, Typst usage</li>
+  </ol>
+</div>
+
+<!-- ============== 1. OVERVIEW ============== -->
+<p class="section-tag">Section I</p>
+<h2>1. Overview</h2>
+
+<p class="lede">The CTH Glyph System is a constructed writing language used throughout the WOUND duology. It encodes the physics of Conjugate Temporal Harmonics — selfhood, time, memory, fracture — as a finite set of letterforms that compose into words, sentences, and equations. In the fiction, chronotech weapons inscribe these glyphs to manipulate the Chronoverse; in the book, they appear as chapter sigils, mechanic markers, oracle stamps, and faction signatures.</p>
+
+<p>The system rests on three commitments. <strong>It is decomposable</strong> — every conceptual glyph reduces to a readable arrangement of atomic strokes; a player who learns the alphabet can decode any inscription. <strong>It is generative</strong> — the chronotech, the player, and the designer can combine atomics into new compositions that mean exactly what their decomposition says they mean. <strong>It is operational</strong> — the CTH equations are not metaphors. The equations are statements written in this language, and inscribing them produces effects in the Chronoverse.</p>
+
+<p>The aesthetic reference is industrial-runic: weighty geometric letterforms, distinct silhouettes at thumbnail size, no decoration beyond what the grammar requires. The system trades the occult-astrological feel of a single-template sigil set for the typographic clarity of a real alphabet.</p>
+
+<!-- ============== 2. DESIGN PRINCIPLES ============== -->
+<p class="section-tag">Section II</p>
+<h2>2. The Five Design Laws</h2>
+
+<p>Every glyph in the system obeys these laws. Any new addition to the corpus must obey them.</p>
+
+<table class="spec-table">
+<thead><tr><th style="width: 30px;">Law</th><th>Rule</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><strong>Atomic primacy.</strong> Every glyph is either an atomic stroke or a readable composition of atomic strokes.</td><td>Decomposability. A player who learns 11 letters can read 12 words and infinitely many sentences.</td></tr>
+<tr><td>2</td><td><strong>Silhouette distinction.</strong> Every glyph must be uniquely identifiable at thumbnail size (24×24 px minimum).</td><td>Inline use in margins, on character sheets, in oracle tables. If you can't tell them apart small, the language fails at use.</td></tr>
+<tr><td>3</td><td><strong>Weighty geometric stroke.</strong> 5-unit stroke weight on a 100-unit canvas. Square line caps. Miter joins. No flourish.</td><td>Krakoan-industrial register. The glyphs are technical, not mystical. Production scaling requires consistency.</td></tr>
+<tr><td>4</td><td><strong>Composition by overlap or sequence.</strong> Glyphs combine either by overlapping into a unified mark (compound) or by reading side-by-side as a word (sequence).</td><td>Two composition modes is enough. More creates ambiguity; fewer prevents the language from encoding the equations.</td></tr>
+<tr><td>5</td><td><strong>Dialect by uniform transform.</strong> Each faction's dialect is one rule applied to every stroke. No bespoke faction redrawings.</td><td>Any glyph × any dialect renders automatically. The four factions can sign any inscription in their hand without new artwork.</td></tr>
+</tbody>
+</table>
+
+<div class="callout">
+<strong>Construction grid:</strong> All glyphs render on a 100×100 viewBox. Default stroke weight is 5 units; auxiliary marks (dialect ticks, sub-strokes) use 2–3 units. <code>stroke-linecap="square"</code> and <code>stroke-linejoin="miter"</code> are mandatory — round caps soften the industrial register.
+</div>
+
+<!-- ============== 3. THE ATOMIC ALPHABET ============== -->
+<p class="section-tag">Section III</p>
+<h2>3. The Atomic Alphabet</h2>
+<p>Eleven strokes. These are the writing system at its foundation. Every composition in Section 5, every equation in Section 7, and every dialect inscription in Section 8 reduces to a sequence of these eleven forms.</p>
+
+<div class="glyph-grid">
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="22" y1="22" x2="78" y2="22"/><line x1="50" y1="22" x2="50" y2="82"/></svg></div>
+<p class="name">τ</p>
+<p class="concept">Tau · Time</p>
+<p class="desc">The axis of time, displacement, the spine of selfhood. Appears in any concept involving temporal motion or persistence.</p>
+<div class="spec">Horizontal bar (22,22)→(78,22); vertical descending to (50,82)</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="22" y1="38" x2="78" y2="38"/><line x1="22" y1="62" x2="78" y2="62"/></svg></div>
+<p class="name">μ</p>
+<p class="concept">Mu · Mass</p>
+<p class="desc">Emotional mass, narrative weight, the gravitational charge of an event. Two stacked bars; reads as accumulated weight.</p>
+<div class="spec">Two horizontal bars at y=38 and y=62</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="28" y1="18" x2="28" y2="46"/><line x1="50" y1="18" x2="50" y2="46"/><line x1="72" y1="18" x2="72" y2="46"/><line x1="28" y1="46" x2="72" y2="46"/><line x1="50" y1="46" x2="50" y2="84"/></svg></div>
+<p class="name">Ψ</p>
+<p class="concept">Psi · Waveform</p>
+<p class="desc">Identity as wave-state. The trident form encodes three converging modes resolving into a single carrier. The most complex atomic.</p>
+<div class="spec">Three prongs at x=28/50/72 from y=18 to y=46; crossbar; central descent to y=84</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="38" y1="20" x2="38" y2="80"/><line x1="38" y1="20" x2="58" y2="20"/><line x1="38" y1="80" x2="58" y2="80"/></svg></div>
+<p class="name">I</p>
+<p class="concept">Iota · Intervention</p>
+<p class="desc">Choice, agency, deliberate action. The left-facing bracket. Pairs with C in equations where intent and consequence must both appear.</p>
+<div class="spec">Left bracket: vertical x=38 from y=20 to y=80, with short top and bottom hooks rightward to x=58</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="62" y1="20" x2="62" y2="80"/><line x1="62" y1="20" x2="42" y2="20"/><line x1="62" y1="80" x2="42" y2="80"/></svg></div>
+<p class="name">C</p>
+<p class="concept">Causality</p>
+<p class="desc">Consequence, resistance, what the world pushes back with. The right-facing bracket. Always mirrors an I in equations of action and response.</p>
+<div class="spec">Mirror of Iota: vertical x=62, hooks leftward to x=42</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><circle cx="50" cy="50" r="32"/></svg></div>
+<p class="name">Ω</p>
+<p class="concept">Omega · Field</p>
+<p class="desc">The chronofield. The boundary inside which CTH variables interact. The only true circle in the alphabet — its uniqueness signals its scope.</p>
+<div class="spec">Circle, center (50,50), radius 32</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><polygon points="50,18 22,80 78,80"/></svg></div>
+<p class="name">Δ</p>
+<p class="concept">Delta · Fracture</p>
+<p class="desc">Change as breakage. The operator of transformation. Sharp apex, miter joins — points upward as a directional vector of disruption.</p>
+<div class="spec">Triangle, apex (50,18), base (22,80)–(78,80)</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><path d="M 18,65 Q 34,28 50,50 Q 66,72 82,35"/></svg></div>
+<p class="name">ω</p>
+<p class="concept">Omega-mini · Oscillation</p>
+<p class="desc">Micro-oscillation, vibration, the unit of frequency. The only true curve in the alphabet. Distinct from Ω by stroke type, not closure.</p>
+<div class="spec">Bezier wave: M(18,65) Q(34,28)(50,50) Q(66,72)(82,35)</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><polyline points="22,28 50,78 78,28"/></svg></div>
+<p class="name">S</p>
+<p class="concept">Sigma · Limit</p>
+<p class="desc">Collapse threshold, terminal state, the edge below which a system cannot operate. Inverse of Δ — points downward, miter apex at bottom.</p>
+<div class="spec">Inverted-V polyline: (22,28)→(50,78)→(78,28)</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="35" y1="18" x2="35" y2="82"/><line x1="65" y1="18" x2="65" y2="82"/></svg></div>
+<p class="name">R</p>
+<p class="concept">Rho · Mirror</p>
+<p class="desc">Recursion, repetition, the operator of reflection. Two parallel verticals. Doubling R produces RECURSION — mirror of mirror.</p>
+<div class="spec">Two parallels at x=35 and x=65, full height y=18 to y=82</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="18" y1="50" x2="82" y2="50" stroke-dasharray="8 8"/></svg></div>
+<p class="name">E</p>
+<p class="concept">Epsilon · Erasure</p>
+<p class="desc">Void, null, what was removed. The dashed horizontal stroke. Reads as absence-with-trace — something was there, and is no longer.</p>
+<div class="spec">Dashed horizontal at y=50, stroke-dasharray "8 8"</div>
+</div>
+
+</div>
+
+<!-- ============== 4. COMPOSITION GRAMMAR ============== -->
+<p class="section-tag">Section IV</p>
+<h2>4. Composition Grammar</h2>
+
+<p>Atomics combine in two modes. Mode is determined by the relationship being expressed.</p>
+
+<h3>Mode A — Compound (overlap)</h3>
+<p>When two atomics describe a single unified state — a bounded thing, a state-with-modifier — they overlap into one mark. ANCHOR is τ bounded by Ω — time inside field — and these overlap because the boundedness is part of the concept, not a sequence of actions. COLLAPSE is Ω with Δ slashing through it — the field is being broken, in one moment, as one act.</p>
+
+<div class="composition">
+<h4>Compound example: ANCHOR</h4>
+<div class="comp-row">
+<div class="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter"><circle cx="50" cy="50" r="32"/></svg></div>
+<span class="op">+</span>
+<div class="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter"><line x1="22" y1="22" x2="78" y2="22"/><line x1="50" y1="22" x2="50" y2="82"/></svg></div>
+<span class="op">→</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><circle cx="50" cy="50" r="38"/><line x1="32" y1="32" x2="68" y2="32"/><line x1="50" y1="32" x2="50" y2="72"/></svg>
+</div>
+<p class="comp-label">Ω + τ → ANCHOR · "time bounded by field"</p>
+</div>
+
+<h3>Mode B — Sequence (side-by-side)</h3>
+<p>When two atomics describe a process — a thing acting on another thing, a thing repeated, a thing followed by an outcome — they read side-by-side as a word. ECHO is Ψ R: waveform passed through a mirror. RECURSION is R R: mirror of mirror. Both are operations applied in time, not unified states.</p>
+
+<div class="composition">
+<h4>Sequence example: ECHO</h4>
+<div class="comp-row">
+<div class="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter"><line x1="28" y1="18" x2="28" y2="46"/><line x1="50" y1="18" x2="50" y2="46"/><line x1="72" y1="18" x2="72" y2="46"/><line x1="28" y1="46" x2="72" y2="46"/><line x1="50" y1="46" x2="50" y2="84"/></svg></div>
+<div class="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter"><line x1="35" y1="18" x2="35" y2="82"/><line x1="65" y1="18" x2="65" y2="82"/></svg></div>
+<span class="op">→</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="14" y1="20" x2="14" y2="38"/><line x1="26" y1="20" x2="26" y2="38"/><line x1="38" y1="20" x2="38" y2="38"/><line x1="14" y1="38" x2="38" y2="38"/><line x1="26" y1="38" x2="26" y2="80"/><line x1="62" y1="20" x2="62" y2="80"/><line x1="86" y1="20" x2="86" y2="80"/></svg>
+</div>
+<p class="comp-label">Ψ R → ECHO · "waveform passed through mirror"</p>
+</div>
+
+<h3>Choosing the mode</h3>
+<p>The test is grammatical, not aesthetic: is the relationship between the two atomics <em>simultaneous</em> (compound) or <em>sequential</em> (sequence)? "Time inside field" is simultaneous — it has to be inside it for it to mean anything, in one instant. "Waveform passed through mirror" is sequential — the wave existed, then was reflected, then exists as something altered. When in doubt, default to compound for unified states and sequence for processes.</p>
+
+<h3>Operators</h3>
+<p>When writing equations (Section 7), four operators bridge between glyphs and standard math notation:</p>
+
+<table class="spec-table">
+<tr><td><code>=</code></td><td>Equality — used in equations</td></tr>
+<tr><td><code>×</code></td><td>Multiplication / convolution</td></tr>
+<tr><td><code>/</code></td><td>Division / per-unit</td></tr>
+<tr><td><code>f( )</code></td><td>Function-of, applied to bracketed glyph string</td></tr>
+</table>
+
+<p>Operators render in monospace serif at body size. They are not glyphs — they are typographic punctuation that joins glyphs into statements. The glyphs are the nouns and verbs; the operators are the conjunctions.</p>
+
+<!-- ============== 5. THE TWELVE CONCEPTUAL GLYPHS ============== -->
+<p class="section-tag">Section V</p>
+<h2>5. The Twelve Conceptual Glyphs</h2>
+
+<p>These are the working vocabulary of the system. Every game-mechanic concept resolves to one of these twelve compositions. Each is shown with its full render, its decomposition into atomics, and its meaning.</p>
+
+<div class="glyph-grid">
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><circle cx="50" cy="50" r="38"/><line x1="32" y1="32" x2="68" y2="32"/><line x1="50" y1="32" x2="50" y2="72"/></svg></div>
+<p class="name">ANCHOR</p>
+<p class="concept">Identity tether</p>
+<p class="desc">Time bounded by field. What keeps you real when reality drifts.</p>
+<div class="spec">Compound · Ω + τ</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="30" y1="14" x2="30" y2="38"/><line x1="50" y1="14" x2="50" y2="38"/><line x1="70" y1="14" x2="70" y2="38"/><line x1="30" y1="38" x2="70" y2="38"/><line x1="50" y1="38" x2="50" y2="58"/><path d="M 22,82 Q 36,62 50,72 Q 64,82 78,62"/></svg></div>
+<p class="name">MEMORY</p>
+<p class="concept">Recollection</p>
+<p class="desc">Waveform riding oscillation. Memory as a standing pattern that decays without renewal.</p>
+<div class="spec">Compound · Ψ over ω</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="14" y1="32" x2="42" y2="32"/><line x1="28" y1="32" x2="28" y2="82"/><polygon points="70,32 56,76 84,76"/></svg></div>
+<p class="name">MOMENTUM</p>
+<p class="concept">Forward vector</p>
+<p class="desc">Time toward fracture. Motion that costs something when arrested.</p>
+<div class="spec">Sequence · τ Δ</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="30" y1="16" x2="30" y2="40"/><line x1="50" y1="16" x2="50" y2="40"/><line x1="70" y1="16" x2="70" y2="40"/><line x1="30" y1="40" x2="70" y2="40"/><line x1="50" y1="40" x2="50" y2="84"/><polygon points="50,52 22,90 78,90"/></svg></div>
+<p class="name">PARADOX</p>
+<p class="concept">Reality damage</p>
+<p class="desc">Waveform fractured. The wave still resolves, but the resolution contradicts itself.</p>
+<div class="spec">Compound · Ψ through Δ</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="14" y1="20" x2="14" y2="38"/><line x1="26" y1="20" x2="26" y2="38"/><line x1="38" y1="20" x2="38" y2="38"/><line x1="14" y1="38" x2="38" y2="38"/><line x1="26" y1="38" x2="26" y2="80"/><line x1="62" y1="20" x2="62" y2="80"/><line x1="86" y1="20" x2="86" y2="80"/></svg></div>
+<p class="name">ECHO</p>
+<p class="concept">Displaced waveform</p>
+<p class="desc">Waveform passed through mirror. The original wave still exists; this is the copy.</p>
+<div class="spec">Sequence · Ψ R</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="32" y1="16" x2="68" y2="16"/><line x1="50" y1="16" x2="50" y2="48"/><polyline points="28,52 50,86 72,52"/></svg></div>
+<p class="name">DRIFT</p>
+<p class="concept">Losing alignment</p>
+<p class="desc">Time tapering toward limit. The slow approach to a state from which no return is possible.</p>
+<div class="spec">Vertical sequence · τ over S</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><path d="M 8,70 Q 16,52 24,60 Q 32,68 40,50" stroke-width="4"/><path d="M 36,68 Q 44,50 52,58 Q 60,66 68,48" stroke-width="4"/><path d="M 60,72 Q 68,54 76,62 Q 84,70 92,52" stroke-width="4"/></svg></div>
+<p class="name">RIPPLE</p>
+<p class="concept">Disturbance spreading</p>
+<p class="desc">Three oscillations in sequence. A single event propagating outward through CTH.</p>
+<div class="spec">Sequence · ω ω ω</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><circle cx="50" cy="50" r="36"/><polygon points="50,20 28,68 72,68"/><line x1="18" y1="78" x2="82" y2="26" stroke-width="4"/></svg></div>
+<p class="name">COLLAPSE</p>
+<p class="concept">Node failure</p>
+<p class="desc">Field violently fractured. Single event; no propagation; the boundary itself fails.</p>
+<div class="spec">Compound · Ω through Δ</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="22" y1="18" x2="22" y2="82"/><line x1="40" y1="18" x2="40" y2="82"/><line x1="60" y1="18" x2="60" y2="82"/><line x1="78" y1="18" x2="78" y2="82"/></svg></div>
+<p class="name">RECURSION</p>
+<p class="concept">Time folded back</p>
+<p class="desc">Mirror of mirror. The same configuration returning. Loop Authority's desired state.</p>
+<div class="spec">Sequence · R R</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="14" y1="50" x2="86" y2="50" stroke-dasharray="10 10"/></svg></div>
+<p class="name">NULL</p>
+<p class="concept">Erasure</p>
+<p class="desc">The atomic E rendered at full size, standing alone. What was; is not.</p>
+<div class="spec">Solo · E</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="22" y1="22" x2="78" y2="22"/><line x1="22" y1="34" x2="78" y2="34"/><line x1="22" y1="46" x2="78" y2="46"/><line x1="22" y1="58" x2="78" y2="58"/><line x1="22" y1="70" x2="78" y2="70"/><line x1="22" y1="82" x2="78" y2="82"/></svg></div>
+<p class="name">BURDEN</p>
+<p class="concept">Emotional weight</p>
+<p class="desc">Three masses stacked. Accumulation of charge that cannot be discharged without cost.</p>
+<div class="spec">Compound stack · μ μ μ</div>
+</div>
+
+<div class="glyph-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="10" y1="22" x2="10" y2="42"/><line x1="22" y1="22" x2="22" y2="42"/><line x1="34" y1="22" x2="34" y2="42"/><line x1="10" y1="42" x2="34" y2="42"/><line x1="22" y1="42" x2="22" y2="78"/><line x1="44" y1="50" x2="60" y2="50" stroke-dasharray="4 4" stroke-width="4"/><line x1="68" y1="22" x2="68" y2="42"/><line x1="80" y1="22" x2="80" y2="42"/><line x1="92" y1="22" x2="92" y2="42"/><line x1="68" y1="42" x2="92" y2="42"/><line x1="80" y1="42" x2="80" y2="78"/></svg></div>
+<p class="name">RENDITION</p>
+<p class="concept">A life rewritten</p>
+<p class="desc">Waveform erased; waveform rewritten. The first version still leaves a dashed trace between.</p>
+<div class="spec">Sequence · Ψ E Ψ</div>
+</div>
+
+</div>
+
+<!-- ============== 6. THE MASTER SIGIL ============== -->
+<p class="section-tag">Section VI</p>
+<h2>6. The Master Sigil</h2>
+
+<p>The Master Sigil contains every CTH variable bounded by the field. It is the unified equation written as a single mark: τ, μ, Ψ, I, C, all inside Ω.</p>
+
+<div class="composition" style="text-align: center;">
+<div style="color: var(--burgundy); margin: 1rem 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" style="width: 160px; height: 160px;"><circle cx="50" cy="50" r="42"/><line x1="35" y1="22" x2="65" y2="22"/><line x1="50" y1="22" x2="50" y2="82"/><line x1="30" y1="40" x2="30" y2="62"/><line x1="70" y1="40" x2="70" y2="62"/><line x1="30" y1="50" x2="70" y2="50"/><line x1="30" y1="40" x2="34" y2="40"/><line x1="66" y1="40" x2="70" y2="40"/><line x1="30" y1="62" x2="34" y2="62"/><line x1="66" y1="62" x2="70" y2="62"/></svg>
+</div>
+<p class="comp-label">τ + μ + Ψ + I + C bounded by Ω</p>
+</div>
+
+<p>Because the Master Sigil contains the entire alphabet, it is the only inscription that cannot be reduced further. It is the upper bound of what the language can encode in one mark. The chronotech does not inscribe it because inscribing it would mean producing the entire CTH equation simultaneously — which is what the First Scar was.</p>
+
+<div class="callout">
+<strong>Production rule:</strong> The Master Sigil appears in WOUND exactly three times. Cover (intact). emiT title page (one terminal missing — first sign of damage). Saul Files closing page (one terminal replaced by the MEMORY glyph — the cycle made visible). Every additional appearance dilutes the move. Treat the sigil like a load-bearing word: used sparingly, never decorated.
+</div>
+
+<!-- ============== 7. THE CTH EQUATIONS ============== -->
+<p class="section-tag">Section VII</p>
+<h2>7. The CTH Equations</h2>
+
+<p>Four equations describe the load-bearing physics of the Chronoverse. Each is shown in standard mathematical notation and in glyph form. The glyph form is what the chronotech inscribes; the inscription itself is the operation.</p>
+
+<div class="equation">
+<p class="eq-name">Equation 1 · The Wave Equation</p>
+<p class="eq-standard">ΔΨ = f(Δτ × μ)</p>
+<div class="eq-glyph">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><polygon points="50,18 22,80 78,80"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="28" y1="18" x2="28" y2="46"/><line x1="50" y1="18" x2="50" y2="46"/><line x1="72" y1="18" x2="72" y2="46"/><line x1="28" y1="46" x2="72" y2="46"/><line x1="50" y1="46" x2="50" y2="84"/></svg>
+<span class="op">=</span>
+<span class="var">f(</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><polygon points="50,18 22,80 78,80"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="22" y1="22" x2="78" y2="22"/><line x1="50" y1="22" x2="50" y2="82"/></svg>
+<span class="op">×</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="22" y1="38" x2="78" y2="38"/><line x1="22" y1="62" x2="78" y2="62"/></svg>
+<span class="var">)</span>
+</div>
+<p class="eq-meaning"><strong>Reading:</strong> The change in waveform equals a function of fractured time multiplied by mass. The fundamental equation of identity drift — the more time fractures and the more mass accumulates, the more the waveform changes.</p>
+<p class="eq-use"><strong>Inscription effect:</strong> Loop Authority etches this on retrieval cuffs. Properly inscribed, it stabilizes a target's waveform during transport. Improperly inscribed — Δ replaced by E — it erases them.</p>
+</div>
+
+<div class="equation">
+<p class="eq-name">Equation 2 · The Collapse Threshold</p>
+<p class="eq-standard">S = (μ × Ψ<sub>p</sub>) / ΔΘ²</p>
+<div class="eq-glyph">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><polyline points="22,28 50,78 78,28"/></svg>
+<span class="op">=</span>
+<span class="var">(</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="22" y1="38" x2="78" y2="38"/><line x1="22" y1="62" x2="78" y2="62"/></svg>
+<span class="op">×</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="28" y1="18" x2="28" y2="46"/><line x1="50" y1="18" x2="50" y2="46"/><line x1="72" y1="18" x2="72" y2="46"/><line x1="28" y1="46" x2="72" y2="46"/><line x1="50" y1="46" x2="50" y2="84"/></svg>
+<span class="var">)/(</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><polygon points="50,18 22,80 78,80"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><circle cx="50" cy="50" r="32"/><line x1="18" y1="50" x2="82" y2="50" stroke-dasharray="6 6" stroke-width="4"/></svg>
+<span class="var">²)</span>
+</div>
+<p class="eq-meaning"><strong>Reading:</strong> The collapse threshold equals mass times parent waveform, divided by squared field-erasure. Determines the moment a Coherence trajectory cannot be reversed. Note: ΔΘ — the fractured field — composes as Ω with E running through it (Θ).</p>
+<p class="eq-use"><strong>Inscription effect:</strong> Scionfall ritualists carve this into the Graceful Severance blade. The blade does not kill — it inscribes the collapse threshold on the target, and the target's own waveform completes the equation.</p>
+</div>
+
+<div class="equation">
+<p class="eq-name">Equation 3 · The Ripple Propagation</p>
+<p class="eq-standard">R = k(Δμ × I) / Ψ<sub>ℓ</sub></p>
+<div class="eq-glyph">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="35" y1="18" x2="35" y2="82"/><line x1="65" y1="18" x2="65" y2="82"/></svg>
+<span class="op">=</span>
+<span class="var">k(</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><polygon points="50,18 22,80 78,80"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="22" y1="38" x2="78" y2="38"/><line x1="22" y1="62" x2="78" y2="62"/></svg>
+<span class="op">×</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="38" y1="20" x2="38" y2="80"/><line x1="38" y1="20" x2="58" y2="20"/><line x1="38" y1="80" x2="58" y2="80"/></svg>
+<span class="var">) /</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="28" y1="18" x2="28" y2="46"/><line x1="50" y1="18" x2="50" y2="46"/><line x1="72" y1="18" x2="72" y2="46"/><line x1="28" y1="46" x2="72" y2="46"/><line x1="50" y1="46" x2="50" y2="84"/></svg>
+</div>
+<p class="eq-meaning"><strong>Reading:</strong> Ripple propagation equals a constant times fractured-mass and intervention, divided by local waveform. The smaller your local waveform, the further your actions ripple. Chronoclast doctrine.</p>
+<p class="eq-use"><strong>Inscription effect:</strong> Chronoclasts tattoo this on their inner forearms. The smaller and more local their identity becomes, the larger their effect on the timestream. Inverse self-importance, made mechanical.</p>
+</div>
+
+<div class="equation">
+<p class="eq-name">Equation 4 · The Echo Superposition</p>
+<p class="eq-standard">Ψ<sub>e</sub>(t) = Σ a<sub>n</sub> e<sup>(iω<sub>n</sub>t)</sup></p>
+<div class="eq-glyph">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="14" y1="20" x2="14" y2="38"/><line x1="26" y1="20" x2="26" y2="38"/><line x1="38" y1="20" x2="38" y2="38"/><line x1="14" y1="38" x2="38" y2="38"/><line x1="26" y1="38" x2="26" y2="80"/><line x1="62" y1="20" x2="62" y2="80"/><line x1="86" y1="20" x2="86" y2="80"/></svg>
+<span class="var">(t) = Σ a<sub>n</sub></span>
+<span class="op">·</span>
+<span class="var">e^(i</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><path d="M 18,65 Q 34,28 50,50 Q 66,72 82,35"/></svg>
+<span class="var"><sub>n</sub> t)</span>
+</div>
+<p class="eq-meaning"><strong>Reading:</strong> An Echo's waveform at time t equals the sum over all component frequencies of their amplitudes times the exponential of their oscillation. The wave-mechanical formal definition of an Echo as a superposition rather than a singular self.</p>
+<p class="eq-use"><strong>Inscription effect:</strong> The Church inscribes this on its temple walls. Their doctrine holds that an Echo who reads the equation while understanding it ceases to be the original; the equation makes them retroactively true.</p>
+</div>
+
+<!-- ============== 8. FACTION DIALECTS ============== -->
+<p class="section-tag">Section VIII</p>
+<h2>8. Faction Dialects</h2>
+
+<p>Each of the four factions writes the same alphabet differently. The dialect is one transformation applied uniformly to every stroke. Same letters, same words, different scripts — the way the same English sentence can appear in serif Times, monospace Courier, blackletter Old English, and handwritten cursive without changing meaning.</p>
+
+<p>The rule below demonstrates each dialect on Ψ (the most complex atomic, so the rule is most visible). The same transformation applies to every other atomic and every composition, automatically.</p>
+
+<div class="dialect-grid">
+<div class="dialect-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="28" y1="18" x2="28" y2="46"/><line x1="50" y1="18" x2="50" y2="46"/><line x1="72" y1="18" x2="72" y2="46"/><line x1="28" y1="46" x2="72" y2="46"/><line x1="50" y1="46" x2="50" y2="84"/></svg></div>
+<p class="name">Base Ψ</p>
+<p class="rule">No transformation</p>
+</div>
+
+<div class="dialect-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><line x1="26" y1="18" x2="26" y2="46"/><line x1="30" y1="18" x2="30" y2="46"/><line x1="46" y1="18" x2="46" y2="46"/><line x1="54" y1="18" x2="54" y2="46"/><line x1="70" y1="18" x2="70" y2="46"/><line x1="74" y1="18" x2="74" y2="46"/><line x1="26" y1="44" x2="74" y2="44"/><line x1="26" y1="50" x2="74" y2="50"/><line x1="46" y1="50" x2="46" y2="84"/><line x1="54" y1="50" x2="54" y2="84"/></svg></div>
+<p class="name">Authority</p>
+<p class="rule">Every stroke doubled</p>
+</div>
+
+<div class="dialect-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="28" y1="18" x2="28" y2="46"/><line x1="50" y1="18" x2="50" y2="46"/><line x1="72" y1="18" x2="72" y2="46"/><line x1="28" y1="46" x2="72" y2="46"/><line x1="50" y1="46" x2="50" y2="84"/><line x1="23" y1="18" x2="33" y2="18" stroke-width="2"/><line x1="45" y1="18" x2="55" y2="18" stroke-width="2"/><line x1="67" y1="18" x2="77" y2="18" stroke-width="2"/><line x1="45" y1="84" x2="55" y2="84" stroke-width="2"/></svg></div>
+<p class="name">Church</p>
+<p class="rule">Cross-mark on every terminus</p>
+</div>
+
+<div class="dialect-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><line x1="28" y1="18" x2="28" y2="46" stroke-dasharray="4 4"/><line x1="50" y1="18" x2="50" y2="46" stroke-dasharray="4 4"/><line x1="72" y1="18" x2="72" y2="46" stroke-dasharray="4 4"/><line x1="28" y1="46" x2="72" y2="46" stroke-dasharray="4 4"/><line x1="50" y1="46" x2="50" y2="84" stroke-dasharray="4 4"/></svg></div>
+<p class="name">Scionfall</p>
+<p class="rule">Every stroke dashed</p>
+</div>
+
+<div class="dialect-card">
+<div class="render"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"><g transform="rotate(15 50 50)"><line x1="28" y1="18" x2="28" y2="46"/><line x1="50" y1="18" x2="50" y2="46"/><line x1="72" y1="18" x2="72" y2="46"/><line x1="28" y1="46" x2="72" y2="46"/><line x1="50" y1="46" x2="50" y2="84"/></g></svg></div>
+<p class="name">Chronoclasts</p>
+<p class="rule">15° clockwise rotation</p>
+</div>
+</div>
+
+<h3>Dialect transformation rules</h3>
+
+<table class="spec-table">
+<thead><tr><th>Faction</th><th>Rule</th><th>SVG implementation</th><th>Reading</th></tr></thead>
+<tbody>
+<tr><td><strong>Loop Authority</strong></td><td>Every stroke doubled</td><td>Each <code>&lt;line&gt;</code>/<code>&lt;path&gt;</code> rendered as two parallel strokes 4 units apart, weight reduced to 3</td><td>Redundancy as control. The Authority writes twice because the first inscription must be auditable.</td></tr>
+<tr><td><strong>Church</strong></td><td>Cross-mark at every terminus</td><td>Small perpendicular tick (weight 2, length 10) at every stroke endpoint</td><td>Ritual scarification of the letters themselves. Each word bears the marks of the priesthood that wrote it.</td></tr>
+<tr><td><strong>Scionfall</strong></td><td>Every stroke dashed</td><td><code>stroke-dasharray="4 4"</code> applied uniformly</td><td>The fading. Scionfall writes as if the inscription is already disappearing — as if the speaker is already gone.</td></tr>
+<tr><td><strong>Chronoclasts</strong></td><td>15° clockwise rotation of entire glyph</td><td><code>&lt;g transform="rotate(15 50 50)"&gt;</code> wrapping all strokes</td><td>The tilt. Chronoclasts write off-axis because their position is off-axis. The reader must turn their head to read it.</td></tr>
+</tbody>
+</table>
+
+<div class="callout">
+<strong>Generalization:</strong> Any glyph can render in any dialect by wrapping its body in the transformation rule. The pipeline is: base glyph SVG → apply dialect transform → output dialect SVG. No bespoke per-faction artwork is required for any composition. Each dialect adds approximately 1 line of code to the asset pipeline.
+</div>
+
+<!-- ============== 9. WRITING IN CTH ============== -->
+<p class="section-tag">Section IX</p>
+<h2>9. Writing in CTH</h2>
+
+<h3>Composing new concepts</h3>
+<p>A concept the system does not yet name can be written by composing atomics. The procedure:</p>
+<ol class="spec-list">
+<li>State the concept in plain English. Example: "the memory of a fracture."</li>
+<li>Identify the atomic components. Memory = Ψ ω; fracture = Δ. The concept therefore involves three atomics.</li>
+<li>Determine the relationship. Is the fracture <em>inside</em> the memory (compound), or did the memory <em>follow</em> the fracture (sequence)? If the former, render as MEMORY with Δ overlapped. If the latter, render as Δ followed by MEMORY.</li>
+<li>Test the inscription. If a reader who knows the alphabet can recover the original concept by decomposition, the inscription is valid. If they cannot, the composition is ambiguous and needs refinement.</li>
+</ol>
+
+<h3>Writing equations</h3>
+<p>Equations are sequences of glyphs joined by operators. The glyphs are the variables; the operators (=, ×, /, f( )) are typographic punctuation. To write a new equation:</p>
+<ol class="spec-list">
+<li>State the relationship in standard math. Example: "the rate of paradox accumulation equals burden times intervention."</li>
+<li>Replace each variable with its glyph composition. ΔPARADOX = BURDEN × I, with PARADOX rendered as Ψ-through-Δ and BURDEN as triple-μ.</li>
+<li>Render glyphs at uniform size (40px standard for inline equations; 56px for displayed equations).</li>
+<li>Set operators in monospace serif at 1.3rem, vertically centered with the glyphs.</li>
+</ol>
+
+<h3>The chronotech inscription</h3>
+<p>In-fiction, the chronotech weaponizes the alphabet by inscribing glyph sequences directly onto matter, energy, or waveforms. The inscription <em>is</em> the operation: writing ANCHOR onto an object bounds that object to its time-coordinate; writing COLLAPSE onto a field forces field failure; writing the Wave Equation onto a retrieval cuff stabilizes the wearer.</p>
+
+<p>The chronotech does not interpret the inscription. The inscription executes itself by being inscribed. This is why the equations must be precisely written: a missing terminal on a Ψ doesn't render the inscription harmless; it renders it different. Loop Authority's Doctrine 7.4.b governs which atomics may be inscribed by which rank of operator. Most field operatives can inscribe single-atomic protections (Ω alone for warding; τ alone for navigation). Only Senior Loopwrights are licensed for full equation inscriptions.</p>
+
+<h3>Canonical inscriptions to feature in the book</h3>
+<table class="spec-table">
+<thead><tr><th>Inscription</th><th>Glyph form</th><th>Where it appears</th></tr></thead>
+<tbody>
+<tr><td>Loop Authority warding</td><td>Ω with τ centered (i.e., ANCHOR in Authority dialect)</td><td>Retrieval cuffs, Authority field offices, induction tattoos</td></tr>
+<tr><td>Church benediction</td><td>Equation 4 in Church dialect, etched into temple lintels</td><td>Church of the Holy Second sanctuaries, ordination scrolls</td></tr>
+<tr><td>Scionfall Graceful Severance</td><td>Equation 2 in Scionfall dialect, blade engraving</td><td>Ritual blades, severance documents</td></tr>
+<tr><td>Chronoclast tattoo</td><td>Equation 3 in Chronoclast dialect, inner forearm</td><td>Chronoclast member identification</td></tr>
+<tr><td>The First Scar inscription (the Master Sigil unmade)</td><td>Master Sigil with one atomic replaced by E</td><td>Appendix H (Saul Files) closing page only</td></tr>
+</tbody>
+</table>
+
+<!-- ============== 10. ASSET LIBRARY ============== -->
+<p class="section-tag">Section X</p>
+<h2>10. Asset Library</h2>
+
+<h3>File naming convention</h3>
+<table class="spec-table">
+<thead><tr><th>Prefix</th><th>Category</th><th>Examples</th></tr></thead>
+<tbody>
+<tr><td><code>atom_</code></td><td>Atomic strokes (11 files)</td><td><code>atom_tau.svg</code>, <code>atom_mu.svg</code>, <code>atom_psi.svg</code></td></tr>
+<tr><td><code>concept_</code></td><td>Conceptual glyphs (12 files)</td><td><code>concept_anchor.svg</code>, <code>concept_memory.svg</code>, <code>concept_paradox.svg</code></td></tr>
+<tr><td><code>sigil_</code></td><td>Master and reserved sigils</td><td><code>sigil_master.svg</code></td></tr>
+<tr><td><code>dialect_</code></td><td>Dialect demonstrations (4 files, on Ψ base)</td><td><code>dialect_authority_psi.svg</code>, <code>dialect_church_psi.svg</code></td></tr>
+</tbody>
+</table>
+
+<h3>Color tokens</h3>
+<p>All SVGs use <code>stroke="currentColor"</code> and render in whatever color the parent context provides. Recommended tokens from the WOUND design bible:</p>
+<table class="spec-table">
+<thead><tr><th>Context</th><th>Token</th><th>Hex</th><th>Use</th></tr></thead>
+<tbody>
+<tr><td>Chen pages (cream)</td><td>EL-Burgundy</td><td><code>#6B3232</code></td><td>Primary stroke color for all conceptual glyphs</td></tr>
+<tr><td>Chen pages, mechanical</td><td>EL-Forest</td><td><code>#3D5A47</code></td><td>Anchor/Coherence procedure markers</td></tr>
+<tr><td>Chen pages, faded</td><td>EL-Annotation</td><td><code>#8B7355</code></td><td>Late-insertion ghost glyphs, staged variants</td></tr>
+<tr><td>Alan pages (void)</td><td>AL-Electric</td><td><code>#D4B886</code></td><td>All glyphs render in gold on Alan ground</td></tr>
+<tr><td>Faction signage</td><td>SF-Paradox</td><td><code>#A03030</code></td><td>Warning/intervention inscriptions only</td></tr>
+</tbody>
+</table>
+
+<h3>Typst usage</h3>
+<pre>// Inline glyph at body-text size, inheriting page color
+#image("glyphs/concept_anchor.svg", width: 6mm)
+
+// Glyph in burgundy regardless of context
+#text(fill: rgb("#6B3232"))[
+  #image("glyphs/concept_anchor.svg", width: 6mm)
+]
+
+// Chapter sigil at chapter opener (large, centered)
+#align(center)[
+  #text(fill: rgb("#6B3232"))[
+    #image("glyphs/concept_memory.svg", width: 28mm)
+  ]
+]
+
+// Margin marker (small, in the outer margin column)
+#place(right, dx: 22mm, dy: 0pt)[
+  #text(fill: rgb("#6B3232"))[
+    #image("glyphs/concept_anchor.svg", width: 6mm)
+  ]
+]
+
+// Equation render
+#align(center)[
+  #image("glyphs/atom_delta.svg", width: 8mm)
+  #image("glyphs/atom_psi.svg", width: 8mm)
+  #h(0.4em) = #h(0.4em) f(
+  #image("glyphs/atom_delta.svg", width: 8mm)
+  #image("glyphs/atom_tau.svg", width: 8mm)
+  #h(0.4em) × #h(0.4em)
+  #image("glyphs/atom_mu.svg", width: 8mm)
+  )
+]</pre>
+
+<h3>Size hierarchy in the book</h3>
+<table class="spec-table">
+<thead><tr><th>Context</th><th>Size</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>Chapter sigil (centered above title)</td><td>28mm</td><td>Largest production size</td></tr>
+<tr><td>Section sigil (within a chapter)</td><td>14mm</td><td>For subsection divisions</td></tr>
+<tr><td>Inline margin marker</td><td>6mm</td><td>The workhorse size; outer margin column</td></tr>
+<tr><td>Equation inline glyph</td><td>8–10mm</td><td>Matches body-text x-height plus padding</td></tr>
+<tr><td>Late-insertion ghost</td><td>5mm</td><td>Slightly under-saturation for "haunting" effect</td></tr>
+<tr><td>Faction dialect plate (Appendix A)</td><td>20mm</td><td>Four-dialect comparison spread</td></tr>
+</tbody>
+</table>
+
+<h3>Production checklist before layout</h3>
+<ol class="spec-list">
+<li>Verify all 28 SVG assets render correctly in your target software (Typst, InDesign, Affinity Publisher).</li>
+<li>Confirm <code>stroke="currentColor"</code> is respected by your renderer; if not, replace with explicit fill hex before deployment.</li>
+<li>Test thumbnail-size legibility: every glyph at 24px should still be identifiable. If two glyphs blur into each other at that size, the system has failed Law 2.</li>
+<li>Test the dialect transform pipeline: produce ANCHOR in all four dialects and confirm the same rule applies cleanly to a complex composition.</li>
+<li>Lock the Master Sigil to its three sacred locations only. Any other appearance dilutes the move.</li>
+</ol>
+
+<div class="footer">
+WOUND · Temporal Echoes / emiT · CTH Glyph System Brief · v1.0
+</div>
+
+</div>
+</body>
+</html>

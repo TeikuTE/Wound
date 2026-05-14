@@ -31,7 +31,13 @@ function ChenCh4({
     side: "recto",
     showWatermark: true,
     label: "CORE RESOLUTION & FACTION PRESSURE \xB7 opener"
-  }, /*#__PURE__*/React.createElement(ChenChapterHead, {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "chapter-sigil"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "drift",
+    size: "sigil",
+    stage: 0
+  })), /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-broken-compass.svg",
     number: "IV",
     title: "Core Resolution & Faction Pressure"
@@ -48,7 +54,16 @@ function ChenCh4({
   }, inline(`The Resolution Roll`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
-  }, /*#__PURE__*/React.createElement("p", null, inline(`When the outcome matters, you roll. Two six-sided dice, plus the relevant Mode, plus your Memory bonus if one applies.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`When the outcome matters, you roll. Two six-sided dice, plus the relevant Mode, plus your Memory bonus if one applies.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
+    n: 16,
+    act: 2
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "momentum",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` is success. `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` is success with cost. `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` is failure with an opening.`))), /*#__PURE__*/React.createElement(ChenMarginaliaInline, null, /*#__PURE__*/React.createElement("p", null, inline(`I want to say something about the `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` before we go further. New Echoes treat it as the bad result. It isn't. The `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` ends the question; the `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` changes it. Both move the story. Only one of them surprises you.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -88,7 +103,14 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`MEMORY BONUS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Active Memory matching context +2 Fading Memory matching context +1 Locked Memory matching context +3 No relevant Memory +0`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Active Memory matching context +2 Fading Memory matching context +1 Locked Memory matching context +3 No relevant Memory +0`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 16,
+      "text": "2d6 + Mode + Memory tag — same math as Forged in the Dark. Comfortable territory. I can play this in my sleep.",
+      "act": 2,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Core Resolution & Faction Pressure",
     pageNum: basePage + 3,
@@ -169,13 +191,29 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`STRUCTURED CORRECTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`After rolling all four Anomaly Tables, you may spend 1 Coherence to reroll one result. Choose which table to reroll (ERA, LOCATION, ANOMALY, or COMPLICATION), spend the Coherence, and accept the new result. You may do this once per displacement event.`))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`After rolling all four Anomaly Tables, you may spend 1 Coherence to reroll one result. Choose which table to reroll (ERA, LOCATION, ANOMALY, or COMPLICATION), spend the Coherence, and accept the new result. You may do this once per displacement event.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
+    n: 17,
+    act: 2
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "anchor",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Initial observations can contain measurement error. Temporal resonance creates interference. If you invest the Coherence to recalibrate, you can refine your assessment. This isn't changing reality. It's correcting your perception of what exists.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
   }, "\u2014 EC")), /*#__PURE__*/React.createElement(AlanIntrusionInline, {
     tier: tier
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Chen's into spending Coherence to make the dice lie more comfortably. Sure, it works. It's also false comfort.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Chen's into spending Coherence to make the dice lie more comfortably. Sure, it works. It's also false comfort.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 17,
+      "text": "Coherence is the only resource that matters. The rest are decoration.",
+      "act": 2,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Core Resolution & Faction Pressure",
     pageNum: basePage + 5,
@@ -235,7 +273,13 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`DISPLACEMENT COSTS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Every time you are Displaced — voluntarily or not — you lose Coherence from the wrenching dislocation.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Every time you are Displaced — voluntarily or not — you lose Coherence from the wrenching dislocation.`)), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "drift",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Displacement Type Coherence Cost`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -329,7 +373,13 @@ function ChenCh4({
     label: `CORE RESOLUTION & FACTIO · p.${basePage + 9}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Cause a Shattering deliberately +3`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Cause a Shattering deliberately +3`)), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "collapse",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`When in doubt: if people would write it down afterward, it's +2. If people would change how they understand history, it's +3. If only you noticed, it's +1.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -386,13 +436,29 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`Agent Encounters`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`When an Agent appears at Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, they bring an Offer. The form varies — surveillance, interference, demand, or direct confrontation. Not every Agent encounter is a fight.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`When an Agent appears at Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, they bring an Offer. The form varies — surveillance, interference, demand, or direct confrontation. Not every Agent encounter is a fight.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
+    n: 18,
+    act: 2
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "paradox",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You choose one of three responses:`))), /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Accept the Offer. Pay the cost, gain the benefit. Offers are trades, not rolls.`)), /*#__PURE__*/React.createElement("li", null, inline(`Refuse. They impose a consequence and Mark you.`)), /*#__PURE__*/React.createElement("li", null, inline(`Drive Off. Make a roll to force them away.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Offers are your non-roll path to Paradox relief. If Downtime moves aren't working, an Agent's trade is how you buy back control — by selling pieces of yourself.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Offers are your non-roll path to Paradox relief. If Downtime moves aren't working, an Agent's trade is how you buy back control — by selling pieces of yourself.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 18,
+      "text": "The Offers mechanic is mean. Real mean. Saul refused his first one (Loop Authority, of course) and now the Mark stays. I respect the design.",
+      "act": 2,
+      "late": false
+    }]
+  }))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-07",
     label: "CORE RESOLUTION & FACTION PRESSURE · spread 7"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -527,7 +593,13 @@ function ChenCh4({
     label: `CORE RESOLUTION & FACTIO · p.${basePage + 16}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`For each Asset with Stress marked, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + relevant Mode (usually OBSERVE for tech, SYNC for connections). On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: clear all Stress. On `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: clear 1 Stress. On `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`: no Stress cleared. If an Asset has all Stress marked, it's broken — spend a Downtime move repairing it (narrate the work, no roll) or replace it with a new Asset at Level 1.`))), /*#__PURE__*/React.createElement("ol", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`For each Asset with Stress marked, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + relevant Mode (usually OBSERVE for tech, SYNC for connections). On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: clear all Stress. On `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: clear 1 Stress. On `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`: no Stress cleared. If an Asset has all Stress marked, it's broken — spend a Downtime move repairing it (narrate the work, no roll) or replace it with a new Asset at Level 1.`)), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "burden",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Process Memory.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -576,7 +648,16 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`EXPANDED SAFETY TOOLS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`Temporal Echoes is a game about loss, memory, and identity erosion. Played at length, it will put you in proximity to real feelings you may not have scheduled time for. The following tools exist to help you engage with difficult material without getting genuinely hurt.`)))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`Temporal Echoes is a game about loss, memory, and identity erosion. Played at length, it will put you in proximity to real feelings you may not have scheduled time for. The following tools exist to help you engage with difficult material without getting genuinely hurt.`)), /*#__PURE__*/React.createElement(FootnoteMarker, {
+    n: 19,
+    act: 2
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "null",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Lines and Veils`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -586,7 +667,14 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Veils — content that may exist in the world of the game but is not described on-page. Violence happens, but you don't zoom in on it. A character dies, but you cut to the next scene. Fade to black is a legitimate move.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Your Lines and Veils can change between sessions. Cross things out. Add new ones. You are not locked in.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Your Lines and Veils can change between sessions. Cross things out. Add new ones. You are not locked in.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 19,
+      "text": "Safety tools written by someone who has used them. The \"talk to a person who exists in your life before you pick the book up again\" line is good advice. Going to ignore it because the baby finally went down and this is my window.",
+      "act": 2,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Core Resolution & Faction Pressure",
     pageNum: basePage + 19,

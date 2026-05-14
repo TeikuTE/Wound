@@ -51,7 +51,13 @@ function AppendixC({
     label: `ORACLE TABLES · p.${basePage + 0}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The Oracles are not random number generators. They are the Chronoverse talking back.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`The Oracles are not random number generators. They are the Chronoverse talking back.`)), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "ripple",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`C.1 — Anomaly Tables (Temporal Echoes)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

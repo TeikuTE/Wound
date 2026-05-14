@@ -31,7 +31,13 @@ function ChenCh2({
     side: "recto",
     showWatermark: true,
     label: "EXCAVATING YOUR ECHO \xB7 opener"
-  }, /*#__PURE__*/React.createElement(ChenChapterHead, {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "chapter-sigil"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "memory",
+    size: "sigil",
+    stage: 0
+  })), /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-handless-clock.svg",
     number: "II",
     title: "Excavating Your Echo"
@@ -46,7 +52,10 @@ function ChenCh2({
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Before you were Displaced, you had a singular, linear existence. You remember it as "ordinary", but that is just what singular and linear feel like when you have never known otherwise. I'm sorry that you will never know that comfort again.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Before you were Displaced, you had a singular, linear existence. You remember it as "ordinary", but that is just what singular and linear feel like when you have never known otherwise. I'm sorry that you will never know that comfort again.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
+    n: 10,
+    act: 1
+  }))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`This chapter is a recovery operation. Write down whatever you can, while you still can. Some of what I ask you for may already be gone. Mark the gaps. The shape of what's missing is still worth preserving.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -64,7 +73,14 @@ function ChenCh2({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`When and where were you from. New York City, 2043, the apartment with the broken radiator on East 38th. Edo Japan, 1750, the field where your master beat you for sitting incorrectly. The Martian survivor colony in 3048, the year before the first collapse, when the progenerators first started screaming.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Be specific past the point of comfort. You aren't building a setting. You're putting down on paper the exact piece of reality you are about to spend this manual losing. Make it hurt to write. If it doesn't hurt, write it again.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Be specific past the point of comfort. You aren't building a setting. You're putting down on paper the exact piece of reality you are about to spend this manual losing. Make it hurt to write. If it doesn't hurt, write it again.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 10,
+      "text": "Named my Echo Saul. First Active Memory: smell of rain on hot asphalt. Made me close my eyes for a minute.",
+      "act": 1,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Excavating Your Echo",
     pageNum: basePage + 3,

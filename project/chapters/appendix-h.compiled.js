@@ -57,7 +57,14 @@ function AppendixH({
     tier: tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Read these last. They will not change the rules. They will change what you understand the rules to be the record of.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`[FILES 001 THROUGH 015 INSERTED HERE FROM \`Final Scars and Fractures Guide\` AND \`Diagetic_Pieces_.txt\` — see project files for full text. Drop in numerical order with no other framing.]`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`[FILES 001 THROUGH 015 INSERTED HERE FROM \`Final Scars and Fractures Guide\` AND \`Diagetic_Pieces_.txt\` — see project files for full text. Drop in numerical order with no other framing.]`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 53,
+      "text": "His name was Saul. I named my Echo Saul. I did not know. I am not sure anymore that I named him at all.",
+      "act": 5,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Recovered Testimony — The Saul Files",
     pageNum: basePage + 1,

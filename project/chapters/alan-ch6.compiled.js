@@ -30,7 +30,13 @@ function AlanCh6({
   }), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     label: "alan-6 \xB7 opener"
-  }, /*#__PURE__*/React.createElement(AlanChapterHead, {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "chapter-sigil"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "null",
+    size: "sigil",
+    stage: 0
+  })), /*#__PURE__*/React.createElement(AlanChapterHead, {
     entry: 6,
     sub: "TERMINAL CONFIGURATIONS",
     coord: "[TEMPORAL LOG // ENTRY_006 // ERA: 74 // NODE: TERMINAL]"
@@ -48,7 +54,23 @@ function AlanCh6({
     pageNum: basePage + 2,
     coordStamp: "[LOG // ENTRY_006]",
     label: `TERMINAL CONFIGURATIONS · p.${basePage + 2}`
-  }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`The four configurations below are end-states. They are not character classes. They are eulogies that the system has not yet finished writing.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE VESSEL.`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`The Vessel is the end-state of an Echo who has spent everything they had on staying useful. The Vessel still walks, still solves problems, still completes objectives at a rate that exceeds most Echoes who are fully present. What is missing is the part of them that would have been able to say why any of it mattered. Vessels are functional. They are not haunted, because there is nothing left to haunt.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE PARADOX ENGINE.`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`The Paradox Engine is what happens when an Echo accepts the contradiction instead of resolving it. The Engine generates new paradoxes faster than the timeline can absorb them. They are extraordinarily powerful, but there's a price of course. Other Echoes who spend time near the Engine find their own coherence eroding. The Engine destabilizes everything and anyone in proximity, so survival is guaranteed, but connection is impossible.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE HOLLOWED.`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`The Hollowed is the Echo who chose Scionfall's mercy and survived it anyway. Hollowed have memory and consciousness intact, but no will to use either. Hollows are present, but that's about it. A Hollow will consent to whatever is asked of them. Hollows are at peace, but in the way that corpses are at peace.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE DISSOLVED.`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`The Dissolved is the Revel's favorite. Dissolved exist in superposition across multiple timeline branches, none of them the dominant strand. They are technically free. They are also not coherent enough to enjoy the freedom. When you encounter a Dissolved, you encounter four or five of them at once, each one an expression of who the Echo would have been on a path that was never taken. The encounter is beautiful. The encounter is also a person who was once a single thing, distributed thinly across versions of themselves, none of which is enough.`))))), /*#__PURE__*/React.createElement(AlPage, {
+  }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`The four configurations below are end-states. They are not character classes. They are eulogies that the system has not yet finished writing.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
+    n: 47,
+    act: 4
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "null",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE VESSEL.`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`The Vessel is the end-state of an Echo who has spent everything they had on staying useful. The Vessel still walks, still solves problems, still completes objectives at a rate that exceeds most Echoes who are fully present. What is missing is the part of them that would have been able to say why any of it mattered. Vessels are functional. They are not haunted, because there is nothing left to haunt.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE PARADOX ENGINE.`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`The Paradox Engine is what happens when an Echo accepts the contradiction instead of resolving it. The Engine generates new paradoxes faster than the timeline can absorb them. They are extraordinarily powerful, but there's a price of course. Other Echoes who spend time near the Engine find their own coherence eroding. The Engine destabilizes everything and anyone in proximity, so survival is guaranteed, but connection is impossible.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE HOLLOWED.`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`The Hollowed is the Echo who chose Scionfall's mercy and survived it anyway. Hollowed have memory and consciousness intact, but no will to use either. Hollows are present, but that's about it. A Hollow will consent to whatever is asked of them. Hollows are at peace, but in the way that corpses are at peace.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE DISSOLVED.`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`The Dissolved is the Revel's favorite. Dissolved exist in superposition across multiple timeline branches, none of them the dominant strand. They are technically free. They are also not coherent enough to enjoy the freedom. When you encounter a Dissolved, you encounter four or five of them at once, each one an expression of who the Echo would have been on a path that was never taken. The encounter is beautiful. The encounter is also a person who was once a single thing, distributed thinly across versions of themselves, none of which is enough.`)))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 47,
+      "text": "Mirror this morning. No face. +3 DISRUPT where the face should be.",
+      "act": 4,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     runHead: "ENTRY_006",
     pageNum: basePage + 3,
@@ -65,7 +87,13 @@ function AlanCh6({
     pageNum: basePage + 4,
     coordStamp: "[LOG // ENTRY_006]",
     label: `TERMINAL CONFIGURATIONS · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`INFECTIOUS →THE CARRIER You spread instability to everyone you touch. Mechanics: any NPC you interact with gains +1 Paradox, spend 3 Coherence to force Displacement on a target, Faction Agents prioritize you above all others. Cost: everyone you care about becomes contaminated. You're contagion. You're alone.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`TRANSCENDENT →THE OBSERVER Four-dimensional consciousness. Mechanics: immune to Faction intervention (they can't perceive you correctly), rewrite one roll per session to any result, Navigate at will without rolling. Cost: you can't meaningfully interact with three-dimensional beings anymore. You're a ghost watching through glass.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`INFECTIOUS →THE CARRIER You spread instability to everyone you touch. Mechanics: any NPC you interact with gains +1 Paradox, spend 3 Coherence to force Displacement on a target, Faction Agents prioritize you above all others. Cost: everyone you care about becomes contaminated. You're contagion. You're alone.`)), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "ripple",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`TRANSCENDENT →THE OBSERVER Four-dimensional consciousness. Mechanics: immune to Faction intervention (they can't perceive you correctly), rewrite one roll per session to any result, Navigate at will without rolling. Cost: you can't meaningfully interact with three-dimensional beings anymore. You're a ghost watching through glass.`))), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
   }, inline(`The Exit Question`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Before you stabilize into your Terminal Configuration, answer one question in writing:`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`What was the last thing you cared about that wasn't useful?`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`A person. A place. A value. A ritual. Something you did because it mattered, not because it worked. Write it in your Log. Then choose one:`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PRESERVE IT`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`It becomes your Final Anchor. You may end the game with one scene where you protect, honor, or return to it. Cost: you Dissolve immediately afterward. The preservation costs your existence. This is one ending — meaning preserved, self sacrificed.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`DELETE IT`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`You stabilize into your Terminal Configuration completely. Cost: you can never again take SYNC actions that aren't manipulative. All connection becomes transaction. Rename SYNC to INTERFACE at Corruption Vector 0. This is the other ending — self preserved, meaning sacrificed.`)))), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
@@ -116,7 +144,14 @@ function AlanCh6({
     className: "al-fragment"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Which is why my way makes more sense.`)), /*#__PURE__*/React.createElement("div", {
     className: "al-fragment__sign"
-  }, "// AR"))), /*#__PURE__*/React.createElement(AlPage, {
+  }, "// AR")), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 49,
+      "text": "He remembers two letters of a friend's name. I have stopped trying to remember Saul's. Maybe he was always mine.",
+      "act": 5,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     runHead: "ENTRY_006",
     pageNum: basePage + 9,

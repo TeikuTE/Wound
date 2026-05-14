@@ -58,7 +58,7 @@ function AppendixE({ tweaks, basePage = 1 }) {
     </Spread>
     <Spread id="appendix-e-02" label={"CAPTIVITY VIGNETTES · spread 2"}>
       <ChPage side="verso" runHead={"Captivity Vignettes"} pageNum={basePage + 2} label={`CAPTIVITY VIGNETTES · p.${basePage + 2}`}>
-        <div className="el-body"><p>{inline(`the effort. Try again next iteration. After 10 iterations: loop releases you automatically. All Active Memories become Fading. Reduce Paradox by `)}<b>{inline(`1d6`)}</b>{inline(`. Gain Scar: Recursive Doubt.`)}</p></div>
+        <div className="el-body"><p>{inline(`the effort. Try again next iteration. After 10 iterations: loop releases you automatically. All Active Memories become Fading. Reduce Paradox by `)}<b>{inline(`1d6`)}</b>{inline(`. Gain Scar: Recursive Doubt.`)}</p><span className="gly-inline-row"><Glyph name="recursion" size="inline" stage={0} /></span></div>
         <h4 className="el-subsection">{inline(`Scionfall: The Nullwave Protocol`)}</h4>
         <div className="el-body"><p>{inline(`A Scionfall Herald has manifested. The Nullwave field expands around you. Reality is draining of color, sound, meaning. The Herald offers cessation one final time. Define what you're trying to hold onto: a specific Memory, a person you're trying to reach, a task you're trying to complete, or your own sense of purpose.`)}</p></div>
         <h4 className="el-subsection">{inline(`THE DRAIN`)}</h4>

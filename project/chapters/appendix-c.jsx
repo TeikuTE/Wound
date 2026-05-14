@@ -18,7 +18,7 @@ function AppendixC({ tweaks, basePage = 1 }) {
     </Spread>
     <Spread id="appendix-c-01" label={"ORACLE TABLES · spread 1"}>
       <ChPage side="verso" runHead={"Oracle Tables"} pageNum={basePage + 0} label={`ORACLE TABLES · p.${basePage + 0}`}>
-        <div className="el-body"><p>{inline(`The Oracles are not random number generators. They are the Chronoverse talking back.`)}</p></div>
+        <div className="el-body"><p>{inline(`The Oracles are not random number generators. They are the Chronoverse talking back.`)}</p><span className="gly-inline-row"><Glyph name="ripple" size="inline" stage={0} /></span></div>
         <h4 className="el-subsection">{inline(`C.1 — Anomaly Tables (Temporal Echoes)`)}</h4>
         <div className="el-body"><p>{inline(`Roll ERA + LOCATION + ANOMALY + COMPLICATION when Navigation fails, when forced displacement occurs, or when you arrive in a completely new era for the first time.`)}</p></div>
         <h4 className="el-subsection">{inline(`Era Table (**d100**)`)}</h4>

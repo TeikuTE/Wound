@@ -9,7 +9,9 @@ const path = require('node:path');
 const fs = require('node:fs');
 
 const URL = 'http://localhost:8765/WOUND%20V12.html?print';
-const OUT = path.join(__dirname, 'WOUND_V12.pdf');
+// Round 3 ships as a separate file so the original premium PDF stays available
+// for cross-reference.
+const OUT = path.join(__dirname, 'WOUND V12 - Art.pdf');
 
 (async () => {
   console.log('launching chrome…');

@@ -9,6 +9,7 @@ function AlanCh5({ tweaks, basePage = 1 }) {
     <Spread id="alan-5-opener" label={"FRACTURE EVENTS · opener"}>
       <AlPage side="verso" label="(blank)" />
       <AlPage side="recto" label="alan-5 · opener">
+        <div className="chapter-sigil"><Glyph name="collapse" size="sigil" stage={0} /></div>
         <AlanChapterHead entry={5} sub="FRACTURE EVENTS" coord="[TEMPORAL LOG // ENTRY_005 // ERA: 62 // NODE: FRACTURE]" />
         <AlanFragment top={170} right={4} rotate={-3} size={9}>// 2287.240.0001</AlanFragment>
       </AlPage>
@@ -23,6 +24,7 @@ function AlanCh5({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Roll on the appropriate Oracle. Pay the immediate cost: lose 1 Coherence, one Scar becomes Fading, mark 1 Asset Stress.`)}</p></AlanBody>
         <AlanBody><p>{inline(`PHASE 2: ESCALATION`)}</p></AlanBody>
         <AlanBody><p>{inline(`If Paradox `)}<b>{inline(`10+`)}</b>{inline(` (Breach), Faction Intervention occurs during Phase 2. Roll `)}<b>{inline(`d4`)}</b>{inline(`: 1 = Church, 2 = Authority, 3 = Scionfall, 4 = Chronoclasts. Or pick whichever makes narrative sense.`)}</p></AlanBody>
+        <FinderFootnotes notes={[{"n":45,"text":"[PARADOX glyph] every time I try to write my wife's name.","act":4,"late":false}]} />
       </AlPage>
       <AlPage side="recto" runHead={"ENTRY_005"} pageNum={basePage + 3} coordStamp={"[LOG // ENTRY_005]"} label={`FRACTURE EVENTS · p.${basePage + 3}`}>
         <AlanBody><p>{inline(`CHURCH INTERVENTION (emiT) Templars arrive. They want your Scars — the weaponized trauma you've been accumulating is holy to them. Roll `)}<b>{inline(`2d6`)}</b>{inline(` + DISRUPT or ENDURE (`)}<b>{inline(`Difficulty 10`)}</b>{inline(`).`)}</p></AlanBody>

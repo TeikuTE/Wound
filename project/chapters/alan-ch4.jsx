@@ -9,6 +9,7 @@ function AlanCh4({ tweaks, basePage = 1 }) {
     <Spread id="alan-4-opener" label={"FACTION PRESSURE · opener"}>
       <AlPage side="verso" label="(blank)" />
       <AlPage side="recto" label="alan-4 · opener">
+        <div className="chapter-sigil"><Glyph name="ripple" size="sigil" stage={0} /></div>
         <AlanChapterHead entry={4} sub="FACTION PRESSURE" coord="[TEMPORAL LOG // ENTRY_004 // ERA: 50 // NODE: FACTION]" />
         <AlanFragment top={170} right={4} rotate={-3} size={9}>// 2287.192.0001</AlanFragment>
       </AlPage>
@@ -23,6 +24,7 @@ function AlanCh4({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Offers are your non-roll path to Paradox relief. Sell pieces of yourself to regain control.`)}</p></AlanBody>
         <AlanBody><p>{inline(`AGENT OFFER / COST`)}</p></AlanBody>
         <AlanBody><p>{inline(`Church Templar Offer: Take 1 Mutation + lose 2 Coherence →Reduce Paradox by 3 Refused: Lose 1 Coherence. Marked — next encounter automatic. Authority Corrector Offer: Normalize 1 Scar (bonus drops to +0) →Reduce Paradox by 2, clear Asset Stress Refused: -1 to Navigation until Repreival. Marked. Scionfall Herald Offer: Character retired. Game ends peacefully. Refused: -1 ENDURE while present. Marked — returns during next Crisis. Chronoclast Remixer Offer: +2 Paradox now →+3 to next DISRUPT roll (Complication guaranteed) Refused: Roll Timeline Shift Oracle. Marked — brings gift next time.`)}</p></AlanBody>
+        <FinderFootnotes notes={[{"n":43,"text":"The bells. They are in the vents now. Not in the prose. Chen — if you can hear me — tell me how to SYNC. I am losing the frequency.","act":4,"late":false},{"n":44,"text":"The Church wants me to take the ritual. The Authority wants me to take the loop. Scionfall wants me to take the dignity-of-stillness. Rose wants me to take the needle. None of them want me to put the book down.","act":4,"late":false}]} />
       </AlPage>
       <AlPage side="recto" runHead={"ENTRY_004"} pageNum={basePage + 3} coordStamp={"[LOG // ENTRY_004]"} label={`FACTION PRESSURE · p.${basePage + 3}`}>
         <h4 className="al-subsection">{inline(`PATTERN RECOGNITION (PARADOX 7+)`)}</h4>

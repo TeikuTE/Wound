@@ -48,7 +48,16 @@ function ChenCh7({
   }, inline(`THE HOLDING ACTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Once per session, when you would suffer a consequence you cannot afford to bear in this scene, you may declare the Holding Action. The consequence does not vanish. It defers — by exactly one scene, no longer.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Once per session, when you would suffer a consequence you cannot afford to bear in this scene, you may declare the Holding Action. The consequence does not vanish. It defers — by exactly one scene, no longer.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
+    n: 28,
+    act: 3
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "burden",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Holding Action is not a tool. It is a refusal. You are telling the timeline that this is not the right moment. The timeline accepts this once. It does not forget you asked. The deferred consequence will arrive, intensified, in the scene that follows. You buy yourself the room to handle it on better ground; you do not avoid handling it.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -86,7 +95,14 @@ function ChenCh7({
     className: "resolution-title"
   }, inline(`No reduction`)), /*#__PURE__*/React.createElement("div", {
     className: "resolution-text"
-  }, inline(`But you don't generate more.`)))))), /*#__PURE__*/React.createElement(ChPage, {
+  }, inline(`But you don't generate more.`))))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 28,
+      "text": "The Holding Action is the most honest mechanic in the book. You can refuse the consequence once. Once. Then the bill comes due. I have used it twice this week in real life.",
+      "act": 3,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Advanced Systems",
     pageNum: basePage + 3,
@@ -232,7 +248,16 @@ function ChenCh7({
     label: `ADVANCED SYSTEMS · p.${basePage + 6}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
+    n: 29,
+    act: 3
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "burden",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`To repair, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE (for Chrono-Tech) or ENDURE (for Echo Traits):`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -264,7 +289,14 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Reinforce Anchor: see Anchor Reinforcement above`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Reduce Paradox: see Stabilize Reality Move above`))), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Ludum longum lude.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Reduce Paradox: see Stabilize Reality Move above`))), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Ludum longum lude.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
+    notes: [{
+      "n": 29,
+      "text": "My watch stopped today. Not the battery. The hands melted into the face. Checked the sheet — Saul's Asset Stress is maxed. The math knew before I did.",
+      "act": 3,
+      "late": false
+    }]
+  })), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Advanced Systems",
     pageNum: basePage + 7,

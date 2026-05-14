@@ -9,6 +9,7 @@ function ChenCh1({ tweaks, basePage = 1 }) {
     <Spread id="chen-1-opener" label={"UNDERSTANDING DISPLACEMENT · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label="UNDERSTANDING DISPLACEMENT · opener">
+        <div className="chapter-sigil"><Glyph name="momentum" size="sigil" stage={0} /></div>
         <ChenChapterHead icon="assets/chen-icon-broken-compass.svg" number="I" title="Understanding Displacement" />
       </ChPage>
     </Spread>
@@ -32,7 +33,7 @@ function ChenCh1({ tweaks, basePage = 1 }) {
     </Spread>
     <Spread id="chen-1-03" label={"UNDERSTANDING DISPLACEMENT · spread 3"}>
       <ChPage side="verso" runHead={"Understanding Displacement"} pageNum={basePage + 4} label={`UNDERSTANDING DISPLACEME · p.${basePage + 4}`}>
-        <div className="el-body"><p>{inline(`These are the three questions I have never met an Echo who could avoid for long.`)}</p></div>
+        <div className="el-body"><p>{inline(`These are the three questions I have never met an Echo who could avoid for long.`)}<FootnoteMarker n={8} act={1} /></p></div>
         <div className="el-body"><p>{inline(`Every Echo must eventually answer these:`)}</p></div>
         <ul className="el-list"><li>{inline(`Can I return to my origin?`)}</li><li>{inline(`Should I preserve my original identity?`)}</li><li>{inline(`What happens if I forget who I was?`)}</li></ul>
         <AlanIntrusionInline tier={tier}><p>{inline(`She's wrong about the order. The first question every Echo asks is "what year is it." The second is "where am I." She skips both because she had a lab and is into math. Most people have neither.`)}</p></AlanIntrusionInline>
@@ -41,6 +42,7 @@ function ChenCh1({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Four major Factions have emerged from the Chronoverse, each with their own reasons for hunting you.`)}</p></div>
         <div className="el-body"><p>{inline(`The Church believes suffering stabilizes time. They want your pain. The Loop Authority sees recursion as correction. They want you normalized. Scionfall believes cessation is mercy. They will seduce you with kindness. The Tangled Revel shatter Echoes into knotted masterpieces.`)}</p></div>
         <div className="el-body"><p>{inline(`Accepting their offers is drinking from a poisoned chalice. Rejecting their help is drowning in a poisoned pool.`)}</p></div>
+        <FinderFootnotes notes={[{"n":8,"text":"Yes Chen, the three questions are also in every TTRPG essay since 2018. Solid framing though.","act":1,"late":false}]} />
       </ChPage>
       <ChPage side="recto" runHead={"Understanding Displacement"} pageNum={basePage + 5} label={`UNDERSTANDING DISPLACEME · p.${basePage + 5}`}>
         <aside className="el-reflection el-reflection--fieldnote"><p>{inline(`I've heard Echoes call the Factions evil. That's a mistake and an understatement. Each Faction has looked at the mathematics of temporal displacement and drawn a different answer to the same question.`)}</p><p>{inline(`The Church is correct that focused belief collapses probability. The Authority is right that recursion normalizes waveforms. Scionfall is fundamentally correct that cessation ends suffering. The Revel are right that instability creates infinite possibility.`)}</p><p>{inline(`I've worked with the Loop Authority dozens of times. They are at least coherent and dependable.`)}</p><div className="el-sign">— EC</div></aside>

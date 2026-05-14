@@ -9,6 +9,7 @@ function AlanCh1({ tweaks, basePage = 1 }) {
     <Spread id="alan-1-opener" label={"AFTER THE TUTORIAL · opener"}>
       <AlPage side="verso" label="(blank)" />
       <AlPage side="recto" label="alan-1 · opener">
+        <div className="chapter-sigil"><Glyph name="drift" size="sigil" stage={0} /></div>
         <AlanChapterHead entry={1} sub="AFTER THE TUTORIAL" coord="[TEMPORAL LOG // ENTRY_001 // ERA: 14 // NODE: AFTER]" />
         <AlanFragment top={170} right={4} rotate={-3} size={9}>// 2287.048.0001</AlanFragment>
       </AlPage>
@@ -23,6 +24,7 @@ function AlanCh1({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Most displacement stories are about the scramble to return, the preservation, the fight to stay intact. This one starts after that story ends.`)}</p></AlanBody>
         <AlanBody><p>{inline(`You've been contaminated long enough to know: identity erodes no matter what you do. Memories fade even when you fight. The person you were couldn't survive what you've survived. You've changed. You're still changing.`)}</p></AlanBody>
         <AlanBody><p>{inline(`You've probably spent years asking how do I stop myself from changing. That's the wrong question. The only question that matters is: what am I becoming, and how can I use it?`)}</p></AlanBody>
+        <FinderFootnotes notes={[{"n":35,"text":"1944. The building. Four people. I have only been reading for six weeks and I already know this story by its silhouette. The book is teaching me its own grammer.","act":3,"late":false}]} />
       </AlPage>
       <AlPage side="recto" runHead={"ENTRY_001"} pageNum={basePage + 3} coordStamp={"[LOG // ENTRY_001]"} label={`AFTER THE TUTORIAL · p.${basePage + 3}`}>
         <h4 className="al-subsection">{inline(`The Wreck: What You Are`)}</h4>

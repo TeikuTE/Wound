@@ -22,6 +22,7 @@ function AppendixH({ tweaks, basePage = 1 }) {
         <Zaaken><p>{inline(`He kept looking. That is the thing the original could not do. The original froze. The journalist who took his name could not stop. He is in this book because he earned a place in it.`)}</p><p>{inline(`— Fragment`)}</p></Zaaken>
         <AlanIntrusionInline tier={tier}><p>{inline(`Read these last. They will not change the rules. They will change what you understand the rules to be the record of.`)}</p></AlanIntrusionInline>
         <div className="el-body"><p>{inline(`[FILES 001 THROUGH 015 INSERTED HERE FROM \`Final Scars and Fractures Guide\` AND \`Diagetic_Pieces_.txt\` — see project files for full text. Drop in numerical order with no other framing.]`)}</p></div>
+        <FinderFootnotes notes={[{"n":53,"text":"His name was Saul. I named my Echo Saul. I did not know. I am not sure anymore that I named him at all.","act":5,"late":false}]} />
       </ChPage>
       <ChPage side="recto" runHead={"Recovered Testimony — The Saul Files"} pageNum={basePage + 1} label={`RECOVERED TESTIMONY — TH · p.${basePage + 1}`}>
         

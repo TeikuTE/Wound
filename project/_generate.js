@@ -21,6 +21,80 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
+// ── Art-layer manifest (round 3: glyphs + Finder footnotes) ──────────
+// Optional; absent in non-art builds. Parsed from wound_master_spec.md.
+let ART = { meta: { chapterSigils: {}, sectionSigils: {} }, placements: [] };
+try {
+  ART = JSON.parse(fs.readFileSync(path.join(__dirname, 'art-manifest.json'), 'utf8'));
+  console.error(`[art] manifest loaded: ${ART.placements.length} placements, ${Object.keys(ART.meta.chapterSigils).length} chapter sigils`);
+} catch (e) {
+  console.error('[art] no manifest — art layer disabled');
+}
+
+// Map manifest section names ("Chapter I — …") to generator section IDs ("chen-1").
+const SECTION_MAP = {
+  'Foreword — "A Note Before You Begin"': 'front',
+  'How to Use This Book':                 'front',
+  'Title Page':                           'front',
+  'Chapter I — Time Is an Ocean':                 'chen-1',
+  'Chapter II — Excavating Your Echo':            'chen-2',
+  'Chapter III — Opening the Session':            'chen-3',
+  'Chapter IV — The Resolution Roll':             'chen-4',
+  'Chapter V — Architecture of Self':             'chen-5',
+  'Chapter VI — Crisis Management':               'chen-6',
+  'Chapter VII — Advanced Systems':               'chen-7',
+  'Chapter VIII — Campaign Structures':           'chen-8',
+  'Interlude — Playing Both':                     'interlude',
+  'ENTRY_001 — After the Tutorial':               'alan-1',
+  'ENTRY_002 — Calibration':                      'alan-2',
+  'ENTRY_003 — Operational Procedures':           'alan-3',
+  'ENTRY_004 — Faction Pressure':                 'alan-4',
+  'ENTRY_005 — Fracture Events':                  'alan-5',
+  'ENTRY_006 — Terminal Configurations':          'alan-6',
+  'Alan on Zaaken':                               'alan-6',
+  'Appendix A — The Harmonic Codex':              'appendix-a',
+  'Appendix B — Asset Catalogs':                  'appendix-b',
+  'Appendix C — Oracle Tables':                   'appendix-c',
+  'Appendix D — The Factions':                    'appendix-d',
+  'Appendix D.1 — Field Intelligence':            'appendix-d-1',
+  'Appendix E — Captivity Vignettes':             'appendix-e',
+  'Appendix F — Examples of Play':                'appendix-f',
+  'Appendix G — Mutations':                       'appendix-g',
+  'Appendix H — Saul Files':                      'appendix-h',
+};
+
+function artNorm(s) {
+  return s.toLowerCase()
+    .replace(/[‘’]/g, "'")
+    .replace(/[^\w\s']/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+const ART_LOOKUP = ART.placements.map(p => ({
+  ...p,
+  needle: artNorm(p.passage).split(' ').slice(0, 7).join(' '),
+}));
+function matchPlacementsForBlock(blockText, sectionId) {
+  if (!ART_LOOKUP.length) return [];
+  const hay = artNorm(blockText);
+  const matches = [];
+  for (const p of ART_LOOKUP) {
+    if (!p.needle || p.needle.length < 12) continue;
+    const expected = SECTION_MAP[p.section];
+    if (expected && expected !== sectionId) continue;
+    if (hay.includes(p.needle)) matches.push(p);
+  }
+  return matches;
+}
+
+// Lookup chapter-sigil glyph for a section id (returns {glyph, size} or null).
+function chapterSigilFor(sectionId) {
+  for (const [name, sec] of Object.entries(ART.meta.chapterSigils)) {
+    if (SECTION_MAP[name] === sectionId) return sec;
+  }
+  return null;
+}
+
 // ────────────────────────────────────────────────────────────────────────
 // 1. Markdown parser → typed block stream
 // ────────────────────────────────────────────────────────────────────────
@@ -516,6 +590,24 @@ function detectResolutionBlocks(blocks) {
 function paginate(sectionBlocks, host, opts = {}) {
   sectionBlocks = detectMemos(sectionBlocks);
   sectionBlocks = detectResolutionBlocks(sectionBlocks);
+
+  // Art-layer annotation: tag each block with any placements that match.
+  // We do this here (after memo/resolution coalescing) so the annotation
+  // stays with the actual rendered block.
+  if (opts.sectionId) {
+    for (const b of sectionBlocks) {
+      const text = b.kind === 'p' ? b.text
+                : b.kind === 'voice' ? b.body
+                : b.kind === 'h2' || b.kind === 'h3' || b.kind === 'h4' || b.kind === 'pseudo-h3' ? b.text
+                : null;
+      if (!text) continue;
+      const matches = matchPlacementsForBlock(text, opts.sectionId);
+      if (matches.length) {
+        b._art = matches;
+      }
+    }
+  }
+
   let budget = opts.budget || 690;       // px of content per page
   const pages = [];
   let curr = [];
@@ -644,6 +736,54 @@ function renderInline(text) {
   return parts.join('');
 }
 
+// Map a glyph manifest name to <Glyph> props for emission.
+// Handles atomic vs concept naming + faction dialects.
+function glyphProps(g) {
+  // Names like 'memory_at_stage_1_—_fading' need cleanup.
+  const cleanName = String(g.glyph || '').replace(/_at_stage.*$/i, '').replace(/_.*$/, '').toLowerCase();
+  // size string mapping
+  let size = 'inline';
+  if (g.size >= 24) size = 'sigil';
+  else if (g.size >= 12) size = 'section';
+  else if (g.size <= 5) size = 'ghost';
+  const props = {
+    name: cleanName,
+    size,
+    stage: g.stage || 0,
+  };
+  if (g.late) props.late = true;
+  // Detect dialect
+  if (/authority|church|scionfall|chronoclast/.test(g.glyph || '')) {
+    const m = (g.glyph || '').match(/(authority|church|scionfall|chronoclast)/i);
+    if (m) props.faction = m[1].toLowerCase();
+  }
+  return props;
+}
+
+function renderArtForBlock(b) {
+  if (!b._art) return { fnMarkers: '', inlineGlyphs: '' };
+  const markers = [];
+  const glyphs = [];
+  for (const p of b._art) {
+    for (const fn of (p.footnotes || [])) {
+      if (fn.late) continue;
+      markers.push(`<FootnoteMarker n={${fn.n}} act={${fn.act}} />`);
+    }
+    for (const g of (p.glyphs || [])) {
+      if (g.late) continue;
+      const props = glyphProps(g);
+      const attrs = Object.entries(props).map(([k, v]) =>
+        typeof v === 'string' ? `${k}="${v}"` : `${k}={${JSON.stringify(v)}}`
+      ).join(' ');
+      glyphs.push(`<Glyph ${attrs} />`);
+    }
+  }
+  return {
+    fnMarkers: markers.join(''),
+    inlineGlyphs: glyphs.length ? `<span className="gly-inline-row">${glyphs.join('')}</span>` : '',
+  };
+}
+
 function renderBlocks(blocks, host, opts = {}) {
   const out = [];
   let firstParaSeen = !opts.dropCap;  // toggle for first paragraph drop-cap
@@ -683,18 +823,20 @@ function renderBlocks(blocks, host, opts = {}) {
         break;
       }
       case 'p': {
+        // Art-layer additions for this block (if any)
+        const artAfter = renderArtForBlock(b);
         if (host === 'chen') {
           if (!firstParaSeen) {
-            out.push(`<div className="el-body el-dropcap" data-firstpara><p>${renderInline(b.text)}</p></div>`);
+            out.push(`<div className="el-body el-dropcap" data-firstpara><p>${renderInline(b.text)}${artAfter.fnMarkers}</p>${artAfter.inlineGlyphs}</div>`);
             firstParaSeen = true;
           } else {
-            out.push(`<div className="el-body"><p>${renderInline(b.text)}</p></div>`);
+            out.push(`<div className="el-body"><p>${renderInline(b.text)}${artAfter.fnMarkers}</p>${artAfter.inlineGlyphs}</div>`);
           }
         } else if (host === 'alan') {
-          out.push(`<AlanBody><p>${renderInline(b.text)}</p></AlanBody>`);
+          out.push(`<AlanBody><p>${renderInline(b.text)}${artAfter.fnMarkers}</p>${artAfter.inlineGlyphs}</AlanBody>`);
         } else {
           // interlude
-          out.push(`<div className="interlude-body"><p>${renderInline(b.text)}</p></div>`);
+          out.push(`<div className="interlude-body"><p>${renderInline(b.text)}${artAfter.fnMarkers}</p>${artAfter.inlineGlyphs}</div>`);
         }
         break;
       }
@@ -845,7 +987,7 @@ function emitSpreads(section) {
   const isAppendix = section.id.startsWith('appendix-');
   const isBack    = section.id.startsWith('backmatter-');
 
-  const pages = paginate(blocks, host, { budget: isAppendix ? 700 : 660 });
+  const pages = paginate(blocks, host, { budget: isAppendix ? 700 : 660, sectionId: section.id });
 
   const spreads = [];
   let spreadIdx = 0;
@@ -858,7 +1000,6 @@ function emitSpreads(section) {
     if (host === 'chen') {
       const icon = chooseChenIcon(num);
       const titleStr = chenTitleCase(openerTitle);
-      // JSX attribute strings can't contain " — use a JS expression if so.
       const titleAttr = titleStr.includes('"')
         ? `title={${JSON.stringify(titleStr)}}`
         : `title="${titleStr}"`;
@@ -866,22 +1007,33 @@ function emitSpreads(section) {
       const labelAttr = labelStr.includes('"')
         ? `label={${JSON.stringify(labelStr)}}`
         : `label="${labelStr.replace(/"/g, '&quot;')}"`;
+      // Art-layer chapter sigil
+      const sigil = chapterSigilFor(section.id);
+      const sigilJSX = sigil
+        ? `<div className="chapter-sigil"><Glyph name="${sigil.glyph}" size="sigil" stage={${sigil.stage || 0}} /></div>`
+        : '';
       spreads.push({
         idTag: section.id + '-opener',
         label: labelStr,
         verso: `<ChPage side="verso" label="(blank)" />`,
-        recto: `<ChPage side="recto" showWatermark ${labelAttr.replace('label', 'label')}>
+        recto: `<ChPage side="recto" showWatermark ${labelAttr}>
+  ${sigilJSX}
   <ChenChapterHead icon="${icon}" number="${roman}" ${titleAttr} />
 </ChPage>`,
       });
     } else {
       const coordEra = 14 + (num - 1) * 12;
       const subTag = openerTitle.replace(/^(chapter\s+\d+:?\s*)/i, '').toUpperCase().slice(0, 28);
+      const sigil = chapterSigilFor(section.id);
+      const sigilJSX = sigil
+        ? `<div className="chapter-sigil"><Glyph name="${sigil.glyph}" size="sigil" stage={${sigil.stage || 0}} /></div>`
+        : '';
       spreads.push({
         idTag: section.id + '-opener',
         label: `${openerTitle.toUpperCase()} · opener`,
         verso: `<AlPage side="verso" label="(blank)" />`,
         recto: `<AlPage side="recto" label="${section.id} · opener">
+  ${sigilJSX}
   <AlanChapterHead entry={${num}} sub=${JSON.stringify(subTag)} coord="[TEMPORAL LOG // ENTRY_${String(num).padStart(3,'0')} // ERA: ${coordEra} // NODE: ${subTag.split(/\s+/)[0]}]" />
   <AlanFragment top={170} right={4} rotate={-3} size={9}>// 2287.${String(num*48).padStart(3,'0')}.0001</AlanFragment>
 </AlPage>`,
@@ -944,10 +1096,36 @@ function emitSpreads(section) {
     const pageBaseV = `basePage + ${spreadIdx * 2 + 0}`;
     const pageBaseR = `basePage + ${spreadIdx * 2 + 1}`;
 
+    // Collect footnotes per page (from any block whose _art carries them).
+    const collectFootnotes = (blocks) => {
+      const notes = [];
+      const seen = new Set();
+      for (const b of blocks) {
+        if (!b._art) continue;
+        for (const p of b._art) {
+          for (const fn of (p.footnotes || [])) {
+            if (seen.has(fn.n) || fn.late) continue;  // late notes added in late-insertion pass
+            seen.add(fn.n);
+            notes.push(fn);
+          }
+        }
+      }
+      return notes.sort((a, b) => a.n - b.n);
+    };
+    const versoNotes = collectFootnotes(versoBlocks);
+    const rectoNotes = collectFootnotes(rectoBlocks);
+
     // First body page of a chapter gets a drop cap on its first paragraph.
     const dropOnFirst = isChapter && pi === 0;
     const versoJSX = renderBlocks(versoBlocks, host, { dropCap: dropOnFirst });
     const rectoJSX = renderBlocks(rectoBlocks, host, { dropCap: false });
+
+    // Append a FinderFootnotes block at the page bottom if there are any.
+    const fnJSX = (notes) => notes.length
+      ? `<FinderFootnotes notes={${JSON.stringify(notes)}} />`
+      : '';
+    if (versoNotes.length) versoJSX.push(fnJSX(versoNotes));
+    if (rectoNotes.length) rectoJSX.push(fnJSX(rectoNotes));
 
     const verso = renderPage('verso', host, openerTitle, section, versoJSX, pageBaseV);
     const recto = renderPage('recto', host, openerTitle, section, rectoJSX, pageBaseR);

@@ -441,6 +441,70 @@ function Zaaken({
   }, children);
 }
 
+// ── CTH glyphs (round 3 art layer) ───────────────────────────────────
+// Each glyph is an SVG in assets/glyphs/concept_NAME.svg (or atom_…, sigil_, dialect_).
+// Render with `currentColor` stroke so the parent context picks the hex.
+function Glyph({
+  name,
+  // canonical glyph name: 'anchor', 'memory', 'paradox', etc.
+  kind = 'concept',
+  // 'concept' | 'atom' | 'sigil' | 'dialect'
+  faction = null,
+  // 'authority' | 'church' | 'scionfall' | 'chronoclast' (for dialect)
+  size = 'inline',
+  // 'sigil' | 'section' | 'inline' | 'ghost'
+  stage = 0,
+  // 0-3 (only PARADOX/MEMORY/ANCHOR escalate)
+  late = false,
+  // late-insertion ghost glyph (Act V on early pages)
+  className = '',
+  style = {}
+}) {
+  const family = faction ? 'dialect' : kind;
+  const file = faction ? `assets/glyphs/dialect_${faction}_psi.svg` // dialects only ship for psi in the kit
+  : kind === 'sigil' ? `assets/glyphs/sigil_master.svg` : `assets/glyphs/${kind}_${name}.svg`;
+  const cls = ['gly', `gly--${size}`, stage ? `gly--stage${stage}` : '', late ? 'gly--late-insertion' : '', className].filter(Boolean).join(' ');
+  return /*#__PURE__*/React.createElement("span", {
+    className: cls,
+    style: style,
+    "aria-hidden": true
+  }, /*#__PURE__*/React.createElement("img", {
+    src: file,
+    alt: ""
+  }));
+}
+
+// Inline footnote marker placed in body text. Companion <FinderFootnotes>
+// at page bottom renders the matching note.
+function FootnoteMarker({
+  n,
+  act = 1
+}) {
+  return /*#__PURE__*/React.createElement("span", {
+    className: `fn-mark fn-mark--act${act}`
+  }, "*");
+}
+
+// Page-bottom Finder footnotes block. Receives an array of {n, text, act, late}.
+function FinderFootnotes({
+  notes
+}) {
+  if (!notes || !notes.length) return null;
+  return /*#__PURE__*/React.createElement("div", {
+    className: "page__footnotes",
+    "aria-label": "Finder footnotes"
+  }, /*#__PURE__*/React.createElement("ol", null, notes.map(note => {
+    // Caveat-mix increases gradually through Act V
+    const caveatStep = note.act === 5 ? Math.min(100, Math.round((note.n - 49) / 11 * 100)) : 0;
+    const caveatBucket = caveatStep >= 75 ? 'caveat-100' : caveatStep >= 50 ? 'caveat-75' : caveatStep >= 25 ? 'caveat-50' : caveatStep > 0 ? 'caveat-25' : null;
+    const cls = [`fnote--act${note.act}`, note.late ? 'fnote--late' : '', caveatBucket ? `fnote--${caveatBucket}` : ''].filter(Boolean).join(' ');
+    return /*#__PURE__*/React.createElement("li", {
+      key: note.n,
+      className: cls
+    }, note.text);
+  })));
+}
+
 // ── Inline marginalia / intrusion shorthand (generator-friendly) ─────
 // These follow document flow and are styled by class, not absolutely positioned.
 
@@ -516,5 +580,8 @@ Object.assign(window, {
   AlanIntrusionInline,
   ChenIntrusion,
   ResolutionBlock,
+  Glyph,
+  FootnoteMarker,
+  FinderFootnotes,
   Zaaken
 });

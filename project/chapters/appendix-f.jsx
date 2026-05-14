@@ -18,7 +18,7 @@ function AppendixF({ tweaks, basePage = 1 }) {
     </Spread>
     <Spread id="appendix-f-01" label={"EXAMPLES OF PLAY · spread 1"}>
       <ChPage side="verso" runHead={"Examples Of Play"} pageNum={basePage + 0} label={`EXAMPLES OF PLAY · p.${basePage + 0}`}>
-        <div className="el-body"><p>{inline(`These examples show how mechanics translate into fiction. They demonstrate when to roll, how to interpret Oracles, how to track resources, and how to write in your Chronicle. The character is Dr. Sarah Martinez, a climate scientist from 2089 Miami, played across a sample campaign.`)}</p></div>
+        <div className="el-body"><p>{inline(`These examples show how mechanics translate into fiction. They demonstrate when to roll, how to interpret Oracles, how to track resources, and how to write in your Chronicle. The character is Dr. Sarah Martinez, a climate scientist from 2089 Miami, played across a sample campaign.`)}<FootnoteMarker n={52} act={5} /></p></div>
         <hr className="el-section-rule" />
         <h4 className="el-subsection">{inline(`Example 1: First Arrival`)}</h4>
         <div className="el-body"><p>{inline(`My Echo is Dr. Sarah Martinez. She's just Displaced — doesn't know when or where she is yet.`)}</p></div>
@@ -29,6 +29,7 @@ function AppendixF({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`I recognize the architecture, the clothing styles, the technology level. Late 19th century, probably London. Victorian era, 1880s-1890s.`)}</p></div>
         <div className="el-body"><p>{inline(`On `)}<b>{inline(`10+`)}</b>{inline(`: gain `)}<b>{inline(`+1 Coherence`)}</b>{inline(`. Coherence: +3 → +4.`)}</p></div>
         <div className="el-body"><p>{inline(`But as I stand, a police constable is staring at me from the alley entrance. My shelter suit is dying — flickering, power almost gone. He's reaching for his whistle.`)}</p></div>
+        <FinderFootnotes notes={[{"n":52,"text":"Don't read these. They are not fiction. They are Recovered Intelligence. They are the people who found this book before me.","act":5,"late":false}]} />
       </ChPage>
       <ChPage side="recto" runHead={"Examples Of Play"} pageNum={basePage + 1} label={`EXAMPLES OF PLAY · p.${basePage + 1}`}>
         <h4 className="el-subsection">{inline(`Chronicle Entry:`)}</h4>

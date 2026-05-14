@@ -1368,3 +1368,157 @@ h1.el-h1 [data-alan-quote] {
   border-top: 0.3pt solid rgba(139,105,20,0.25);
   padding-top: 3mm;
 }
+
+/* ═════════════════════════════════════════════════════════════════════
+   CTH Glyph System — round 3 visuals layer.
+   Glyphs use stroke="currentColor", so the parent context picks the hex.
+   Per user direction: visible but secondary (0.40 opacity by default),
+   layered behind text so they enhance without overwhelming.
+   ═════════════════════════════════════════════════════════════════════ */
+
+/* Glyph base — inline icon mode (default) */
+.gly {
+  display: inline-block;
+  vertical-align: middle;
+  width: 6mm;
+  height: 6mm;
+  margin: 0 0.5mm;
+  opacity: 0.40;
+  color: var(--el-burgundy);   /* Chen pages default */
+  flex-shrink: 0;
+}
+.gly svg { display: block; width: 100%; height: 100%; }
+.page--alan .gly { color: var(--al-electric); }
+
+/* Size variants */
+.gly--sigil { width: 28mm; height: 28mm; opacity: 0.70; }
+.gly--section { width: 14mm; height: 14mm; opacity: 0.55; }
+.gly--inline { width: 6mm; height: 6mm; opacity: 0.40; }
+.gly--ghost { width: 5mm; height: 5mm; opacity: 0.25; }
+
+/* Stage variants — escalating degradation on PARADOX/MEMORY/ANCHOR */
+.gly--stage1 { filter: blur(0.3px); opacity: 0.35; }
+.gly--stage2 { filter: blur(0.6px) contrast(0.7); opacity: 0.30; }
+.gly--stage3 { filter: blur(1.2px) contrast(0.5); opacity: 0.22; transform: rotate(-3deg); }
+
+/* Position variants */
+.gly--margin-right {
+  position: absolute;
+  right: -4mm;
+  margin-top: -1mm;
+}
+.gly--margin-left {
+  position: absolute;
+  left: -4mm;
+  margin-top: -1mm;
+}
+.gly--behind {
+  /* Background-style: glyph sits behind text, very faint */
+  position: absolute;
+  opacity: 0.10;
+  z-index: 1;
+  pointer-events: none;
+}
+.gly--late-insertion {
+  /* Notes 57-60 ghost glyphs — barely-there, slight rotation, irregular */
+  opacity: 0.22;
+  transform: rotate(-2.5deg);
+}
+
+/* Color override tokens (from spec) */
+.gly--warn { color: #A03030; }            /* SF-Paradox */
+.gly--gold { color: var(--el-gold); }
+.gly--forest { color: var(--el-forest); } /* Mechanical contexts */
+
+/* Chapter-sigil container — placed in the chapter opener layout */
+.chapter-sigil {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4mm;
+  opacity: 0.75;
+  color: var(--el-burgundy);
+}
+.chapter-sigil .gly { width: 28mm; height: 28mm; opacity: 1; }
+.page--alan .chapter-sigil { color: var(--al-electric); opacity: 0.85; }
+
+/* ═════════════════════════════════════════════════════════════════════
+   FINDER FOOTNOTES — round 3 metanarrative layer.
+   Same author as the Foreword. Visual decay across 5 acts.
+   Always rendered at page bottom, separated by a thin rule.
+   ═════════════════════════════════════════════════════════════════════ */
+
+/* Footnote area at page bottom */
+.page__footnotes {
+  position: absolute;
+  left: 16mm;
+  right: 16mm;
+  bottom: 12mm;
+  border-top: 0.3pt solid rgba(107, 102, 87, 0.4);
+  padding-top: 1.6mm;
+  font-family: 'Inter', 'IBM Plex Sans', system-ui, sans-serif;
+  font-size: 7.5pt;
+  line-height: 1.35;
+  color: #6B6657;            /* Acts I–II default — mid-gray */
+  z-index: 45;
+}
+.page--alan .page__footnotes {
+  border-top-color: rgba(184, 196, 204, 0.25);
+  color: var(--al-typewriter);
+}
+.page__footnotes ol {
+  margin: 0;
+  padding-left: 4mm;
+  list-style: none;
+}
+.page__footnotes li {
+  margin: 0 0 0.8mm 0;
+  text-indent: -4mm;
+  padding-left: 4mm;
+}
+.page__footnotes li::before {
+  content: "*";
+  display: inline-block;
+  width: 3mm;
+  font-weight: 700;
+  font-size: 8pt;
+  color: inherit;
+}
+
+/* Act-color progression — applied per-footnote */
+.fnote--act1, .fnote--act2 { color: #6B6657; }   /* mid-gray */
+.fnote--act3, .fnote--act4 { color: #6B3232; }   /* burgundy */
+.fnote--act5 { color: #3B1A20; }                  /* near-void burgundy */
+
+/* Act V — gradual Caveat-font contamination.
+   Earlier Act V notes mix Caveat slightly; later notes are predominantly
+   Caveat. Generator sets --caveat-mix from 0..1; CSS interpolates by
+   gradually adding Caveat to specific character classes. We approximate
+   the "drift" by font-family swap intensity. */
+.fnote--act5 { font-family: 'Inter', 'IBM Plex Sans', system-ui, sans-serif; }
+.fnote--act5.fnote--caveat-25 { font-family: 'Inter', 'IBM Plex Sans', sans-serif; letter-spacing: -0.01em; }
+.fnote--act5.fnote--caveat-50 { font-family: 'Caveat', 'Inter', sans-serif; font-size: 9pt; letter-spacing: 0; }
+.fnote--act5.fnote--caveat-75 { font-family: 'Caveat', cursive; font-size: 10pt; letter-spacing: 0; }
+.fnote--act5.fnote--caveat-100 { font-family: 'Caveat', cursive; font-size: 11pt; }
+
+/* In-body asterisk marker for the footnote */
+.fn-mark {
+  display: inline-block;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.85em;
+  vertical-align: super;
+  line-height: 0;
+  color: #6B6657;
+  padding: 0 0.3mm;
+  font-weight: 700;
+}
+.page--alan .fn-mark { color: var(--al-typewriter); }
+.fn-mark--act3, .fn-mark--act4 { color: #6B3232; }
+.fn-mark--act5 { color: #3B1A20; font-family: 'Caveat', cursive; font-size: 1em; vertical-align: 0; }
+
+/* Late-insertion footnote — appears on early pages added LAST in production */
+.fnote--late {
+  /* Render at 99% saturation — barely a tonal shift from the default */
+  opacity: 0.78;
+  font-style: italic;
+}
+.fnote--late.fnote--act5 { font-family: 'Caveat', cursive; font-size: 11pt; }

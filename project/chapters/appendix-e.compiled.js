@@ -132,7 +132,13 @@ function AppendixE({
     label: `CAPTIVITY VIGNETTES · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`the effort. Try again next iteration. After 10 iterations: loop releases you automatically. All Active Memories become Fading. Reduce Paradox by `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(`. Gain Scar: Recursive Doubt.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`the effort. Try again next iteration. After 10 iterations: loop releases you automatically. All Active Memories become Fading. Reduce Paradox by `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(`. Gain Scar: Recursive Doubt.`)), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "recursion",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Scionfall: The Nullwave Protocol`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

@@ -9,6 +9,7 @@ function ChenCh6({ tweaks, basePage = 1 }) {
     <Spread id="chen-6-opener" label={"CRISIS MANAGEMENT · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label="CRISIS MANAGEMENT · opener">
+        
         <ChenChapterHead icon="assets/chen-icon-irregular-sine.svg" number="VI" title="Crisis Management" />
       </ChPage>
     </Spread>
@@ -21,6 +22,7 @@ function ChenCh6({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Timeline contradictions reach critical mass. Trigger: Paradox reaches 10. Manifestation: roll on the Timeline Collapse table — history rewrites itself.`)}</p></div>
         <h4 className="el-subsection">{inline(`IDENTITY CRISIS (ANCHOR STRENGTH 0)`)}</h4>
         <div className="el-body"><p>{inline(`Your connection to your origin has severed. Trigger: Anchor Strength drops to 0. Manifestation: you don't know who you are.`)}</p></div>
+        <FinderFootnotes notes={[{"n":25,"text":"Did not open this book today. Found it open on my desk. The ink in the margins on this page is a different color — a deep, bruised purple. Still wet to the touch.","act":3,"late":false}]} />
       </ChPage>
       <ChPage side="recto" runHead={"Crisis Management"} pageNum={basePage + 3} label={`CRISIS MANAGEMENT · p.${basePage + 3}`}>
         <aside className="el-reflection"><p>{inline(`When your Paradox reaches critical mass, you're not just causing problems. You're creating topological stress in the causal field. Reality can no longer absorb your contradictions smoothly.`)}</p><p>{inline(`The most dangerous state isn't when timelines are far apart. It's when they're forced to almost touch, almost reconcile — and can't. That's when reality shatters.`)}</p><p>{inline(`A Shattering isn't the timeline breaking. It's topological bifurcation — reality splitting into multiple causally-disjoint eigenstates. The original timeline ceases to exist, replaced by its fractured components.`)}</p><p>{inline(`This is survivable with proper Crisis management.`)}</p><div className="el-sign">— EC</div></aside>
