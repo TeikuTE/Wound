@@ -23,7 +23,7 @@ function AppendixE({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-e-opener",
-    label: "E \xB7 opener"
+    label: "E · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
@@ -43,7 +43,7 @@ function AppendixE({
     className: "el-appendix-rule"
   })))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-e-01",
-    label: "CAPTIVITY VIGNETTES \xB7 spread 1"
+    label: "CAPTIVITY VIGNETTES · spread 1"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Captivity Vignettes",
@@ -124,7 +124,7 @@ function AppendixE({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Fail. Loop continues. Lose 1 Coherence from`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-e-02",
-    label: "CAPTIVITY VIGNETTES \xB7 spread 2"
+    label: "CAPTIVITY VIGNETTES · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Captivity Vignettes",

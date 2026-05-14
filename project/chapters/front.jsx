@@ -6,7 +6,7 @@ function FrontMatter({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="front-cover" label="Front Matter · title">
+    <Spread id="front-cover" label={"Front Matter · title"}>
       <IlPage side="verso" showTexture={false} label="half-title">
         <div className="il-halftitle">
           <div className="il-halftitle__mark">WOUND</div>
@@ -23,7 +23,7 @@ function FrontMatter({ tweaks, basePage = 1 }) {
         </div>
       </IlPage>
     </Spread>
-    <Spread id="front-01" label="FRONT MATTER · spread 1">
+    <Spread id="front-01" label={"FRONT MATTER · spread 1"}>
       <IlPage side="verso" showTexture={false} pageNum={basePage + 0} label={`FRONT MATTER · p.${basePage + 0}`}>
         <div className="interlude-body"><p><i>{inline(`A Solo Journaling RPG Duology About Memory, Loss, and What We Become`)}</i></p></div>
         <div className="interlude-body"><p>{inline(`First Edition, 2025 · ©2026 All Rights Reserved`)}</p></div>
@@ -44,7 +44,7 @@ function FrontMatter({ tweaks, basePage = 1 }) {
         <div className="interlude-body"><p>{inline(`If you're reading this, it means you found this copy. If you're holding it in your hands — be careful what you write in the margins. The book remembers.`)}</p></div>
       </IlPage>
     </Spread>
-    <Spread id="front-02" label="FRONT MATTER · spread 2">
+    <Spread id="front-02" label={"FRONT MATTER · spread 2"}>
       <IlPage side="verso" showTexture={false} pageNum={basePage + 2} label={`FRONT MATTER · p.${basePage + 2}`}>
         <div className="interlude-body"><p>{inline(`I didn't know then that the two voices arguing in those pages had once been something like friends. Something like allies. They shared a moment I've only glimpsed in fragments — a night in 1944, a burning building, a choice that broke four people into the four philosophies that now hunt each other across the timestream.`)}</p></div>
         <div className="interlude-body"><p>{inline(`Temporal Echoes is Dr. Eleanor Chen's preservation manual. She believes you can come home intact. She's spent thirty years documenting how to survive displacement without losing yourself.`)}</p></div>
@@ -59,7 +59,7 @@ function FrontMatter({ tweaks, basePage = 1 }) {
         <div className="interlude-body"><p>{inline(`Chapters 1–5 (Chapters 1–5 of Temporal Echoes) The Action Oracle (Appendix C.3) This is all you need to survive your first jumps. You will not understand the rest yet. That is intentional.`)}</p></div>
       </IlPage>
     </Spread>
-    <Spread id="front-03" label="FRONT MATTER · spread 3">
+    <Spread id="front-03" label={"FRONT MATTER · spread 3"}>
       <IlPage side="verso" showTexture={false} pageNum={basePage + 4} label={`FRONT MATTER · p.${basePage + 4}`}>
         <h4 className="interlude-eyebrow">{inline(`WHEN CRISIS HITS (PARADOX 7+ OR COHERENCE −6) — ADD THIS`)}</h4>
         <div className="interlude-body"><p>{inline(`Chapter 6: Crisis Management Chapter 7: Advanced Systems Faction Profiles (Appendix D) The universe has noticed you. Now you need the rules of engagement.`)}</p></div>

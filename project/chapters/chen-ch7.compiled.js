@@ -23,21 +23,21 @@ function ChenCh7({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "chen-7-opener",
-    label: "ADVANCED SYSTEMS \xB7 opener"
+    label: "ADVANCED SYSTEMS · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
   }), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     showWatermark: true,
-    label: "chen-7 \xB7 opener"
+    label: "ADVANCED SYSTEMS \xB7 opener"
   }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-broken-compass.svg",
     number: "VII",
     title: "Advanced Systems"
   }))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-7-02",
-    label: "ADVANCED SYSTEMS \xB7 spread 2"
+    label: "ADVANCED SYSTEMS · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Advanced Systems",
@@ -153,7 +153,7 @@ function ChenCh7({
     className: "el-sign"
   }, "\u2014 EC")))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-7-03",
-    label: "ADVANCED SYSTEMS \xB7 spread 3"
+    label: "ADVANCED SYSTEMS · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Advanced Systems",
@@ -224,7 +224,7 @@ function ChenCh7({
     tier: tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-7-04",
-    label: "ADVANCED SYSTEMS \xB7 spread 4"
+    label: "ADVANCED SYSTEMS · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Advanced Systems",

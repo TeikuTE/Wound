@@ -316,16 +316,32 @@ function WoundTweaks({
   })));
 }
 
-// ── Print mode: render every spread stacked, with page-break-after ───
+// ── Print mode: render every page (not spread) stacked, one PDF page each ─
+// Drops deliberate "(blank)" verso pages — those are print-book conventions
+// that just become dead space in a single-page digital PDF.
 function PrintApp({
   items
 }) {
+  const pages = [];
+  items.forEach((spread, si) => {
+    const children = React.Children.toArray(spread.el.props.children);
+    children.forEach((child, pi) => {
+      if (!child || !child.props) return;
+      // Drop blank pages: label="(blank)" indicates intentional blanks.
+      if (child.props.label === '(blank)') return;
+      // Also drop pages whose only content is empty.
+      pages.push({
+        key: `${si}-${pi}`,
+        el: child
+      });
+    });
+  });
   return /*#__PURE__*/React.createElement("div", {
     className: "print-doc"
-  }, items.map((it, i) => /*#__PURE__*/React.createElement("div", {
-    className: "print-spread",
-    key: i
-  }, it.el)));
+  }, pages.map(p => /*#__PURE__*/React.createElement("div", {
+    className: "print-page",
+    key: p.key
+  }, p.el)));
 }
 
 // ── Main app ────────────────────────────────────────────────

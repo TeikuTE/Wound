@@ -6,19 +6,19 @@ function ChenCh8({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="chen-8-opener" label="LONG-TERM PLAY · opener">
+    <Spread id="chen-8-opener" label={"LONG-TERM PLAY · opener"}>
       <ChPage side="verso" label="(blank)" />
-      <ChPage side="recto" showWatermark label="chen-8 · opener">
+      <ChPage side="recto" showWatermark label="LONG-TERM PLAY · opener">
         <ChenChapterHead icon="assets/chen-icon-handless-clock.svg" number="VIII" title="Long-Term Play" />
       </ChPage>
     </Spread>
-    <Spread id="chen-8-02" label="LONG-TERM PLAY · spread 2">
-      <ChPage side="verso" runHead="Long-Term Play" pageNum={basePage + 2} label={`LONG-TERM PLAY · p.${basePage + 2}`}>
+    <Spread id="chen-8-02" label={"LONG-TERM PLAY · spread 2"}>
+      <ChPage side="verso" runHead={"Long-Term Play"} pageNum={basePage + 2} label={`LONG-TERM PLAY · p.${basePage + 2}`}>
         <h4 className="el-subsection">{inline(`Campaign Structures`)}</h4>
         <div className="el-body el-dropcap" data-firstpara><p>{inline(`Temporal Echoes supports several campaign structures. They're not mutually exclusive — your campaign might move between them as circumstances change.`)}</p></div>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`I followed every procedure. Every rule. Every preservation protocol in Chen's manual. I maintained Coherence above +5 for two centuries. I Locked my defining memory. I reinforced my Anchor quarterly. I wrote in the Chronicle every single day.`)}</p><p>{inline(`And this morning I read my first entry. The one I wrote on Day 1, right after Displacement. The one where I described my lab, my daughter, my life.`)}</p><p>{inline(`And I didn't recognize it.`)}</p><p>{inline(`Not that I'd forgotten — the mechanics were intact, the memory was still Active. But reading those words felt like reading someone else's diary. The person who wrote that entry cared about those things. The person reading it now... doesn't.`)}</p><p>{inline(`The Chronicle preserved everything Chen said it would.`)}</p><p>{inline(`It just couldn't preserve the person who cared about preserving it.`)}</p><p>{inline(`I think that might be the joke.`)}</p><p>{inline(`(No signature. No date. The handwriting changes halfway through.)`)}</p><p>{inline(`THE RETURN (10-15 SESSIONS)`)}</p><p>{inline(`Goal: gather knowledge and resources to attempt a return Navigation. Milestones: increase Anchor Strength to 5, reduce Paradox to 0, acquire specific Chrono-Tech Assets, Lock your defining Memory, make the final Navigation roll (`)}<b>{inline(`Difficulty 13`)}</b>{inline(`+).`)}</p><div className="el-alan-sign">—AR</div></aside>
       </ChPage>
-      <ChPage side="recto" runHead="Long-Term Play" pageNum={basePage + 3} label={`LONG-TERM PLAY · p.${basePage + 3}`}>
+      <ChPage side="recto" runHead={"Long-Term Play"} pageNum={basePage + 3} label={`LONG-TERM PLAY · p.${basePage + 3}`}>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`Addendum she didn't write:`)}</p><p>{inline(`End: Success means discovering home doesn't exist anymore. Failure means staying alive long enough to realize you didn't want to go back anyway.`)}</p><p>{inline(`I've met four Echoes who successfully Navigated home. Two dissolved on arrival (temporal rejection). One lasted three days before voluntary Displacement — couldn't stand what their era had become. The fourth is still there, I think. Last I heard they'd been committed for claiming to be a time traveler.`)}</p><p>{inline(`You want to go home? Fine. Here's what you'll find: Everyone you knew is dead or doesn't know you. Your life has been lived by someone else, or never lived at all. The version of you that belonged there is a ghost. And you're the thing haunting it.`)}</p><p>{inline(`Chen will help you try. She's good like that. I'm just telling you what you'll wish you'd known after.`)}</p><div className="el-alan-sign">—AR</div></aside>
         <h4 className="el-subsection">{inline(`THE INVESTIGATOR (15-20 SESSIONS)`)}</h4>
         <div className="el-body"><p>{inline(`Goal: understand the nature of Displacement. Milestones: encounter other Echoes, discover Faction operations, piece together the mechanics of time, reach a major revelation about the origin of displacement. End: understanding achieved — but at what cost?`)}</p></div>
@@ -28,8 +28,8 @@ function ChenCh8({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Goal: simply endure as long as possible. High-difficulty mode: start with Anchor Strength 2, forced Displacement every `)}<b>{inline(`2-3`)}</b>{inline(` scenes, higher Paradox generation. Ends when you finally dissolve, transform, or find unexpected peace.`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="chen-8-03" label="LONG-TERM PLAY · spread 3">
-      <ChPage side="verso" runHead="Long-Term Play" pageNum={basePage + 4} label={`LONG-TERM PLAY · p.${basePage + 4}`}>
+    <Spread id="chen-8-03" label={"LONG-TERM PLAY · spread 3"}>
+      <ChPage side="verso" runHead={"Long-Term Play"} pageNum={basePage + 4} label={`LONG-TERM PLAY · p.${basePage + 4}`}>
         <h4 className="el-subsection">{inline(`Evolving Threats`)}</h4>
         <h4 className="el-subsection">{inline(`FACTION ESCALATION`)}</h4>
         <div className="el-body"><p>{inline(`As Paradox rises, Faction interference increases: Shadow (0-3) — unaware of you. Flux (4-6) — Scouts observe. Anomaly (7-9) — Agents intervene. Breach (10+) — active hunting, capture attempts, violence.`)}</p></div>
@@ -44,7 +44,7 @@ function ChenCh8({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Return Intact: you maintain all Memories (even Fading), you return as close to your original self as possible, but you can never leave again — your Anchor binds you permanently. You're home. You're also trapped. And linearity can be painful after displacement.`)}</p></div>
         <div className="el-body"><p>{inline(`Return Changed: you accept the Mutations and lost Memories, you return as a transformed version of yourself, the people you left behind don't fully recognize you. You're 'home,' but you're a stranger.`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Long-Term Play" pageNum={basePage + 5} label={`LONG-TERM PLAY · p.${basePage + 5}`}>
+      <ChPage side="recto" runHead={"Long-Term Play"} pageNum={basePage + 5} label={`LONG-TERM PLAY · p.${basePage + 5}`}>
         <h4 className="el-subsection">{inline(`DISSOLUTION`)}</h4>
         <div className="el-body"><p>{inline(`Coherence cannot be restored. Identity too fragmented. Final Chronicle entry: fragments, then silence.`)}</p></div>
         <h4 className="el-subsection">{inline(`ACCEPTANCE`)}</h4>

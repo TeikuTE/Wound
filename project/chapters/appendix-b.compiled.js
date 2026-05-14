@@ -23,7 +23,7 @@ function AppendixB({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-b-opener",
-    label: "B \xB7 opener"
+    label: "B · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
@@ -43,7 +43,7 @@ function AppendixB({
     className: "el-appendix-rule"
   })))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-b-01",
-    label: "ASSET CATALOGS \xB7 spread 1"
+    label: "ASSET CATALOGS · spread 1"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Asset Catalogs",
@@ -84,7 +84,7 @@ function AppendixB({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Absorbs Paradox backlash. +1 ENDURE versus timeline stress. Once per session, ignore 1 point of Paradox gain.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-b-02",
-    label: "ASSET CATALOGS \xB7 spread 2"
+    label: "ASSET CATALOGS · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Asset Catalogs",
@@ -146,7 +146,7 @@ function AppendixB({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — Temporarily anchors you to a specific moment. +3 SYNC. Prevents forced Displacement for one full scene. Cost: mark all Stress. After the anchor ends, immediate Displacement — no Navigation roll possible.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-b-03",
-    label: "ASSET CATALOGS \xB7 spread 3"
+    label: "ASSET CATALOGS · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Asset Catalogs",
@@ -212,7 +212,7 @@ function AppendixB({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Immune to temporal shock. +2 ENDURE. Displacement no longer costs Coherence. Age becomes optional — choose whether to age during any given era.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-b-04",
-    label: "ASSET CATALOGS \xB7 spread 4"
+    label: "ASSET CATALOGS · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Asset Catalogs",
@@ -274,7 +274,7 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`ENDURE. Once per session, use a Lost Memory`)))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-b-05",
-    label: "ASSET CATALOGS \xB7 spread 5"
+    label: "ASSET CATALOGS · spread 5"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Asset Catalogs",
@@ -327,7 +327,7 @@ function AppendixB({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — The object exists in quantum superposition across all timelines. +3 ENDURE. Once per session, touching it allows you to access memories from alternate versions of yourself who also possessed it. Cost: mark all Stress. These memories may contradict your own. Stress Effect: the object starts changing identities — your grandfather's watch becomes your grandmother's locket becomes a stranger's compass.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-b-06",
-    label: "ASSET CATALOGS \xB7 spread 6"
+    label: "ASSET CATALOGS · spread 6"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Asset Catalogs",

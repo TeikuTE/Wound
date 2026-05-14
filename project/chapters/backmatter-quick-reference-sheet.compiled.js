@@ -23,7 +23,7 @@ function BM_quick_reference_sheet({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-01",
-    label: "QUICK REFERENCE SHEET \xB7 spread 1"
+    label: "QUICK REFERENCE SHEET · spread 1"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Quick Reference Sheet",
@@ -76,7 +76,7 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`BREACH (10+).`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`Reality is unraveling locally. -2 ongoing. Crisis triggers within `)), /*#__PURE__*/React.createElement("i", null, inline(`1d6`)), inline(`* sessions. Factions converge. I have been to Breach twice. I do not recommend it. The world stops feeling solid in a specific way: edges become suggestions. The thing I lost in Breach the second time, I have never gotten back. — EC*`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-02",
-    label: "QUICK REFERENCE SHEET \xB7 spread 2"
+    label: "QUICK REFERENCE SHEET · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Quick Reference Sheet",
@@ -131,7 +131,7 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`All 3 = Strained. Cannot invoke Connections for Coherence. 6−on Reinforce Anchor = − Anchor Strength permanently.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-03",
-    label: "QUICK REFERENCE SHEET \xB7 spread 3"
+    label: "QUICK REFERENCE SHEET · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Quick Reference Sheet",
@@ -182,7 +182,7 @@ function BM_quick_reference_sheet({
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-04",
-    label: "QUICK REFERENCE SHEET \xB7 spread 4"
+    label: "QUICK REFERENCE SHEET · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Quick Reference Sheet",
@@ -251,7 +251,7 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Max = Corruption Vector + 3. No Coherence banking in emiT.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-05",
-    label: "QUICK REFERENCE SHEET \xB7 spread 5"
+    label: "QUICK REFERENCE SHEET · spread 5"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Quick Reference Sheet",
@@ -304,7 +304,7 @@ function BM_quick_reference_sheet({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`State: ○ Clean ○ Compromised ○ Weaponized`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-06",
-    label: "QUICK REFERENCE SHEET \xB7 spread 6"
+    label: "QUICK REFERENCE SHEET · spread 6"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Quick Reference Sheet",

@@ -23,7 +23,7 @@ function AppendixD1({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-1-opener",
-    label: "D.1 \xB7 opener"
+    label: "D.1 · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
@@ -43,7 +43,7 @@ function AppendixD1({
     className: "el-appendix-rule"
   })))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-1-01",
-    label: "RECOVERED FIELD INTELLIGENCE \xB7 spread 1"
+    label: "RECOVERED FIELD INTELLIGENCE · spread 1"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Recovered Field Intelligence",
@@ -122,7 +122,7 @@ function AppendixD1({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`One perfect memory. Warm. Safe. Yours. You get to keep it. Isn't that what you wanted? Just one thing to stay?"`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-1-02",
-    label: "RECOVERED FIELD INTELLIGENCE \xB7 spread 2"
+    label: "RECOVERED FIELD INTELLIGENCE · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Recovered Field Intelligence",

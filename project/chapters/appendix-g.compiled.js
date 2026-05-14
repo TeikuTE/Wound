@@ -23,7 +23,7 @@ function AppendixG({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-g-opener",
-    label: "G \xB7 opener"
+    label: "G · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
@@ -43,7 +43,7 @@ function AppendixG({
     className: "el-appendix-rule"
   })))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-g-01",
-    label: "TEMPORAL PATHOLOGIES \xB7 spread 1"
+    label: "TEMPORAL PATHOLOGIES · spread 1"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Temporal Pathologies",
@@ -82,7 +82,7 @@ function AppendixG({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`11. Faction Sensitivity.`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`You can feel when a Faction Agent is within 200 meters of you. Useful. Also: you can feel when one is leaving. Knowing they were watching for the past hour is worse than not knowing.`)))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-g-02",
-    label: "TEMPORAL PATHOLOGIES \xB7 spread 2"
+    label: "TEMPORAL PATHOLOGIES · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Temporal Pathologies",
@@ -125,7 +125,7 @@ function AppendixG({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You are certain, with absolute clarity, that you are already dead. Your body is a corpse being puppeted by temporal residue. This is not a crisis. It is simply a fact you've accepted. The rot is merely slow.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-g-03",
-    label: "TEMPORAL PATHOLOGIES \xB7 spread 3"
+    label: "TEMPORAL PATHOLOGIES · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Temporal Pathologies",
@@ -178,7 +178,7 @@ function AppendixG({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You no longer recognize the person in reflective surfaces as yourself. The recognition mechanism is simply gone — you see a stranger. Sometimes the stranger moves on a slight delay. You've stopped looking.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-g-04",
-    label: "TEMPORAL PATHOLOGIES \xB7 spread 4"
+    label: "TEMPORAL PATHOLOGIES · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Temporal Pathologies",

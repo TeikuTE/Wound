@@ -23,7 +23,7 @@ function AppendixF({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-f-opener",
-    label: "F \xB7 opener"
+    label: "F · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
@@ -43,7 +43,7 @@ function AppendixF({
     className: "el-appendix-rule"
   })))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-f-01",
-    label: "EXAMPLES OF PLAY \xB7 spread 1"
+    label: "EXAMPLES OF PLAY · spread 1"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Examples Of Play",
@@ -102,7 +102,7 @@ function AppendixF({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Mode: SYNC (social deception, building trust) Memory Bonus: +2 (Active Memory — 'Peer Review Presentation,' tag: Persuasion) Roll: `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` = 9, total 9 + 1 + 2 = 12 Result: `), /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` — Complete Success (and high enough to count) The constable's suspicion melts immediately. "Robbed? In broad daylight? Those dockside hooligans truly have no shame..." He helps me stand, brushing off my clothes, offering to escort me to the station.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-f-02",
-    label: "EXAMPLES OF PLAY \xB7 spread 2"
+    label: "EXAMPLES OF PLAY · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Examples Of Play",
@@ -153,7 +153,7 @@ function AppendixF({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`End of session. Coherence: `), /*#__PURE__*/React.createElement("b", null, inline(`+3`)), inline(`. Paradox: `), /*#__PURE__*/React.createElement("b", null, inline(`7`)), inline(`. Location: Cambridge 1842, Prophetic Resonance still active.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-f-03",
-    label: "EXAMPLES OF PLAY \xB7 spread 3"
+    label: "EXAMPLES OF PLAY · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Examples Of Play",

@@ -6,8 +6,8 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="backmatter-quick-reference-sheet-01" label="QUICK REFERENCE SHEET · spread 1">
-      <ChPage side="verso" runHead="Quick Reference Sheet" pageNum={basePage + 0} label={`QUICK REFERENCE SHEET · p.${basePage + 0}`}>
+    <Spread id="backmatter-quick-reference-sheet-01" label={"QUICK REFERENCE SHEET · spread 1"}>
+      <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 0} label={`QUICK REFERENCE SHEET · p.${basePage + 0}`}>
         <h4 className="el-subsection">{inline(`Temporal Echoes / emiT Duology`)}</h4>
         <h4 className="el-subsection">{inline(`Core Resolution`)}</h4>
         <div className="el-body"><p>{inline(`Roll: `)}<b>{inline(`2d6`)}</b>{inline(` + Mode Rating + Memory/Scar Bonus`)}</p></div>
@@ -23,7 +23,7 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`Coherence States — emiT`)}</h4>
         <div className="el-body"><p>{inline(`Synchronized (+4 to +8) +1 to all rolls Flux (0 to +3) No modifier Crisis (− to −) − to all rolls. At −: Fracture Event. Max = Corruption Vector + 3. No Coherence banking in emiT.`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Quick Reference Sheet" pageNum={basePage + 1} label={`QUICK REFERENCE SHEET · p.${basePage + 1}`}>
+      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 1} label={`QUICK REFERENCE SHEET · p.${basePage + 1}`}>
         <h4 className="el-subsection">{inline(`Paradox Bands`)}</h4>
         <div className="el-body"><p>{inline(`Paradox accumulates and the universe responds, but not in a linear trajectory. Paradox is best represented in four bands, with each one presenting a corresponding state of attention.`)}</p></div>
         <div className="el-body"><p><b>{inline(`SHADOW (0–3).`)}</b>{inline(` `)}<i>{inline(`You are background noise. Factions ignore you. Small reality glitches occur — déjà vu, objects slightly wrong, conversations you can't quite remember the start of. No mechanical penalties. Most Echoes spend most of their time here. The trick is staying. — EC`)}</i></p></div>
@@ -32,8 +32,8 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`BREACH (10+).`)}</b>{inline(` `)}<i>{inline(`Reality is unraveling locally. -2 ongoing. Crisis triggers within `)}</i><i>{inline(`1d6`)}</i>{inline(`* sessions. Factions converge. I have been to Breach twice. I do not recommend it. The world stops feeling solid in a specific way: edges become suggestions. The thing I lost in Breach the second time, I have never gotten back. — EC*`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="backmatter-quick-reference-sheet-02" label="QUICK REFERENCE SHEET · spread 2">
-      <ChPage side="verso" runHead="Quick Reference Sheet" pageNum={basePage + 2} label={`QUICK REFERENCE SHEET · p.${basePage + 2}`}>
+    <Spread id="backmatter-quick-reference-sheet-02" label={"QUICK REFERENCE SHEET · spread 2"}>
+      <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 2} label={`QUICK REFERENCE SHEET · p.${basePage + 2}`}>
         <h4 className="el-subsection">{inline(`Navigation — Temporal Echoes`)}</h4>
         <div className="el-body"><p>{inline(`Cost: 1 Coherence before rolling. Cannot attempt at 0 Coherence or Paradox `)}<b>{inline(`7+`)}</b>{inline(`. Roll: `)}<b>{inline(`2d6`)}</b>{inline(` + OBSERVE + Memory Bonus. Specific date + location `)}<b>{inline(`Difficulty 12`)}</b>{inline(` Year + city `)}<b>{inline(`Difficulty 10`)}</b>{inline(` Decade + region `)}<b>{inline(`Difficulty 8`)}</b>{inline(` Century + continent `)}<b>{inline(`Difficulty 7`)}</b></p></div>
         <div className="el-body"><p><b>{inline(`12+`)}</b>{inline(` Perfect Resonance —arrive exactly, +1 Coherence, no Paradox`)}</p></div>
@@ -45,7 +45,7 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`Downtime Steps (TE)`)}</h4>
         <ol className="el-numlist"><li>{inline(`Chronicle the session →+1 Coherence 2. Reinforce Anchor (`)}<b>{inline(`2d6`)}</b>{inline(` + SYNC if Stressed — clears Anchor Stress) 3. Tend Assets (`)}<b>{inline(`2d6`)}</b>{inline(` + Mode per Stressed Asset) 4. Process Memory (Active →Fading →Lost →Scar, automatic) 5. Reduce Paradox (optional) 6. Plan Next Move (answer one question)`)}</li></ol>
       </ChPage>
-      <ChPage side="recto" runHead="Quick Reference Sheet" pageNum={basePage + 3} label={`QUICK REFERENCE SHEET · p.${basePage + 3}`}>
+      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 3} label={`QUICK REFERENCE SHEET · p.${basePage + 3}`}>
         <h4 className="el-subsection">{inline(`Repreival Steps (emiT)`)}</h4>
         <ol className="el-numlist"><li>{inline(`Chronicle →+1 Coherence 2. Reinforce Anchor (`)}<b>{inline(`2d6`)}</b>{inline(` + SYNC if Stressed) 3. Tend Assets 4. Process Scars (Active →Fading →Lost →Mutation, automatic) 5. Reduce Paradox (optional) 6. Plan Next Move 7. Reset Violence Count to 0`)}</li></ol>
         <h4 className="el-subsection">{inline(`Faction Encounters`)}</h4>
@@ -59,8 +59,8 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`All 3 = Strained. Cannot invoke Connections for Coherence. 6−on Reinforce Anchor = − Anchor Strength permanently.`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="backmatter-quick-reference-sheet-03" label="QUICK REFERENCE SHEET · spread 3">
-      <ChPage side="verso" runHead="Quick Reference Sheet" pageNum={basePage + 4} label={`QUICK REFERENCE SHEET · p.${basePage + 4}`}>
+    <Spread id="backmatter-quick-reference-sheet-03" label={"QUICK REFERENCE SHEET · spread 3"}>
+      <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 4} label={`QUICK REFERENCE SHEET · p.${basePage + 4}`}>
         <h4 className="el-subsection">{inline(`Displacement Costs`)}</h4>
         <div className="el-body"><p>{inline(`Precision Navigation (voluntary) − Coherence (paid before rolling) Failed Navigation (6− − Coherence OR +2 Paradox Forced Displacement (Faction/Crisis/random) − Coherence Crisis Displacement (Shattering/Breach) − Coherence`)}</p></div>
         <h4 className="el-subsection">{inline(`Temporal Echoes — Character Sheet`)}</h4>
@@ -74,7 +74,7 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`OPERATIONAL MODES`)}</h4>
         <div className="el-body"><p>{inline(`OBSERVE (+1) ○− ○+0 ○+1 ○+2 ○+3 SYNC (+1) ○− ○+0 ○+1 ○+2 ○+3 ENDURE (+1) ○− ○+0 ○+1 ○+2 ○+3 DISRUPT (+0) ○− ○+0 ○+1 ○+2 ○+3`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Quick Reference Sheet" pageNum={basePage + 5} label={`QUICK REFERENCE SHEET · p.${basePage + 5}`}>
+      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 5} label={`QUICK REFERENCE SHEET · p.${basePage + 5}`}>
         <h4 className="el-subsection">{inline(`WAVE COHERENCE (circle current)`)}</h4>
         <div className="el-body"><p>{inline(`[−] [−] [−] [−] [−] [−] [0] [+1] [+2] [+3] [+4] [+5] [+6] [+7] [+8]`)}</p></div>
         <div className="el-body"><p>{inline(`Banked Coherence (max 3, TE only) (spend 1-for-1 to absorb Coherence loss): ○ ○ ○`)}</p></div>
@@ -84,8 +84,8 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <ol className="el-numlist"><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)}</li></ol>
       </ChPage>
     </Spread>
-    <Spread id="backmatter-quick-reference-sheet-04" label="QUICK REFERENCE SHEET · spread 4">
-      <ChPage side="verso" runHead="Quick Reference Sheet" pageNum={basePage + 6} label={`QUICK REFERENCE SHEET · p.${basePage + 6}`}>
+    <Spread id="backmatter-quick-reference-sheet-04" label={"QUICK REFERENCE SHEET · spread 4"}>
+      <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 6} label={`QUICK REFERENCE SHEET · p.${basePage + 6}`}>
         <h4 className="el-subsection">{inline(`FADING MEMORIES (+1)`)}</h4>
         <div className="el-body"><p>{inline(`1: ________________________________________ 2: ________________________________________ 3: ________________________________________`)}</p></div>
         <div className="el-body"><p><b>{inline(`LOCKED MEMORY (+3, permanent)`)}</b></p></div>
@@ -99,7 +99,7 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`MUTATIONS (from Breach/Faction/Crisis)`)}</h4>
         <div className="el-body"><p>{inline(`1: ________________________________________ 2: ________________________________________`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Quick Reference Sheet" pageNum={basePage + 7} label={`QUICK REFERENCE SHEET · p.${basePage + 7}`}>
+      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 7} label={`QUICK REFERENCE SHEET · p.${basePage + 7}`}>
         <h4 className="el-subsection">{inline(`DOWNTIME CHECKLIST`)}</h4>
         <div className="el-body"><p>{inline(`□ Chronicle (+1 Coherence) □ Reinforce Anchor □ Tend Assets □ Process Memory □ Reduce Paradox (optional) □ Plan Next Move`)}</p></div>
         <h4 className="el-subsection">{inline(`emiT — Character Sheet`)}</h4>
@@ -118,8 +118,8 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Max = Corruption Vector + 3. No Coherence banking in emiT.`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="backmatter-quick-reference-sheet-05" label="QUICK REFERENCE SHEET · spread 5">
-      <ChPage side="verso" runHead="Quick Reference Sheet" pageNum={basePage + 8} label={`QUICK REFERENCE SHEET · p.${basePage + 8}`}>
+    <Spread id="backmatter-quick-reference-sheet-05" label={"QUICK REFERENCE SHEET · spread 5"}>
+      <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 8} label={`QUICK REFERENCE SHEET · p.${basePage + 8}`}>
         <h4 className="el-subsection">{inline(`PARADOX`)}</h4>
         <div className="el-body"><p>{inline(`[0] [1] [2] [3] \\| [4] [5] [6] \\| [7] [8] [9] \\| [10+]`)}</p></div>
         <div className="el-body"><p><b>{inline(`ACTIVE SCARS (+2, tools you reload)`)}</b></p></div>
@@ -128,7 +128,7 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`1: ________________________________________ 2: ________________________________________ 3: ________________________________________`)}</p></div>
         <div className="el-body"><p><b>{inline(`CORE SCAR (+3, permanent)`)}</b></p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Quick Reference Sheet" pageNum={basePage + 9} label={`QUICK REFERENCE SHEET · p.${basePage + 9}`}>
+      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 9} label={`QUICK REFERENCE SHEET · p.${basePage + 9}`}>
         <div className="el-body"><p>{inline(`Title: ________________________________________ Tags: ________________________________________ Why this one: ________________________________________`)}</p></div>
         <h4 className="el-subsection">{inline(`MUTATIONS (permanent)`)}</h4>
         <div className="el-body"><p>{inline(`1: ________________________________________ 2: ________________________________________ 3: ________________________________________ 4: ________________________________________`)}</p></div>
@@ -144,8 +144,8 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <ul className="el-list"><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`State: ○ Clean ○ Compromised ○ Weaponized`)}</li><li>{inline(`Stress: ○○○○○`)}</li></ul>
       </ChPage>
     </Spread>
-    <Spread id="backmatter-quick-reference-sheet-06" label="QUICK REFERENCE SHEET · spread 6">
-      <ChPage side="verso" runHead="Quick Reference Sheet" pageNum={basePage + 10} label={`QUICK REFERENCE SHEET · p.${basePage + 10}`}>
+    <Spread id="backmatter-quick-reference-sheet-06" label={"QUICK REFERENCE SHEET · spread 6"}>
+      <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 10} label={`QUICK REFERENCE SHEET · p.${basePage + 10}`}>
         <h4 className="el-subsection">{inline(`FACTION TRACKING`)}</h4>
         <div className="el-body"><p>{inline(`Marked: ○Church ○Authority ○Scionfall ○Chronoclasts`)}</p></div>
         <h4 className="el-subsection">{inline(`REPREIVAL CHECKLIST`)}</h4>
@@ -156,7 +156,7 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`What was the last thing you cared about that wasn’t useful? Answer: ________________________________________ ○Preserve It — one final scene, then Dissolve. ○Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.`)}</p></div>
         <Zaaken><p>{inline(`The signal does not decay. It is the receiver that rots. To hear the sweet siren song of the Chronoverse is to invite the frequency to dismantle you. Identity is a standing wave. You are not a traveler. You are an interference pattern. Chen believes she can stabilize the note. Alan believes he can change the key. Both are wrong. There is only the static. And the static is hungry. The other three argue about how to survive the ocean. Chen builds a boat. Alan learns to breathe water. Zaaken dissolves into the current.`)}</p><p>{inline(`I am the fourth.`)}</p><p>{inline(`I am the one who asked what the ocean was for.`)}</p><p>{inline(`I found the shore. I found the Architect. I cannot tell you what I saw. I can only leave you this: The Veil is thin where the signal is loudest. Do not listen. Do not look. Do not stop moving. They are listening back.`)}</p></Zaaken>
       </ChPage>
-      <ChPage side="recto" runHead="Quick Reference Sheet" pageNum={basePage + 11} label={`QUICK REFERENCE SHEET · p.${basePage + 11}`}>
+      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 11} label={`QUICK REFERENCE SHEET · p.${basePage + 11}`}>
         
       </ChPage>
     </Spread>

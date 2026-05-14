@@ -6,18 +6,18 @@ function AlanCh3({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="alan-3-opener" label="OPERATIONAL PROCEDURES · opener">
+    <Spread id="alan-3-opener" label={"OPERATIONAL PROCEDURES · opener"}>
       <AlPage side="verso" label="(blank)" />
       <AlPage side="recto" label="alan-3 · opener">
         <AlanChapterHead entry={3} sub="OPERATIONAL PROCEDURES" coord="[TEMPORAL LOG // ENTRY_003 // ERA: 38 // NODE: OPERATIONAL]" />
         <AlanFragment top={170} right={4} rotate={-3} size={9}>// 2287.144.0001</AlanFragment>
       </AlPage>
     </Spread>
-    <Spread id="alan-3-02" label="OPERATIONAL PROCEDURES · spread 2">
-      <AlPage side="verso" runHead="ENTRY_003" pageNum={basePage + 2} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 2}`}>
+    <Spread id="alan-3-02" label={"OPERATIONAL PROCEDURES · spread 2"}>
+      <AlPage side="verso" runHead={"ENTRY_003"} pageNum={basePage + 2} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 2}`}>
         <Zaaken><p>{inline(`Memory is not storage. Memory is structure. When the structure fails, the building does not empty — it collapses. In the rubble, we find weapons.`)}</p><p>{inline(`Resolution (The Collapse Protocol)`)}</p><p>{inline(`When outcomes are uncertain, roll `)}<b>{inline(`2d6`)}</b>{inline(` + Mode + Scar Bonus (if applicable).`)}</p><p>{inline(`12+ Complete Success. Achieve goal cleanly. Reality bends. Gain +1 Coherence.`)}</p><p>{inline(`7-9 Success with Complication. Achieve goal but the Oracle introduces cost, twist, or new danger.`)}</p><p>{inline(`6- Failure with Discovery. Goal fails, but you learn something useful. Choose: lose 1 Coherence OR mark +1 Paradox.`)}</p><p>{inline(`Navigation (Controlled Displacement)`)}</p><p>{inline(`Jumping is usually something that happens to you — but you can attempt Precision Navigation.`)}</p><p>{inline(`Roll `)}<b>{inline(`2d6`)}</b>{inline(` + OBSERVE + Scar Bonus (if applicable). Every Navigation attempt costs 1 Coherence, paid before rolling. Involuntary jumps don't cost Coherence — they just happen to you.`)}</p><p>{inline(`TARGET DIFFICULTY EXAMPLE`)}</p><p>{inline(`Difficulty 7`)}<i>{inline(``)}</i>{inline(`: Nearby (±0 years) or a 1890s London, again`)}</p><p>{inline(`place you've been before`)}</p><p>{inline(`Difficulty 10`)}<i>{inline(``)}</i>{inline(`: Distant (±00-500 years) Ming Dynasty China`)}</p><p>{inline(`or unfamiliar location`)}</p><p>{inline(`Difficulty 12`)}<i>{inline(``)}</i>{inline(`: Extreme (±000+ years) The exact hour of the First Scar`)}</p><p>{inline(`or a specific moment`)}</p><p>{inline(`12+ Perfect Landing. Arrive exactly when and where intended. No complications. Gain +1 Coherence.`)}</p><p>{inline(`10-11 Successful Navigation. Arrive at intended destination. Mark +1 Paradox from the effort.`)}</p><p>{inline(`7-9 Close Enough. Arrive in correct era but wrong location, or correct location but off by `)}<b>{inline(`1d10`)}</b>{inline(` years. Mark +1 Paradox. Oracle introduces a complication at arrival.`)}</p><p>{inline(`6- Crash Landing. You missed and hit something harder. Roll the Chronoscape Oracle. Pay the toll: System Shock (lose 1 Coherence, stay clean) OR Embrace the Glitch (mark +2 Paradox, let the Corruption in).`)}</p><p>{inline(`AT PARADOX `)}<b>{inline(`7+`)}</b>{inline(`: NAVIGATION COLLAPSE`)}</p><p>{inline(`You cannot roll Precision Navigation. State your intention, roll the Chronoscape, and argue with the results. If you want the wheel back, you have to sell parts of yourself — lower Paradox via Agent Offers — to get it.`)}</p><p>{inline(`Wave Coherence`)}</p></Zaaken>
       </AlPage>
-      <AlPage side="recto" runHead="ENTRY_003" pageNum={basePage + 3} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 3}`}>
+      <AlPage side="recto" runHead={"ENTRY_003"} pageNum={basePage + 3} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 3}`}>
         <aside className="al-fragment"><p>{inline(`Your synchronization with the current timestream. Tracks from -6 to your maximum. Your maximum Wave Coherence = Corruption Vector + 3. At Vector 5 (fully human) your ceiling is 8, same as Chen's starting max. At Vector 0 (fully corrupted) your ceiling is 3. The further you transform, the less coherence you can hold. That's not a bug.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <aside className="al-fragment"><p>{inline(`Chen gets a comfortable Flux band to drift in. You don't. You've got three points between functioning and collapse. Use them carefully, or use them all at once — but know what you're spending.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <h4 className="al-subsection">{inline(`STATE EFFECT`)}</h4>
@@ -30,8 +30,8 @@ function AlanCh3({ tweaks, basePage = 1 }) {
         <aside className="al-fragment"><p>{inline(`Look at those Mode shifts again. At Paradox `)}<b>{inline(`7-9`)}</b>{inline(`, your DISRUPT is +2, your ENDURE is +2. You're being hunted. You're also powerful. At Paradox `)}<b>{inline(`10+`)}</b>{inline(`, your DISRUPT is +3, your ENDURE is +3. You've become priority target and extremely difficult to kill.`)}</p><div className="al-fragment__sign">// AR</div></aside>
       </AlPage>
     </Spread>
-    <Spread id="alan-3-03" label="OPERATIONAL PROCEDURES · spread 3">
-      <AlPage side="verso" runHead="ENTRY_003" pageNum={basePage + 4} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 4}`}>
+    <Spread id="alan-3-03" label={"OPERATIONAL PROCEDURES · spread 3"}>
+      <AlPage side="verso" runHead={"ENTRY_003"} pageNum={basePage + 4} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 4}`}>
         <h4 className="al-subsection">{inline(`Memory System`)}</h4>
         <aside className="al-fragment"><p>{inline(`Five Active Scars (+2 bonus), three Fading Scars (+1 bonus), one Core Scar (+3 bonus — costs 3 Coherence to lock). When you experience something significant, create a new Scar and push everything forward.`)}</p><p>{inline(`When a Scar becomes Lost: gain a Mutation (permanent personality change). Choose from phantom reflex, emotional void, sensory glitch, or behavioral rewire.`)}</p><p>{inline(`In emiT, when a Scar is Lost, it becomes a Mutation. The identity wound externalizes into temporal corruption. This is the conversion rate of selfhood into survival.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <h4 className="al-subsection">{inline(`WEAPONIZING SCARS`)}</h4>
@@ -39,7 +39,7 @@ function AlanCh3({ tweaks, basePage = 1 }) {
         <aside className="al-fragment"><p>{inline(`Call it tactical expenditure of identity. Call it self-destruction. Both lines lead to the same spreadsheet. Spend accordingly.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <aside className="al-chen-block" data-tier={tier}><div className="al-chen-block__head">Dr. Eleanor Chen // [DATE UNKNOWN]</div><p>{inline(`Alan, stop.`)}</p><p>{inline(`You're teaching them to weaponize their trauma and frame permanent psychological damage as Mutations.`)}</p><p>{inline(`This isn't strength. This is dissociative coping that will leave them unable to connect with anyone, unable to feel normally, unable to recognize themselves.`)}</p><p>{inline(`You're still here after 340 years. But are you still you? Can you even answer that question anymore?`)}</p></aside>
       </AlPage>
-      <AlPage side="recto" runHead="ENTRY_003" pageNum={basePage + 5} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 5}`}>
+      <AlPage side="recto" runHead={"ENTRY_003"} pageNum={basePage + 5} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 5}`}>
         <aside className="al-fragment"><p>{inline(`Buzz off, doc. It's not like you remember what happened. Otherwise you'd be on my side. You were once.`)}</p><p>{inline(`Remember the First Scar? The night in '44 when the four of us —`)}</p><p>{inline(`Never mind.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <AlanBody><p><b>{inline(`[CHEN]: Four?`)}</b></p></AlanBody>
         <h4 className="al-subsection">{inline(`The Corruption Log`)}</h4>
@@ -50,8 +50,8 @@ function AlanCh3({ tweaks, basePage = 1 }) {
         <aside className="al-fragment"><p>{inline(`Violence works. It also corrupts you in real time. The Tax is how we keep that visible.`)}</p><div className="al-fragment__sign">// AR</div></aside>
       </AlPage>
     </Spread>
-    <Spread id="alan-3-04" label="OPERATIONAL PROCEDURES · spread 4">
-      <AlPage side="verso" runHead="ENTRY_003" pageNum={basePage + 6} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 6}`}>
+    <Spread id="alan-3-04" label={"OPERATIONAL PROCEDURES · spread 4"}>
+      <AlPage side="verso" runHead={"ENTRY_003"} pageNum={basePage + 6} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 6}`}>
         <AlanBody><p>{inline(`When you succeed with `)}<b>{inline(`DISRUPT`)}</b>{inline(` (any result), roll `)}<b>{inline(`d6`)}</b>{inline(`. On `)}<b>{inline(`3-6`)}</b>{inline(`: no tax this time. On `)}<b>{inline(`1-2`)}</b>{inline(`: pay the Tax.`)}</p></AlanBody>
         <h4 className="al-subsection">{inline(`PAYING THE TAX`)}</h4>
         <AlanBody><p>{inline(`Choose ONE option you have NOT chosen since your last Repreival. If all options have been chosen since last Repreival, you must take a Mutation.`)}</p></AlanBody>
@@ -65,17 +65,17 @@ function AlanCh3({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Track `)}<b>{inline(`VIOLENCE COUNT`)}</b>{inline(` (starts at `)}<b>{inline(`0`)}</b>{inline(` each session). Each time you trigger the Violence Tax, increase the count by `)}<b>{inline(`1`)}</b>{inline(`. When you take `)}<b>{inline(`Repreival`)}</b>{inline(`, reset Violence Count to `)}<b>{inline(`0`)}</b>{inline(`.`)}</p></AlanBody>
         <aside className="al-fragment"><p>{inline(`The count is narrative pressure. By the fourth or fifth Tax of a session, the consequences stop being mechanical and start being who you are becoming. Write it down. Let it accumulate.`)}</p><div className="al-fragment__sign">// AR</div></aside>
       </AlPage>
-      <AlPage side="recto" runHead="ENTRY_003" pageNum={basePage + 7} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 7}`}>
+      <AlPage side="recto" runHead={"ENTRY_003"} pageNum={basePage + 7} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 7}`}>
         <aside className="al-fragment"><p>{inline(`I didn't have this rule for my first 200 years. I just used DISRUPT whenever I needed to end something. Every problem became a nail because I'd become a hammer.`)}</p><p>{inline(`If I'd been tracking Violence Count honestly? I'd be at four digits.`)}</p><p>{inline(`The Tax isn't punishment. It's just making visible what was always happening.`)}</p><p>{inline(`Every time you solve something through violence, you lose a piece. Eventually you realize you've got nothing left but the violence.`)}</p><p>{inline(`That's not evolution. That's addiction.`)}</p><p>{inline(`— AR (two hundred years later)`)}</p><p>{inline(`The Holding Action`)}</p><p>{inline(`Once per session, when doing so is meaningfully costly, you may choose preservation over optimization. You cannot perform a Holding Action in a scene of safety or momentum. Preservation only matters when it costs you something.`)}</p><p>{inline(`Describe an act of human preservation:`)}</p><p>{inline(`•Comfort someone who can't help you`)}</p><p>{inline(`•Honor a promise when breaking it would be easier`)}</p><p>{inline(`•Maintain a ritual that serves no tactical purpose`)}</p><p>{inline(`•Write someone's name when they're already gone`)}</p><p>{inline(`•Apologize when it won't change the outcome`)}</p><p>{inline(`Roll `)}<b>{inline(`2d6`)}</b>{inline(` + SYNC or OBSERVE (your choice).`)}</p><p>{inline(`10+`)}<i>{inline(``)}</i>{inline(` Choose one: Reduce Paradox by 1, OR restore 1 Coherence.`)}</p><p>{inline(`7-9`)}<i>{inline(``)}</i>{inline(` No mechanical benefit. Narrate why it mattered anyway. Sometimes meaning is enough.`)}</p><p>{inline(`6-`)}<i>{inline(``)}</i>{inline(` The universe doesn't care about sentimentality. Mark +1 Paradox.`)}</p><div className="al-fragment__sign">// AR</div></aside>
       </AlPage>
     </Spread>
-    <Spread id="alan-3-05" label="OPERATIONAL PROCEDURES · spread 5">
-      <AlPage side="verso" runHead="ENTRY_003" pageNum={basePage + 8} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 8}`}>
+    <Spread id="alan-3-05" label={"OPERATIONAL PROCEDURES · spread 5"}>
+      <AlPage side="verso" runHead={"ENTRY_003"} pageNum={basePage + 8} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 8}`}>
         <aside className="al-fragment"><p>{inline(`I never took Holding Actions for the first 200 years. Not because I didn't want to. Because I convinced myself they didn't work.`)}</p><p>{inline(`Every time I considered one, I'd think: this costs resources. What's the return? Where's the tactical advantage?`)}</p><p>{inline(`And I'd choose Violence Tax instead. Because Violence Tax works.`)}</p><p>{inline(`But here's what I didn't calculate: Violence Tax works and empties you.`)}</p><p>{inline(`Holding Actions often don't work mechanically. But they're the only thing that reminds you why survival mattered in the first place.`)}</p><p>{inline(`By the time I figured that out, I'd forgotten what I was trying to preserve.`)}</p><p>{inline(`Maybe if I'd failed more Holding Actions, I'd still know.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <aside className="al-chen-block" data-tier={tier}><div className="al-chen-block__head">Dr. Eleanor Chen // [DATE UNKNOWN]</div><p>{inline(`Alan tried a Holding Action in session 847.`)}</p><p>{inline(`He was in 1920s Berlin. Met a woman who reminded him of Sarah. Spent an entire scene teaching her to play chess because Sarah used to play chess.`)}</p><p>{inline(`He rolled `)}<b>{inline(`7-9`)}</b>{inline(`. No mechanical benefit.`)}</p><p>{inline(`He wrote in his Log: 'Wasted scene. Should have Navigated instead.'`)}</p><p>{inline(`Three sessions later, he couldn't remember Sarah's face.`)}</p><p>{inline(`The Holding Action wasn't wasted. It was the last time he connected with anything real. The `)}<b>{inline(`7-9`)}</b>{inline(` didn't give Coherence. It gave meaning. He just couldn't see the difference anymore.`)}</p></aside>
         <aside className="al-fragment"><p>{inline(`I should say something about Chen before we go further.`)}</p><p>{inline(`She's not what she sounds like. The clinical detachment, the equations, the calm voice. That's the armor, not the woman. When we worked together in the eighties she used to make tea on a hot plate and would sing to herself. She kept the same chipped mug for nine years. The hum got into her recordings and she just left it there. Said the equipment could deal with it.`)}</p><p>{inline(`Chen is softer than she lets on, and that softness got many, many people killed.`)}</p><div className="al-fragment__sign">// AR</div></aside>
       </AlPage>
-      <AlPage side="recto" runHead="ENTRY_003" pageNum={basePage + 9} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 9}`}>
+      <AlPage side="recto" runHead={"ENTRY_003"} pageNum={basePage + 9} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 9}`}>
         <h4 className="al-subsection">{inline(`Repreival`)}</h4>
         <aside className="al-fragment"><p>{inline(`Not a reprieve. A reprieve implies you're forgiven, or that you've earned a rest. This is a `)}<b>{inline(`Repreival`)}</b>{inline(` - a temporary stay of execution. You're still being hunted. The timeline still wants you normalized. You're just getting a few hours where nothing is actively trying to end you. Use them.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <h4 className="al-subsection">{inline(`WHEN TO TAKE REPREIVAL`)}</h4>
@@ -87,8 +87,8 @@ function AlanCh3({ tweaks, basePage = 1 }) {
         <AlanBody><p><b>{inline(`3. Scavenge Assets.`)}</b>{inline(` For each Stressed Asset, roll `)}<b>{inline(`2d6 + relevant Mode`)}</b>{inline(`.`)}</p></AlanBody>
       </AlPage>
     </Spread>
-    <Spread id="alan-3-06" label="OPERATIONAL PROCEDURES · spread 6">
-      <AlPage side="verso" runHead="ENTRY_003" pageNum={basePage + 10} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 10}`}>
+    <Spread id="alan-3-06" label={"OPERATIONAL PROCEDURES · spread 6"}>
+      <AlPage side="verso" runHead={"ENTRY_003"} pageNum={basePage + 10} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 10}`}>
         <AlanBody><ul className="al-list"><li><b>{inline(`10+`)}</b>{inline(`: clear all Stress. Working again.`)}</li><li><b>{inline(`7-9`)}</b>{inline(`: clear 1 Stress. Working mostly.`)}</li><li><b>{inline(`6-`)}</b>{inline(`: still trash. If an Asset is fully broken, spend the whole Repreival fixing it or find a replacement.`)}</li></ul></AlanBody>
         <AlanBody><p><b>{inline(`4. Let It Rot.`)}</b>{inline(` Your oldest Active `)}<b>{inline(`Scar`)}</b>{inline(` fades. Your oldest Fading Scar vanishes and leaves a `)}<b>{inline(`Mutation`)}</b>{inline(` behind. Your `)}<b>{inline(`Core Scar`)}</b>{inline(` never fades. Create new Scars for significant events. You can't stop the rot. You can only watch it.`)}</p></AlanBody>
         <AlanBody><p><b>{inline(`5. Cool Down (Optional).`)}</b>{inline(` Try to lower your `)}<b>{inline(`Paradox`)}</b>{inline(`, or don't.`)}</p></AlanBody>
@@ -96,7 +96,7 @@ function AlanCh3({ tweaks, basePage = 1 }) {
         <AlanBody><p><b>{inline(`6. Next Target.`)}</b>{inline(` Answer in your Log: `)}<i>{inline(`What am I trying to break next?`)}</i>{inline(` Write it down. If you don't have a target, you're just waiting to die.`)}</p></AlanBody>
         <AlanBody><p><b>{inline(`7. Reset Violence Count to 0.`)}</b></p></AlanBody>
       </AlPage>
-      <AlPage side="recto" runHead="ENTRY_003" pageNum={basePage + 11} coordStamp="[LOG // ENTRY_003]" label={`OPERATIONAL PROCEDURES · p.${basePage + 11}`}>
+      <AlPage side="recto" runHead={"ENTRY_003"} pageNum={basePage + 11} coordStamp={"[LOG // ENTRY_003]"} label={`OPERATIONAL PROCEDURES · p.${basePage + 11}`}>
         
       </AlPage>
     </Spread>

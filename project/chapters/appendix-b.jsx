@@ -6,7 +6,7 @@ function AppendixB({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="appendix-b-opener" label="B · opener">
+    <Spread id="appendix-b-opener" label={"B · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label="B · opener">
         <div className="el-appendix-opener">
@@ -16,15 +16,15 @@ function AppendixB({ tweaks, basePage = 1 }) {
         </div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-b-01" label="ASSET CATALOGS · spread 1">
-      <ChPage side="verso" runHead="Asset Catalogs" pageNum={basePage + 0} label={`ASSET CATALOGS · p.${basePage + 0}`}>
+    <Spread id="appendix-b-01" label={"ASSET CATALOGS · spread 1"}>
+      <ChPage side="verso" runHead={"Asset Catalogs"} pageNum={basePage + 0} label={`ASSET CATALOGS · p.${basePage + 0}`}>
         <div className="el-body"><p>{inline(`Assets are tools, abilities, and connections that survived your Displacement. Each has three levels and a Stress track that expands with advancement. Push any Asset during a roll by marking 1 Stress to add +1 to your result — but only if the Asset is fictionally present and relevant. emiT players: every time you Push a Chrono-Tech Asset, also roll `)}<b>{inline(`d6`)}</b>{inline(`. On `)}<b>{inline(`1-2`)}</b>{inline(`, it glitches — choose to gain +1 Paradox or have the Asset unavailable this scene. Passive bonuses never trigger this. See emiT Chapter 2 for full Asset Corruption rules.`)}</p></div>
         <h3 className="el-section">{inline(`Scar-Derived Assets (emiT only)`)}</h3>
         <div className="el-body"><p>{inline(`Wrecks can forge weapons from their wounds. When you Weaponize a Scar — invoking it for its bonus, then burning it — you may choose to crystallize the act into an Asset instead of simply losing the Scar. To create a Scar-Derived Asset: describe what operational capability that wound has permanently given you. Name it. It enters play as a Level 1 Asset with 3 Stress boxes. The Scar is still Lost. The Mutation is still gained. But something functional remains. Scar-Derived Assets cannot be repaired at Downtime — they are scar tissue, not equipment. When they break, you gain +1 Paradox and a brief, clear memory of whatever the original Scar was.`)}</p></div>
         <h4 className="el-subsection">{inline(`Examples:`)}</h4>
         <ul className="el-list"><li>{inline(`Knows How Burns Feel (+1 ENDURE vs environmental hazards)`)}</li><li>{inline(`Speaks to People Who Are About to Leave (+1 SYNC when someone is in crisis)`)}</li><li>{inline(`Has Died in This Era Before (+2 to Navigation targeting a specific era where a Scar was Lost)`)}</li></ul>
       </ChPage>
-      <ChPage side="recto" runHead="Asset Catalogs" pageNum={basePage + 1} label={`ASSET CATALOGS · p.${basePage + 1}`}>
+      <ChPage side="recto" runHead={"Asset Catalogs"} pageNum={basePage + 1} label={`ASSET CATALOGS · p.${basePage + 1}`}>
         <h3 className="el-section">{inline(`Chrono-Tech Assets`)}</h3>
         <h4 className="el-subsection">{inline(`1. The Temporal Compass [Chrono-Tech]`)}</h4>
         <div className="el-body"><p>{inline(`The Compass came out of an estate sale in 2034. It was in a box of brass instruments labeled "navigational, decorative, untested." Three of the others were ordinary. This one wasn't. The needle moves to a different north than the planet's. The brass is warmer than the room it's in by a measurable but inconsistent margin. The pre-Sanskrit inscription has been dated to two non-overlapping periods by two reputable laboratories. Both labs are correct.`)}</p></div>
@@ -36,8 +36,8 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <ul className="el-list"><li><b>{inline(`Level 1 ○○○`)}</b>{inline(` — Absorbs Paradox backlash. +1 ENDURE versus timeline stress. Once per session, ignore 1 point of Paradox gain.`)}</li></ul>
       </ChPage>
     </Spread>
-    <Spread id="appendix-b-02" label="ASSET CATALOGS · spread 2">
-      <ChPage side="verso" runHead="Asset Catalogs" pageNum={basePage + 2} label={`ASSET CATALOGS · p.${basePage + 2}`}>
+    <Spread id="appendix-b-02" label={"ASSET CATALOGS · spread 2"}>
+      <ChPage side="verso" runHead={"Asset Catalogs"} pageNum={basePage + 2} label={`ASSET CATALOGS · p.${basePage + 2}`}>
         <ul className="el-list"><li><b>{inline(`Level 2 ○○○○`)}</b>{inline(` — Stabilizes local causality. +2 ENDURE. Ignore up to 2 Paradox per session. +1 to all rolls while in Anomaly state (Paradox 7-9).`)}</li></ul>
         <ul className="el-list"><li><b>{inline(`Level 3 ○○○○○`)}</b>{inline(` — Creates a small pocket of null time. +3 ENDURE. Once per session, declare one scene exists outside normal causality — nothing in that scene generates Paradox. Afterward, mark all Stress.`)}</li></ul>
         <AlanIntrusionInline tier={tier}><p>{inline(`It's a muzzle. The Paradox still goes somewhere. You don't want to know where.`)}</p></AlanIntrusionInline>
@@ -48,7 +48,7 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <ul className="el-list"><li><b>{inline(`Level 3 ○○○○○`)}</b>{inline(` — Can share memories with other Echoes or inject them into non-Displaced individuals. +3 ENDURE. Warning: recipient experiences full emotional context, temporal contamination, identity confusion, and possible spontaneous Displacement.`)}</li></ul>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`Used this on a version of my wife once. Timeline where we never met. Thought I'd give her our memories back — romantic gesture, real fairy tale nonsense. She Displaced three hours later. Never saw her again. The look on her face when she realized what I'd done will haunt me until I dissolve. Some gifts are curses with better packaging.`)}</p><div className="el-alan-sign">—AR</div></aside>
       </ChPage>
-      <ChPage side="recto" runHead="Asset Catalogs" pageNum={basePage + 3} label={`ASSET CATALOGS · p.${basePage + 3}`}>
+      <ChPage side="recto" runHead={"Asset Catalogs"} pageNum={basePage + 3} label={`ASSET CATALOGS · p.${basePage + 3}`}>
         <h4 className="el-subsection">{inline(`4. The Paradox Lens [Chrono-Tech]`)}</h4>
         <div className="el-body"><p>{inline(`A Victorian-era monocle. Glass that isn't glass. Shows geometry that gives the user nightmares.`)}</p></div>
         <ul className="el-list"><li><b>{inline(`Level 1 ○○○`)}</b>{inline(` — Reveals temporal fractures invisible to normal perception. +1 OBSERVE for investigation.`)}</li></ul>
@@ -65,8 +65,8 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <ul className="el-list"><li><b>{inline(`Level 3 ○○○○○`)}</b>{inline(` — Temporarily anchors you to a specific moment. +3 SYNC. Prevents forced Displacement for one full scene. Cost: mark all Stress. After the anchor ends, immediate Displacement — no Navigation roll possible.`)}</li></ul>
       </ChPage>
     </Spread>
-    <Spread id="appendix-b-03" label="ASSET CATALOGS · spread 3">
-      <ChPage side="verso" runHead="Asset Catalogs" pageNum={basePage + 4} label={`ASSET CATALOGS · p.${basePage + 4}`}>
+    <Spread id="appendix-b-03" label={"ASSET CATALOGS · spread 3"}>
+      <ChPage side="verso" runHead={"Asset Catalogs"} pageNum={basePage + 4} label={`ASSET CATALOGS · p.${basePage + 4}`}>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`I knew an Echo who used this at Level 3 to anchor himself to his daughter's wedding. Got to walk her down the aisle. Give the toast. Dance with her. Displacement hit the second the song ended. He landed in 1347 during the Black Death. Died there. Never jumped again. Worth it? He thought so. I'm not sure.`)}</p><div className="el-alan-sign">—AR</div></aside>
         <h4 className="el-subsection">{inline(`6. The Displacement Trigger [Chrono-Tech]`)}</h4>
         <div className="el-body"><p>{inline(`You'll know when you find it.`)}</p></div>
@@ -76,7 +76,7 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`This is the one that will kill you. Not because it fails. Because it works. The temptation to go back, fix things, warn yourself, save someone — it will eat you alive. You'll create loops. You'll generate Paradox. You'll become your own haunting. I have this Asset at Level 3. I haven't used it in 90 years. Every morning I hold it and think about the moments I could return to. Every morning I put it back in my pocket.`)}</p><div className="el-alan-sign">—AR</div></aside>
         <h4 className="el-subsection">{inline(`Echo Trait Assets`)}</h4>
       </ChPage>
-      <ChPage side="recto" runHead="Asset Catalogs" pageNum={basePage + 5} label={`ASSET CATALOGS · p.${basePage + 5}`}>
+      <ChPage side="recto" runHead={"Asset Catalogs"} pageNum={basePage + 5} label={`ASSET CATALOGS · p.${basePage + 5}`}>
         <h4 className="el-subsection">{inline(`7. Temporal Sensitivity [Echo Trait]`)}</h4>
         <div className="el-body"><p>{inline(`Your nervous system has rewired. You feel time as pressure and temperature. Displacement feels like falling. Paradox tastes like copper and regret.`)}</p></div>
         <ul className="el-list"><li><b>{inline(`Level 1 ○○○`)}</b>{inline(` — Always know exact date, time, and location. +1 Navigation. Sense Displacement 30 seconds before it occurs.`)}</li></ul>
@@ -93,8 +93,8 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <ul className="el-list"><li><b>{inline(`Level 2 ○○○○`)}</b>{inline(` — Immune to temporal shock. +2 ENDURE. Displacement no longer costs Coherence. Age becomes optional — choose whether to age during any given era.`)}</li></ul>
       </ChPage>
     </Spread>
-    <Spread id="appendix-b-04" label="ASSET CATALOGS · spread 4">
-      <ChPage side="verso" runHead="Asset Catalogs" pageNum={basePage + 6} label={`ASSET CATALOGS · p.${basePage + 6}`}>
+    <Spread id="appendix-b-04" label={"ASSET CATALOGS · spread 4"}>
+      <ChPage side="verso" runHead={"Asset Catalogs"} pageNum={basePage + 6} label={`ASSET CATALOGS · p.${basePage + 6}`}>
         <ul className="el-list"><li><b>{inline(`Level 3 ○○○○○`)}</b>{inline(` — Survive normally fatal trauma by rejecting the timeline where you died. +3 ENDURE. Once per session, when reduced to 0 Coherence, set it to 1 and mark all Stress instead. Cost: gain a permanent Scar and lose one Memory of your choice.`)}</li></ul>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`I've been killed fourteen times. Shot, stabbed, burned, drowned, poisoned, thrown from towers, caught in explosions. Once I was guillotined. The blade came down. My head came off. Then the timeline corrected. Turns out I never walked up those steps — the me who did was a different branch. I shed him like snakeskin. This Asset is useful. It's also how you stop being human, one piece at a time.`)}</p><div className="el-alan-sign">—AR</div></aside>
         <h4 className="el-subsection">{inline(`9. Adaptive Linguistics [Echo Trait]`)}</h4>
@@ -104,7 +104,7 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <ul className="el-list"><li><b>{inline(`Level 3 ○○○○○`)}</b>{inline(` — Speak in Ur-Resonance — the fundamental frequency underlying all language. +3 SYNC. Once per session, issue a command in Ur-Resonance that NPCs must obey (`)}<b>{inline(`Difficulty 10`)}</b>{inline(` SYNC roll). Cost: mark all Stress, suffer nosebleed and temporary aphasia. Stress Effect: languages bleed together — you speak chimera-tongues that everyone understands and no one can reproduce.`)}</li></ul>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`Used Level 3 once. Told a Roman centurion to forget he saw me. He did. He also forgot his name, his family, and pretty much everything else. Ur-Resonance isn't the ancient language Zaaken's theorems predicted. It's more like language that predates the concept of selfhood. Use it carefully. Or don't. I'm not your dad.`)}</p><div className="el-alan-sign">—AR</div></aside>
       </ChPage>
-      <ChPage side="recto" runHead="Asset Catalogs" pageNum={basePage + 7} label={`ASSET CATALOGS · p.${basePage + 7}`}>
+      <ChPage side="recto" runHead={"Asset Catalogs"} pageNum={basePage + 7} label={`ASSET CATALOGS · p.${basePage + 7}`}>
         <h4 className="el-subsection">{inline(`10. Quantum Perception [Echo Trait]`)}</h4>
         <div className="el-body"><p>{inline(`You see probability. Every person is a cloud of what-ifs. Every moment branches like lightning.`)}</p></div>
         <ul className="el-list"><li><b>{inline(`Level 1 ○○○`)}</b>{inline(` — Perceive timeline instability. +1 OBSERVE when detecting Paradox or anomalies. See echoes of recent events (past 24 hours) in a location.`)}</li></ul>
@@ -119,8 +119,8 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`ENDURE. Once per session, use a Lost Memory`)}</b></p></div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-b-05" label="ASSET CATALOGS · spread 5">
-      <ChPage side="verso" runHead="Asset Catalogs" pageNum={basePage + 8} label={`ASSET CATALOGS · p.${basePage + 8}`}>
+    <Spread id="appendix-b-05" label={"ASSET CATALOGS · spread 5"}>
+      <ChPage side="verso" runHead={"Asset Catalogs"} pageNum={basePage + 8} label={`ASSET CATALOGS · p.${basePage + 8}`}>
         <div className="el-body"><p>{inline(`as if it were Active for one roll only. Cost: gain a permanent Scar afterward.`)}</p></div>
         <ul className="el-list"><li><b>{inline(`Level 3 ○○○○○`)}</b>{inline(` — Memories propagate backwards through your personal timeline. +3 ENDURE. Once per session, implant a false memory you've always had — create a new Active Memory without replacing an existing one. Cost: mark all Stress. The false memory might be truer than the real ones. Stress Effect: cannot tell original memories from recalled memories from memories of memories.`)}</li></ul>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`I used this at Level 3 to remember my wedding day. Replayed it 400 times. Every detail. The way light hit her dress. But each replay changes small things. Her dress was ivory. No, white. No, blue. We were married in June. In October. In April. I've polished the memory so smooth it's become fiction. I can't remember the original anymore.`)}</p><div className="el-alan-sign">—AR</div></aside>
@@ -132,7 +132,7 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`Stress Effect: stored Paradox leaks. Reality`)}</b></p></div>
         <div className="el-body"><p>{inline(`glitches. NPCs forget conversations mid- sentence.`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Asset Catalogs" pageNum={basePage + 9} label={`ASSET CATALOGS · p.${basePage + 9}`}>
+      <ChPage side="recto" runHead={"Asset Catalogs"} pageNum={basePage + 9} label={`ASSET CATALOGS · p.${basePage + 9}`}>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`The Church wanted to recruit me because of this one. Said I was compatible with the resonance of contradiction. I told them to buzz off. They said I'd come around eventually. They were right. At Level 3, you feel every contradiction in a 100-meter radius. Every lie. Every broken promise. The universe is screaming Paradox constantly and you're the only one who hears it. Sure it's painful. Channel it. Weaponize it.`)}</p><div className="el-alan-sign">—AR</div></aside>
         <h4 className="el-subsection">{inline(`Temporal Anchor Assets`)}</h4>
         <h4 className="el-subsection">{inline(`13. Heirloom Object [Temporal Anchor]`)}</h4>
@@ -142,8 +142,8 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <ul className="el-list"><li><b>{inline(`Level 3 ○○○○○`)}</b>{inline(` — The object exists in quantum superposition across all timelines. +3 ENDURE. Once per session, touching it allows you to access memories from alternate versions of yourself who also possessed it. Cost: mark all Stress. These memories may contradict your own. Stress Effect: the object starts changing identities — your grandfather's watch becomes your grandmother's locket becomes a stranger's compass.`)}</li></ul>
       </ChPage>
     </Spread>
-    <Spread id="appendix-b-06" label="ASSET CATALOGS · spread 6">
-      <ChPage side="verso" runHead="Asset Catalogs" pageNum={basePage + 10} label={`ASSET CATALOGS · p.${basePage + 10}`}>
+    <Spread id="appendix-b-06" label={"ASSET CATALOGS · spread 6"}>
+      <ChPage side="verso" runHead={"Asset Catalogs"} pageNum={basePage + 10} label={`ASSET CATALOGS · p.${basePage + 10}`}>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`Mine's a safety vest. Bright red, reflective strips, name tag that says 'A. Rose.' Found it in my truck the day I Displaced. Been wearing it for 300 years. I've seen it in Renaissance paintings. Medieval tapestries. Cave drawings of a figure in red. Future museums label it 'Artifact of Unknown Origin, Circa Always.' There's a framed photograph of me wearing it in a Baltic archive I'm not supposed to know about. The caption reads UNIDENTIFIED WITNESS, RIGA, 1941. I don't know if I'm carrying the vest or the vest is carrying me. At Level 3, I can feel every version of me who ever wore it. Thousands of Alan Roses across timelines, all clinging to the same stupid piece of polyester like it's a life raft. Maybe it is.`)}</p><div className="el-alan-sign">—AR</div></aside>
         <h4 className="el-subsection">{inline(`14. Persistent Connection [Temporal Anchor]`)}</h4>
         <div className="el-body"><p>{inline(`A specific person, bloodline, place, or institution that recurs across multiple eras. A building that never quite falls. A song that predates notation.`)}</p></div>
@@ -153,7 +153,7 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`Cost: each communication marks Stress. The`)}</b></p></div>
         <div className="el-body"><p>{inline(`Connection becomes aware they exist across time — which has consequences.`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Asset Catalogs" pageNum={basePage + 11} label={`ASSET CATALOGS · p.${basePage + 11}`}>
+      <ChPage side="recto" runHead={"Asset Catalogs"} pageNum={basePage + 11} label={`ASSET CATALOGS · p.${basePage + 11}`}>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`There's a woman. I keep meeting her. Different names, different faces, but always her. The eyes give it away. 1888 London: factory worker named Mary. 1640 Florence: nun named Sister Lucia. 2179 Mars: engineer named Mir. Level 3 let me talk to all of them at once. Mir asked Mary what the sky looked like. Mary asked Lucia if God was real. Lucia asked me if love survived time. I didn't answer. They all remember each other now. They know they're echoes of the same pattern. I don't know if I saved them or damned them.`)}</p><div className="el-alan-sign">—AR</div></aside>
         <h4 className="el-subsection">{inline(`15. Origin Era Knowledge [Temporal Anchor]`)}</h4>
         <div className="el-body"><p>{inline(`Expertise from your home time that persists across displacement. Your PhD, your trade skills, your cultural fluency.`)}</p></div>

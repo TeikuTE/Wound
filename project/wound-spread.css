@@ -1207,3 +1207,102 @@ html:has(.print-doc), html:has(.print-doc) body {
 /* Disable heavy textures in print mode (massive PDF reduction) */
 html:has(.print-doc) .page__texture,
 html:has(.print-doc) .page__watermark { display: none !important; }
+
+/* ─────────────────────────────────────────────────────────────────────
+   PRINT MODE — used by the PDF exporter (?print)
+   Render every page (verso/recto) as its own PDF page (5.5in × 8.5in
+   portrait). DriveThruRPG-compatible digital format.
+   ───────────────────────────────────────────────────────────────────── */
+
+@page {
+  size: 5.5in 8.5in;
+  margin: 0;
+}
+
+.print-doc {
+  background: #ffffff;
+}
+.print-doc * { box-sizing: border-box; }
+
+.print-page {
+  width: 528px;        /* 5.5in @ 96dpi */
+  height: 816px;       /* 8.5in @ 96dpi */
+  page-break-after: always !important;
+  break-after: page !important;
+  break-inside: avoid !important;
+  overflow: hidden;
+  position: relative;
+}
+.print-page .page {
+  width: 528px;
+  height: 816px;
+}
+.print-page:last-child { page-break-after: auto; }
+
+/* In single-page print mode, balance the margins on both sides since
+   there's no facing page — verso/recto distinction loses meaning. Use
+   the wider "outer" margin on both sides for breathing room. */
+html:has(.print-doc) .page__content {
+  left: 16mm !important;
+  right: 16mm !important;
+}
+
+/* Center the page-number consistently at bottom-center for digital form */
+html:has(.print-doc) .page-num--chen,
+html:has(.print-doc) .coord-stamp {
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%);
+}
+
+/* ─────────────────────────────────────────────────────────────────────
+   READABILITY FIXES (round 1 of feedback) — D items
+   ───────────────────────────────────────────────────────────────────── */
+
+/* Zaaken's purple is unreadable on the dark void. Use the brightened
+   variant whenever a Zaaken block appears inside an Alan page. */
+.page--alan .zaaken {
+  color: var(--sf-zaaken-on-dark);
+  border-left-color: var(--sf-zaaken-on-dark);
+}
+
+/* Alan italic fragments — bump from typewriter to ghost so the body is
+   readable, keep typewriter for the date-stamp signature only. */
+.al-fragment {
+  color: var(--al-ghost);
+  border-left-color: var(--al-typewriter);
+}
+.al-fragment__sign {
+  color: var(--al-typewriter);
+}
+
+/* Alan asides cleaner / more distinct (p60): give Alan fragments and
+   inline asides a stronger visual frame (left rule + indent) so they
+   read as separate from the body without monkey-patching color. */
+.al-fragment {
+  padding: 1mm 0 1mm 5mm;
+  border-left: 0.8pt solid var(--al-typewriter);
+  margin: 4mm 0;
+}
+
+/* Alan body text running through long passages was reading as gray on
+   black; bump leading slightly for breath in the dense Alan chapters. */
+.al-body { line-height: 1.55; }
+.al-body p { margin: 0 0 2.5mm 0; }
+
+/* Coord-stamp at the top of Alan pages was too dim. */
+.coord-stamp { color: var(--al-steel); }
+
+/* Chapter-title quoted words (Alan's annotation defacement) — appear in
+   the chapter heading wrapped in straight quotes and tinted toward
+   Alan's electric blue, slightly skewed, smaller weight. */
+.el-h1 q,
+.el-h1 .alan-quote,
+h1.el-h1 [data-alan-quote] {
+  font-family: var(--ff-mono);
+  font-weight: 700;
+  font-size: 0.7em;
+  color: var(--al-electric);
+  letter-spacing: 0.04em;
+  vertical-align: 0.15em;
+}

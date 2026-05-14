@@ -23,7 +23,7 @@ function AlanCh3({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "alan-3-opener",
-    label: "OPERATIONAL PROCEDURES \xB7 opener"
+    label: "OPERATIONAL PROCEDURES · opener"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     label: "(blank)"
@@ -41,7 +41,7 @@ function AlanCh3({
     size: 9
   }, "// 2287.144.0001"))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-3-02",
-    label: "OPERATIONAL PROCEDURES \xB7 spread 2"
+    label: "OPERATIONAL PROCEDURES · spread 2"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_003",
@@ -74,7 +74,7 @@ function AlanCh3({
     className: "al-fragment__sign"
   }, "// AR")))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-3-03",
-    label: "OPERATIONAL PROCEDURES \xB7 spread 3"
+    label: "OPERATIONAL PROCEDURES · spread 3"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_003",
@@ -122,7 +122,7 @@ function AlanCh3({
     className: "al-fragment__sign"
   }, "// AR")))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-3-04",
-    label: "OPERATIONAL PROCEDURES \xB7 spread 4"
+    label: "OPERATIONAL PROCEDURES · spread 4"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_003",
@@ -149,7 +149,7 @@ function AlanCh3({
     className: "al-fragment__sign"
   }, "// AR")))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-3-05",
-    label: "OPERATIONAL PROCEDURES \xB7 spread 5"
+    label: "OPERATIONAL PROCEDURES · spread 5"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_003",
@@ -189,7 +189,7 @@ function AlanCh3({
     className: "al-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: clear all Anchor Stress. Good as new.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: clear 1 Stress. You patched one hole.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`: no Stress cleared. It's still junk.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`3. Scavenge Assets.`)), inline(` For each Stressed Asset, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6 + relevant Mode`)), inline(`.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-3-06",
-    label: "OPERATIONAL PROCEDURES \xB7 spread 6"
+    label: "OPERATIONAL PROCEDURES · spread 6"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_003",

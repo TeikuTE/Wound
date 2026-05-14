@@ -23,7 +23,7 @@ function AlanCh1({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "alan-1-opener",
-    label: "AFTER THE TUTORIAL \xB7 opener"
+    label: "AFTER THE TUTORIAL · opener"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     label: "(blank)"
@@ -41,7 +41,7 @@ function AlanCh1({
     size: 9
   }, "// 2287.048.0001"))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-1-02",
-    label: "AFTER THE TUTORIAL \xB7 spread 2"
+    label: "AFTER THE TUTORIAL · spread 2"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_001",
@@ -79,7 +79,7 @@ function AlanCh1({
     className: "al-subsection"
   }, inline(`3. DANGEROUS`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`You generate instability. Reality rejects you. Factions hunt you. You've learned to weaponize all of it.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`There's a moment every Wreck hits — usually around year 50, sometimes earlier. You wake up in some era and realize you don't remember why you're trying to preserve your original identity. The person you were is a stranger. Their goals don't make sense anymore.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`You have two choices: spend the next century trying to rebuild that stranger, or ask what this version of you can do that the old one couldn't.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`I chose option two. Still here. Still moving.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-1-03",
-    label: "AFTER THE TUTORIAL \xB7 spread 3"
+    label: "AFTER THE TUTORIAL · spread 3"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_001",

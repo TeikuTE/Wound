@@ -6,14 +6,14 @@ function ChenCh7({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="chen-7-opener" label="ADVANCED SYSTEMS · opener">
+    <Spread id="chen-7-opener" label={"ADVANCED SYSTEMS · opener"}>
       <ChPage side="verso" label="(blank)" />
-      <ChPage side="recto" showWatermark label="chen-7 · opener">
+      <ChPage side="recto" showWatermark label="ADVANCED SYSTEMS · opener">
         <ChenChapterHead icon="assets/chen-icon-broken-compass.svg" number="VII" title="Advanced Systems" />
       </ChPage>
     </Spread>
-    <Spread id="chen-7-02" label="ADVANCED SYSTEMS · spread 2">
-      <ChPage side="verso" runHead="Advanced Systems" pageNum={basePage + 2} label={`ADVANCED SYSTEMS · p.${basePage + 2}`}>
+    <Spread id="chen-7-02" label={"ADVANCED SYSTEMS · spread 2"}>
+      <ChPage side="verso" runHead={"Advanced Systems"} pageNum={basePage + 2} label={`ADVANCED SYSTEMS · p.${basePage + 2}`}>
         <h4 className="el-subsection">{inline(`THE HOLDING ACTION`)}</h4>
         <div className="el-body el-dropcap" data-firstpara><p>{inline(`Once per session, when you would suffer a consequence you cannot afford to bear in this scene, you may declare the Holding Action. The consequence does not vanish. It defers — by exactly one scene, no longer.`)}</p></div>
         <div className="el-body"><p>{inline(`The Holding Action is not a tool. It is a refusal. You are telling the timeline that this is not the right moment. The timeline accepts this once. It does not forget you asked. The deferred consequence will arrive, intensified, in the scene that follows. You buy yourself the room to handle it on better ground; you do not avoid handling it.`)}</p></div>
@@ -23,7 +23,7 @@ function ChenCh7({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Spend 2 Coherence, then roll `)}<b>{inline(`2d6`)}</b>{inline(` + SYNC or OBSERVE:`)}</p></div>
         <div className="el-resolution"><div className="resolution-row"><div className="resolution-roll">{`10+`}</div><div className="resolution-body"><div className="resolution-text">{inline(`Reduce Paradox by `)}<b>{inline(`1d6`)}</b>{inline(`.`)}</div></div></div><div className="resolution-row"><div className="resolution-roll">{`7-9`}</div><div className="resolution-body"><div className="resolution-text">{inline(`Reduce Paradox by `)}<b>{inline(`1d3`)}</b>{inline(`.`)}</div></div></div><div className="resolution-row"><div className="resolution-roll">{`6-`}</div><div className="resolution-body"><div className="resolution-title">{inline(`No reduction`)}</div><div className="resolution-text">{inline(`But you don't generate more.`)}</div></div></div></div>
       </ChPage>
-      <ChPage side="recto" runHead="Advanced Systems" pageNum={basePage + 3} label={`ADVANCED SYSTEMS · p.${basePage + 3}`}>
+      <ChPage side="recto" runHead={"Advanced Systems"} pageNum={basePage + 3} label={`ADVANCED SYSTEMS · p.${basePage + 3}`}>
         <h4 className="el-subsection">{inline(`OTHER METHODS`)}</h4>
         <div className="el-body"><p>{inline(`Accept Memory alterations (let false memories replace true ones): -1`)}</p></div>
         <div className="el-body"><p>{inline(`Paradox per major alteration`)}</p></div>
@@ -37,8 +37,8 @@ function ChenCh7({ tweaks, basePage = 1 }) {
         <aside className="el-reflection"><p>{inline(`Why two different stats? Downtime maintenance uses SYNC because you are reconnecting emotionally — revisiting the people and places that anchor your waveform. The standalone Reinforce move uses ENDURE because you are rebuilding the connection rather than visiting it. One is memory. The other is labor. The distinction matters in the same way the distinction between reading about a country and walking through it matters.`)}</p><div className="el-sign">— EC</div></aside>
       </ChPage>
     </Spread>
-    <Spread id="chen-7-03" label="ADVANCED SYSTEMS · spread 3">
-      <ChPage side="verso" runHead="Advanced Systems" pageNum={basePage + 4} label={`ADVANCED SYSTEMS · p.${basePage + 4}`}>
+    <Spread id="chen-7-03" label={"ADVANCED SYSTEMS · spread 3"}>
+      <ChPage side="verso" runHead={"Advanced Systems"} pageNum={basePage + 4} label={`ADVANCED SYSTEMS · p.${basePage + 4}`}>
         <h4 className="el-subsection">{inline(`ANCHOR STRENGTH LOSS TRIGGERS`)}</h4>
         <div className="el-body"><p>{inline(`Outside of the Reinforce Anchor move, your Anchor Strength can decrease when:`)}</p></div>
         <div className="el-body"><p>{inline(`An Identity Crisis resolves at `)}<b>{inline(`10-11`)}</b>{inline(` (Anchor restored to 1, but any`)}</p></div>
@@ -53,7 +53,7 @@ function ChenCh7({ tweaks, basePage = 1 }) {
         <aside className="el-reflection"><p>{inline(`Anchor Strength does not decrease passively. It decreases when you make a choice that costs you your origin. I have watched Echoes give it away in installments small enough that they did not register the transaction until the Anchor was gone.`)}</p><div className="el-sign">— EC</div></aside>
         <h4 className="el-subsection">{inline(`Asset Management`)}</h4>
       </ChPage>
-      <ChPage side="recto" runHead="Advanced Systems" pageNum={basePage + 5} label={`ADVANCED SYSTEMS · p.${basePage + 5}`}>
+      <ChPage side="recto" runHead={"Advanced Systems"} pageNum={basePage + 5} label={`ADVANCED SYSTEMS · p.${basePage + 5}`}>
         <h4 className="el-subsection">{inline(`ASSET EVOLUTION`)}</h4>
         <div className="el-body"><p>{inline(`Assets can improve with use (Levels 1-3). To advance an Asset:`)}</p></div>
         <div className="el-body"><p>{inline(`The Asset must be referenced in 3 significant Chronicle entries`)}</p></div>
@@ -71,8 +71,8 @@ function ChenCh7({ tweaks, basePage = 1 }) {
         <AlanIntrusionInline tier={tier}><p>{inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`)}</p></AlanIntrusionInline>
       </ChPage>
     </Spread>
-    <Spread id="chen-7-04" label="ADVANCED SYSTEMS · spread 4">
-      <ChPage side="verso" runHead="Advanced Systems" pageNum={basePage + 6} label={`ADVANCED SYSTEMS · p.${basePage + 6}`}>
+    <Spread id="chen-7-04" label={"ADVANCED SYSTEMS · spread 4"}>
+      <ChPage side="verso" runHead={"Advanced Systems"} pageNum={basePage + 6} label={`ADVANCED SYSTEMS · p.${basePage + 6}`}>
         <div className="el-body"><p>{inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`)}</p></div>
         <div className="el-body"><p>{inline(`To repair, roll `)}<b>{inline(`2d6`)}</b>{inline(` + OBSERVE (for Chrono-Tech) or ENDURE (for Echo Traits):`)}</p></div>
         <div className="el-body"><p><b>{inline(`10+`)}</b>{inline(` Clear all Stress. Asset functions perfectly.`)}</p></div>
@@ -89,7 +89,7 @@ function ChenCh7({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Reduce Paradox: see Stabilize Reality Move above`)}</p></div>
         <Zaaken><i>{inline(`Ludum longum lude.`)}</i></Zaaken>
       </ChPage>
-      <ChPage side="recto" runHead="Advanced Systems" pageNum={basePage + 7} label={`ADVANCED SYSTEMS · p.${basePage + 7}`}>
+      <ChPage side="recto" runHead={"Advanced Systems"} pageNum={basePage + 7} label={`ADVANCED SYSTEMS · p.${basePage + 7}`}>
         
       </ChPage>
     </Spread>

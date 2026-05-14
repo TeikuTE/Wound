@@ -23,7 +23,7 @@ function AlanCh5({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "alan-5-opener",
-    label: "FRACTURE EVENTS \xB7 opener"
+    label: "FRACTURE EVENTS · opener"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     label: "(blank)"
@@ -41,7 +41,7 @@ function AlanCh5({
     size: 9
   }, "// 2287.240.0001"))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-5-02",
-    label: "FRACTURE EVENTS \xB7 spread 2"
+    label: "FRACTURE EVENTS · spread 2"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_005",
@@ -98,7 +98,7 @@ function AlanCh5({
     className: "resolution-text"
   }, inline(`Quick Resolution: lose 2 Coherence, one Scar is harvested (bonus gone, becomes Lost, gain Mutation), Paradox reduced by 3. You're released. Or play Appendix E: Harmonic Crucifixion.`))))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`AUTHORITY INTERVENTION (emiT) Clone Loop. They're trying to normalize you back into the baseline — but you've Mutated past easy correction. The loop can't quite contain you anymore. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`).`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-5-03",
-    label: "FRACTURE EVENTS \xB7 spread 3"
+    label: "FRACTURE EVENTS · spread 3"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_005",
@@ -209,7 +209,7 @@ function AlanCh5({
     className: "resolution-text"
   }, inline(`They add you to something. What, you don't know. Your next Paradox generation roll produces double the normal amount. This lasts until Repreival.`))))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PHASE 3: RESOLUTION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Standard Resolution: Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + ENDURE (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`).`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-5-04",
-    label: "FRACTURE EVENTS \xB7 spread 4"
+    label: "FRACTURE EVENTS · spread 4"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_005",

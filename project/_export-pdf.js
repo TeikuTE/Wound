@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Render the print-mode HTML to a single multi-page PDF.
- * Each PDF page is one spread (11in × 8.5in landscape).
+ * Each PDF page is one book page (5.5in × 8.5in portrait).
+ * DriveThruRPG-compatible digital format.
  */
 const puppeteer = require('puppeteer-core');
 const path = require('node:path');
@@ -19,34 +20,33 @@ const OUT = path.join(__dirname, 'WOUND_V12.pdf');
     ignoreHTTPSErrors: true,
   });
   const page = await browser.newPage();
-  // Use the printed-page size so layout is final.
-  await page.setViewport({ width: 1056, height: 816, deviceScaleFactor: 1 });
+  // Match the printed-page size so layout is final.
+  await page.setViewport({ width: 528, height: 816, deviceScaleFactor: 1 });
 
   console.log('navigating…');
   await page.goto(URL, { waitUntil: 'networkidle0', timeout: 90000 });
 
-  // Wait until React has rendered every spread.
-  console.log('waiting for spreads to render…');
+  // Wait until React has rendered every page.
+  console.log('waiting for pages to render…');
   await page.waitForFunction(() => {
-    const spreads = document.querySelectorAll('.print-spread');
-    return spreads.length > 100;
+    const pages = document.querySelectorAll('.print-page');
+    return pages.length > 100;
   }, { timeout: 60000 });
-  // Extra time for fonts / images to settle.
   await new Promise(r => setTimeout(r, 2500));
 
-  const spreadCount = await page.evaluate(() => document.querySelectorAll('.print-spread').length);
-  console.log(`rendering ${spreadCount} spreads → PDF`);
+  const pageCount = await page.evaluate(() => document.querySelectorAll('.print-page').length);
+  console.log(`rendering ${pageCount} pages → PDF`);
 
   await page.emulateMediaType('print');
   await page.pdf({
     path: OUT,
-    width: '11in',
+    width: '5.5in',
     height: '8.5in',
     printBackground: true,
     preferCSSPageSize: true,
     margin: { top: 0, right: 0, bottom: 0, left: 0 },
     displayHeaderFooter: false,
-    timeout: 120000,
+    timeout: 180000,
   });
   console.log(`wrote ${OUT}`);
 

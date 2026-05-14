@@ -23,21 +23,21 @@ function ChenCh4({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-opener",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 opener"
+    label: "CORE RESOLUTION & FACTION PRESSURE · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
   }), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     showWatermark: true,
-    label: "chen-4 \xB7 opener"
+    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 opener"
   }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-broken-compass.svg",
     number: "IV",
     title: "Core Resolution & Faction Pressure"
   }))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-02",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 spread 2"
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
@@ -45,13 +45,13 @@ function ChenCh4({
     label: `CORE RESOLUTION & FACTIO · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`The Resolution Roll`)), /*#__PURE__*/React.createElement("aside", {
-    className: "el-reflection"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`When the outcome matters, you roll. Two six-sided dice, plus the relevant Mode, plus your Memory bonus if one applies.`)), /*#__PURE__*/React.createElement("p", null, inline(`10+ is success. `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` is success with cost. `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` is failure with an opening.`)), /*#__PURE__*/React.createElement("p", null, inline(`I want to say something about the `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` before we go further. New Echoes treat it as the bad result. It isn't. The `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` ends the question; the `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` changes it. Both move the story. Only one of them surprises you.`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-sign"
-  }, "\u2014 EC")), /*#__PURE__*/React.createElement("div", {
+  }, inline(`The Resolution Roll`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
+  }, /*#__PURE__*/React.createElement("p", null, inline(`When the outcome matters, you roll. Two six-sided dice, plus the relevant Mode, plus your Memory bonus if one applies.`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` is success. `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` is success with cost. `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` is failure with an opening.`))), /*#__PURE__*/React.createElement(ChenMarginaliaInline, null, /*#__PURE__*/React.createElement("p", null, inline(`I want to say something about the `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` before we go further. New Echoes treat it as the bad result. It isn't. The `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` ends the question; the `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` changes it. Both move the story. Only one of them surprises you.`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`When you attempt something risky or opposed, make a Resolution Roll:`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`RESOLUTION`)), /*#__PURE__*/React.createElement("div", {
@@ -159,7 +159,7 @@ function ChenCh4({
     className: "resolution-text"
   }, inline(`Navigation fails. Consult the Anomaly Tables (see below). Choose: Lose 1 Coherence OR Mark +2 Paradox.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-03",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 spread 3"
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
@@ -225,7 +225,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You gain Coherence when you succeed (+1 on a 10+), when you write something true in your Chronicle (+1), when you reinforce your Anchor (+2). You lose it when you fail (-1 on a 6-, or choose Paradox instead), when you're Displaced (see Displacement Costs below), when you let a Memory fade (-1), when your Anchor takes Stress (see Anchor Stress below). The math is simple. The choices aren't.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-04",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 spread 4"
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
@@ -314,7 +314,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Change something load-bearing — a battle's outcome, +3`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-05",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 spread 5"
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 5"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
@@ -369,7 +369,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`During Crisis Phase 2, Factions arrive in force. You're not a nuisance anymore. You're a crisis event. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`, or `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(` twice for a Factional War — two Factions competing over what to do with you. See Crisis Interventions in Chapter 6.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-06",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 spread 6"
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 6"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
@@ -442,7 +442,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Trade: Character retired. You cease. Peacefully. Game over. Write a final Chronicle entry: I let go. This is a valid ending — choosing peace over continued suffering.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-07",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 spread 7"
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 7"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
@@ -504,7 +504,7 @@ function ChenCh4({
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Tend to Assets.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-08",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 spread 8"
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 8"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
@@ -551,7 +551,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Lines and Veils: Lines are events that don't happen in your timeline — write them in the back of your Chronicle under Redacted Data. If an Oracle prompts them, reroll. Veils are events that happen off-screen — describe the setup and aftermath, but the event itself is Lost to Static.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-09",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 spread 9"
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 9"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
@@ -604,7 +604,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`Keep a separate notebook — not the Chronicle — for one line per session about how the session affected you. Not how it affected your Echo. This is not part of the game. It is part of being a person who plays the game.`)))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-10",
-    label: "CORE RESOLUTION & FACTION PRESSURE \xB7 spread 10"
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 10"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",

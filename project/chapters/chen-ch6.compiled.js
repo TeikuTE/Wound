@@ -23,21 +23,21 @@ function ChenCh6({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "chen-6-opener",
-    label: "CRISIS MANAGEMENT \xB7 opener"
+    label: "CRISIS MANAGEMENT · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
   }), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     showWatermark: true,
-    label: "chen-6 \xB7 opener"
+    label: "CRISIS MANAGEMENT \xB7 opener"
   }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-irregular-sine.svg",
     number: "VI",
     title: "Crisis Management"
   }))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-6-02",
-    label: "CRISIS MANAGEMENT \xB7 spread 2"
+    label: "CRISIS MANAGEMENT · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Crisis Management",
@@ -86,7 +86,7 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Crisis intensifies.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-6-03",
-    label: "CRISIS MANAGEMENT \xB7 spread 3"
+    label: "CRISIS MANAGEMENT · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Crisis Management",
@@ -167,7 +167,7 @@ function ChenCh6({
     className: "el-sign"
   }, "\u2014 EC")))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-6-04",
-    label: "CRISIS MANAGEMENT \xB7 spread 4"
+    label: "CRISIS MANAGEMENT · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Crisis Management",
@@ -270,7 +270,7 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Locked Memory bonus still applies.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-6-05",
-    label: "CRISIS MANAGEMENT \xB7 spread 5"
+    label: "CRISIS MANAGEMENT · spread 5"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Crisis Management",

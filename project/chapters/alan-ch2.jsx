@@ -6,15 +6,15 @@ function AlanCh2({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="alan-2-opener" label="CALIBRATION · opener">
+    <Spread id="alan-2-opener" label={"CALIBRATION · opener"}>
       <AlPage side="verso" label="(blank)" />
       <AlPage side="recto" label="alan-2 · opener">
         <AlanChapterHead entry={2} sub="CALIBRATION" coord="[TEMPORAL LOG // ENTRY_002 // ERA: 26 // NODE: CALIBRATION]" />
         <AlanFragment top={170} right={4} rotate={-3} size={9}>// 2287.096.0001</AlanFragment>
       </AlPage>
     </Spread>
-    <Spread id="alan-2-02" label="CALIBRATION · spread 2">
-      <AlPage side="verso" runHead="ENTRY_002" pageNum={basePage + 2} coordStamp="[LOG // ENTRY_002]" label={`CALIBRATION · p.${basePage + 2}`}>
+    <Spread id="alan-2-02" label={"CALIBRATION · spread 2"}>
+      <AlPage side="verso" runHead={"ENTRY_002"} pageNum={basePage + 2} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 2}`}>
         <AlanBody><p>{inline(`Stop pretending you're still human. You are a walking weapon. A living bomb on causality and a bona fide wound in space-time. Own it.`)}</p></AlanBody>
         <AlanBody><p>{inline(`When Paradox climbs, your Modes shift.`)}</p></AlanBody>
         <AlanBody><p>{inline(`You lose SYNC because SYNC was the part of you that needed other people to validate that you were real. You don't need that anymore, and can't afford it. Every Coherence point you spend trying to feel like a person is one less point you have when the timeline shows up to collect its debt.`)}</p></AlanBody>
@@ -29,7 +29,7 @@ function AlanCh2({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Displacement Event: What unmoored you`)}</p></AlanBody>
         <AlanBody><p>{inline(`HOW FAR GONE YOU ARE`)}</p></AlanBody>
       </AlPage>
-      <AlPage side="recto" runHead="ENTRY_002" pageNum={basePage + 3} coordStamp="[LOG // ENTRY_002]" label={`CALIBRATION · p.${basePage + 3}`}>
+      <AlPage side="recto" runHead={"ENTRY_002"} pageNum={basePage + 3} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 3}`}>
         <AlanBody><p>{inline(`Track your transformation direction on a scale of 5 to 0. You start at 5 — still recognizably human. Each time it decreases, you shed one connection to your origin, gain one operational capability, and become harder to dissolve and easier to misunderstand.`)}</p></AlanBody>
         <AlanBody><p>{inline(`At 0: Final Transformation (see Chapter 6).`)}</p></AlanBody>
         <AlanBody><p>{inline(`Your Corruption Vector decreases by 1 when you: choose 'Embrace Corruption' during Crisis resolution, gain your third Mutation in a single session, or voluntarily accept a Faction transformation offer. Nothing else decreases it. It only moves in one direction. This isn't death. This is becoming something else.`)}</p></AlanBody>
@@ -42,8 +42,8 @@ function AlanCh2({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Recursive Once per session, you may declare that you've done this before. Gain +2 on a roll. Mark +1 Paradox. The loop is real. The destabilization is real.`)}</p></AlanBody>
       </AlPage>
     </Spread>
-    <Spread id="alan-2-03" label="CALIBRATION · spread 3">
-      <AlPage side="verso" runHead="ENTRY_002" pageNum={basePage + 4} coordStamp="[LOG // ENTRY_002]" label={`CALIBRATION · p.${basePage + 4}`}>
+    <Spread id="alan-2-03" label={"CALIBRATION · spread 3"}>
+      <AlPage side="verso" runHead={"ENTRY_002"} pageNum={basePage + 4} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 4}`}>
         <AlanBody><p>{inline(`Infectious When you interact with an NPC, you may choose to transfer 1 point of your Paradox to them. Reduce your Paradox by 1. They become slightly wrong afterward — describe how. The NPC now carries a piece of your contamination.`)}</p></AlanBody>
         <AlanBody><p>{inline(`Transcendent Once per session, you may describe what you perceive that others cannot — branching timelines, the echo of futures that won't happen, the weight of causality in a room. This perception is accurate. Gain +2 to your next roll. But you must also describe one thing you can no longer perceive normally. Write it in your Log. Accumulate these losses.`)}</p></AlanBody>
         <AlanBody><p>{inline(`HOW YOU FUNCTION NOW`)}</p></AlanBody>
@@ -53,7 +53,7 @@ function AlanCh2({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Shadow (0-3) OBSERVE +2 / SYNC +1 / ENDURE +0 / DISRUPT -1 Flux (4-6) OBSERVE +1 / SYNC +0 / ENDURE +1 / DISRUPT +1 Anomaly (7-9) OBSERVE +0 / SYNC -1 / ENDURE +2 / DISRUPT +2 Breach (10+) OBSERVE -1 / SYNC -2 / ENDURE +3 / DISRUPT +3`)}</p></AlanBody>
         <AlanBody><p>{inline(`The more contaminated you become, the less you can analyze or connect. The more you can endure and destroy. You will become a blunt instrument whether you choose to or not. This is the core mechanic. Corruption changes who you are at the stat level. Most people fight this. You're going to ride it.`)}</p></AlanBody>
       </AlPage>
-      <AlPage side="recto" runHead="ENTRY_002" pageNum={basePage + 5} coordStamp="[LOG // ENTRY_002]" label={`CALIBRATION · p.${basePage + 5}`}>
+      <AlPage side="recto" runHead={"ENTRY_002"} pageNum={basePage + 5} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 5}`}>
         <aside className="al-chen-block" data-tier={tier}><div className="al-chen-block__head">Dr. Eleanor Chen // [DATE UNKNOWN]</div><p>{inline(`This is what I was afraid of.`)}</p><p>{inline(`The stat shifts you're describing? That's not evolution. That's loss of analytical capacity (OBSERVE drops), social disconnection (SYNC drops), emotional numbing (ENDURE rises), violence as primary response (DISRUPT rises).`)}</p><p>{inline(`You're gamifying PTSD symptoms.`)}</p><p>{inline(`I understand why you frame it as adaptation. I understand 340 years has required you to function this way. But please — for once — admit what it cost you.`)}</p></aside>
         <h4 className="al-subsection">{inline(`WHAT HURTS`)}</h4>
         <AlanBody><p>{inline(`You begin with 5 Scars — formative wounds that shaped your operational capacity. Unlike Chen's Memories, you're not trying to preserve these. You reload them.`)}</p></AlanBody>
@@ -69,8 +69,8 @@ function AlanCh2({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Choose 2 Assets from any category. All start Level 1 with 3 Stress boxes. See Appendix B for full catalog. Asset Corruption: every time you Push a Chrono-Tech Asset, roll `)}<b>{inline(`d6`)}</b>{inline(`. On `)}<b>{inline(`1-2`)}</b>{inline(`, it glitches — choose to gain +1 Paradox or have the Asset unavailable this scene. Passive bonuses never trigger this. Only when you're forcing it beyond its limits. Your tools make you stronger and more contaminated simultaneously. That's not a bug. That's the exchange rate.`)}</p></AlanBody>
       </AlPage>
     </Spread>
-    <Spread id="alan-2-04" label="CALIBRATION · spread 4">
-      <AlPage side="verso" runHead="ENTRY_002" pageNum={basePage + 6} coordStamp="[LOG // ENTRY_002]" label={`CALIBRATION · p.${basePage + 6}`}>
+    <Spread id="alan-2-04" label={"CALIBRATION · spread 4"}>
+      <AlPage side="verso" runHead={"ENTRY_002"} pageNum={basePage + 6} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 6}`}>
         <h4 className="al-subsection">{inline(`ASSET STATES (emiT)`)}</h4>
         <AlanBody><p>{inline(`Every Asset in emiT exists in one of three states. Track this on your sheet.`)}</p></AlanBody>
         <AlanBody><p>{inline(`Clean — The Asset functions as written. No additional effects.`)}</p></AlanBody>
@@ -81,7 +81,7 @@ function AlanCh2({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Being a wreck means you never stop moving. The Moves below are the six ways you direct that motion.`)}</p></AlanBody>
         <AlanBody><p><b>{inline(`1. Lean Into It.`)}</b>{inline(` `)}<i>{inline(`When you take damage, push it forward instead of resisting. Spend 1 Coherence; convert the damage into momentum on your next roll. You don't heal. You translate. — AR`)}</i></p></AlanBody>
       </AlPage>
-      <AlPage side="recto" runHead="ENTRY_002" pageNum={basePage + 7} coordStamp="[LOG // ENTRY_002]" label={`CALIBRATION · p.${basePage + 7}`}>
+      <AlPage side="recto" runHead={"ENTRY_002"} pageNum={basePage + 7} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 7}`}>
         <AlanBody><p><b>{inline(`2. Cut the Cord.`)}</b>{inline(` `)}<i>{inline(`When an Anchor Connection is becoming a liability, deliberately sever it. Mark it as severed in your Chronicle. -2 Coherence immediately, but the Connection no longer triggers Memory Fading on relevant rolls.`)}</i></p></AlanBody>
         <AlanBody><p><b>{inline(`3. Burn a Memory.`)}</b>{inline(` `)}<i>{inline(`When you need a +3 you can't otherwise reach, spend an Active Memory. The Memory is gone — not Faded, gone. Erased from the slot.`)}</i>{inline(` `)}<i>{inline(`This is the one I told her not to put in the book. She made me put it in anyway. — EC`)}</i></p></AlanBody>
         <AlanBody><p><b>{inline(`4. Resonance Welding.`)}</b>{inline(` `)}<i>{inline(`When something near you is destroyed and you're already Compromised, you can absorb a fragment of it as a temporary Asset. The Asset lasts until the end of the session and then disappears, leaving a Mutation behind.`)}</i></p></AlanBody>

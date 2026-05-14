@@ -6,18 +6,18 @@ function PlayingBothInterlude({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="interlude-opener" label="Interlude · opener">
+    <Spread id="interlude-opener" label={"Interlude · opener"}>
       <IlPage side="verso" label="(blank)" />
       <IlPage side="recto" label="Interlude · opener">
         <div className="il-opener">
           <div className="interlude-eyebrow">Interlude</div>
           <h1 className="il-opener__title">Playing Both</h1>
           <div className="il-opener__rule" />
-          <div className="il-opener__attribution">a note from the journalist</div>
+          <div className="il-opener__attribution">a note from the finder</div>
         </div>
       </IlPage>
     </Spread>
-    <Spread id="interlude-01" label="PLAYING BOTH · spread 1">
+    <Spread id="interlude-01" label={"PLAYING BOTH · spread 1"}>
       <IlPage side="verso" showTexture={false} pageNum={basePage + 0} label={`PLAYING BOTH · p.${basePage + 0}`}>
         <div className="interlude-body"><p>{inline(`So. You finished Chen's book. Or you skipped to here, which is allowed, but you should know that some of what follows won't make sense without the first half.`)}</p></div>
         <div className="interlude-body"><p>{inline(`I read them in order. Chen first. That seemed safer at the time. I was wrong about the safety. I was right about the order. Alan's book makes more sense once you already know what he's arguing with.`)}</p></div>
@@ -43,7 +43,7 @@ function PlayingBothInterlude({ tweaks, basePage = 1 }) {
         <div className="interlude-body"><p>{inline(`If your Echo's Anchor Strength reached 0 — if you dissolved, if the Identity Crisis took everything — you begin emiT at Corruption Vector 5. Not because you won. Because there's nothing left to lose. You arrive at Alan's book with the ceiling intact and the floor already gone. That's its own kind of tragedy.`)}</p></div>
       </IlPage>
     </Spread>
-    <Spread id="interlude-02" label="PLAYING BOTH · spread 2">
+    <Spread id="interlude-02" label={"PLAYING BOTH · spread 2"}>
       <IlPage side="verso" showTexture={false} pageNum={basePage + 2} label={`PLAYING BOTH · p.${basePage + 2}`}>
         <Zaaken><p>{inline(`Chen built a boat. Alan learned to breathe water.`)}</p><p>{inline(`Both books are correct. Neither is sufficient.`)}</p><p>{inline(`If you have read this far, you are in the gap between the two answers. The gap is where the third thing lives — the thing neither of them will name, because naming it would require admitting the choice was never between preservation and transformation. The choice was between two ways of refusing to disappear.`)}</p><p>{inline(`You are about to enter the second book. The book of the one who chose to disappear into something useful.`)}</p></Zaaken>
         <div className="interlude-body"><p>{inline(`emiT`)}</p></div>

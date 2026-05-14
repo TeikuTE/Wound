@@ -23,7 +23,7 @@ function AlanCh2({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "alan-2-opener",
-    label: "CALIBRATION \xB7 opener"
+    label: "CALIBRATION · opener"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     label: "(blank)"
@@ -41,7 +41,7 @@ function AlanCh2({
     size: 9
   }, "// 2287.096.0001"))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-2-02",
-    label: "CALIBRATION \xB7 spread 2"
+    label: "CALIBRATION · spread 2"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_002",
@@ -58,7 +58,7 @@ function AlanCh2({
     label: `CALIBRATION · p.${basePage + 3}`
   }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Track your transformation direction on a scale of 5 to 0. You start at 5 — still recognizably human. Each time it decreases, you shed one connection to your origin, gain one operational capability, and become harder to dissolve and easier to misunderstand.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`At 0: Final Transformation (see Chapter 6).`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Your Corruption Vector decreases by 1 when you: choose 'Embrace Corruption' during Crisis resolution, gain your third Mutation in a single session, or voluntarily accept a Faction transformation offer. Nothing else decreases it. It only moves in one direction. This isn't death. This is becoming something else.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`WHICH WAY YOU'RE FALLING`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Your trajectory shapes how you play from the first session. Choose one and write it on your Corruption Log. Each trajectory unlocks one move immediately.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`TRAJECTORY IMMEDIATE MOVE`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Weaponized Once per session, when you generate Paradox through a roll, you may immediately convert it into a +1 bonus on your next DISRUPT roll. The contradiction becomes ammunition.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Hollowed When a Scar becomes Lost, you may choose not to gain a Mutation. Instead, describe what you no longer feel. Write it in your Log. No mechanical consequence. Just the record.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Fragmented When you fail a roll, you may ask: What would another version of me have done? Answer the question in your Log, then roll again using that framing. The second result stands, whether better or worse.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Recursive Once per session, you may declare that you've done this before. Gain +2 on a roll. Mark +1 Paradox. The loop is real. The destabilization is real.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-2-03",
-    label: "CALIBRATION \xB7 spread 3"
+    label: "CALIBRATION · spread 3"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_002",
@@ -86,7 +86,7 @@ function AlanCh2({
     className: "al-subsection"
   }, inline(`WHAT'S LEFT`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Choose 2 Assets from any category. All start Level 1 with 3 Stress boxes. See Appendix B for full catalog. Asset Corruption: every time you Push a Chrono-Tech Asset, roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(`. On `), /*#__PURE__*/React.createElement("b", null, inline(`1-2`)), inline(`, it glitches — choose to gain +1 Paradox or have the Asset unavailable this scene. Passive bonuses never trigger this. Only when you're forcing it beyond its limits. Your tools make you stronger and more contaminated simultaneously. That's not a bug. That's the exchange rate.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-2-04",
-    label: "CALIBRATION \xB7 spread 4"
+    label: "CALIBRATION · spread 4"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_002",

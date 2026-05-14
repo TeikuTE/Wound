@@ -127,6 +127,21 @@ function parseMD(src) {
       continue;
     }
 
+    // markdown table: `| ... | ... |` lines, with a separator row of `|---|---|`
+    if (/^\|.*\|\s*$/.test(line)
+        && i + 1 < lines.length
+        && /^\|[\s\-:|]+\|\s*$/.test(lines[i + 1])) {
+      const head = line.split('|').slice(1, -1).map(s => s.trim());
+      i += 2; // skip the separator row
+      const rows = [];
+      while (i < lines.length && /^\|.*\|\s*$/.test(lines[i])) {
+        rows.push(lines[i].split('|').slice(1, -1).map(s => s.trim()));
+        i++;
+      }
+      blocks.push({ kind: 'table', head, rows });
+      continue;
+    }
+
     // bullet list
     if (/^[-*]\s+/.test(line)) {
       const items = [];
@@ -383,6 +398,18 @@ function estimateHeight(block, host) {
       const cpl = host === 'chen' ? 48 : 46;
       const lines = Math.max(1, Math.ceil(stripMD(block.desc).length / cpl));
       return lines * 15 + 6;
+    }
+    case 'table': {
+      // Header row + body rows, each ~one line of body
+      const rowH = 16;
+      const cpl = Math.floor(64 / Math.max(2, block.head.length));
+      let h = 20; // header
+      for (const r of block.rows) {
+        const longest = Math.max(...r.map(c => stripMD(c).length));
+        const ln = Math.max(1, Math.ceil(longest / cpl));
+        h += ln * rowH;
+      }
+      return h + 8;
     }
     default: return 16;
   }
@@ -724,6 +751,13 @@ function renderBlocks(blocks, host, opts = {}) {
         }
         break;
       }
+      case 'table': {
+        const klass = host === 'chen' ? 'tbl-chen' : 'tbl-alan';
+        const headJSX = b.head.map(h => `<th>${renderInline(h)}</th>`).join('');
+        const rowsJSX = b.rows.map(r => `<tr>${r.map(c => `<td>${renderInline(c)}</td>`).join('')}</tr>`).join('');
+        out.push(`<table className="${klass}"><thead><tr>${headJSX}</tr></thead><tbody>${rowsJSX}</tbody></table>`);
+        break;
+      }
       case 'oracle-table': {
         const klass = host === 'chen' ? 'tbl-chen tbl-chen--oracle' : 'tbl-alan tbl-alan--oracle';
         const rows = b.rows.map(r => {
@@ -814,12 +848,21 @@ function emitSpreads(section) {
     const roman = ['', 'I','II','III','IV','V','VI','VII','VIII'][num] || String(num);
     if (host === 'chen') {
       const icon = chooseChenIcon(num);
+      const titleStr = chenTitleCase(openerTitle);
+      // JSX attribute strings can't contain " — use a JS expression if so.
+      const titleAttr = titleStr.includes('"')
+        ? `title={${JSON.stringify(titleStr)}}`
+        : `title="${titleStr}"`;
+      const labelStr = `${openerTitle.toUpperCase()} · opener`;
+      const labelAttr = labelStr.includes('"')
+        ? `label={${JSON.stringify(labelStr)}}`
+        : `label="${labelStr.replace(/"/g, '&quot;')}"`;
       spreads.push({
         idTag: section.id + '-opener',
-        label: `${openerTitle.toUpperCase()} · opener`,
+        label: labelStr,
         verso: `<ChPage side="verso" label="(blank)" />`,
-        recto: `<ChPage side="recto" showWatermark label="${section.id} · opener">
-  <ChenChapterHead icon="${icon}" number="${roman}" title="${chenTitleCase(openerTitle)}" />
+        recto: `<ChPage side="recto" showWatermark ${labelAttr.replace('label', 'label')}>
+  <ChenChapterHead icon="${icon}" number="${roman}" ${titleAttr} />
 </ChPage>`,
       });
     } else {
@@ -866,7 +909,7 @@ function emitSpreads(section) {
     <div className="interlude-eyebrow">Interlude</div>
     <h1 className="il-opener__title">${chenTitleCase(openerTitle)}</h1>
     <div className="il-opener__rule" />
-    <div className="il-opener__attribution">a note from the journalist</div>
+    <div className="il-opener__attribution">a note from the finder</div>
   </div>
 </IlPage>`,
     });
@@ -919,13 +962,13 @@ function renderPage(side, host, openerTitle, section, body, basePageExpr) {
   const propsParts = [`side="${side}"`];
 
   if (host === 'chen') {
-    propsParts.push(`runHead=${JSON.stringify(chenTitleCase(openerTitle))}`);
+    propsParts.push(`runHead={${JSON.stringify(chenTitleCase(openerTitle))}}`);
     propsParts.push(`pageNum={${basePageExpr}}`);
   } else if (host === 'alan') {
     const ent = section.chNum || 0;
-    propsParts.push(`runHead=${JSON.stringify(`ENTRY_${String(ent).padStart(3,'0')}`)}`);
+    propsParts.push(`runHead={${JSON.stringify(`ENTRY_${String(ent).padStart(3,'0')}`)}}`);
     propsParts.push(`pageNum={${basePageExpr}}`);
-    propsParts.push(`coordStamp=${JSON.stringify(`[LOG // ENTRY_${String(ent).padStart(3,'0')}]`)}`);
+    propsParts.push(`coordStamp={${JSON.stringify(`[LOG // ENTRY_${String(ent).padStart(3,'0')}]`)}}`);
   } else {
     propsParts.push(`showTexture={false}`);
     propsParts.push(`pageNum={${basePageExpr}}`);
@@ -984,7 +1027,7 @@ function emitChapterFile(section) {
   lines.push(`  const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;`);
   lines.push(`  return (<>`);
   for (const s of out.spreads) {
-    lines.push(`    <Spread id=${JSON.stringify(s.idTag)} label=${JSON.stringify(s.label)}>`);
+    lines.push(`    <Spread id=${JSON.stringify(s.idTag)} label={${JSON.stringify(s.label)}}>`);
     lines.push(`      ${indent(s.verso, 6)}`);
     lines.push(`      ${indent(s.recto, 6)}`);
     lines.push(`    </Spread>`);

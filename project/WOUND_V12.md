@@ -170,7 +170,7 @@ She's wrong about the order. The first question every Echo asks is "what year is
 
 This game is the process of living with those questions. It does not guarantee answers.
 
-The Four Factions
+**The Four Factions**
 
 Four major Factions have emerged from the Chronoverse, each with their own reasons for hunting you.
 
@@ -240,7 +240,7 @@ This chapter is a recovery operation. Write down whatever you can, while you sti
 
 **The Person You Were**
 
-Write these down. You'll need them later — or you'll need to mourn them later:
+Write these down. You'll need them later:
 
 **NAME**
 
@@ -256,7 +256,7 @@ Be specific past the point of comfort. You aren't building a setting. You're put
 
 **THE DISPLACEMENT EVENT**
 
-What tore you out of the timestream. In my career I have documented displacements caused by experiments that should never have been authorized, by natural anomalies no one could have predicted, and by people who knew exactly what they were doing and proceeded anyway. Yours will fall into one of those, or a combination, or a fourth category I haven't yet identified. Maybe, it was my fault.
+What tore you out of the timestream? In my career I have documented displacements caused by experiments that should never have been authorized, by natural anomalies no one could have predicted, and by people who knew exactly what they were doing and proceeded anyway. Yours will fall into one of those, or a combination, or a fourth category I haven't yet identified. Maybe, it was my fault.
 
 You may not remember. Many don't. Write *I cannot remember* and leave the space below it blank. Sometimes the memory comes back. Sometimes it comes back wrong. Sometimes the not-knowing is itself the event, and you only realize this several jumps later, when you notice that the shape of what you can't remember is the same shape as something else you've been avoiding.
 
@@ -278,9 +278,9 @@ Skills are things practiced when no one was watching. Whether it was Talmudic rh
 
 **[CHEN]**
 
-*A Reed-Solomon code can reconstruct a corrupted message if enough of the parity blocks survive. Your Anchor Connections function the same way. As long as enough remain, the original message — You — can be reconstructed from the fragments. Lose too many and all that's left is a stranger using your name. — EC*
+*A Reed-Solomon code can reconstruct a corrupted message if enough of the parity blocks survive. Your Anchor Connections function the same way. As long as enough remain, the original message — You — can be reconstructed from the fragments. — EC*
 
-*Your Anchor is your metaphysical connection to your origin — the reference frequency that keeps your waveform from dissolving completely into the timestream. It has two components.*
+Your Anchor is your metaphysical connection to your origin — the reference frequency that keeps your waveform from dissolving completely into the timestream. It has two components.
 
 **ANCHOR STRENGTH**
 
@@ -308,7 +308,6 @@ Your Anchor isn't sentimental. It's structural. It's the baseline your waveform 
 
 — AR
 
-Chen's sentimental about calling it structural.
 
 **[CHEN]**
 
@@ -331,10 +330,6 @@ Eventually the frequency stays but the music dies. You'll still be anchored. You
 — AR
 
 **Your Operational Modes**
-
-*Modes are provisional. Please stop treating them like character classes.*
-
-She's right. They are classes. Just temporary ones.
 
 Echoes approach the chaos of displacement through four instinctual Modes. Each has a rating from -1 to +3.
 
@@ -367,13 +362,11 @@ When multiple Modes could apply to an action, choose the one that reflects how y
 | Analyzing technology | OBSERVE | understanding systems |
 | Calming a hostile NPC | SYNC | emotional navigation |
 
-**[CHEN]**
-
-*These categories bleed. Use your judgment. Where two tags could both apply, the more specific one wins. Where neither feels right, the situation is probably calling for a different Mode entirely. — EC*
+These categories bleed. Use your judgment. Where two tags could both apply, the more specific one wins. Where neither feels right, the situation is probably calling for a different Mode entirely.
 
 ### HOW MODES CHANGE (TEMPORAL ECHOES)
 
-In Temporal Echoes, Modes shift through play — slowly, meaningfully, and at your discretion. They are not static stats. They are who you are right now.
+Modes shift as time marches on. They are not static stats. They are who you are right now.
 
 You may adjust one Mode rating by 1 (up or down, minimum -1, maximum +3) when:
 
@@ -382,9 +375,9 @@ You may adjust one Mode rating by 1 (up or down, minimum -1, maximum +3) when:
 - You Lock a Memory and it crystallizes a particular capacity in you
 - You spend at least 3 sessions consistently operating in one Mode, and it has become instinct
 
-When you change a Mode rating, write one sentence in your Chronicle explaining why. This is not bureaucracy. It is the game asking you to notice what you're becoming.
+When you change a Mode rating, write one sentence in your Chronicle explaining why. You deserve to remember why you are changed.
 
-There is no ceiling on how far Modes can fall. An Echo who has lost every Combat memory and spent three years hiding may find their DISRUPT at -1. That is not a failure state. It is a true state.
+There is no ceiling on how far Modes can fall. An Echo who has lost every Combat memory and spent three years hiding may find their DISRUPT at -1.
 
 ### Your Five Starting Memories
 
@@ -434,7 +427,7 @@ Choose the one that better matches your approach. If you're sneaking by timing p
 
 ### Choose Two Starting Assets
 
-Choose two. They start fragile — Level 1, three Stress boxes before they break. You'll find the full specifications in Appendix B. Choose based on what you think will keep you alive. You will be wrong, but choose anyway.
+Choose two. They start fragile — Level 1, three Stress boxes before they break. You'll find the full specifications in Appendix B. Choose based on what you think will keep you alive.
 
 **CHRONO-TECH**
 
@@ -486,7 +479,7 @@ Recurring Threads can become Anchor Connections. If one does, they follow all th
 
 There is no limit to the number of Recurring Threads you can have. The timeline bends around people who matter as many times as you're willing to pay the cost. Whether you can maintain those relationships across hundreds of years of displacement is a different question — one the Chronicle will answer honestly whether you want it to or not.
 
-Your Initial State
+**Your Initial State**
 
 Record your starting condition. Wave Coherence: +3. Paradox: 0. Five Active Memory slots — your starting Memories go here. Three Fading slots, empty. One Locked slot, empty and waiting for the Memory you decide matters most. This is who you are on paper. Paper lies, but it lies slowly.
 
@@ -494,7 +487,7 @@ Your Echo has been excavated. Open your Chronicle. Write your first entry: who y
 
 > *Experimenta moderata.*
 
-## CHAPTER 3: A SESSION OF PLAY
+## CHAPTER 3: A SESSION OF "PLAY"
 
 **Opening the Session**
 
@@ -532,7 +525,7 @@ When all three are present, roll. When any is missing, just write what happens. 
 
 Pick up the dice. Name the action. Choose the Mode that matches how you're trying to survive it — OBSERVE to read the room, SYNC to bend to it, ENDURE to outlast it, DISRUPT to break it. If a Memory matches the context, let it guide you.
 
-Note: if the current situation resonates with a Memory strongly enough that the past is actively informing your present, you may be able to invoke it for a deeper bonus — see 'Temporal Echoes: When the Past Bleeds Through' in Chapter 5 for the full procedure.
+Note: if the current situation resonates with a Memory strongly enough that the past is actively informing your present, you may be able to invoke it for a deeper bonus — see 'When the Past Bleeds Through' in Chapter 5 for the full procedure.
 
  **10+** Complete Success. You achieve your goal cleanly. Gain +1 Wave Coherence.
 
@@ -582,11 +575,11 @@ The loop: open with a question, close by answering it, let the answer generate t
 
 **The Resolution Roll**
 
+When the outcome matters, you roll. Two six-sided dice, plus the relevant Mode, plus your Memory bonus if one applies.
+
+**10+** is success. **7-9** is success with cost. **6-** is failure with an opening.
+
 **[CHEN]**
-
-*When the outcome matters, you roll. Two six-sided dice, plus the relevant Mode, plus your Memory bonus if one applies.*
-
-*10+ is success. **7-9** is success with cost. **6-** is failure with an opening.*
 
 *I want to say something about the **6-** before we go further. New Echoes treat it as the bad result. It isn't. The **10+** ends the question; the **6-** changes it. Both move the story. Only one of them surprises you.*
 
@@ -1112,25 +1105,15 @@ New Memories form when something breaks the pattern — when you survive a Crisi
 
 When a Memory becomes Lost, its emotional residue remains as a Scar — a psychological wound or changed behavior. When a Memory goes, something stays in its shape. Choose the wound:
 
-Phantom Habit: you perform a ritual you don't understand. The body
+**Phantom Habit:** you perform a ritual you don't understand. The body remembers what the mind has lost.
 
-remembers what the mind has lost.
+**False Story:** you've constructed a lie to fill the gap. You believe it. That's the dangerous part.
 
-False Story: you've constructed a lie to fill the gap. You believe
+**Persistent Ache:** physical pain tied to the loss. Location unknown. Cause unverifiable.
 
-it. That's the dangerous part.
+**Emotional Void:** numbness where feeling used to be, or feeling where numbness would be appropriate.
 
-Persistent Ache: physical pain tied to the loss. Location unknown.
-
-Cause unverifiable.
-
-Emotional Void: numbness where feeling used to be, or feeling where
-
-numbness would be appropriate.
-
-Behavioral Shift: a personality change, permanent. You act differently
-
-now. You may not have noticed yet.
+**Behavioral Shift:** a personality change, permanent. You act differently now. You may not have noticed yet.
 
 Scars accumulate. Track them in your Chronicle. For more specific shapes of deterioration, see Appendix G: Temporal Pathologies.
 
@@ -1194,7 +1177,7 @@ Detailed Entries grant +1 Coherence once per session, when your entry: describes
 
 Reference Bonus: When facing a situation similar to a previous encounter, read the relevant past Chronicle entries. Gain +1 to the Resolution roll if past experience genuinely applies.
 
-*Temporal Echoes: When the Past Bleeds Through*
+*When the Past Bleeds Through*
 
 Sometimes, in moments of Crisis or revelation, the weight of all your past experiences presses upon the present. A decision made centuries ago influences your actions now. This is not metaphor. This is CTH.
 
@@ -2624,7 +2607,7 @@ He had a name. I remember the first two letters and the shape of how his friends
 
 We were in a room in '44. Four of us. One of us had just lit the match. I'm not going to tell you which. I'm not sure I remember.
 
-That's the First Scar. That's what Chen won't say. That's what I mention only to wound.
+That's the First Scar. That's what Chen won't say.
 
 — AR* *[Unlocked after your first Crisis, or when Paradox reaches 7+]
 

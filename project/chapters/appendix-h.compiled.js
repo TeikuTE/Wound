@@ -23,7 +23,7 @@ function AppendixH({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-h-opener",
-    label: "H \xB7 opener"
+    label: "H · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
@@ -43,10 +43,10 @@ function AppendixH({
     className: "el-appendix-rule"
   })))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-h-01",
-    label: "RECOVERED TESTIMONY \u2014 THE SAUL FILES \xB7 spread 1"
+    label: "RECOVERED TESTIMONY — THE SAUL FILES · spread 1"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
-    runHead: "Recovered Testimony \u2014 The Saul Files",
+    runHead: "Recovered Testimony — The Saul Files",
     pageNum: basePage + 0,
     label: `RECOVERED TESTIMONY — TH · p.${basePage + 0}`
   }, /*#__PURE__*/React.createElement("aside", {
@@ -59,7 +59,7 @@ function AppendixH({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`[FILES 001 THROUGH 015 INSERTED HERE FROM \`Final Scars and Fractures Guide\` AND \`Diagetic_Pieces_.txt\` — see project files for full text. Drop in numerical order with no other framing.]`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
-    runHead: "Recovered Testimony \u2014 The Saul Files",
+    runHead: "Recovered Testimony — The Saul Files",
     pageNum: basePage + 1,
     label: `RECOVERED TESTIMONY — TH · p.${basePage + 1}`
   })));

@@ -6,7 +6,7 @@ function AppendixE({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="appendix-e-opener" label="E · opener">
+    <Spread id="appendix-e-opener" label={"E · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label="E · opener">
         <div className="el-appendix-opener">
@@ -16,8 +16,8 @@ function AppendixE({ tweaks, basePage = 1 }) {
         </div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-e-01" label="CAPTIVITY VIGNETTES · spread 1">
-      <ChPage side="verso" runHead="Captivity Vignettes" pageNum={basePage + 0} label={`CAPTIVITY VIGNETTES · p.${basePage + 0}`}>
+    <Spread id="appendix-e-01" label={"CAPTIVITY VIGNETTES · spread 1"}>
+      <ChPage side="verso" runHead={"Captivity Vignettes"} pageNum={basePage + 0} label={`CAPTIVITY VIGNETTES · p.${basePage + 0}`}>
         <div className="el-body"><p>{inline(`Optional extended scenes for Faction capture.`)}</p></div>
         <div className="el-body"><p>{inline(`Optional extended scenes for Faction capture. Use these only if you want an extended solo roleplay of a specific capture, or if a quick resolution doesn't serve the story you're building. Otherwise: one roll is enough. The game doesn't require these.`)}</p></div>
         <h4 className="el-subsection">{inline(`Church: Harmonic Crucifixion`)}</h4>
@@ -36,7 +36,7 @@ function AppendixE({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`specifically next encounter.`)}</p></div>
         <div className="el-body"><p><b>{inline(`6-`)}</b>{inline(` Remain captured. Three more loops. Then`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Captivity Vignettes" pageNum={basePage + 1} label={`CAPTIVITY VIGNETTES · p.${basePage + 1}`}>
+      <ChPage side="recto" runHead={"Captivity Vignettes"} pageNum={basePage + 1} label={`CAPTIVITY VIGNETTES · p.${basePage + 1}`}>
         <div className="el-body"><p>{inline(`choose: automatic release (you're exhausted and useless), or undergo Lockstep Binding and become a Templar (character retired to NPC status).`)}</p></div>
         <h4 className="el-subsection">{inline(`Authority: Loop Containment Protocol`)}</h4>
         <div className="el-body"><p>{inline(`Reality has stuttered. The same scene repeats. You're trapped in a Clone Loop while the Authority runs their normalization protocol. Define the scene being looped: Where are you? What action are you attempting? What's the basic structure of the `)}<b>{inline(`5-10`)}</b>{inline(` minute loop?`)}</p></div>
@@ -56,8 +56,8 @@ function AppendixE({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`6-`)}</b>{inline(` Fail. Loop continues. Lose 1 Coherence from`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-e-02" label="CAPTIVITY VIGNETTES · spread 2">
-      <ChPage side="verso" runHead="Captivity Vignettes" pageNum={basePage + 2} label={`CAPTIVITY VIGNETTES · p.${basePage + 2}`}>
+    <Spread id="appendix-e-02" label={"CAPTIVITY VIGNETTES · spread 2"}>
+      <ChPage side="verso" runHead={"Captivity Vignettes"} pageNum={basePage + 2} label={`CAPTIVITY VIGNETTES · p.${basePage + 2}`}>
         <div className="el-body"><p>{inline(`the effort. Try again next iteration. After 10 iterations: loop releases you automatically. All Active Memories become Fading. Reduce Paradox by `)}<b>{inline(`1d6`)}</b>{inline(`. Gain Scar: Recursive Doubt.`)}</p></div>
         <h4 className="el-subsection">{inline(`Scionfall: The Nullwave Protocol`)}</h4>
         <div className="el-body"><p>{inline(`A Scionfall Herald has manifested. The Nullwave field expands around you. Reality is draining of color, sound, meaning. The Herald offers cessation one final time. Define what you're trying to hold onto: a specific Memory, a person you're trying to reach, a task you're trying to complete, or your own sense of purpose.`)}</p></div>
@@ -72,7 +72,7 @@ function AppendixE({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`Escape:`)}</b>{inline(` Spend `)}<b>{inline(`3 Coherence`)}</b>{inline(` and invoke your Locked Memory — the one thing you absolutely cannot lose. This creates enough emotional mass to spike your waveform and disrupt the Nullwave. Herald withdraws. Gain Scar: `)}<i>{inline(`Hollow Moments`)}</i>{inline(`. Scionfall will return during your next Crisis.`)}</p></div>
         <div className="el-body"><p>{inline(`Alternatively: generate `)}<b>{inline(`+3 Paradox`)}</b>{inline(` minimum through an act so violent and contradictory that it disrupts the null field. Herald withdraws, disappointed.`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Captivity Vignettes" pageNum={basePage + 3} label={`CAPTIVITY VIGNETTES · p.${basePage + 3}`}>
+      <ChPage side="recto" runHead={"Captivity Vignettes"} pageNum={basePage + 3} label={`CAPTIVITY VIGNETTES · p.${basePage + 3}`}>
         <div className="el-body"><p><b>{inline(`After 5 rounds:`)}</b>{inline(` Herald makes a final offer. One more round if refused. If you survive the 6th round, Herald withdraws — you've proven you're not ready for mercy yet.`)}</p></div>
         <hr className="el-section-rule" />
         <h4 className="el-subsection">{inline(`Chronoclasts: Decoherence Bloom Survival`)}</h4>

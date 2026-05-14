@@ -20,12 +20,13 @@
   /* ── Book 2 — Alan Rose (The Void) ──────────────────────── */
   --al-void:       #0D0F12;   /* Page background. Cold near-black. */
   --al-ghost:      #DCE4E8;   /* Body text. Cold cream. */
-  --al-electric:  #1E4D6B;   /* Accent. Monitor in a dark room. */
-  --al-steel:      #4A5568;   /* Muted labels, page numbers. */
-  --al-typewriter: #B8C4CC;   /* Faded typewriter-ribbon annotations. */
+  --al-electric:  #6FA8D2;   /* Accent. Monitor in a dark room (brighter for legibility). */
+  --al-steel:      #8A93A6;   /* Muted labels, page numbers (brightened from #4A5568). */
+  --al-typewriter: #C8D2DA;   /* Faded typewriter-ribbon annotations. */
 
   /* ── Shared / Cross-narrator ───────────────────────────── */
-  --sf-zaaken:     #4A3560;   /* Zaaken's voice. Belongs to neither. */
+  --sf-zaaken:     #4A3560;          /* Zaaken on light pages (parchment). */
+  --sf-zaaken-on-dark: #B8A8DD;      /* Zaaken on dark pages (the void) — brightened so it's readable. */
 
   /* ── Page metrics (digest) ─────────────────────────────── */
   --page-w:  5.5in;

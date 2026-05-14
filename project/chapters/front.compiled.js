@@ -23,7 +23,7 @@ function FrontMatter({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "front-cover",
-    label: "Front Matter \xB7 title"
+    label: "Front Matter · title"
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     showTexture: false,
@@ -55,7 +55,7 @@ function FrontMatter({
     className: "il-titlepage__sub"
   }, "First Edition \xB7 2026")))), /*#__PURE__*/React.createElement(Spread, {
     id: "front-01",
-    label: "FRONT MATTER \xB7 spread 1"
+    label: "FRONT MATTER · spread 1"
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     showTexture: false,
@@ -99,7 +99,7 @@ function FrontMatter({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`If you're reading this, it means you found this copy. If you're holding it in your hands — be careful what you write in the margins. The book remembers.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "front-02",
-    label: "FRONT MATTER \xB7 spread 2"
+    label: "FRONT MATTER · spread 2"
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     showTexture: false,
@@ -130,7 +130,7 @@ function FrontMatter({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Chapters 1–5 (Chapters 1–5 of Temporal Echoes) The Action Oracle (Appendix C.3) This is all you need to survive your first jumps. You will not understand the rest yet. That is intentional.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "front-03",
-    label: "FRONT MATTER \xB7 spread 3"
+    label: "FRONT MATTER · spread 3"
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     showTexture: false,

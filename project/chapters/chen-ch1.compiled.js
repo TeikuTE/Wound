@@ -23,21 +23,21 @@ function ChenCh1({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "chen-1-opener",
-    label: "UNDERSTANDING DISPLACEMENT \xB7 opener"
+    label: "UNDERSTANDING DISPLACEMENT · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
   }), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     showWatermark: true,
-    label: "chen-1 \xB7 opener"
+    label: "UNDERSTANDING DISPLACEMENT \xB7 opener"
   }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-broken-compass.svg",
     number: "I",
     title: "Understanding Displacement"
   }))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-1-02",
-    label: "UNDERSTANDING DISPLACEMENT \xB7 spread 2"
+    label: "UNDERSTANDING DISPLACEMENT · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Understanding Displacement",
@@ -80,7 +80,7 @@ function ChenCh1({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The questions an Echo asks tell me more than their answers do, because they also show what the Echo has already `), /*#__PURE__*/React.createElement("i", null, inline(`stopped`)), inline(` asking. An Echo who no longer asks whether they can return has decided something, even if they wouldn't admit it. An Echo who no longer asks whether their identity is worth preserving is preparing for what comes after, which I have learned not to name out loud.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-1-03",
-    label: "UNDERSTANDING DISPLACEMENT \xB7 spread 3"
+    label: "UNDERSTANDING DISPLACEMENT · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Understanding Displacement",
@@ -96,9 +96,9 @@ function ChenCh1({
     tier: tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`She's wrong about the order. The first question every Echo asks is "what year is it." The second is "where am I." She skips both because she had a lab and is into math. Most people have neither.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`This game is the process of living with those questions. It does not guarantee answers.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The Four Factions`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`This game is the process of living with those questions. It does not guarantee answers.`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`The Four Factions`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Four major Factions have emerged from the Chronoverse, each with their own reasons for hunting you.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -129,7 +129,7 @@ function ChenCh1({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`A session follows a rhythm. Learn it so well that it feels like breathing. You should be able to do it without thinking.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-1-04",
-    label: "UNDERSTANDING DISPLACEMENT \xB7 spread 4"
+    label: "UNDERSTANDING DISPLACEMENT · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Understanding Displacement",

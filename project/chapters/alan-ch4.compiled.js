@@ -23,7 +23,7 @@ function AlanCh4({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "alan-4-opener",
-    label: "FACTION PRESSURE \xB7 opener"
+    label: "FACTION PRESSURE · opener"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     label: "(blank)"
@@ -41,7 +41,7 @@ function AlanCh4({
     size: 9
   }, "// 2287.192.0001"))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-4-02",
-    label: "FACTION PRESSURE \xB7 spread 2"
+    label: "FACTION PRESSURE · spread 2"
   }, /*#__PURE__*/React.createElement(AlPage, {
     side: "verso",
     runHead: "ENTRY_004",

@@ -23,7 +23,7 @@ function PlayingBothInterlude({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "interlude-opener",
-    label: "Interlude \xB7 opener"
+    label: "Interlude · opener"
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     label: "(blank)"
@@ -40,9 +40,9 @@ function PlayingBothInterlude({
     className: "il-opener__rule"
   }), /*#__PURE__*/React.createElement("div", {
     className: "il-opener__attribution"
-  }, "a note from the journalist")))), /*#__PURE__*/React.createElement(Spread, {
+  }, "a note from the finder")))), /*#__PURE__*/React.createElement(Spread, {
     id: "interlude-01",
-    label: "PLAYING BOTH \xB7 spread 1"
+    label: "PLAYING BOTH · spread 1"
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     showTexture: false,
@@ -95,7 +95,7 @@ function PlayingBothInterlude({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`If your Echo's Anchor Strength reached 0 — if you dissolved, if the Identity Crisis took everything — you begin emiT at Corruption Vector 5. Not because you won. Because there's nothing left to lose. You arrive at Alan's book with the ceiling intact and the floor already gone. That's its own kind of tragedy.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "interlude-02",
-    label: "PLAYING BOTH \xB7 spread 2"
+    label: "PLAYING BOTH · spread 2"
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     showTexture: false,

@@ -23,7 +23,7 @@ function AppendixC({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-opener",
-    label: "C \xB7 opener"
+    label: "C · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
@@ -43,7 +43,7 @@ function AppendixC({
     className: "el-appendix-rule"
   })))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-01",
-    label: "ORACLE TABLES \xB7 spread 1"
+    label: "ORACLE TABLES · spread 1"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Oracle Tables",
@@ -216,7 +216,7 @@ function AppendixC({
     className: "oracle-desc"
   }, inline(`Bazaar, trading post, commercial district. Exchange and commerce. Merchants, hagglers, information brokers.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-02",
-    label: "ORACLE TABLES \xB7 spread 2"
+    label: "ORACLE TABLES · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Oracle Tables",
@@ -417,7 +417,7 @@ function AppendixC({
     className: "oracle-desc"
   }, inline(`Objects from other eras appear in this one and refuse to leave. A smartphone in a medieval market. A bronze sword in a 1950s living room. Locals see them and accept them, or see them and do not.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-03",
-    label: "ORACLE TABLES \xB7 spread 3"
+    label: "ORACLE TABLES · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Oracle Tables",
@@ -576,7 +576,7 @@ function AppendixC({
     className: "oracle-desc"
   }, inline(`Fire, flood, earthquake, severe storm, or other disaster. Structural collapse possible. Escape urgent.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-04",
-    label: "ORACLE TABLES \xB7 spread 4"
+    label: "ORACLE TABLES · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Oracle Tables",
@@ -723,7 +723,7 @@ function AppendixC({
     className: "el-subsection"
   }, inline(`Example 2: Berlin Divergence`)))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-05",
-    label: "ORACLE TABLES \xB7 spread 5"
+    label: "ORACLE TABLES · spread 5"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Oracle Tables",
@@ -760,7 +760,7 @@ function AppendixC({
     className: "el-subsection"
   }, inline(`C.2 — The Chronoscape (emiT)`)))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-06",
-    label: "ORACLE TABLES \xB7 spread 6"
+    label: "ORACLE TABLES · spread 6"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Oracle Tables",

@@ -23,21 +23,21 @@ function ChenCh8({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "chen-8-opener",
-    label: "LONG-TERM PLAY \xB7 opener"
+    label: "LONG-TERM PLAY · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
   }), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     showWatermark: true,
-    label: "chen-8 \xB7 opener"
+    label: "LONG-TERM PLAY \xB7 opener"
   }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-handless-clock.svg",
     number: "VIII",
     title: "Long-Term Play"
   }))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-8-02",
-    label: "LONG-TERM PLAY \xB7 spread 2"
+    label: "LONG-TERM PLAY · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Long-Term Play",
@@ -77,7 +77,7 @@ function ChenCh8({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Goal: simply endure as long as possible. High-difficulty mode: start with Anchor Strength 2, forced Displacement every `), /*#__PURE__*/React.createElement("b", null, inline(`2-3`)), inline(` scenes, higher Paradox generation. Ends when you finally dissolve, transform, or find unexpected peace.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-8-03",
-    label: "LONG-TERM PLAY \xB7 spread 3"
+    label: "LONG-TERM PLAY · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Long-Term Play",

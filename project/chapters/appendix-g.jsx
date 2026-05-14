@@ -6,7 +6,7 @@ function AppendixG({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="appendix-g-opener" label="G · opener">
+    <Spread id="appendix-g-opener" label={"G · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label="G · opener">
         <div className="el-appendix-opener">
@@ -16,8 +16,8 @@ function AppendixG({ tweaks, basePage = 1 }) {
         </div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-g-01" label="TEMPORAL PATHOLOGIES · spread 1">
-      <ChPage side="verso" runHead="Temporal Pathologies" pageNum={basePage + 0} label={`TEMPORAL PATHOLOGIES · p.${basePage + 0}`}>
+    <Spread id="appendix-g-01" label={"TEMPORAL PATHOLOGIES · spread 1"}>
+      <ChPage side="verso" runHead={"Temporal Pathologies"} pageNum={basePage + 0} label={`TEMPORAL PATHOLOGIES · p.${basePage + 0}`}>
         <h3 className="el-section">{inline(`The Mutation Catalog`)}</h3>
         <AlanIntrusionInline tier={tier}><p>{inline(`Mutations are what's left when a Scar finishes consuming itself and leaves something working in its place. Most of them are useful. None of them are reversible.`)}</p></AlanIntrusionInline>
         <div className="el-body"><p><b>{inline(`1. Time-Stutter Speech.`)}</b>{inline(` `)}<i>{inline(`You speak with a quarter-second delay between intent and articulation. To you it sounds like normal speech. To the listener it sounds like you are reading from cue cards held just out of frame. The first time someone called me out on this I'd been doing it for two years. — AR`)}</i></p></div>
@@ -26,7 +26,7 @@ function AppendixG({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`4. Resonance Bleeding.`)}</b>{inline(` `)}<i>{inline(`Strong emotions in others register as physical pressure in you. Crowds are oceans. One-on-one conversations are tidal. I avoid weddings. I went to one in 2041. I have not recovered. — AR`)}</i></p></div>
         <div className="el-body"><p><b>{inline(`5. Phantom Calibration.`)}</b>{inline(` `)}<i>{inline(`Your sense of time is permanently four-and-a-half seconds ahead of consensus reality. Every clock you see is wrong. You learn to compensate. You will never trust a clock again.`)}</i></p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Temporal Pathologies" pageNum={basePage + 1} label={`TEMPORAL PATHOLOGIES · p.${basePage + 1}`}>
+      <ChPage side="recto" runHead={"Temporal Pathologies"} pageNum={basePage + 1} label={`TEMPORAL PATHOLOGIES · p.${basePage + 1}`}>
         <div className="el-body"><p><b>{inline(`6. The Quiet.`)}</b>{inline(` `)}<i>{inline(`Background sound — refrigerator hum, distant traffic, the rustle of leaves — is gone. The world is silent in the parts where it used to murmur. Speech is fine. Music is fine. The murmur of the world that you stopped noticing as a child is permanently absent. You did not realize how much you needed it.`)}</i></p></div>
         <div className="el-body"><p><b>{inline(`7. Spectral Eye.`)}</b>{inline(` `)}<i>{inline(`One eye sees Paradox as blue phosphorescence. The eye is not the same eye it used to be. Don't ask. — AR`)}</i></p></div>
         <div className="el-body"><p><b>{inline(`8. Recursive Hand.`)}</b>{inline(` `)}<i>{inline(`Your dominant hand sometimes performs the action you were going to perform a moment before you decide to perform it. You are still in control. The hand is just slightly faster.`)}</i></p></div>
@@ -35,8 +35,8 @@ function AppendixG({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`11. Faction Sensitivity.`)}</b>{inline(` `)}<i>{inline(`You can feel when a Faction Agent is within 200 meters of you. Useful. Also: you can feel when one is leaving. Knowing they were watching for the past hour is worse than not knowing.`)}</i></p></div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-g-02" label="TEMPORAL PATHOLOGIES · spread 2">
-      <ChPage side="verso" runHead="Temporal Pathologies" pageNum={basePage + 2} label={`TEMPORAL PATHOLOGIES · p.${basePage + 2}`}>
+    <Spread id="appendix-g-02" label={"TEMPORAL PATHOLOGIES · spread 2"}>
+      <ChPage side="verso" runHead={"Temporal Pathologies"} pageNum={basePage + 2} label={`TEMPORAL PATHOLOGIES · p.${basePage + 2}`}>
         <div className="el-body"><p><b>{inline(`12. Anchor Tunneling.`)}</b>{inline(` `)}<i>{inline(`When your Anchor Connection is in distress, you sense it. Not symbolically — physically. Headache, nausea, sometimes a pulled muscle in the side of the body that corresponds to where the person is geographically located. Most Echoes with Anchor Tunneling stop using it because the data is unbearable.`)}</i></p></div>
         <div className="el-body"><p><b>{inline(`13. The Slow Ear.`)}</b>{inline(` `)}<i>{inline(`Speech directed at you takes a perceptible moment to resolve into language. People assume you're processing or thinking. You're not. You're waiting for their words to finish translating themselves into something you can hear.`)}</i></p></div>
         <div className="el-body"><p><b>{inline(`14. Mirror Lag.`)}</b>{inline(` `)}<i>{inline(`Your reflection lags by a quarter-second. You can use the lag as a tell — your reflection's expression sometimes precedes the one you're about to make.`)}</i></p></div>
@@ -44,7 +44,7 @@ function AppendixG({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`16. Threshold Confusion.`)}</b>{inline(` `)}<i>{inline(`You sometimes do not know whether a person is real or remembered. The confusion is brief — usually a second or two — but in that second you respond to a memory as if it were present, and the present moment moves on without you.`)}</i></p></div>
         <div className="el-body"><p><b>{inline(`17. Causal Sympathy.`)}</b>{inline(` `)}<i>{inline(`When you injure yourself, the injury appears, faintly, on someone you are connected to. They do not feel it. They do not see it. You see it in them. The injury fades from them as yours heals.`)}</i></p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Temporal Pathologies" pageNum={basePage + 3} label={`TEMPORAL PATHOLOGIES · p.${basePage + 3}`}>
+      <ChPage side="recto" runHead={"Temporal Pathologies"} pageNum={basePage + 3} label={`TEMPORAL PATHOLOGIES · p.${basePage + 3}`}>
         <div className="el-body"><p><b>{inline(`18. The Lost Word.`)}</b>{inline(` `)}<i>{inline(`A word you used to use frequently is now permanently inaccessible. You can describe what it means, when you'd use it, where you learned it. You cannot say it. The word is in you somewhere. It does not come out.`)}</i></p></div>
         <div className="el-body"><p><b>{inline(`19. Frequency Bleed.`)}</b>{inline(` `)}<i>{inline(`Music and ambient tone affect you more than they used to. A wrong note in the room three streets over is felt. You will learn to live with headphones.`)}</i></p></div>
         <div className="el-body"><p><b>{inline(`20. The Witness.`)}</b>{inline(` `)}<i>{inline(`Once per day, someone who has been dead for at least ten years is briefly visible in your peripheral vision. You will not see them clearly. You will know who they are. They do not interact. They do not recur. They are, you think, checking on you.`)}</i></p></div>
@@ -56,8 +56,8 @@ function AppendixG({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`You are certain, with absolute clarity, that you are already dead. Your body is a corpse being puppeted by temporal residue. This is not a crisis. It is simply a fact you've accepted. The rot is merely slow.`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-g-03" label="TEMPORAL PATHOLOGIES · spread 3">
-      <ChPage side="verso" runHead="Temporal Pathologies" pageNum={basePage + 4} label={`TEMPORAL PATHOLOGIES · p.${basePage + 4}`}>
+    <Spread id="appendix-g-03" label={"TEMPORAL PATHOLOGIES · spread 3"}>
+      <ChPage side="verso" runHead={"Temporal Pathologies"} pageNum={basePage + 4} label={`TEMPORAL PATHOLOGIES · p.${basePage + 4}`}>
         <div className="el-body"><p><i>{inline(`Mechanical effect:`)}</i>{inline(` you are immune to fear-based intimidation and to the Scionfall Herald's opening offer (you're already dead — cessation holds no terror). However, you cannot gain Coherence from social connection, rest, or comfort. You can only gain Coherence by documenting evidence of your own death in your Chronicle — finding your own grave, reading your own obituary, meeting someone who attended your funeral.`)}</p></div>
         <div className="el-body"><p><i>{inline(`To remove:`)}</i>{inline(` survive a Crisis and roll `)}<b>{inline(`12+`)}</b>{inline(` on the resolution roll.`)}</p></div>
         <hr className="el-section-rule" />
@@ -69,7 +69,7 @@ function AppendixG({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`3 — Palinopsia (Temporal Afterimages)`)}</h4>
         <div className="el-body"><p>{inline(`You see the ghost of every action before it's completed — a visual echo of the recent past, overlapping the present. People are trailed by where they just were. You can see the moment before the punch lands.`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Temporal Pathologies" pageNum={basePage + 5} label={`TEMPORAL PATHOLOGIES · p.${basePage + 5}`}>
+      <ChPage side="recto" runHead={"Temporal Pathologies"} pageNum={basePage + 5} label={`TEMPORAL PATHOLOGIES · p.${basePage + 5}`}>
         <div className="el-body"><p><i>{inline(`Mechanical effect:`)}</i>{inline(` once per session, before any roll, you may declare you are watching the afterimage of this moment. You may reroll one die and take the better result. However, the cognitive load is cumulative — every time you use this ability in a session after the first, lose `)}<b>{inline(`1 Coherence`)}</b>{inline(` from the strain of double-vision.`)}</p></div>
         <div className="el-body"><p><i>{inline(`To remove:`)}</i>{inline(` spend a full Downtime in complete darkness.`)}</p></div>
         <hr className="el-section-rule" />
@@ -82,8 +82,8 @@ function AppendixG({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`You no longer recognize the person in reflective surfaces as yourself. The recognition mechanism is simply gone — you see a stranger. Sometimes the stranger moves on a slight delay. You've stopped looking.`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-g-04" label="TEMPORAL PATHOLOGIES · spread 4">
-      <ChPage side="verso" runHead="Temporal Pathologies" pageNum={basePage + 6} label={`TEMPORAL PATHOLOGIES · p.${basePage + 6}`}>
+    <Spread id="appendix-g-04" label={"TEMPORAL PATHOLOGIES · spread 4"}>
+      <ChPage side="verso" runHead={"Temporal Pathologies"} pageNum={basePage + 6} label={`TEMPORAL PATHOLOGIES · p.${basePage + 6}`}>
         <div className="el-body"><p><i>{inline(`Mechanical effect:`)}</i>{inline(` you cannot use reflective surfaces to gather information (normally a free OBSERVE action). At `)}<b>{inline(`Paradox 7+`)}</b>{inline(`, reflections show you a version of yourself from another timeline — this version has different Scars. You may ask one question of this version and receive a truthful answer, but gain `)}<b>{inline(`+1 Paradox`)}</b>{inline(` from the contact.`)}</p></div>
         <div className="el-body"><p><i>{inline(`To remove:`)}</i>{inline(` maintain `)}<b>{inline(`Anchor Strength 4+`)}</b>{inline(` for three consecutive sessions.`)}</p></div>
         <hr className="el-section-rule" />
@@ -92,7 +92,7 @@ function AppendixG({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><i>{inline(`Mechanical effect:`)}</i>{inline(` during Downtime, before rolling to Reinforce your Anchor, roll `)}<b>{inline(`1d6`)}</b>{inline(`. On a `)}<b>{inline(`1-2`)}</b>{inline(`, you accidentally reinforce the wrong period — spend the Coherence but gain no benefit (you were thinking of a time that no longer holds meaning). On a `)}<b>{inline(`5-6`)}</b>{inline(`, you reinforce something deeper than intended — gain `)}<b>{inline(`+2 Coherence`)}</b>{inline(` instead of the normal benefit. The Oracle decides which period you accessed.`)}</p></div>
         <div className="el-body"><p><i>{inline(`To remove:`)}</i>{inline(` reduce Paradox to 0.`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Temporal Pathologies" pageNum={basePage + 7} label={`TEMPORAL PATHOLOGIES · p.${basePage + 7}`}>
+      <ChPage side="recto" runHead={"Temporal Pathologies"} pageNum={basePage + 7} label={`TEMPORAL PATHOLOGIES · p.${basePage + 7}`}>
         
       </ChPage>
     </Spread>

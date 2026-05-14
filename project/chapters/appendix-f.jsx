@@ -6,7 +6,7 @@ function AppendixF({ tweaks, basePage = 1 }) {
   const AlPage = (props) => <Page book="alan" showTexture {...props} />;
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
-    <Spread id="appendix-f-opener" label="F · opener">
+    <Spread id="appendix-f-opener" label={"F · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label="F · opener">
         <div className="el-appendix-opener">
@@ -16,8 +16,8 @@ function AppendixF({ tweaks, basePage = 1 }) {
         </div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-f-01" label="EXAMPLES OF PLAY · spread 1">
-      <ChPage side="verso" runHead="Examples Of Play" pageNum={basePage + 0} label={`EXAMPLES OF PLAY · p.${basePage + 0}`}>
+    <Spread id="appendix-f-01" label={"EXAMPLES OF PLAY · spread 1"}>
+      <ChPage side="verso" runHead={"Examples Of Play"} pageNum={basePage + 0} label={`EXAMPLES OF PLAY · p.${basePage + 0}`}>
         <div className="el-body"><p>{inline(`These examples show how mechanics translate into fiction. They demonstrate when to roll, how to interpret Oracles, how to track resources, and how to write in your Chronicle. The character is Dr. Sarah Martinez, a climate scientist from 2089 Miami, played across a sample campaign.`)}</p></div>
         <hr className="el-section-rule" />
         <h4 className="el-subsection">{inline(`Example 1: First Arrival`)}</h4>
@@ -30,7 +30,7 @@ function AppendixF({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`On `)}<b>{inline(`10+`)}</b>{inline(`: gain `)}<b>{inline(`+1 Coherence`)}</b>{inline(`. Coherence: +3 → +4.`)}</p></div>
         <div className="el-body"><p>{inline(`But as I stand, a police constable is staring at me from the alley entrance. My shelter suit is dying — flickering, power almost gone. He's reaching for his whistle.`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Examples Of Play" pageNum={basePage + 1} label={`EXAMPLES OF PLAY · p.${basePage + 1}`}>
+      <ChPage side="recto" runHead={"Examples Of Play"} pageNum={basePage + 1} label={`EXAMPLES OF PLAY · p.${basePage + 1}`}>
         <h4 className="el-subsection">{inline(`Chronicle Entry:`)}</h4>
         <Zaaken><b>{inline(`DAY 1 — FIRST DISPLACEMENT`)}</b></Zaaken>
         <div className="el-body"><p>{inline(`>`)}</p></div>
@@ -50,8 +50,8 @@ function AppendixF({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Mode: SYNC (social deception, building trust) Memory Bonus: +2 (Active Memory — 'Peer Review Presentation,' tag: Persuasion) Roll: `)}<b>{inline(`2d6`)}</b>{inline(` = 9, total 9 + 1 + 2 = 12 Result: `)}<b>{inline(`12+`)}</b>{inline(` — Complete Success (and high enough to count) The constable's suspicion melts immediately. "Robbed? In broad daylight? Those dockside hooligans truly have no shame..." He helps me stand, brushing off my clothes, offering to escort me to the station.`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-f-02" label="EXAMPLES OF PLAY · spread 2">
-      <ChPage side="verso" runHead="Examples Of Play" pageNum={basePage + 2} label={`EXAMPLES OF PLAY · p.${basePage + 2}`}>
+    <Spread id="appendix-f-02" label={"EXAMPLES OF PLAY · spread 2"}>
+      <ChPage side="verso" runHead={"Examples Of Play"} pageNum={basePage + 2} label={`EXAMPLES OF PLAY · p.${basePage + 2}`}>
         <div className="el-body"><p>{inline(`I extract myself politely. On `)}<b>{inline(`10+`)}</b>{inline(`: gain +1 Coherence. Coherence: +4 →+5. Example 3: Navigation Failure I attempt Precision Navigation to 1851 London — the year of the Great Exhibition, when scientific societies gathered. Somewhere I could use my knowledge.`)}</p></div>
         <h4 className="el-subsection">{inline(`PRECISION NAVIGATION`)}</h4>
         <div className="el-body"><p>{inline(`Target: 1851, London, The Great Exhibition Target Precision: Year + City = `)}<b>{inline(`Difficulty 10`)}</b>{inline(` Cost: 1 Coherence paid before rolling. Coherence: +5 →+4 Mode: OBSERVE (sensing temporal currents) Memory Bonus: +2 (Active Memory — 'The Shelter Malfunction,' tag: Technology) Roll: `)}<b>{inline(`2d6`)}</b>{inline(` = 3, total 3 + 1 + 2 = 6 Result: `)}<b>{inline(`6-`)}</b>{inline(` — Lost in Transit Navigation failed. I must roll all four Anomaly Tables. Consequence: choose Lose 1 Coherence OR Mark +2 Paradox. I choose Coherence loss (keep Paradox low). Coherence: +4 →+3.`)}</p></div>
@@ -62,7 +62,7 @@ function AppendixF({ tweaks, basePage = 1 }) {
         <hr className="el-section-rule" />
         <h4 className="el-subsection">{inline(`Example 4: Faction Encounter`)}</h4>
       </ChPage>
-      <ChPage side="recto" runHead="Examples Of Play" pageNum={basePage + 3} label={`EXAMPLES OF PLAY · p.${basePage + 3}`}>
+      <ChPage side="recto" runHead={"Examples Of Play"} pageNum={basePage + 3} label={`EXAMPLES OF PLAY · p.${basePage + 3}`}>
         <div className="el-body"><p>{inline(`Several sessions later. Paradox is now at `)}<b>{inline(`7`)}</b>{inline(` (Anomaly band). Sarah is in Paris, 1871 — post-Commune chaos. She rolls `)}<b>{inline(`7-9`)}</b>{inline(` on a Resolution roll. At `)}<b>{inline(`Paradox 7-9`)}</b>{inline(`, Agents appear as complications on `)}<b>{inline(`7-9`)}</b>{inline(` results. Roll `)}<b>{inline(`d4`)}</b>{inline(` for Faction: result = 2 (Loop Authority).`)}</p></div>
         <div className="el-body"><p>{inline(`A forgettable person materializes mid-conversation. Average height, average build, clothing that shifts slightly between blinks. They're taking notes on a device that shouldn't exist for 130 years. "Dr. Martinez," they say, voice flat. "You're glitching. We can smooth you out. Painless."`)}</p></div>
         <div className="el-body"><p>{inline(`The Authority's Offer: normalize one Active Memory (bonus drops from `)}<b>{inline(`+2`)}</b>{inline(` to `)}<b>{inline(`+0`)}</b>{inline(`, emotional context erased) → Reduce Paradox by `)}<b>{inline(`2`)}</b>{inline(`, clear `)}<b>{inline(`1 Stress`)}</b>{inline(` from one Asset. Sarah's options: Accept, Refuse, or Drive Off. She refuses. "No. I'm not letting you erase Elena. I'm not letting you normalize any of this."`)}</p></div>
@@ -75,8 +75,8 @@ function AppendixF({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`End of session. Coherence: `)}<b>{inline(`+3`)}</b>{inline(`. Paradox: `)}<b>{inline(`7`)}</b>{inline(`. Location: Cambridge 1842, Prophetic Resonance still active.`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="appendix-f-03" label="EXAMPLES OF PLAY · spread 3">
-      <ChPage side="verso" runHead="Examples Of Play" pageNum={basePage + 4} label={`EXAMPLES OF PLAY · p.${basePage + 4}`}>
+    <Spread id="appendix-f-03" label={"EXAMPLES OF PLAY · spread 3"}>
+      <ChPage side="verso" runHead={"Examples Of Play"} pageNum={basePage + 4} label={`EXAMPLES OF PLAY · p.${basePage + 4}`}>
         <h4 className="el-subsection">{inline(`STEP 1: CHRONICLE (+1 COHERENCE)`)}</h4>
         <div className="el-body"><p>{inline(`Write session summary in Chronicle. Effect: Coherence +3 →+4.`)}</p></div>
         <h4 className="el-subsection">{inline(`STEP 2: REINFORCE ANCHOR`)}</h4>
@@ -92,7 +92,7 @@ function AppendixF({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`END OF SESSION STATE`)}</h4>
         <div className="el-body"><p>{inline(`Coherence: +4 (Flux — no modifier) Paradox: 6 (Flux — Scouts on 6-, -1 to rolls) Location: Cambridge 1842, Prophetic Resonance active Assets: Temporal Compass functional Memories: 5 Active, 0 Fading, 0 Locked Next: face tomorrow's prophesied disaster`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead="Examples Of Play" pageNum={basePage + 5} label={`EXAMPLES OF PLAY · p.${basePage + 5}`}>
+      <ChPage side="recto" runHead={"Examples Of Play"} pageNum={basePage + 5} label={`EXAMPLES OF PLAY · p.${basePage + 5}`}>
         
       </ChPage>
     </Spread>

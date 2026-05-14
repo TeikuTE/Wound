@@ -23,7 +23,7 @@ function AppendixD({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-opener",
-    label: "D \xB7 opener"
+    label: "D · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
@@ -43,7 +43,7 @@ function AppendixD({
     className: "el-appendix-rule"
   })))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-01",
-    label: "THE FACTIONS \xB7 spread 1"
+    label: "THE FACTIONS · spread 1"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "The Factions",
@@ -89,7 +89,7 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`designed to break your waveform into component frequencies, then rebuild and repurpose according to Church doctrine. Harmonic Crucifixion: binding an Echo in causal contradiction, forcing them to relive traumatic failure on loop until the emotional resonance can be harvested. Lockstep Binding: the final ritual — reduces an Echo's entropy to near-zero. The result: calm, cold, utterly stable. No longer human. Perfectly obedient.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-02",
-    label: "THE FACTIONS \xB7 spread 2"
+    label: "THE FACTIONS · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "The Factions",
@@ -153,7 +153,7 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Archivists — process normalized data, determine which timeline versions are correct The Algorithm — distributed AI or hive-mind that calculates optimal timeline states; no longer human, if it ever was`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-03",
-    label: "THE FACTIONS \xB7 spread 3"
+    label: "THE FACTIONS · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "The Factions",
@@ -215,7 +215,7 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`rituals; peaceful dissolution of waveforms Architects — design and deploy Nullwave emissions; create localized entropy fields The Silence — those who've achieved partial cessation; barely perceptible; waiting`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-04",
-    label: "THE FACTIONS \xB7 spread 4"
+    label: "THE FACTIONS · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "The Factions",
@@ -277,7 +277,7 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`chaos. Provocateurs — identify boring stable timelines and introduce disruption Remixers — active saboteurs, create Paradox for aesthetic reasons Conductors — orchestrate complex multi- timeline disruptions, treat causality as instrument The Avant-Garde — most skilled and most unstable; can perceive multiple timeline branches simultaneously`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-05",
-    label: "THE FACTIONS \xB7 spread 5"
+    label: "THE FACTIONS · spread 5"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "The Factions",

@@ -1,5 +1,5 @@
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-// AUTO-GENERATED — chen-3 — A SESSION OF PLAY
+// AUTO-GENERATED — chen-3 — A SESSION OF "PLAY"
 function ChenCh3({
   tweaks,
   basePage = 1
@@ -23,26 +23,26 @@ function ChenCh3({
   }, props));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Spread, {
     id: "chen-3-opener",
-    label: "A SESSION OF PLAY \xB7 opener"
+    label: "A SESSION OF \"PLAY\" · opener"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     label: "(blank)"
   }), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     showWatermark: true,
-    label: "chen-3 \xB7 opener"
+    label: "A SESSION OF \"PLAY\" · opener"
   }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-irregular-sine.svg",
     number: "III",
-    title: "A Session Of Play"
+    title: "A Session Of \"Play\""
   }))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-3-02",
-    label: "A SESSION OF PLAY \xB7 spread 2"
+    label: "A SESSION OF \"PLAY\" · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
-    runHead: "A Session Of Play",
+    runHead: "A Session Of \"Play\"",
     pageNum: basePage + 2,
-    label: `A SESSION OF PLAY · p.${basePage + 2}`
+    label: `A SESSION OF "PLAY" · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Opening the Session`)), /*#__PURE__*/React.createElement("div", {
@@ -74,9 +74,9 @@ function ChenCh3({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
-    runHead: "A Session Of Play",
+    runHead: "A Session Of \"Play\"",
     pageNum: basePage + 3,
-    label: `A SESSION OF PLAY · p.${basePage + 3}`
+    label: `A SESSION OF "PLAY" · p.${basePage + 3}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`When to Roll`)), /*#__PURE__*/React.createElement("div", {
@@ -87,7 +87,7 @@ function ChenCh3({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Pick up the dice. Name the action. Choose the Mode that matches how you're trying to survive it — OBSERVE to read the room, SYNC to bend to it, ENDURE to outlast it, DISRUPT to break it. If a Memory matches the context, let it guide you.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Note: if the current situation resonates with a Memory strongly enough that the past is actively informing your present, you may be able to invoke it for a deeper bonus — see 'Temporal Echoes: When the Past Bleeds Through' in Chapter 5 for the full procedure.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Note: if the current situation resonates with a Memory strongly enough that the past is actively informing your present, you may be able to invoke it for a deeper bonus — see 'When the Past Bleeds Through' in Chapter 5 for the full procedure.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-resolution"
   }, /*#__PURE__*/React.createElement("div", {
     className: "resolution-row"
@@ -123,12 +123,12 @@ function ChenCh3({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Record it all. The Chronicle is the only proof you were ever here.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-3-03",
-    label: "A SESSION OF PLAY \xB7 spread 3"
+    label: "A SESSION OF \"PLAY\" · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
-    runHead: "A Session Of Play",
+    runHead: "A Session Of \"Play\"",
     pageNum: basePage + 4,
-    label: `A SESSION OF PLAY · p.${basePage + 4}`
+    label: `A SESSION OF "PLAY" · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
@@ -150,9 +150,9 @@ function ChenCh3({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`A session ends when you've answered your opening question (or learned it cannot be answered here), you've played for one to three hours and feel a natural pause, or a Crisis forces a major change that ends the current chapter of your story. Then perform Downtime.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
-    runHead: "A Session Of Play",
+    runHead: "A Session Of \"Play\"",
     pageNum: basePage + 5,
-    label: `A SESSION OF PLAY · p.${basePage + 5}`
+    label: `A SESSION OF "PLAY" · p.${basePage + 5}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Before you close the book, answer your opening question in your Chronicle — even if the answer is 'I couldn't find out' or 'I found out and wish I hadn't.' Then write what that answer makes you need to know next.`))), /*#__PURE__*/React.createElement("div", {
