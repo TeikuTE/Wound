@@ -158,7 +158,7 @@ function ChenCh3({
   }, /*#__PURE__*/React.createElement("p", null, inline(`Before you close the book, answer your opening question in your Chronicle — even if the answer is 'I couldn't find out' or 'I found out and wish I hadn't.' Then write what that answer makes you need to know next.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The loop: open with a question, close by answering it, let the answer generate the next question. Each session is a closed loop that opens another. Do not aim for a specific number of scenes. You are done when the question has an answer.`))), /*#__PURE__*/React.createElement("aside", {
-    className: "el-reflection"
+    className: "el-reflection el-reflection--theory"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Turing proved that no algorithm can determine, in general, whether an arbitrary program will halt. Navigation has a similar problem. There is no procedure that can tell you, in advance, whether a Jump will resolve cleanly or fragment you. You roll, you commit, you find out. The undecidability is a fundamental property of time in the Chronoverse. — EC`)), /*#__PURE__*/React.createElement("p", null, inline(`> *Volve, Nota et Memento.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
   }, "\u2014 EC")))));

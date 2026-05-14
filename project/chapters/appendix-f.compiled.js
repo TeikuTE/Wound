@@ -100,7 +100,9 @@ function AppendixF({
     className: "el-subsection"
   }, inline(`RESOLUTION ROLL`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Mode: SYNC (social deception, building trust) Memory Bonus: +2 (Active Memory — 'Peer Review Presentation,' tag: Persuasion) Roll: `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` = 9, total 9 + 1 + 2 = 12 Result: `), /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` — Complete Success (and high enough to count) The constable's suspicion melts immediately. "Robbed? In broad daylight? Those dockside hooligans truly have no shame..." He helps me stand, brushing off my clothes, offering to escort me to the station.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Mode: SYNC (social deception, building trust) Memory Bonus: +2 (Active Memory — 'Peer Review Presentation,' tag: Persuasion) Roll: `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` = 9, total 9 + 1 + 2 = 12 Result: `), /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` — Complete Success (and high enough to count) The constable's suspicion melts immediately. "Robbed? In broad daylight? Those dockside hooligans truly have no shame..." He helps me stand, brushing off my clothes, offering to escort me to the station.`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`I extract myself politely. On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: gain +1 Coherence. Coherence: +4 →+5.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-f-02",
     label: "EXAMPLES OF PLAY · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -108,9 +110,11 @@ function AppendixF({
     runHead: "Examples Of Play",
     pageNum: basePage + 2,
     label: `EXAMPLES OF PLAY · p.${basePage + 2}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Example 3: Navigation`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`I extract myself politely. On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: gain +1 Coherence. Coherence: +4 →+5. Example 3: Navigation Failure I attempt Precision Navigation to 1851 London — the year of the Great Exhibition, when scientific societies gathered. Somewhere I could use my knowledge.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Failure I attempt Precision Navigation to 1851 London — the year of the Great Exhibition, when scientific societies gathered. Somewhere I could use my knowledge.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`PRECISION NAVIGATION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

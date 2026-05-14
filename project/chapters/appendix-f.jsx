@@ -48,11 +48,13 @@ function AppendixF({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`I'm attempting to deceive and defuse — this needs a roll.`)}</p></div>
         <h4 className="el-subsection">{inline(`RESOLUTION ROLL`)}</h4>
         <div className="el-body"><p>{inline(`Mode: SYNC (social deception, building trust) Memory Bonus: +2 (Active Memory — 'Peer Review Presentation,' tag: Persuasion) Roll: `)}<b>{inline(`2d6`)}</b>{inline(` = 9, total 9 + 1 + 2 = 12 Result: `)}<b>{inline(`12+`)}</b>{inline(` — Complete Success (and high enough to count) The constable's suspicion melts immediately. "Robbed? In broad daylight? Those dockside hooligans truly have no shame..." He helps me stand, brushing off my clothes, offering to escort me to the station.`)}</p></div>
+        <div className="el-body"><p>{inline(`I extract myself politely. On `)}<b>{inline(`10+`)}</b>{inline(`: gain +1 Coherence. Coherence: +4 →+5.`)}</p></div>
       </ChPage>
     </Spread>
     <Spread id="appendix-f-02" label={"EXAMPLES OF PLAY · spread 2"}>
       <ChPage side="verso" runHead={"Examples Of Play"} pageNum={basePage + 2} label={`EXAMPLES OF PLAY · p.${basePage + 2}`}>
-        <div className="el-body"><p>{inline(`I extract myself politely. On `)}<b>{inline(`10+`)}</b>{inline(`: gain +1 Coherence. Coherence: +4 →+5. Example 3: Navigation Failure I attempt Precision Navigation to 1851 London — the year of the Great Exhibition, when scientific societies gathered. Somewhere I could use my knowledge.`)}</p></div>
+        <h4 className="el-subsection">{inline(`Example 3: Navigation`)}</h4>
+        <div className="el-body"><p>{inline(`Failure I attempt Precision Navigation to 1851 London — the year of the Great Exhibition, when scientific societies gathered. Somewhere I could use my knowledge.`)}</p></div>
         <h4 className="el-subsection">{inline(`PRECISION NAVIGATION`)}</h4>
         <div className="el-body"><p>{inline(`Target: 1851, London, The Great Exhibition Target Precision: Year + City = `)}<b>{inline(`Difficulty 10`)}</b>{inline(` Cost: 1 Coherence paid before rolling. Coherence: +5 →+4 Mode: OBSERVE (sensing temporal currents) Memory Bonus: +2 (Active Memory — 'The Shelter Malfunction,' tag: Technology) Roll: `)}<b>{inline(`2d6`)}</b>{inline(` = 3, total 3 + 1 + 2 = 6 Result: `)}<b>{inline(`6-`)}</b>{inline(` — Lost in Transit Navigation failed. I must roll all four Anomaly Tables. Consequence: choose Lose 1 Coherence OR Mark +2 Paradox. I choose Coherence loss (keep Paradox low). Coherence: +4 →+3.`)}</p></div>
         <h4 className="el-subsection">{inline(`ANOMALY TABLE ROLLS`)}</h4>

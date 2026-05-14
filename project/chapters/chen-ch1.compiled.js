@@ -110,7 +110,7 @@ function ChenCh1({
     pageNum: basePage + 5,
     label: `UNDERSTANDING DISPLACEME · p.${basePage + 5}`
   }, /*#__PURE__*/React.createElement("aside", {
-    className: "el-reflection"
+    className: "el-reflection el-reflection--fieldnote"
   }, /*#__PURE__*/React.createElement("p", null, inline(`I've heard Echoes call the Factions evil. That's a mistake and an understatement. Each Faction has looked at the mathematics of temporal displacement and drawn a different answer to the same question.`)), /*#__PURE__*/React.createElement("p", null, inline(`The Church is correct that focused belief collapses probability. The Authority is right that recursion normalizes waveforms. Scionfall is fundamentally correct that cessation ends suffering. The Revel are right that instability creates infinite possibility.`)), /*#__PURE__*/React.createElement("p", null, inline(`I've worked with the Loop Authority dozens of times. They are at least coherent and dependable.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
   }, "\u2014 EC")), /*#__PURE__*/React.createElement(AlanIntrusionInline, {
@@ -138,7 +138,7 @@ function ChenCh1({
   }, /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Play. Navigate through time, encounter situations, make choices. When the outcome is uncertain and the stakes are real, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + Mode + Memory bonus.`)), /*#__PURE__*/React.createElement("li", null, inline(`Resolve. On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`, you succeed. On `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, you succeed with a cost or complication. On 6-, you fail and face consequences.`)), /*#__PURE__*/React.createElement("li", null, inline(`Record. Write what happened in your Chronicle. This is how you preserve yourself.`)), /*#__PURE__*/React.createElement("li", null, inline(`End Session. When you reach a natural stopping point, perform Downtime. This is when Memories fade, Assets repair, and you prepare for the next session.`))), /*#__PURE__*/React.createElement("aside", {
-    className: "el-reflection"
+    className: "el-reflection el-reflection--theory"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Hofstadter wrote about strange loops, systems that contain themselves, that reference themselves into being. An Echo is a strange loop, where the Echo's identity is the system that observes the system. When the loop tightens, you become more yourself. When it slackens, you become less. — EC`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
   }, "\u2014 EC")), /*#__PURE__*/React.createElement("aside", {

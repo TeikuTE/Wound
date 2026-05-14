@@ -734,7 +734,16 @@ function renderBlocks(blocks, host, opts = {}) {
           if (short) {
             out.push(`<ChenMarginaliaInline>${bodyHTML}</ChenMarginaliaInline>`);
           } else {
-            out.push(`<aside className="el-reflection">${bodyHTML}<div className="el-sign">— EC</div></aside>`);
+            // Decide variant: "theory-hook" if it opens with a recognised
+            // academic concept; "field-note" if it opens with a year/date
+            // or location; otherwise plain.
+            const firstPara = paras[0] || '';
+            const isTheory = /^\s*(Hofstadter|G[öo]del|Pascal|Reed[\s\-]Solomon|Landauer|Boltzmann|Shannon|Wittgenstein|Heisenberg|Schr[öo]dinger|Penrose|Turing|von Neumann|Bohm|Bell|Feynman|Bayes|Riemann|Chaitin|Conway|Mandelbrot|Lorenz|Cantor|Kant|Plato|Aristotle|Aquinas|Spinoza|Hume|Leibniz|Maxwell|The (?:Landauer|Holographic|Many-Worlds|Conservation|Uncertainty|Incompleteness))/i.test(stripMD(firstPara));
+            const isFieldNote = /^\s*(?:[A-Z][a-z]+,\s+\d{4}|In\s+\d{4}|\d{4}\.|My\s+(?:lab|notes|journal)|I('ve|'ll|'d|\s+(?:remember|recall|watched|observed|witnessed|stood|sat|tracked))|We\s+(?:were|stood|watched))/i.test(stripMD(firstPara));
+            const variant = isTheory ? ' el-reflection--theory'
+              : isFieldNote ? ' el-reflection--fieldnote'
+              : '';
+            out.push(`<aside className="el-reflection${variant}">${bodyHTML}<div className="el-sign">— EC</div></aside>`);
           }
         } else if (host === 'chen' && b.who === 'ALAN') {
           if (short) {

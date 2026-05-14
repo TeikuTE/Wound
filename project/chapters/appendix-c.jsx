@@ -58,7 +58,9 @@ function AppendixC({ tweaks, basePage = 1 }) {
         <table className="tbl-chen tbl-chen--oracle"><tbody><tr><td className="num">{`94-96`}</td><td className="oracle-name">{`CAUSAL LOOP ACTIVE`}</td><td className="oracle-desc">{inline(`Your arrival directly caused or contributed to the danger currently threatening you. You're both victim and cause.`)}</td></tr><tr><td className="num">{`97-98`}</td><td className="oracle-name">{`FACTION AMBUSH (COORDINATED)`}</td><td className="oracle-desc">{inline(`Multiple Faction agents from potentially different Factions. This was planned. They predicted or caused your arrival.`)}</td></tr><tr><td className="num">{`99-00`}</td><td className="oracle-name">{`[PARADOX]`}</td><td className="oracle-desc">{inline(`Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive with opposing interventions. Introduce both forces. Do not resolve the contradiction. Mark +1 Paradox immediately.`)}</td></tr></tbody></table>
         <h4 className="el-subsection">{inline(`Example Interpretations`)}</h4>
         <h4 className="el-subsection">{inline(`EXAMPLE INTERPRETATIONS`)}</h4>
-        <div className="el-body"><p>{inline(`How four dice results combine into coherent situations. Example 1: Oxford Uprising`)}</p></div>
+        <div className="el-body"><p>{inline(`How four dice results combine into coherent situations.`)}</p></div>
+        <h4 className="el-subsection">{inline(`Example 1: Oxford`)}</h4>
+        <div className="el-body"><p>{inline(`Uprising`)}</p></div>
         <h4 className="el-subsection">{inline(`ROLLED`)}</h4>
         <div className="el-body"><p>{inline(`ERA 47: Industrial (1800-1850) LOCATION 61: Academic Institution ANOMALY 23: Prophetic Resonance`)}</p></div>
         <h4 className="el-subsection">{inline(`COMPLICATION 15: Active Combat`)}</h4>

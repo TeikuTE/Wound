@@ -50,37 +50,16 @@ function ChenCh5({
     "data-firstpara": true
   }, /*#__PURE__*/React.createElement("p", null, inline(`When memory fails, identity collapses. Collapses start small. First, the Echo can't remember `), /*#__PURE__*/React.createElement("i", null, inline(`why`)), inline(` they were trying to remember while writing, then they can't remember what the chronicle is for, and eventually, they can't remember themselves.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Sometimes there are pieces of the old person in the rubble. Those pieces are valuable, but they aren't the person before the collapse.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Nine slots. Five Active. Three Fading. One Locked. The structure reflects what your nervous system was already doing before you were Displaced. You never remembered everything you lived. You remembered what was worth the metabolic cost of remembering.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The Chronoverse imposes the same accounting on Echoes, except the cost is steeper and the negotiation is shorter. Without intervention, the cost wins. With intervention, the cost still wins, but more slowly, and you get to choose what pieces you lose first.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Your memories exist in four states. They will not stay where you put them.`))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`ACTIVE MEMORIES (5 SLOTS)`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Vivid, detailed, present in your mind. These provide +2 to matching actions. They're energetically expensive to maintain — high-amplitude waveforms with strong emotional mass. When you invoke an Active Memory for a bonus, you're literally harmonizing with your past self, using stored resonance to enhance your current action.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Sometimes there are pieces of the old person in the rubble. Those pieces are valuable, but they aren't the person before the collapse.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Memory Management",
     pageNum: basePage + 3,
     label: `MEMORY MANAGEMENT · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`FADING MEMORIES (3 SLOTS)`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Losing clarity. +1 to matching actions. One step from being Lost. The signal is still there, but noise is increasing — new memories broadcasting on similar frequencies, creating static that obscures the old ones. The amplitude is decreasing. Chen's model calls this entropy. She's half right. It's also interference.`))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`LOCKED MEMORY (1 SLOT)`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Permanently preserved. +3 to matching actions. Costs 3 Coherence to Lock. Cannot fade through normal means. You're spending tremendous energy to create a standing wave — a self-reinforcing pattern that resists entropy.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Locking is the most important choice you'll make. Choose a Memory that defines your core identity — something that, if lost, would mean you no longer recognize yourself. You can only Lock once.`))), /*#__PURE__*/React.createElement("aside", {
-    className: "el-alan-block",
-    "data-tier": tier
-  }, /*#__PURE__*/React.createElement("p", null, inline(`I Locked the memory of Sarah's birth. The science worked. The memory is still mechanically intact 340 years later.`)), /*#__PURE__*/React.createElement("p", null, inline(`What Chen's equations don't account for: Emotional Mass (μ isn't constant. It decays.`)), /*#__PURE__*/React.createElement("p", null, inline(`You can preserve the structure — the date, the hospital room, the factual details. But the feeling? The love? The specific quality of consciousness that made you care?`)), /*#__PURE__*/React.createElement("p", null, inline(`That has a half-life she's never calculated.`)), /*#__PURE__*/React.createElement("p", null, inline(`Memory Locking preserves the skeleton. The soul rots anyway.`)), /*#__PURE__*/React.createElement("p", null, inline(`This is the equation Chen doesn't write:`)), /*#__PURE__*/React.createElement("p", null, inline(`Memory Coherence = Structure × (Emotional Mass × e^(-t/τ))`)), /*#__PURE__*/React.createElement("p", null, inline(`Where τis the decay constant and t is subjective time.`)), /*#__PURE__*/React.createElement("p", null, inline(`Lock all the memories you want. Time will hollow them out.`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-alan-sign"
-  }, "\u2014AR")))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("aside", {
+    className: "el-reflection"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A Reed-Solomon code can reconstruct a corrupted message if enough of the parity blocks survive. Your Memories function the same way. As long as enough remain, the original message — You — can be reconstructed from the fragments. — EC`)), /*#__PURE__*/React.createElement("p", null, inline(`Nine slots. Five Active. Three Fading. One Locked. The structure reflects what your nervous system was already doing before you were Displaced. You never remembered everything you lived. You remembered what was worth the metabolic cost of remembering.`)), /*#__PURE__*/React.createElement("p", null, inline(`The Chronoverse imposes the same accounting on Echoes, except the cost is steeper and the negotiation is shorter. Without intervention, the cost wins. With intervention, the cost still wins, but more slowly, and you get to choose what pieces you lose first.`)), /*#__PURE__*/React.createElement("p", null, inline(`Your memories exist in four states. They will not stay where you put them.`)), /*#__PURE__*/React.createElement("p", null, inline(`ACTIVE MEMORIES (5 SLOTS)`)), /*#__PURE__*/React.createElement("p", null, inline(`Vivid, detailed, present in your mind. These provide +2 to matching actions. They're energetically expensive to maintain — high-amplitude waveforms with strong emotional mass. When you invoke an Active Memory for a bonus, you're literally harmonizing with your past self, using stored resonance to enhance your current action.`)), /*#__PURE__*/React.createElement("p", null, inline(`FADING MEMORIES (3 SLOTS)`)), /*#__PURE__*/React.createElement("p", null, inline(`Losing clarity. +1 to matching actions. One step from being Lost. The signal is still there, but noise is increasing — new memories broadcasting on similar frequencies, creating static that obscures the old ones. The amplitude is decreasing. Chen's model calls this entropy. She's half right. It's also interference.`)), /*#__PURE__*/React.createElement("p", null, inline(`LOCKED MEMORY (1 SLOT)`)), /*#__PURE__*/React.createElement("p", null, inline(`Permanently preserved. +3 to matching actions. Costs 3 Coherence to Lock. Cannot fade through normal means. You're spending tremendous energy to create a standing wave — a self-reinforcing pattern that resists entropy.`)), /*#__PURE__*/React.createElement("p", null, inline(`Locking is the most important choice you'll make. Choose a Memory that defines your core identity — something that, if lost, would mean you no longer recognize yourself. You can only Lock once.`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-sign"
+  }, "\u2014 EC")))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-5-03",
     label: "MEMORY MANAGEMENT · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -88,7 +67,12 @@ function ChenCh5({
     runHead: "Memory Management",
     pageNum: basePage + 4,
     label: `MEMORY MANAGEMENT · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("aside", {
+    className: "el-alan-block",
+    "data-tier": tier
+  }, /*#__PURE__*/React.createElement("p", null, inline(`I Locked the memory of Sarah's birth. The science worked. The memory is still mechanically intact 340 years later.`)), /*#__PURE__*/React.createElement("p", null, inline(`What Chen's equations don't account for: Emotional Mass (μ isn't constant. It decays.`)), /*#__PURE__*/React.createElement("p", null, inline(`You can preserve the structure — the date, the hospital room, the factual details. But the feeling? The love? The specific quality of consciousness that made you care?`)), /*#__PURE__*/React.createElement("p", null, inline(`That has a half-life she's never calculated.`)), /*#__PURE__*/React.createElement("p", null, inline(`Memory Locking preserves the skeleton. The soul rots anyway.`)), /*#__PURE__*/React.createElement("p", null, inline(`This is the equation Chen doesn't write:`)), /*#__PURE__*/React.createElement("p", null, inline(`Memory Coherence = Structure × (Emotional Mass × e^(-t/τ))`)), /*#__PURE__*/React.createElement("p", null, inline(`Where τis the decay constant and t is subjective time.`)), /*#__PURE__*/React.createElement("p", null, inline(`Lock all the memories you want. Time will hollow them out.`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-alan-sign"
+  }, "\u2014AR")), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`LOST MEMORIES`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -100,7 +84,12 @@ function ChenCh5({
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Create the Memory: write title, tags, description.`)), /*#__PURE__*/React.createElement("li", null, inline(`It enters Active Slot 1.`)), /*#__PURE__*/React.createElement("li", null, inline(`The oldest Active Memory is pushed to Fading.`)), /*#__PURE__*/React.createElement("li", null, inline(`The oldest Fading Memory becomes Lost.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You form roughly `), /*#__PURE__*/React.createElement("b", null, inline(`1-2`)), inline(` new Memories per session. The pressure to choose what matters is the game.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You form roughly `), /*#__PURE__*/React.createElement("b", null, inline(`1-2`)), inline(` new Memories per session. The pressure to choose what matters is the game.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Memory Management",
+    pageNum: basePage + 5,
+    label: `MEMORY MANAGEMENT · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`TRIGGERS FOR NEW MEMORIES`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -112,12 +101,7 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Phantom Habit:`)), inline(` you perform a ritual you don't understand. The body remembers what the mind has lost.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`False Story:`)), inline(` you've constructed a lie to fill the gap. You believe it. That's the dangerous part.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Memory Management",
-    pageNum: basePage + 5,
-    label: `MEMORY MANAGEMENT · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`False Story:`)), inline(` you've constructed a lie to fill the gap. You believe it. That's the dangerous part.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Persistent Ache:`)), inline(` physical pain tied to the loss. Location unknown. Cause unverifiable.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -125,7 +109,15 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Behavioral Shift:`)), inline(` a personality change, permanent. You act differently now. You may not have noticed yet.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Scars accumulate. Track them in your Chronicle. For more specific shapes of deterioration, see Appendix G: Temporal Pathologies.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Scars accumulate. Track them in your Chronicle. For more specific shapes of deterioration, see Appendix G: Temporal Pathologies.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-5-04",
+    label: "MEMORY MANAGEMENT · spread 4"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Memory Management",
+    pageNum: basePage + 6,
+    label: `MEMORY MANAGEMENT · p.${basePage + 6}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`SCARS VS. MUTATIONS: A CRITICAL DISTINCTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -137,17 +129,14 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`MUTATIONS (TEMPORAL ECHOES)`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`When you gain a Mutation — from Paradox Breach, from a Faction trade, from a Crisis outcome that specifies it — choose one from this list, or create your own in the same register. These are not personality quirks. They are the Chronoverse writing itself onto your body.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-5-04",
-    label: "MEMORY MANAGEMENT · spread 4"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Memory Management",
-    pageNum: basePage + 6,
-    label: `MEMORY MANAGEMENT · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`When you gain a Mutation — from Paradox Breach, from a Faction trade, from a Crisis outcome that specifies it — choose one from this list, or create your own in the same register. These are not personality quirks. They are the Chronoverse writing itself onto your body.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Stutter — Time skips for you. You occasionally repeat the last few seconds of your own life, experiencing them twice. You are aware the second time. No one else is. You have no control over when this happens. Mechanically: once per session, the Oracle may declare your most recent roll occurred twice — both results stand, and you must narrate both.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Stutter — Time skips for you. You occasionally repeat the last few seconds of your own life, experiencing them twice. You are aware the second time. No one else is. You have no control over when this happens. Mechanically: once per session, the Oracle may declare your most recent roll occurred twice — both results stand, and you must narrate both.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Memory Management",
+    pageNum: basePage + 7,
+    label: `MEMORY MANAGEMENT · p.${basePage + 7}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Echo Bleed — You see brief overlays of other timelines. Strangers' faces flicker. Buildings appear half-demolished. You cannot always tell what is the present. Mechanically: -1 to OBSERVE when you have no Memory that applies to the current situation. The static fills the gap where context should be.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -155,11 +144,14 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Scarring — Wounds you sustained in other timelines manifest on your body in this one. Old injuries reopen. Scar tissue that wasn't there yesterday is there now. Mechanically: whenever you take a Crisis consequence that involves physical damage, it costs +1 additional Coherence. The body keeps its own accounting.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Signal Intrusion — You receive transmissions from other versions of yourself — fragments of choices you didn't make, warnings that may or may not apply to your current timeline. They feel urgent. They are sometimes wrong. Mechanically: once per session, you may ask the Action Oracle a yes/no question about the immediate future. The Oracle answers. Whether to trust it is your problem.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Signal Intrusion — You receive transmissions from other versions of yourself — fragments of choices you didn't make, warnings that may or may not apply to your current timeline. They feel urgent. They are sometimes wrong. Mechanically: once per session, you may ask the Action Oracle a yes/no question about the immediate future. The Oracle answers. Whether to trust it is your problem.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-5-05",
+    label: "MEMORY MANAGEMENT · spread 5"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
     runHead: "Memory Management",
-    pageNum: basePage + 7,
-    label: `MEMORY MANAGEMENT · p.${basePage + 7}`
+    pageNum: basePage + 8,
+    label: `MEMORY MANAGEMENT · p.${basePage + 8}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Anchor Drift — Your emotional connection to your origin has started to migrate. The people you think you're trying to return to are blurring with people you've met since. You're not sure which memories are original and which are composites. Mechanically: during Downtime, when you write a Chronicle entry about your Anchor Connections, roll `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(`. On a 1, one Anchor Connection detail shifts slightly — not lost, but changed. Record both versions. You don't know which one is real.`))), /*#__PURE__*/React.createElement("h4", {
@@ -186,14 +178,11 @@ function ChenCh5({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`A fragment returns. The Memory comes back as Fading. You remember the shape of it, but not the texture. Gain +1 Paradox.`))))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-5-05",
-    label: "MEMORY MANAGEMENT · spread 5"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
+  }, inline(`A fragment returns. The Memory comes back as Fading. You remember the shape of it, but not the texture. Gain +1 Paradox.`)))))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
     runHead: "Memory Management",
-    pageNum: basePage + 8,
-    label: `MEMORY MANAGEMENT · p.${basePage + 8}`
+    pageNum: basePage + 9,
+    label: `MEMORY MANAGEMENT · p.${basePage + 9}`
   }, /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
   }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
@@ -220,11 +209,14 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Reference Bonus: When facing a situation similar to a previous encounter, read the relevant past Chronicle entries. Gain +1 to the Resolution roll if past experience genuinely applies.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`When the Past Bleeds Through`))))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`When the Past Bleeds Through`)))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-5-06",
+    label: "MEMORY MANAGEMENT · spread 6"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
     runHead: "Memory Management",
-    pageNum: basePage + 9,
-    label: `MEMORY MANAGEMENT · p.${basePage + 9}`
+    pageNum: basePage + 10,
+    label: `MEMORY MANAGEMENT · p.${basePage + 10}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Sometimes, in moments of Crisis or revelation, the weight of all your past experiences presses upon the present. A decision made centuries ago influences your actions now. This is not metaphor. This is CTH.`))), /*#__PURE__*/React.createElement("div", {
@@ -241,14 +233,11 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`And this morning I read my first entry. The one I wrote on Day 1, right after Displacement. The one where I described my lab, my daughter, my life.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`I didn't recognize it.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-5-06",
-    label: "MEMORY MANAGEMENT · spread 6"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
+  }, /*#__PURE__*/React.createElement("p", null, inline(`I didn't recognize it.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
     runHead: "Memory Management",
-    pageNum: basePage + 10,
-    label: `MEMORY MANAGEMENT · p.${basePage + 10}`
+    pageNum: basePage + 11,
+    label: `MEMORY MANAGEMENT · p.${basePage + 11}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Not that I'd forgotten — the mechanics were intact, the Memory was still Active. But reading those words felt like reading someone else's diary. The person who wrote that entry cared about those things. The person reading it now... doesn't.`))), /*#__PURE__*/React.createElement("div", {
@@ -258,7 +247,7 @@ function ChenCh5({
   }, /*#__PURE__*/React.createElement("p", null, inline(`I think that might be the joke.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`(No signature. No date. The handwriting changes halfway through.)`))), /*#__PURE__*/React.createElement("aside", {
-    className: "el-reflection"
+    className: "el-reflection el-reflection--theory"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The holographic principle holds that the information content of a volume of space can be encoded on its boundary. Your Chronicle is your boundary. What you write down is the surface from which your interior — your continuous self — can be reconstructed. If the volume is lost but the boundary remains, you can be rebuilt. — EC`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
   }, "\u2014 EC")), /*#__PURE__*/React.createElement("aside", {
@@ -266,12 +255,7 @@ function ChenCh5({
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Some dude named Derrida once said the trace is what survives the absence of presence. The Chronicle is the trace. You are not in the journal, Ellie. The journal is what's left after you. Stop confusing the corpse with the body.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-alan-sign"
-  }, "\u2014AR")), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Crisis.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Memory Management",
-    pageNum: basePage + 11,
-    label: `MEMORY MANAGEMENT · p.${basePage + 11}`
-  })));
+  }, "\u2014AR")), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Crisis.`))))));
 }
 ChenCh5.pages = 12;
 Object.assign(window, {

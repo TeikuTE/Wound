@@ -1306,3 +1306,65 @@ h1.el-h1 [data-alan-quote] {
   letter-spacing: 0.04em;
   vertical-align: 0.15em;
 }
+
+/* ─────────────────────────────────────────────────────────────────────
+   F — Chen's "intellectual" reflection variant vs her "field notes"
+   The default .el-reflection reads as personal/observational. When she
+   draws an academic reference (Hofstadter, Pascal, Reed-Solomon, Gödel),
+   present that variant with a slightly different chrome so two
+   consecutive Chen asides don't look identical.
+
+   The generator decides which variant to use by inspecting the opening
+   noun: if the paragraph starts with a named academic concept, it's a
+   theory-hook. Otherwise it's a field note.
+   ───────────────────────────────────────────────────────────────────── */
+
+/* Theory-hook variant: tighter left rule + a subtle epigraph marker ⊕ */
+.el-reflection--theory {
+  padding-left: 6mm;
+  border-left: 0.5pt solid var(--el-forest);
+  position: relative;
+}
+.el-reflection--theory::before {
+  content: "⊕";
+  position: absolute;
+  left: -4mm;
+  top: 0;
+  font-family: var(--ff-serif-display);
+  font-size: 8pt;
+  color: var(--el-forest);
+  background: var(--el-parchment);
+  padding: 0 1mm;
+}
+
+/* Field-note variant: existing gold rule, but with a small "field note"
+   stamp in the top-right that hints at lived observation */
+.el-reflection--fieldnote {
+  position: relative;
+}
+.el-reflection--fieldnote::before {
+  content: "ⓕ FIELD NOTE";
+  position: absolute;
+  right: 0;
+  top: -3mm;
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 6.5pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--el-faded);
+  background: var(--el-parchment);
+  padding: 0 1mm;
+}
+
+/* Appendix F — examples of play. Give each Example heading distinct
+   breathing room so dense blocks of play-by-play don't look like a wall. */
+.el-subsection {
+  /* (already small-caps green) — boost top margin slightly to break flow */
+  scroll-margin-top: 6mm;
+}
+.el-body + h4.el-subsection {
+  margin-top: 6mm;
+  border-top: 0.3pt solid rgba(139,105,20,0.25);
+  padding-top: 3mm;
+}

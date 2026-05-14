@@ -705,7 +705,11 @@ function AppendixC({
     className: "el-subsection"
   }, inline(`EXAMPLE INTERPRETATIONS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`How four dice results combine into coherent situations. Example 1: Oxford Uprising`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`How four dice results combine into coherent situations.`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Example 1: Oxford`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Uprising`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`ROLLED`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

@@ -276,10 +276,6 @@ Skills are things practiced when no one was watching. Whether it was Talmudic rh
 
 *An Anchor is Pascal's wager carved into an object. You commit to a person, a place, a promise, in full knowledge that you cannot verify the bet. If they exist, you have something to come home to. If they do not, you have lost nothing as you were already lost. — EC*
 
-**[CHEN]**
-
-*A Reed-Solomon code can reconstruct a corrupted message if enough of the parity blocks survive. Your Anchor Connections function the same way. As long as enough remain, the original message — You — can be reconstructed from the fragments. — EC*
-
 Your Anchor is your metaphysical connection to your origin — the reference frequency that keeps your waveform from dissolving completely into the timestream. It has two components.
 
 **ANCHOR STRENGTH**
@@ -797,6 +793,10 @@ When in doubt: if people would write it down afterward, it's +2. If people would
 
 — EC
 
+**[CHEN]**
+
+*Gödel proved that any formal system rich enough to express arithmetic contains true statements it cannot prove. Reality, under CTH, is the same. There are facts about the timeline that are true and that the timeline cannot accommodate. Echoes bear those facts carved into their identity, but Paradox is what happens when an unprovable truth tries to find a place to stand. — EC*
+
 **Faction Pressure**
 
 **[CHEN]**
@@ -1019,14 +1019,6 @@ Pay the mechanical costs of any rolls that occurred. Keep any Scars. The fiction
 
 If you are in genuine mental-health crisis — the kind that does not belong in a game — please set the book aside and contact a crisis line in your region, or a trusted person. The game will still be here. You need to be too.
 
-**[CHEN]**
-
-Gödel proved that any formal system rich enough to express arithmetic contains true statements it cannot prove. Reality, under CTH, is the same. There are facts about the timeline that are true and that the timeline cannot accommodate. Echoes bear those facts carved into their identity, but Paradox is what happens when an unprovable truth tries to find a place to stand. — EC
-
-**[ALAN]**
-
-Chen calls them an immune system. Cute framing. An immune system protects the body. The factions don't protect anything. They digest you and call the digestion mercy, order, freedom, art. Pick your enzyme. — AR
-
 > *Memoria finita est.*
 
 ## CHAPTER 5: MEMORY MANAGEMENT
@@ -1036,6 +1028,11 @@ Chen calls them an immune system. Cute framing. An immune system protects the bo
 When memory fails, identity collapses. Collapses start small. First, the Echo can't remember *why* they were trying to remember while writing, then they can't remember what the chronicle is for, and eventually, they can't remember themselves.
 
 Sometimes there are pieces of the old person in the rubble. Those pieces are valuable, but they aren't the person before the collapse.
+
+**[CHEN]**
+
+*A Reed-Solomon code can reconstruct a corrupted message if enough of the parity blocks survive. Your Memories function the same way. As long as enough remain, the original message — You — can be reconstructed from the fragments. — EC*
+
 
 Nine slots. Five Active. Three Fading. One Locked. The structure reflects what your nervous system was already doing before you were Displaced. You never remembered everything you lived. You remembered what was worth the metabolic cost of remembering.
 
@@ -3199,7 +3196,11 @@ Roll ERA + LOCATION + ANOMALY + COMPLICATION when Navigation fails, when forced 
 
 **EXAMPLE INTERPRETATIONS**
 
-How four dice results combine into coherent situations. Example 1: Oxford Uprising
+How four dice results combine into coherent situations.
+
+#### Example 1: Oxford
+
+Uprising
 
 **ROLLED**
 
@@ -3696,6 +3697,11 @@ I have alignment with none of them. I am alive at the time of this writing, whic
 [Unlocked after your first Faction encounter]
 
 The Factions are not evil. Understanding what they are makes them more terrifying, not less. Each has looked at the mathematics of displacement and drawn a logical conclusion. Their conclusions are all correct. That's the horror. The Church of the Holy Second
+
+**[ALAN]**
+
+Chen calls them an immune system. Cute framing. An immune system protects the body. The factions don't protect anything. They digest you and call the digestion mercy, order, freedom, art. Pick your enzyme. — AR
+
 
 **[CHEN]**
 
@@ -4228,7 +4234,11 @@ I'm attempting to deceive and defuse — this needs a roll.
 
 Mode: SYNC (social deception, building trust) Memory Bonus: +2 (Active Memory — 'Peer Review Presentation,' tag: Persuasion) Roll: **2d6** = 9, total 9 + 1 + 2 = 12 Result: **12+** — Complete Success (and high enough to count) The constable's suspicion melts immediately. "Robbed? In broad daylight? Those dockside hooligans truly have no shame..." He helps me stand, brushing off my clothes, offering to escort me to the station.
 
-I extract myself politely. On **10+**: gain +1 Coherence. Coherence: +4 →+5. Example 3: Navigation Failure I attempt Precision Navigation to 1851 London — the year of the Great Exhibition, when scientific societies gathered. Somewhere I could use my knowledge.
+I extract myself politely. On **10+**: gain +1 Coherence. Coherence: +4 →+5.
+
+#### Example 3: Navigation
+
+Failure I attempt Precision Navigation to 1851 London — the year of the Great Exhibition, when scientific societies gathered. Somewhere I could use my knowledge.
 
 **PRECISION NAVIGATION**
 
