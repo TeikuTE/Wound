@@ -7,10 +7,22 @@ function FrontMatter({ tweaks, basePage = 1 }) {
   const IlPage = (props) => <Page book="interlude" showTexture={false} {...props} />;
   return (<>
     <Spread id="front-cover" label={"Front Matter · title"}>
-      <IlPage side="verso" showTexture={false} label="half-title">
+      <IlPage side="verso" showTexture={false} label="cover/half-title">
         <div className="il-halftitle">
+          <div className="il-cover-sigil">
+            <Glyph kind="sigil" name="master" size="sigil" />
+          </div>
           <div className="il-halftitle__mark">WOUND</div>
           <div className="il-halftitle__sub">Temporal Echoes / emiT</div>
+          <div className="il-cover-footnote">
+            Twine on the cover finally snapped this morning. One smells like ozone. The other like copper and cold air. Calling them the Wounds — Chen the Anachron, Rose the Apikoros. Tell me you'd resist.
+          </div>
+          {/* late-insertion COLLAPSE glyph in lower-left — 99% saturation */}
+          <div className="il-cover-ghost">
+            <Glyph name="collapse" size="ghost" late />
+          </div>
+          {/* late-insertion "Anachron / Apikoros" scrawl — over the title */}
+          <div className="il-cover-scrawl">Anachron / Apikoros</div>
         </div>
       </IlPage>
       <IlPage side="recto" showTexture={false} label="title">

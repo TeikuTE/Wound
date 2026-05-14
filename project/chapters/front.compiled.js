@@ -27,14 +27,30 @@ function FrontMatter({
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     showTexture: false,
-    label: "half-title"
+    label: "cover/half-title"
   }, /*#__PURE__*/React.createElement("div", {
     className: "il-halftitle"
   }, /*#__PURE__*/React.createElement("div", {
+    className: "il-cover-sigil"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    kind: "sigil",
+    name: "master",
+    size: "sigil"
+  })), /*#__PURE__*/React.createElement("div", {
     className: "il-halftitle__mark"
   }, "WOUND"), /*#__PURE__*/React.createElement("div", {
     className: "il-halftitle__sub"
-  }, "Temporal Echoes / emiT"))), /*#__PURE__*/React.createElement(IlPage, {
+  }, "Temporal Echoes / emiT"), /*#__PURE__*/React.createElement("div", {
+    className: "il-cover-footnote"
+  }, "Twine on the cover finally snapped this morning. One smells like ozone. The other like copper and cold air. Calling them the Wounds \u2014 Chen the Anachron, Rose the Apikoros. Tell me you'd resist."), /*#__PURE__*/React.createElement("div", {
+    className: "il-cover-ghost"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "collapse",
+    size: "ghost",
+    late: true
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "il-cover-scrawl"
+  }, "Anachron / Apikoros"))), /*#__PURE__*/React.createElement(IlPage, {
     side: "recto",
     showTexture: false,
     label: "title"

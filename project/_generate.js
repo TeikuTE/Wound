@@ -1040,14 +1040,30 @@ function emitSpreads(section) {
       });
     }
   } else if (isFront) {
-    // Title spread: half-title on verso, full title on recto.
+    // Title spread:
+    // - Verso (half-title) doubles as the cover surface: master sigil
+    //   intact, Footnote 1 scrawled in Caveat lower-right (the twine
+    //   note), and a tiny late-insertion COLLAPSE glyph at 99% sat.
+    // - Recto is the full title page.
     spreads.push({
       idTag: section.id + '-cover',
       label: 'Front Matter · title',
-      verso: `<IlPage side="verso" showTexture={false} label="half-title">
+      verso: `<IlPage side="verso" showTexture={false} label="cover/half-title">
   <div className="il-halftitle">
+    <div className="il-cover-sigil">
+      <Glyph kind="sigil" name="master" size="sigil" />
+    </div>
     <div className="il-halftitle__mark">WOUND</div>
     <div className="il-halftitle__sub">Temporal Echoes / emiT</div>
+    <div className="il-cover-footnote">
+      Twine on the cover finally snapped this morning. One smells like ozone. The other like copper and cold air. Calling them the Wounds — Chen the Anachron, Rose the Apikoros. Tell me you'd resist.
+    </div>
+    {/* late-insertion COLLAPSE glyph in lower-left — 99% saturation */}
+    <div className="il-cover-ghost">
+      <Glyph name="collapse" size="ghost" late />
+    </div>
+    {/* late-insertion "Anachron / Apikoros" scrawl — over the title */}
+    <div className="il-cover-scrawl">Anachron / Apikoros</div>
   </div>
 </IlPage>`,
       recto: `<IlPage side="recto" showTexture={false} label="title">

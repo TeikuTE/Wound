@@ -1522,3 +1522,63 @@ h1.el-h1 [data-alan-quote] {
   font-style: italic;
 }
 .fnote--late.fnote--act5 { font-family: 'Caveat', cursive; font-size: 11pt; }
+
+/* ─────────────────────────────────────────────────────────────────────
+   COVER (half-title verso doubles as cover surface in single-page PDF)
+   ───────────────────────────────────────────────────────────────────── */
+
+.il-cover-sigil {
+  position: absolute;
+  top: 22mm;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 32mm;
+  height: 32mm;
+  color: var(--el-burgundy);
+  opacity: 0.78;
+}
+.il-cover-sigil .gly { width: 32mm; height: 32mm; opacity: 1; }
+
+.il-cover-footnote {
+  position: absolute;
+  right: 12mm;
+  bottom: 22mm;
+  width: 64mm;
+  font-family: 'Caveat', cursive;
+  font-size: 11pt;
+  line-height: 1.18;
+  color: #6B6657;
+  text-align: right;
+  opacity: 0.80;
+  transform: rotate(-1.5deg);
+}
+.il-cover-footnote::before {
+  content: "*";
+  display: inline-block;
+  margin-right: 0.5mm;
+  font-weight: 700;
+}
+
+.il-cover-ghost {
+  position: absolute;
+  left: 14mm;
+  bottom: 18mm;
+  color: #4a1818;
+  opacity: 0.40;
+  transform: rotate(2deg);
+}
+
+.il-cover-scrawl {
+  position: absolute;
+  top: 76mm;
+  left: 50%;
+  transform: translateX(-50%) rotate(-1deg);
+  font-family: 'Caveat', cursive;
+  font-size: 12pt;
+  color: #6B3232;
+  letter-spacing: 0.05em;
+  opacity: 0.55;
+}
+
+/* Push the existing halftitle marks down so the master sigil reads as primary */
+.il-halftitle { padding-top: 100mm; }

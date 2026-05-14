@@ -461,8 +461,10 @@ function Glyph({
   style = {}
 }) {
   const family = faction ? 'dialect' : kind;
+  // Master sigil variants
+  const sigilVariant = name === 'severed' ? 'sigil_master_severed' : name === 'with-memory' ? 'sigil_master_with_memory' : 'sigil_master';
   const file = faction ? `assets/glyphs/dialect_${faction}_psi.svg` // dialects only ship for psi in the kit
-  : kind === 'sigil' ? `assets/glyphs/sigil_master.svg` : `assets/glyphs/${kind}_${name}.svg`;
+  : kind === 'sigil' ? `assets/glyphs/${sigilVariant}.svg` : `assets/glyphs/${kind}_${name}.svg`;
   const cls = ['gly', `gly--${size}`, stage ? `gly--stage${stage}` : '', late ? 'gly--late-insertion' : '', className].filter(Boolean).join(' ');
   return /*#__PURE__*/React.createElement("span", {
     className: cls,
