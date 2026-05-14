@@ -329,7 +329,12 @@ function PrintApp({
       if (!child || !child.props) return;
       // Drop blank pages: label="(blank)" indicates intentional blanks.
       if (child.props.label === '(blank)') return;
-      // Also drop pages whose only content is empty.
+      // Drop pages whose body is empty / whitespace only — these crept
+      // in when the auto-paginator emptied a trailing page after content
+      // moved upstream.
+      const body = child.props.children;
+      const bodyEmpty = body == null || Array.isArray(body) && body.every(b => b == null || b === false || b === '') || typeof body === 'string' && body.trim() === '';
+      if (bodyEmpty) return;
       pages.push({
         key: `${si}-${pi}`,
         el: child
