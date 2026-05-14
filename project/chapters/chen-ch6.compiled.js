@@ -42,6 +42,14 @@ function ChenCh6({
     side: "verso",
     runHead: "Crisis Management",
     pageNum: basePage + 2,
+    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
+      notes: [{
+        "n": 25,
+        "text": "Did not open this book today. Found it open on my desk. The ink in the margins on this page is a different color — a deep, bruised purple. Still wet to the touch.",
+        "act": 3,
+        "late": false
+      }]
+    }),
     label: `CRISIS MANAGEMENT · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
@@ -60,14 +68,7 @@ function ChenCh6({
     className: "el-subsection"
   }, inline(`IDENTITY CRISIS (ANCHOR STRENGTH 0)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Your connection to your origin has severed. Trigger: Anchor Strength drops to 0. Manifestation: you don't know who you are.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
-    notes: [{
-      "n": 25,
-      "text": "Did not open this book today. Found it open on my desk. The ink in the margins on this page is a different color — a deep, bruised purple. Still wet to the touch.",
-      "act": 3,
-      "late": false
-    }]
-  })), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Your connection to your origin has severed. Trigger: Anchor Strength drops to 0. Manifestation: you don't know who you are.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Crisis Management",
     pageNum: basePage + 3,

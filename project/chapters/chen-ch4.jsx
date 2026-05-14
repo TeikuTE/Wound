@@ -14,7 +14,7 @@ function ChenCh4({ tweaks, basePage = 1 }) {
       </ChPage>
     </Spread>
     <Spread id="chen-4-02" label={"CORE RESOLUTION & FACTION PRESSURE · spread 2"}>
-      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 2} label={`CORE RESOLUTION & FACTIO · p.${basePage + 2}`}>
+      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 2} footnotes={<FinderFootnotes notes={[{"n":16,"text":"2d6 + Mode + Memory tag — same math as Forged in the Dark. Comfortable territory. I can play this in my sleep.","act":2,"late":false}]} />} label={`CORE RESOLUTION & FACTIO · p.${basePage + 2}`}>
         <h4 className="el-subsection">{inline(`The Resolution Roll`)}</h4>
         <div className="el-body el-dropcap" data-firstpara><p>{inline(`When the outcome matters, you roll. Two six-sided dice, plus the relevant Mode, plus your Memory bonus if one applies.`)}<FootnoteMarker n={16} act={2} /></p><span className="gly-inline-row"><Glyph name="momentum" size="inline" stage={0} /></span></div>
         <div className="el-body"><p><b>{inline(`10+`)}</b>{inline(` is success. `)}<b>{inline(`7-9`)}</b>{inline(` is success with cost. `)}<b>{inline(`6-`)}</b>{inline(` is failure with an opening.`)}</p></div>
@@ -26,7 +26,6 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Choose: Lose 1 Coherence OR Mark 1 Paradox`)}</p></div>
         <h4 className="el-subsection">{inline(`MEMORY BONUS`)}</h4>
         <div className="el-body"><p>{inline(`Active Memory matching context +2 Fading Memory matching context +1 Locked Memory matching context +3 No relevant Memory +0`)}</p></div>
-        <FinderFootnotes notes={[{"n":16,"text":"2d6 + Mode + Memory tag — same math as Forged in the Dark. Comfortable territory. I can play this in my sleep.","act":2,"late":false}]} />
       </ChPage>
       <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 3} label={`CORE RESOLUTION & FACTIO · p.${basePage + 3}`}>
         <h4 className="el-subsection">{inline(`Navigation`)}</h4>
@@ -43,13 +42,12 @@ function ChenCh4({ tweaks, basePage = 1 }) {
       </ChPage>
     </Spread>
     <Spread id="chen-4-03" label={"CORE RESOLUTION & FACTION PRESSURE · spread 3"}>
-      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 4} label={`CORE RESOLUTION & FACTIO · p.${basePage + 4}`}>
+      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 4} footnotes={<FinderFootnotes notes={[{"n":17,"text":"Coherence is the only resource that matters. The rest are decoration.","act":2,"late":false}]} />} label={`CORE RESOLUTION & FACTIO · p.${basePage + 4}`}>
         <div className="el-resolution"><div className="resolution-row"><div className="resolution-roll">{`12+`}</div><div className="resolution-body"><div className="resolution-title">{inline(`Perfect Resonance`)}</div><div className="resolution-text">{inline(`Arrive exactly when and where intended. Gain +1 Coherence (clean synchronization). No Paradox generated.`)}</div></div></div><div className="resolution-row"><div className="resolution-roll">{`10-11`}</div><div className="resolution-body"><div className="resolution-title">{inline(`Successful Navigation`)}</div><div className="resolution-text">{inline(`Arrive at intended era and location. Minor variance (different street, day off by a week). Mark +1 Paradox from resonance strain.`)}</div></div></div><div className="resolution-row"><div className="resolution-roll">{`7-9`}</div><div className="resolution-body"><div className="resolution-title">{inline(`Close Arrival`)}</div><div className="resolution-text">{inline(`Arrive in correct era OR correct location, not both. Same year, different city, OR same city, years off. Mark +1 Paradox.`)}</div></div></div><div className="resolution-row"><div className="resolution-roll">{`6-`}</div><div className="resolution-body"><div className="resolution-title">{inline(`Lost in Transit`)}</div><div className="resolution-text">{inline(`Navigation fails. Consult the Anomaly Tables (see below). Choose: Lose 1 Coherence OR Mark +2 Paradox.`)}</div></div></div></div>
         <h4 className="el-subsection">{inline(`STRUCTURED CORRECTION`)}</h4>
         <div className="el-body"><p>{inline(`After rolling all four Anomaly Tables, you may spend 1 Coherence to reroll one result. Choose which table to reroll (ERA, LOCATION, ANOMALY, or COMPLICATION), spend the Coherence, and accept the new result. You may do this once per displacement event.`)}<FootnoteMarker n={17} act={2} /></p><span className="gly-inline-row"><Glyph name="anchor" size="inline" stage={0} /></span></div>
         <aside className="el-reflection"><p>{inline(`Initial observations can contain measurement error. Temporal resonance creates interference. If you invest the Coherence to recalibrate, you can refine your assessment. This isn't changing reality. It's correcting your perception of what exists.`)}</p><div className="el-sign">— EC</div></aside>
         <AlanIntrusionInline tier={tier}><p>{inline(`Chen's into spending Coherence to make the dice lie more comfortably. Sure, it works. It's also false comfort.`)}</p></AlanIntrusionInline>
-        <FinderFootnotes notes={[{"n":17,"text":"Coherence is the only resource that matters. The rest are decoration.","act":2,"late":false}]} />
       </ChPage>
       <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 5} label={`CORE RESOLUTION & FACTIO · p.${basePage + 5}`}>
         <h4 className="el-subsection">{inline(`NAVIGATION COLLAPSE (PARADOX 7+)`)}</h4>
@@ -83,10 +81,10 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`Forced Displacement — Faction interference, -2`)}</b></p></div>
         <div className="el-body"><p>{inline(`Crisis, random jump`)}</p></div>
         <div className="el-body"><p><b>{inline(`Crisis Displacement — Shattering, Identity -3`)}</b></p></div>
-      </ChPage>
-      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 7} label={`CORE RESOLUTION & FACTIO · p.${basePage + 7}`}>
         <div className="el-body"><p><b>{inline(`collapse, Breach`)}</b></p></div>
         <div className="el-body"><p>{inline(`Involuntary jumps always cost 2. Crisis-level displacement costs 3. You don't get to choose when those happen. That's the point.`)}</p></div>
+      </ChPage>
+      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 7} label={`CORE RESOLUTION & FACTIO · p.${basePage + 7}`}>
         <h4 className="el-subsection">{inline(`ANCHOR STRESS`)}</h4>
         <div className="el-body"><p>{inline(`Your Anchor is not invulnerable. Certain events put direct pressure on your connection to your origin — not enough to break it, but enough to require maintenance.`)}</p></div>
         <div className="el-body"><p>{inline(`Your Anchor has a Stress track: ○○○`)}</p></div>
@@ -100,13 +98,13 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`A Crisis outcome specifies Anchor Stress`)}</p></div>
         <div className="el-body"><p>{inline(`When all 3 Anchor Stress boxes are marked, your Anchor is Strained. While Strained: you cannot invoke Anchor Connections for Coherence bonuses. The Reinforce Anchor move (Ch. 7) clears Stress as normal — but on a 6-, you lose 1 Anchor Strength permanently instead of just failing.`)}</p></div>
         <div className="el-body"><p>{inline(`Clear Anchor Stress during Downtime Step 2.`)}</p></div>
+        <h4 className="el-subsection">{inline(`COHERENCE OVERFLOW`)}</h4>
+        <div className="el-body"><p>{inline(`When you would gain Coherence but are already at your maximum, choose one: Stabilize an Asset (clear 1 Stress from any Asset), Reduce Contamination (reduce Paradox by 1, if above 0), or Bank It (mark +1 Banked Coherence, maximum 3 Banked). Spend Banked Coherence 1-for-1 to prevent Coherence loss.`)}</p></div>
+        <div className="el-body"><p><i>{inline(`This mechanic exists in Temporal Echoes only. Wrecks do not bank Coherence. You're not preserving anything.`)}</i></p></div>
       </ChPage>
     </Spread>
     <Spread id="chen-4-05" label={"CORE RESOLUTION & FACTION PRESSURE · spread 5"}>
       <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 8} label={`CORE RESOLUTION & FACTIO · p.${basePage + 8}`}>
-        <h4 className="el-subsection">{inline(`COHERENCE OVERFLOW`)}</h4>
-        <div className="el-body"><p>{inline(`When you would gain Coherence but are already at your maximum, choose one: Stabilize an Asset (clear 1 Stress from any Asset), Reduce Contamination (reduce Paradox by 1, if above 0), or Bank It (mark +1 Banked Coherence, maximum 3 Banked). Spend Banked Coherence 1-for-1 to prevent Coherence loss.`)}</p></div>
-        <div className="el-body"><p><i>{inline(`This mechanic exists in Temporal Echoes only. Wrecks do not bank Coherence. You're not preserving anything.`)}</i></p></div>
         <h4 className="el-subsection">{inline(`Paradox: The Universe Pushing Back`)}</h4>
         <div className="el-body"><p>{inline(`Paradox accumulates through interference. The universe keeps count even when you don't.`)}</p></div>
         <h4 className="el-subsection">{inline(`Action Paradox`)}</h4>
@@ -120,28 +118,26 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Meet yourself (any version — past, future, alternate) +2`)}</p></div>
         <div className="el-body"><p>{inline(`Change something load-bearing — a battle's outcome, +3`)}</p></div>
         <div className="el-body"><p>{inline(`a discovery's timing, a leader's survival`)}</p></div>
-      </ChPage>
-      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 9} label={`CORE RESOLUTION & FACTIO · p.${basePage + 9}`}>
         <div className="el-body"><p>{inline(`Cause a Shattering deliberately +3`)}</p><span className="gly-inline-row"><Glyph name="collapse" size="inline" stage={0} /></span></div>
         <div className="el-body"><p>{inline(`When in doubt: if people would write it down afterward, it's +2. If people would change how they understand history, it's +3. If only you noticed, it's +1.`)}</p></div>
         <h4 className="el-subsection">{inline(`PARADOX BAND EFFECTS`)}</h4>
         <div className="el-body"><p><b>{inline(`Shadow (0-3)`)}</b>{inline(` — No penalties. Small reality glitches: déjà vu, objects slightly wrong. Invisible to Factions.`)}</p></div>
         <div className="el-body"><p><b>{inline(`Flux (4-6)`)}</b>{inline(` — `)}<b>{inline(`-1`)}</b>{inline(` to Resolution rolls. Noticeable anomalies. Memory Fading accelerates. Faction Scouts appear when you roll `)}<b>{inline(`6-`)}</b>{inline(`.`)}</p></div>
         <div className="el-body"><p><b>{inline(`Anomaly (7-9)`)}</b>{inline(` — `)}<b>{inline(`-1`)}</b>{inline(` to Resolution rolls. Memory Fading doubles. Reality actively hostile. Faction Agents appear as complication on `)}<b>{inline(`7-9`)}</b>{inline(`.`)}</p></div>
+      </ChPage>
+      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 9} label={`CORE RESOLUTION & FACTIO · p.${basePage + 9}`}>
         <div className="el-body"><p><b>{inline(`Breach (10+)`)}</b>{inline(` — `)}<b>{inline(`-2`)}</b>{inline(` to Resolution rolls. Timeline collapsing. Immediate Paradox Crisis. Faction Intervention during Crisis Phase 2.`)}</p></div>
         <aside className="el-reflection"><p>{inline(`The modifiers above are designed to compound. So are the modifiers from Coherence states, Faction Marks, and unfavored Modes. At low Paradox and stable Coherence, the math is forgiving. At high Paradox and Crisis Coherence, it is hostile. This is deliberate. I will say more about it in Chapter 6.`)}</p><p>{inline(`What you should know now: when the stack turns against you, better dice will not save you. The systems the game has been holding in reserve will. Engage them.`)}</p><div className="el-sign">— EC</div></aside>
-      </ChPage>
-    </Spread>
-    <Spread id="chen-4-06" label={"CORE RESOLUTION & FACTION PRESSURE · spread 6"}>
-      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 10} label={`CORE RESOLUTION & FACTIO · p.${basePage + 10}`}>
         <aside className="el-reflection el-reflection--theory"><p>{inline(`Gödel proved that any formal system rich enough to express arithmetic contains true statements it cannot prove. Reality, under CTH, is the same. There are facts about the timeline that are true and that the timeline cannot accommodate. Echoes bear those facts carved into their identity, but Paradox is what happens when an unprovable truth tries to find a place to stand. — EC`)}</p><p>{inline(`Faction Pressure`)}</p><div className="el-sign">— EC</div></aside>
         <aside className="el-reflection"><p>{inline(`You are a foreign object in a closed system. The Chronoverse has an immune response, and your Paradox is the fever it is responding to. The Factions are antibodies with philosophies. Containment, harvest, euthanasia — none of these are moral failures on their part, and accepting an Offer is not a moral failure on yours. They are not after you because they hate you. They are after you because you are fuel.`)}</p><div className="el-sign">— EC</div></aside>
         <h4 className="el-subsection">{inline(`SHADOW (0-3): INVISIBLE`)}</h4>
         <div className="el-body"><p>{inline(`You're background noise. Factions have no reason to notice something they can't measure. Enjoy it. It won't last.`)}</p></div>
+      </ChPage>
+    </Spread>
+    <Spread id="chen-4-06" label={"CORE RESOLUTION & FACTION PRESSURE · spread 6"}>
+      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 10} footnotes={<FinderFootnotes notes={[{"n":18,"text":"The Offers mechanic is mean. Real mean. Saul refused his first one (Loop Authority, of course) and now the Mark stays. I respect the design.","act":2,"late":false}]} />} label={`CORE RESOLUTION & FACTIO · p.${basePage + 10}`}>
         <h4 className="el-subsection">{inline(`FLUX (4-6): SCOUTS APPEAR`)}</h4>
         <div className="el-body"><p>{inline(`When you roll 6-, a Scout appears. Roll `)}<b>{inline(`d4`)}</b>{inline(`: 1 = Church Observer, 2 = Authority Surveyor, 3 = Scionfall Herald, 4 = Chronoclast. Automatic if you're already Marked. Scouts watch. They file reports. They don't act — they're waiting to see if you're worth the effort.`)}</p></div>
-      </ChPage>
-      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 11} label={`CORE RESOLUTION & FACTIO · p.${basePage + 11}`}>
         <h4 className="el-subsection">{inline(`ANOMALY (7-9): AGENTS APPEAR`)}</h4>
         <div className="el-body"><p>{inline(`When you roll `)}<b>{inline(`7-9`)}</b>{inline(`, a Faction Agent appears as your complication. They've decided you're worth the effort. They make an Offer. Roll `)}<b>{inline(`d4`)}</b>{inline(` for which Faction, or automatic if Marked. This is when the game changes.`)}</p></div>
         <h4 className="el-subsection">{inline(`BREACH (10+): INTERVENTION`)}</h4>
@@ -151,11 +147,8 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`You choose one of three responses:`)}</p></div>
         <ol className="el-numlist"><li>{inline(`Accept the Offer. Pay the cost, gain the benefit. Offers are trades, not rolls.`)}</li><li>{inline(`Refuse. They impose a consequence and Mark you.`)}</li><li>{inline(`Drive Off. Make a roll to force them away.`)}</li></ol>
         <div className="el-body"><p>{inline(`Offers are your non-roll path to Paradox relief. If Downtime moves aren't working, an Agent's trade is how you buy back control — by selling pieces of yourself.`)}</p></div>
-        <FinderFootnotes notes={[{"n":18,"text":"The Offers mechanic is mean. Real mean. Saul refused his first one (Loop Authority, of course) and now the Mark stays. I respect the design.","act":2,"late":false}]} />
       </ChPage>
-    </Spread>
-    <Spread id="chen-4-07" label={"CORE RESOLUTION & FACTION PRESSURE · spread 7"}>
-      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 12} label={`CORE RESOLUTION & FACTIO · p.${basePage + 12}`}>
+      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 11} label={`CORE RESOLUTION & FACTIO · p.${basePage + 11}`}>
         <h4 className="el-subsection">{inline(`THE DRIVE OFF MOVE`)}</h4>
         <div className="el-body"><p>{inline(`Roll `)}<b>{inline(`2d6`)}</b>{inline(` + DISRUPT (`)}<b>{inline(`Difficulty 10`)}</b>{inline(`):`)}</p></div>
         <div className="el-body"><p><b>{inline(`10+`)}</b>{inline(` Success. You drive them off through violence or intimidation. No additional cost. They retreat. You're not Marked.`)}</p></div>
@@ -169,7 +162,9 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`The Trade: Take 1 Scar immediately + lose 2 Coherence →Reduce Paradox by 3. Mark: Church knows you're a viable battery. They'll return.`)}</p></div>
         <div className="el-body"><p>{inline(`If Refused: Impose — their prayer weighs on you, lose 1 Coherence. Mark — next Scout/Agent encounter is automatically Church.`)}</p></div>
       </ChPage>
-      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 13} label={`CORE RESOLUTION & FACTIO · p.${basePage + 13}`}>
+    </Spread>
+    <Spread id="chen-4-07" label={"CORE RESOLUTION & FACTION PRESSURE · spread 7"}>
+      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 12} label={`CORE RESOLUTION & FACTIO · p.${basePage + 12}`}>
         <h4 className="el-subsection">{inline(`2. AUTHORITY AUDITOR`)}</h4>
         <div className="el-body"><p>{inline(`Forgettable in the way that only deliberate design achieves. A grey suit that wears a human being. Takes notes. Blinks and their clothes change slightly.`)}</p></div>
         <div className="el-body"><p>{inline(`The Offer: You're glitching. We can smooth you out. Become efficient again.`)}</p></div>
@@ -180,21 +175,17 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`The Offer: I can end the pain. All of it. Right now.`)}</p></div>
         <div className="el-body"><p>{inline(`The Trade: Character retired. You cease. Peacefully. Game over. Write a final Chronicle entry: I let go. This is a valid ending — choosing peace over continued suffering.`)}</p></div>
         <div className="el-body"><p>{inline(`If Refused: Impose — -1 to ENDURE while they're present. Mark — the offer stands, always. They'll return during your next Crisis.`)}</p></div>
-      </ChPage>
-    </Spread>
-    <Spread id="chen-4-08" label={"CORE RESOLUTION & FACTION PRESSURE · spread 8"}>
-      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 14} label={`CORE RESOLUTION & FACTIO · p.${basePage + 14}`}>
         <h4 className="el-subsection">{inline(`4. CHRONOCLAST REMIXER`)}</h4>
         <div className="el-body"><p>{inline(`Anachronism incarnate. Carrying objects from the wrong era. Laughing at things that aren't funny.`)}</p></div>
         <div className="el-body"><p>{inline(`The Offer: You're making art! Here — let's make it louder.`)}</p></div>
         <div className="el-body"><p>{inline(`The Trade: Gain +2 Paradox now →Gain +3 to your next DISRUPT or OBSERVE roll only. Regardless of result, that roll triggers a Complication. Mark: they think you're interesting.`)}</p></div>
+      </ChPage>
+      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 13} label={`CORE RESOLUTION & FACTIO · p.${basePage + 13}`}>
         <div className="el-body"><p>{inline(`If Refused: Impose — roll on Timeline Shift Oracle immediately (reality changes around you). Mark — they'll bring a gift next time (unstable Chrono-Tech that glitches constantly).`)}</p></div>
         <h4 className="el-subsection">{inline(`BEING MARKED`)}</h4>
         <div className="el-body"><p>{inline(`When a Faction Marks you, write in your Chronicle: MARKED: [Faction name]. The next time that Faction would appear, they appear automatically — no `)}<b>{inline(`d4`)}</b>{inline(` roll needed. Once they appear, erase the Mark. You can be Marked by multiple Factions simultaneously.`)}</p></div>
         <ChenMarginaliaInline><p>{inline(`Being Marked doesn't mean immediate danger — it means they're watching. They know your resonance signature now. You've become a bookmark in their archives.`)}</p></ChenMarginaliaInline>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`Being Marked means you're screwed. You drew their attention, refused their offer, and now they know you're worth effort. I've been Marked by all four Factions simultaneously. It's like having four different kinds of cancer. Each one convinced they're helping.`)}</p><div className="el-alan-sign">—AR</div></aside>
-      </ChPage>
-      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 15} label={`CORE RESOLUTION & FACTIO · p.${basePage + 15}`}>
         <h4 className="el-subsection">{inline(`Downtime`)}</h4>
         <aside className="el-reflection"><p>{inline(`Downtime is the part of the work nobody else does for you. When a session ends, or when the era is briefly not actively trying to kill you, stop and write down what happened. Repair what you can. Many good Echoes faded because they did not take Downtime with the rigor it deserves.`)}</p><div className="el-sign">— EC</div></aside>
         <h4 className="el-subsection">{inline(`WHEN TO TAKE DOWNTIME`)}</h4>
@@ -202,25 +193,25 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`After every Oracle Displacement (rolling all four Anomaly Tables), OR`)}</p></div>
         <div className="el-body"><p>{inline(`At the end of your real-world play session, if neither of the above`)}</p></div>
         <div className="el-body"><p>{inline(`occurred.`)}</p></div>
+      </ChPage>
+    </Spread>
+    <Spread id="chen-4-08" label={"CORE RESOLUTION & FACTION PRESSURE · spread 8"}>
+      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 14} label={`CORE RESOLUTION & FACTIO · p.${basePage + 14}`}>
         <h4 className="el-subsection">{inline(`DOWNTIME STEPS (DO THESE IN ORDER)`)}</h4>
         <ol className="el-numlist"><li>{inline(`Chronicle the Session.`)}</li></ol>
         <div className="el-body"><p>{inline(`Write in your Chronicle: where/when you are, what happened this session, one significant choice you made, one thing you lost or changed. This is mandatory. Chronicling is how you stabilize memory. Effect: gain +1 Coherence, up to your maximum.`)}</p></div>
         <ol className="el-numlist"><li>{inline(`Reinforce Your Anchor.`)}</li></ol>
         <div className="el-body"><p>{inline(`If your Anchor took Stress during the session, roll `)}<b>{inline(`2d6`)}</b>{inline(` + SYNC (`)}<b>{inline(`Difficulty 10`)}</b>{inline(`). On `)}<b>{inline(`10+`)}</b>{inline(`: clear all Stress. On `)}<b>{inline(`7-9`)}</b>{inline(`: clear 1 Stress, and either spend time and resources on it or leave remaining Stress. On `)}<b>{inline(`6-`)}</b>{inline(`: no Stress cleared.`)}</p></div>
         <ol className="el-numlist"><li>{inline(`Tend to Assets.`)}</li></ol>
-      </ChPage>
-    </Spread>
-    <Spread id="chen-4-09" label={"CORE RESOLUTION & FACTION PRESSURE · spread 9"}>
-      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 16} label={`CORE RESOLUTION & FACTIO · p.${basePage + 16}`}>
         <div className="el-body"><p>{inline(`For each Asset with Stress marked, roll `)}<b>{inline(`2d6`)}</b>{inline(` + relevant Mode (usually OBSERVE for tech, SYNC for connections). On `)}<b>{inline(`10+`)}</b>{inline(`: clear all Stress. On `)}<b>{inline(`7-9`)}</b>{inline(`: clear 1 Stress. On `)}<b>{inline(`6-`)}</b>{inline(`: no Stress cleared. If an Asset has all Stress marked, it's broken — spend a Downtime move repairing it (narrate the work, no roll) or replace it with a new Asset at Level 1.`)}</p><span className="gly-inline-row"><Glyph name="burden" size="inline" stage={0} /></span></div>
         <ol className="el-numlist"><li>{inline(`Process Memory.`)}</li></ol>
         <div className="el-body"><p>{inline(`Your memory system naturally degrades. The oldest Active Memory moves to Fading (loses +2 bonus, now +1). The oldest Fading Memory becomes Lost. When a Memory becomes Lost, gain a Scar (see Chapter 5).`)}</p></div>
         <div className="el-body"><p>{inline(`When a memory passes from Active to Fading, you notice it as effort — the thing you used to recall instantly now requires you to reach. Fading to Lost is quieter. You don't notice the moment it goes. You notice, weeks later, that something used to be there and now is not. You reach for the cup that isn't there. You start the sentence and find no end to it. The Scar is the shape the absence leaves.`)}</p></div>
         <div className="el-body"><p>{inline(`Your Locked Memory never fades.`)}</p></div>
+      </ChPage>
+      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 15} label={`CORE RESOLUTION & FACTIO · p.${basePage + 15}`}>
         <div className="el-body"><p>{inline(`If something significant happened this session, you may create a new Memory: write the event, choose Context Tags, write a description. It enters Active Slot 1, pushing everything else forward.`)}</p></div>
         <ol className="el-numlist"><li>{inline(`Reduce Paradox (Optional).`)}</li></ol>
-      </ChPage>
-      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 17} label={`CORE RESOLUTION & FACTIO · p.${basePage + 17}`}>
         <h4 className="el-subsection">{inline(`Choose one:`)}</h4>
         <div className="el-body"><p>{inline(`Temporal Grounding: Spend significant time integrating with the current era. Roll `)}<b>{inline(`2d6`)}</b>{inline(` + SYNC (`)}<b>{inline(`Difficulty 10`)}</b>{inline(`). On `)}<b>{inline(`10+`)}</b>{inline(`: reduce Paradox by 2. On `)}<b>{inline(`7-9`)}</b>{inline(`: reduce by 1. On `)}<b>{inline(`6-`)}</b>{inline(`: no reduction, lose 1 Coherence from the exhaustion.`)}</p></div>
         <div className="el-body"><p>{inline(`Ritual Purification: Use specialized Chrono-Tech or Faction assistance. Effect: reduce Paradox by `)}<b>{inline(`1d6`)}</b>{inline(`, but if using Church methods, take 1 Mutation; if using Authority methods, normalize 1 Scar (reduce bonus to +0); if using tech, the Asset takes all Stress.`)}</p></div>
@@ -232,8 +223,8 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`The Temporal Pause (X-Card): At any point, if the content becomes too intense, stop writing. Close the Chronicle. Breathe. Narratively, your Echo phases out of local time for a micro-second, avoiding the trauma. Mechanically, skip the scene. No penalty. Reality redraws itself around the gap.`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="chen-4-10" label={"CORE RESOLUTION & FACTION PRESSURE · spread 10"}>
-      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 18} label={`CORE RESOLUTION & FACTIO · p.${basePage + 18}`}>
+    <Spread id="chen-4-09" label={"CORE RESOLUTION & FACTION PRESSURE · spread 9"}>
+      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 16} footnotes={<FinderFootnotes notes={[{"n":19,"text":"Safety tools written by someone who has used them. The \"talk to a person who exists in your life before you pick the book up again\" line is good advice. Going to ignore it because the baby finally went down and this is my window.","act":2,"late":false}]} />} label={`CORE RESOLUTION & FACTIO · p.${basePage + 16}`}>
         <div className="el-body"><p>{inline(`Lines and Veils: Lines are events that don't happen in your timeline — write them in the back of your Chronicle under Redacted Data. If an Oracle prompts them, reroll. Veils are events that happen off-screen — describe the setup and aftermath, but the event itself is Lost to Static.`)}</p></div>
         <h4 className="el-subsection">{inline(`EXPANDED SAFETY TOOLS`)}</h4>
         <div className="el-body"><p><i>{inline(`Temporal Echoes is a game about loss, memory, and identity erosion. Played at length, it will put you in proximity to real feelings you may not have scheduled time for. The following tools exist to help you engage with difficult material without getting genuinely hurt.`)}</i><FootnoteMarker n={19} act={2} /></p><span className="gly-inline-row"><Glyph name="null" size="inline" stage={0} /></span></div>
@@ -242,9 +233,8 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Lines — content that will not appear in your game, ever. Hard stops. If the Oracle rolls toward it, you reroll or narrate around it. There is no mechanical cost for this. The game's rules have no authority over what you're willing to encounter.`)}</p></div>
         <div className="el-body"><p>{inline(`Veils — content that may exist in the world of the game but is not described on-page. Violence happens, but you don't zoom in on it. A character dies, but you cut to the next scene. Fade to black is a legitimate move.`)}</p></div>
         <div className="el-body"><p>{inline(`Your Lines and Veils can change between sessions. Cross things out. Add new ones. You are not locked in.`)}</p></div>
-        <FinderFootnotes notes={[{"n":19,"text":"Safety tools written by someone who has used them. The \"talk to a person who exists in your life before you pick the book up again\" line is good advice. Going to ignore it because the baby finally went down and this is my window.","act":2,"late":false}]} />
       </ChPage>
-      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 19} label={`CORE RESOLUTION & FACTIO · p.${basePage + 19}`}>
+      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 17} label={`CORE RESOLUTION & FACTIO · p.${basePage + 17}`}>
         <h4 className="el-subsection">{inline(`The Temporal Pause (X-Card Equivalent)`)}</h4>
         <div className="el-body"><p>{inline(`At any point, if the content of the scene is genuinely affecting you in a way you didn't sign up for — not uncomfortable-in-a-good-way, not sad-about-fictional-things, but actually-bad-for-you — close the book. Stand up. Walk away.`)}</p></div>
         <div className="el-body"><p>{inline(`The game does not require completion. Your Echo does not lose Coherence because you put the book down. A session you stopped is a session. You can come back, or you can choose not to. Both are legal.`)}</p></div>
@@ -256,8 +246,8 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Pay the mechanical costs of any rolls that occurred. Keep any Scars. The fiction is yours to revise. The accumulated damage is not.`)}</p></div>
       </ChPage>
     </Spread>
-    <Spread id="chen-4-11" label={"CORE RESOLUTION & FACTION PRESSURE · spread 11"}>
-      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 20} label={`CORE RESOLUTION & FACTIO · p.${basePage + 20}`}>
+    <Spread id="chen-4-10" label={"CORE RESOLUTION & FACTION PRESSURE · spread 10"}>
+      <ChPage side="verso" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 18} label={`CORE RESOLUTION & FACTIO · p.${basePage + 18}`}>
         <h4 className="el-subsection">{inline(`Processing Difficult Content`)}</h4>
         <div className="el-body"><p><i>{inline(`Temporal Echoes deliberately engages with memory loss, grief, identity dissolution, and the specific horror of outliving your own ability to feel things. The game was built by someone processing their own experience of these, and many of the people who play it are doing the same. A few practices that help if you are one of them.`)}</i></p></div>
         <div className="el-body"><p><i>{inline(`Decouple the Echo from yourself. Name them something other than your own name. Give them an origin era you did not live in. The distance is what makes the catharsis possible without it bleeding into your actual life.`)}</i></p></div>
@@ -267,12 +257,12 @@ function ChenCh4({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`If you are in genuine mental-health crisis — the kind that does not belong in a game — please set the book aside and contact a crisis line in your region, or a trusted person. The game will still be here. You need to be too.`)}</p></div>
         <Zaaken><i>{inline(`Memoria finita est.`)}</i></Zaaken>
       </ChPage>
-      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 21} label={`CORE RESOLUTION & FACTIO · p.${basePage + 21}`}>
+      <ChPage side="recto" runHead={"Core Resolution & Faction Pressure"} pageNum={basePage + 19} label={`CORE RESOLUTION & FACTIO · p.${basePage + 19}`}>
         
       </ChPage>
     </Spread>
   </>);
 }
 
-ChenCh4.pages = 22;
+ChenCh4.pages = 20;
 Object.assign(window, { ChenCh4 });

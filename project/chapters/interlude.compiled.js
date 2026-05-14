@@ -47,6 +47,14 @@ function PlayingBothInterlude({
     side: "verso",
     showTexture: false,
     pageNum: basePage + 0,
+    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
+      notes: [{
+        "n": 33,
+        "text": "He says reading both books changes the meaning of both. He is the only one in this manuscript who is telling me the truth.",
+        "act": 3,
+        "late": false
+      }]
+    }),
     label: `PLAYING BOTH · p.${basePage + 0}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -75,14 +83,7 @@ function PlayingBothInterlude({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`YOUR FINAL PARADOX SCORE BECOMES YOUR STARTING PARADOX IN EMIT.`)))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You don't begin emiT clean. You begin it with the contamination you accumulated trying to stay whole.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
-    notes: [{
-      "n": 33,
-      "text": "He says reading both books changes the meaning of both. He is the only one in this manuscript who is telling me the truth.",
-      "act": 3,
-      "late": false
-    }]
-  })), /*#__PURE__*/React.createElement(IlPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You don't begin emiT clean. You begin it with the contamination you accumulated trying to stay whole.`)))), /*#__PURE__*/React.createElement(IlPage, {
     side: "recto",
     showTexture: false,
     pageNum: basePage + 1,

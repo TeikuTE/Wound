@@ -53,6 +53,14 @@ function AlanCh5({
     runHead: "ENTRY_005",
     pageNum: basePage + 2,
     coordStamp: "[LOG // ENTRY_005]",
+    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
+      notes: [{
+        "n": 45,
+        "text": "[PARADOX glyph] every time I try to write my wife's name.",
+        "act": 4,
+        "late": false
+      }]
+    }),
     label: `FRACTURE EVENTS · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("aside", {
     className: "al-fragment"
@@ -64,20 +72,13 @@ function AlanCh5({
     className: "al-fragment__sign"
   }, "// AR")), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Fractures occur when your current configuration becomes untenable. Three triggers: `), /*#__PURE__*/React.createElement("b", null, inline(`Coherence -6`)), inline(` (Desynchronization), `), /*#__PURE__*/React.createElement("b", null, inline(`Paradox 10+`)), inline(` (Breach), `), /*#__PURE__*/React.createElement("b", null, inline(`Corruption Vector 0`)), inline(` (Final Transformation).`))), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
-  }, inline(`Three-Phase Resolution`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PHASE 1: MANIFESTATION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Roll on the appropriate Oracle. Pay the immediate cost: lose 1 Coherence, one Scar becomes Fading, mark 1 Asset Stress.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PHASE 2: ESCALATION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`If Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` (Breach), Faction Intervention occurs during Phase 2. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`: 1 = Church, 2 = Authority, 3 = Scionfall, 4 = Chronoclasts. Or pick whichever makes narrative sense.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
-    notes: [{
-      "n": 45,
-      "text": "[PARADOX glyph] every time I try to write my wife's name.",
-      "act": 4,
-      "late": false
-    }]
-  })), /*#__PURE__*/React.createElement(AlPage, {
+  }, inline(`Three-Phase Resolution`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PHASE 1: MANIFESTATION`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Roll on the appropriate Oracle. Pay the immediate cost: lose 1 Coherence, one Scar becomes Fading, mark 1 Asset Stress.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`PHASE 2: ESCALATION`)))), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     runHead: "ENTRY_005",
     pageNum: basePage + 3,
     coordStamp: "[LOG // ENTRY_005]",
     label: `FRACTURE EVENTS · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`CHURCH INTERVENTION (emiT) Templars arrive. They want your Scars — the weaponized trauma you've been accumulating is holy to them. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + DISRUPT or ENDURE (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`).`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`If Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` (Breach), Faction Intervention occurs during Phase 2. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`: 1 = Church, 2 = Authority, 3 = Scionfall, 4 = Chronoclasts. Or pick whichever makes narrative sense.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`CHURCH INTERVENTION (emiT) Templars arrive. They want your Scars — the weaponized trauma you've been accumulating is holy to them. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + DISRUPT or ENDURE (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`).`))), /*#__PURE__*/React.createElement("div", {
     className: "al-resolution"
   }, /*#__PURE__*/React.createElement("div", {
     className: "resolution-row"

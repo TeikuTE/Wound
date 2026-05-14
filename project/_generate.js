@@ -650,7 +650,15 @@ function paginate(sectionBlocks, host, opts = {}) {
       continue;
     }
 
-    const h = estimateHeight(b, host);
+    let h = estimateHeight(b, host);
+    // Reserve budget for the block's own footnotes (each footnote ~20px,
+    // plus the rule + padding overhead).
+    if (b._art) {
+      const fnCount = b._art.reduce((a, p) => a + (p.footnotes || []).length, 0);
+      if (fnCount > 0) {
+        h += fnCount * 22 + 8;  // approx footnote area weight
+      }
+    }
     // h2 / h3 — strongly prefer a page break BEFORE them if we're past half a page already
     if ((b.kind === 'h2') && used > budget * 0.5) flush();
     if ((b.kind === 'h3' || b.kind === 'pseudo-h3') && used > budget * 0.75) flush();
@@ -766,14 +774,12 @@ function renderArtForBlock(b) {
   const glyphs = [];
   for (const p of b._art) {
     for (const fn of (p.footnotes || [])) {
-      if (fn.late) continue;
       markers.push(`<FootnoteMarker n={${fn.n}} act={${fn.act}} />`);
     }
     for (const g of (p.glyphs || [])) {
-      if (g.late) continue;
       const props = glyphProps(g);
       const attrs = Object.entries(props).map(([k, v]) =>
-        typeof v === 'string' ? `${k}="${v}"` : `${k}={${JSON.stringify(v)}}`
+        typeof v === 'string' ? `${k}="${v}"` : v === true ? k : `${k}={${JSON.stringify(v)}}`
       ).join(' ');
       glyphs.push(`<Glyph ${attrs} />`);
     }
@@ -1113,6 +1119,9 @@ function emitSpreads(section) {
     const pageBaseR = `basePage + ${spreadIdx * 2 + 1}`;
 
     // Collect footnotes per page (from any block whose _art carries them).
+    // Late-insertion notes (57–60) are included alongside the regular ones —
+    // they're styled differently via the .fnote--late class so a sharp
+    // re-reader senses them.
     const collectFootnotes = (blocks) => {
       const notes = [];
       const seen = new Set();
@@ -1120,7 +1129,7 @@ function emitSpreads(section) {
         if (!b._art) continue;
         for (const p of b._art) {
           for (const fn of (p.footnotes || [])) {
-            if (seen.has(fn.n) || fn.late) continue;  // late notes added in late-insertion pass
+            if (seen.has(fn.n)) continue;
             seen.add(fn.n);
             notes.push(fn);
           }
@@ -1136,15 +1145,13 @@ function emitSpreads(section) {
     const versoJSX = renderBlocks(versoBlocks, host, { dropCap: dropOnFirst });
     const rectoJSX = renderBlocks(rectoBlocks, host, { dropCap: false });
 
-    // Append a FinderFootnotes block at the page bottom if there are any.
-    const fnJSX = (notes) => notes.length
-      ? `<FinderFootnotes notes={${JSON.stringify(notes)}} />`
+    // Footnote JSX is passed as a separate prop so Page renders it as a
+    // sibling of .page__content, anchored to the page itself.
+    const fnProp = (notes) => notes.length
+      ? `footnotes={<FinderFootnotes notes={${JSON.stringify(notes)}} />}`
       : '';
-    if (versoNotes.length) versoJSX.push(fnJSX(versoNotes));
-    if (rectoNotes.length) rectoJSX.push(fnJSX(rectoNotes));
-
-    const verso = renderPage('verso', host, openerTitle, section, versoJSX, pageBaseV);
-    const recto = renderPage('recto', host, openerTitle, section, rectoJSX, pageBaseR);
+    const verso = renderPage('verso', host, openerTitle, section, versoJSX, pageBaseV, fnProp(versoNotes));
+    const recto = renderPage('recto', host, openerTitle, section, rectoJSX, pageBaseR, fnProp(rectoNotes));
 
     spreads.push({
       idTag: `${section.id}-${String(spreadIdx + 1).padStart(2,'0')}`,
@@ -1158,7 +1165,7 @@ function emitSpreads(section) {
   return { fnName, host, openerTitle, spreads, pageCount: spreadIdx * 2, sectionId: section.id };
 }
 
-function renderPage(side, host, openerTitle, section, body, basePageExpr) {
+function renderPage(side, host, openerTitle, section, body, basePageExpr, extraProp = '') {
   const num = openerTitle.toUpperCase().slice(0, 24);
   const sectionLabelJS = JSON.stringify(num);
   const compName = host === 'chen' ? 'ChPage' : host === 'alan' ? 'AlPage' : 'IlPage';
@@ -1176,6 +1183,7 @@ function renderPage(side, host, openerTitle, section, body, basePageExpr) {
     propsParts.push(`showTexture={false}`);
     propsParts.push(`pageNum={${basePageExpr}}`);
   }
+  if (extraProp) propsParts.push(extraProp);
 
   return `<${compName} ${propsParts.join(' ')} label={\`${num} · p.\${${basePageExpr}}\`}>
   ${body.join('\n  ')}

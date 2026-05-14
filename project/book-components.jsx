@@ -21,6 +21,7 @@ function Page({
   coordStamp = null,
   label = null,
   dataAttrs = {},
+  footnotes = null,     // optional <FinderFootnotes> — rendered inside content as a flex child
   children,
 }) {
   const isVerso = side === "verso";
@@ -43,9 +44,18 @@ function Page({
           bottom: MM(marginBot),
           left: MM(left),
           right: MM(right),
+          display: 'flex',
+          flexDirection: 'column',
         }}
       >
-        {children}
+        <div className="page__body" style={{ flex: '0 1 auto', overflow: 'hidden' }}>
+          {children}
+        </div>
+        {footnotes && (
+          <div className="page__footnotes-host" style={{ marginTop: 'auto', flex: '0 0 auto' }}>
+            {footnotes}
+          </div>
+        )}
       </div>
 
       {/* Optional running chrome — suppressed by default in this sample */}

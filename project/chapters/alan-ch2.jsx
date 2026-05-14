@@ -15,7 +15,7 @@ function AlanCh2({ tweaks, basePage = 1 }) {
       </AlPage>
     </Spread>
     <Spread id="alan-2-02" label={"CALIBRATION · spread 2"}>
-      <AlPage side="verso" runHead={"ENTRY_002"} pageNum={basePage + 2} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 2}`}>
+      <AlPage side="verso" runHead={"ENTRY_002"} pageNum={basePage + 2} coordStamp={"[LOG // ENTRY_002]"} footnotes={<FinderFootnotes notes={[{"n":37,"text":"Rose talks like he has been waiting for me specifically. He has not. He has been waiting for whoever was next.","act":4,"late":false}]} />} label={`CALIBRATION · p.${basePage + 2}`}>
         <AlanBody><p>{inline(`Stop pretending you're still human. You are a walking weapon. A living bomb on causality and a bona fide wound in space-time. Own it.`)}<FootnoteMarker n={37} act={4} /></p></AlanBody>
         <AlanBody><p>{inline(`When Paradox climbs, your Modes shift.`)}</p></AlanBody>
         <AlanBody><p>{inline(`You lose SYNC because SYNC was the part of you that needed other people to validate that you were real. You don't need that anymore, and can't afford it. Every Coherence point you spend trying to feel like a person is one less point you have when the timeline shows up to collect its debt.`)}</p></AlanBody>
@@ -29,7 +29,6 @@ function AlanCh2({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Origin Era: When and where you're from`)}</p></AlanBody>
         <AlanBody><p>{inline(`Displacement Event: What unmoored you`)}</p></AlanBody>
         <AlanBody><p>{inline(`HOW FAR GONE YOU ARE`)}</p></AlanBody>
-        <FinderFootnotes notes={[{"n":37,"text":"Rose talks like he has been waiting for me specifically. He has not. He has been waiting for whoever was next.","act":4,"late":false}]} />
       </AlPage>
       <AlPage side="recto" runHead={"ENTRY_002"} pageNum={basePage + 3} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 3}`}>
         <AlanBody><p>{inline(`Track your transformation direction on a scale of 5 to 0. You start at 5 — still recognizably human. Each time it decreases, you shed one connection to your origin, gain one operational capability, and become harder to dissolve and easier to misunderstand.`)}</p></AlanBody>
@@ -45,7 +44,7 @@ function AlanCh2({ tweaks, basePage = 1 }) {
       </AlPage>
     </Spread>
     <Spread id="alan-2-03" label={"CALIBRATION · spread 3"}>
-      <AlPage side="verso" runHead={"ENTRY_002"} pageNum={basePage + 4} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 4}`}>
+      <AlPage side="verso" runHead={"ENTRY_002"} pageNum={basePage + 4} coordStamp={"[LOG // ENTRY_002]"} footnotes={<FinderFootnotes notes={[{"n":38,"text":"Saul and I have both been Marked. Cannot tell which of us anymore. Maybe this is what Chen meant by Wave Coherence.","act":4,"late":false},{"n":39,"text":"Tried the Infectious move on the baby this morning. Touched his head and tried to transfer a point. Nothing happened. Not sure if that is good news.","act":4,"late":false}]} />} label={`CALIBRATION · p.${basePage + 4}`}>
         <AlanBody><p>{inline(`Infectious When you interact with an NPC, you may choose to transfer 1 point of your Paradox to them. Reduce your Paradox by 1. They become slightly wrong afterward — describe how. The NPC now carries a piece of your contamination.`)}<FootnoteMarker n={38} act={4} /><FootnoteMarker n={39} act={4} /></p><span className="gly-inline-row"><Glyph name="ripple" size="inline" stage={0} /></span></AlanBody>
         <AlanBody><p>{inline(`Transcendent Once per session, you may describe what you perceive that others cannot — branching timelines, the echo of futures that won't happen, the weight of causality in a room. This perception is accurate. Gain +2 to your next roll. But you must also describe one thing you can no longer perceive normally. Write it in your Log. Accumulate these losses.`)}</p></AlanBody>
         <AlanBody><p>{inline(`HOW YOU FUNCTION NOW`)}</p></AlanBody>
@@ -54,7 +53,6 @@ function AlanCh2({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`PARADOX LEVEL MODE RATINGS`)}</p></AlanBody>
         <AlanBody><p>{inline(`Shadow (0-3) OBSERVE +2 / SYNC +1 / ENDURE +0 / DISRUPT -1 Flux (4-6) OBSERVE +1 / SYNC +0 / ENDURE +1 / DISRUPT +1 Anomaly (7-9) OBSERVE +0 / SYNC -1 / ENDURE +2 / DISRUPT +2 Breach (10+) OBSERVE -1 / SYNC -2 / ENDURE +3 / DISRUPT +3`)}</p></AlanBody>
         <AlanBody><p>{inline(`The more contaminated you become, the less you can analyze or connect. The more you can endure and destroy. You will become a blunt instrument whether you choose to or not. This is the core mechanic. Corruption changes who you are at the stat level. Most people fight this. You're going to ride it.`)}</p></AlanBody>
-        <FinderFootnotes notes={[{"n":38,"text":"Saul and I have both been Marked. Cannot tell which of us anymore. Maybe this is what Chen meant by Wave Coherence.","act":4,"late":false},{"n":39,"text":"Tried the Infectious move on the baby this morning. Touched his head and tried to transfer a point. Nothing happened. Not sure if that is good news.","act":4,"late":false}]} />
       </AlPage>
       <AlPage side="recto" runHead={"ENTRY_002"} pageNum={basePage + 5} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 5}`}>
         <aside className="al-chen-block" data-tier={tier}><div className="al-chen-block__head">Dr. Eleanor Chen // [DATE UNKNOWN]</div><p>{inline(`This is what I was afraid of.`)}</p><p>{inline(`The stat shifts you're describing? That's not evolution. That's loss of analytical capacity (OBSERVE drops), social disconnection (SYNC drops), emotional numbing (ENDURE rises), violence as primary response (DISRUPT rises).`)}</p><p>{inline(`You're gamifying PTSD symptoms.`)}</p><p>{inline(`I understand why you frame it as adaptation. I understand 340 years has required you to function this way. But please — for once — admit what it cost you.`)}</p></aside>
@@ -84,13 +82,12 @@ function AlanCh2({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Being a wreck means you never stop moving. The Moves below are the six ways you direct that motion.`)}</p></AlanBody>
         <AlanBody><p><b>{inline(`1. Lean Into It.`)}</b>{inline(` `)}<i>{inline(`When you take damage, push it forward instead of resisting. Spend 1 Coherence; convert the damage into momentum on your next roll. You don't heal. You translate. — AR`)}</i></p></AlanBody>
       </AlPage>
-      <AlPage side="recto" runHead={"ENTRY_002"} pageNum={basePage + 7} coordStamp={"[LOG // ENTRY_002]"} label={`CALIBRATION · p.${basePage + 7}`}>
+      <AlPage side="recto" runHead={"ENTRY_002"} pageNum={basePage + 7} coordStamp={"[LOG // ENTRY_002]"} footnotes={<FinderFootnotes notes={[{"n":28,"text":"The Holding Action is the most honest mechanic in the book. You can refuse the consequence once. Once. Then the bill comes due. I have used it twice this week in real life.","act":3,"late":false}]} />} label={`CALIBRATION · p.${basePage + 7}`}>
         <AlanBody><p><b>{inline(`2. Cut the Cord.`)}</b>{inline(` `)}<i>{inline(`When an Anchor Connection is becoming a liability, deliberately sever it. Mark it as severed in your Chronicle. -2 Coherence immediately, but the Connection no longer triggers Memory Fading on relevant rolls.`)}</i></p></AlanBody>
         <AlanBody><p><b>{inline(`3. Burn a Memory.`)}</b>{inline(` `)}<i>{inline(`When you need a +3 you can't otherwise reach, spend an Active Memory. The Memory is gone — not Faded, gone. Erased from the slot.`)}</i>{inline(` `)}<i>{inline(`This is the one I told her not to put in the book. She made me put it in anyway. — EC`)}</i></p></AlanBody>
         <AlanBody><p><b>{inline(`4. Resonance Welding.`)}</b>{inline(` `)}<i>{inline(`When something near you is destroyed and you're already Compromised, you can absorb a fragment of it as a temporary Asset. The Asset lasts until the end of the session and then disappears, leaving a Mutation behind.`)}</i></p></AlanBody>
         <AlanBody><p><b>{inline(`5. The Holding Action.`)}</b>{inline(` `)}<i>{inline(`Once per session, when you would suffer a consequence you cannot afford, declare The Holding Action. The consequence is delayed by exactly one scene. The Holding Action cannot be repeated until you have completed a Repreival.`)}</i><FootnoteMarker n={28} act={3} /></p><span className="gly-inline-row"><Glyph name="burden" size="inline" stage={0} /></span></AlanBody>
         <AlanBody><p><b>{inline(`6. Trajectory Lock.`)}</b>{inline(` `)}<i>{inline(`When you make a decision you cannot undo, write it down and circle it. From this point forward, you cannot take any action that contradicts the locked decision. The lock is permanent until released by a Crisis. This is the move Chen would not let me put in her book. It's why we have two books. — AR`)}</i></p></AlanBody>
-        <FinderFootnotes notes={[{"n":28,"text":"The Holding Action is the most honest mechanic in the book. You can refuse the consequence once. Once. Then the bill comes due. I have used it twice this week in real life.","act":3,"late":false}]} />
       </AlPage>
     </Spread>
   </>);

@@ -18,7 +18,7 @@ function PlayingBothInterlude({ tweaks, basePage = 1 }) {
       </IlPage>
     </Spread>
     <Spread id="interlude-01" label={"PLAYING BOTH · spread 1"}>
-      <IlPage side="verso" showTexture={false} pageNum={basePage + 0} label={`PLAYING BOTH · p.${basePage + 0}`}>
+      <IlPage side="verso" showTexture={false} pageNum={basePage + 0} footnotes={<FinderFootnotes notes={[{"n":33,"text":"He says reading both books changes the meaning of both. He is the only one in this manuscript who is telling me the truth.","act":3,"late":false}]} />} label={`PLAYING BOTH · p.${basePage + 0}`}>
         <div className="interlude-body"><p>{inline(`So. You finished Chen's book. Or you skipped to here, which is allowed, but you should know that some of what follows won't make sense without the first half.`)}<FootnoteMarker n={33} act={3} /></p></div>
         <div className="interlude-body"><p>{inline(`I read them in order. Chen first. That seemed safer at the time. I was wrong about the safety. I was right about the order. Alan's book makes more sense once you already know what he's arguing with.`)}</p></div>
         <div className="interlude-body"><p>{inline(`What's below is what the two manuscripts agreed on. Which isn't much.`)}</p></div>
@@ -31,7 +31,6 @@ function PlayingBothInterlude({ tweaks, basePage = 1 }) {
         <div className="interlude-body"><p>{inline(`The person or place you held onto longest is now something you can deploy.`)}</p></div>
         <div className="interlude-body"><p><b>{inline(`YOUR FINAL PARADOX SCORE BECOMES YOUR STARTING PARADOX IN EMIT.`)}</b></p></div>
         <div className="interlude-body"><p>{inline(`You don't begin emiT clean. You begin it with the contamination you accumulated trying to stay whole.`)}</p></div>
-        <FinderFootnotes notes={[{"n":33,"text":"He says reading both books changes the meaning of both. He is the only one in this manuscript who is telling me the truth.","act":3,"late":false}]} />
       </IlPage>
       <IlPage side="recto" showTexture={false} pageNum={basePage + 1} label={`PLAYING BOTH · p.${basePage + 1}`}>
         <div className="interlude-body"><p><b>{inline(`YOU BEGIN WITH ONE ADDITIONAL MUTATION: REMEMBERS WHEN PRESERVATION MATTERED.`)}</b></p></div>

@@ -23,6 +23,8 @@ function Page({
   coordStamp = null,
   label = null,
   dataAttrs = {},
+  footnotes = null,
+  // optional <FinderFootnotes> — rendered inside content as a flex child
   children
 }) {
   const isVerso = side === "verso";
@@ -41,9 +43,23 @@ function Page({
       top: MM(marginTop),
       bottom: MM(marginBot),
       left: MM(left),
-      right: MM(right)
+      right: MM(right),
+      display: 'flex',
+      flexDirection: 'column'
     }
-  }, children), runHead && book === "chen" && /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "page__body",
+    style: {
+      flex: '0 1 auto',
+      overflow: 'hidden'
+    }
+  }, children), footnotes && /*#__PURE__*/React.createElement("div", {
+    className: "page__footnotes-host",
+    style: {
+      marginTop: 'auto',
+      flex: '0 0 auto'
+    }
+  }, footnotes)), runHead && book === "chen" && /*#__PURE__*/React.createElement("div", {
     className: "run-head",
     style: {
       top: MM(6),

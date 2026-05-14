@@ -1582,3 +1582,48 @@ h1.el-h1 [data-alan-quote] {
 
 /* Push the existing halftitle marks down so the master sigil reads as primary */
 .il-halftitle { padding-top: 100mm; }
+
+/* Footnote overlap fix: when a page contains a .page__footnotes block,
+   reserve bottom space in the body content area. The CSS :has() trick
+   doesn't reach into the Page component (because page__content has an
+   inline `bottom` style), so we instead push the body content area to
+   end higher when footnotes are present, using a wrapping data-attr. */
+.page:has(.page__footnotes) .page__content {
+  bottom: 50mm !important;
+}
+
+/* Tone down the FIELD NOTE stamp in the reflection variant — the "ⓕ"
+   ornament is hitting too hard. Make it a small italic label, no glyph. */
+.el-reflection--fieldnote::before {
+  content: "field note";
+  font-family: var(--ff-serif-body);
+  font-style: italic;
+  font-size: 6.5pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--el-faded);
+  background: var(--el-parchment);
+  padding: 0 1.5mm;
+  position: absolute;
+  right: 0;
+  top: -2.5mm;
+  opacity: 0.65;
+}
+.el-reflection--theory::before {
+  /* Drop the ⊕ ornament — the green border is enough distinction */
+  content: none;
+}
+
+/* When inside the new flex .page__content, footnotes flow naturally
+   instead of position:absolute. Override the earlier absolute styles. */
+.page__footnotes-host .page__footnotes {
+  position: static !important;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  margin-top: 4mm;
+}
+/* Remove the now-redundant has() rule */
+.page:has(.page__footnotes) .page__content {
+  bottom: 16mm !important;
+}

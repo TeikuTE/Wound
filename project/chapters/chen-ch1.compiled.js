@@ -91,6 +91,14 @@ function ChenCh1({
     side: "verso",
     runHead: "Understanding Displacement",
     pageNum: basePage + 4,
+    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
+      notes: [{
+        "n": 8,
+        "text": "Yes Chen, the three questions are also in every TTRPG essay since 2018. Solid framing though.",
+        "act": 1,
+        "late": false
+      }]
+    }),
     label: `UNDERSTANDING DISPLACEME · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -113,14 +121,7 @@ function ChenCh1({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Church believes suffering stabilizes time. They want your pain. The Loop Authority sees recursion as correction. They want you normalized. Scionfall believes cessation is mercy. They will seduce you with kindness. The Tangled Revel shatter Echoes into knotted masterpieces.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Accepting their offers is drinking from a poisoned chalice. Rejecting their help is drowning in a poisoned pool.`))), /*#__PURE__*/React.createElement(FinderFootnotes, {
-    notes: [{
-      "n": 8,
-      "text": "Yes Chen, the three questions are also in every TTRPG essay since 2018. Solid framing though.",
-      "act": 1,
-      "late": false
-    }]
-  })), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Accepting their offers is drinking from a poisoned chalice. Rejecting their help is drowning in a poisoned pool.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Understanding Displacement",
     pageNum: basePage + 5,

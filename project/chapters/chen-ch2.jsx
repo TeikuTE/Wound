@@ -14,8 +14,8 @@ function ChenCh2({ tweaks, basePage = 1 }) {
       </ChPage>
     </Spread>
     <Spread id="chen-2-02" label={"EXCAVATING YOUR ECHO · spread 2"}>
-      <ChPage side="verso" runHead={"Excavating Your Echo"} pageNum={basePage + 2} label={`EXCAVATING YOUR ECHO · p.${basePage + 2}`}>
-        <div className="el-body el-dropcap" data-firstpara><p>{inline(`Before you were Displaced, you had a singular, linear existence. You remember it as "ordinary", but that is just what singular and linear feel like when you have never known otherwise. I'm sorry that you will never know that comfort again.`)}<FootnoteMarker n={10} act={1} /></p></div>
+      <ChPage side="verso" runHead={"Excavating Your Echo"} pageNum={basePage + 2} footnotes={<FinderFootnotes notes={[{"n":10,"text":"Named my Echo Saul. First Active Memory: smell of rain on hot asphalt. Made me close my eyes for a minute.","act":1,"late":false},{"n":59,"text":"Saul chose the name. I just wrote it down.","act":5,"late":true}]} />} label={`EXCAVATING YOUR ECHO · p.${basePage + 2}`}>
+        <div className="el-body el-dropcap" data-firstpara><p>{inline(`Before you were Displaced, you had a singular, linear existence. You remember it as "ordinary", but that is just what singular and linear feel like when you have never known otherwise. I'm sorry that you will never know that comfort again.`)}<FootnoteMarker n={10} act={1} /><FootnoteMarker n={59} act={5} /></p><span className="gly-inline-row"><Glyph name="anchor" size="ghost" stage={3} late /></span></div>
         <div className="el-body"><p>{inline(`This chapter is a recovery operation. Write down whatever you can, while you still can. Some of what I ask you for may already be gone. Mark the gaps. The shape of what's missing is still worth preserving.`)}</p></div>
         <h4 className="el-subsection">{inline(`The Person You Were`)}</h4>
         <div className="el-body"><p>{inline(`Write these down. You'll need them later:`)}</p></div>
@@ -25,7 +25,6 @@ function ChenCh2({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`ORIGIN ERA`)}</h4>
         <div className="el-body"><p>{inline(`When and where were you from. New York City, 2043, the apartment with the broken radiator on East 38th. Edo Japan, 1750, the field where your master beat you for sitting incorrectly. The Martian survivor colony in 3048, the year before the first collapse, when the progenerators first started screaming.`)}</p></div>
         <div className="el-body"><p>{inline(`Be specific past the point of comfort. You aren't building a setting. You're putting down on paper the exact piece of reality you are about to spend this manual losing. Make it hurt to write. If it doesn't hurt, write it again.`)}</p></div>
-        <FinderFootnotes notes={[{"n":10,"text":"Named my Echo Saul. First Active Memory: smell of rain on hot asphalt. Made me close my eyes for a minute.","act":1,"late":false}]} />
       </ChPage>
       <ChPage side="recto" runHead={"Excavating Your Echo"} pageNum={basePage + 3} label={`EXCAVATING YOUR ECHO · p.${basePage + 3}`}>
         <h4 className="el-subsection">{inline(`THE DISPLACEMENT EVENT`)}</h4>
