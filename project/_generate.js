@@ -72,14 +72,16 @@ function artNorm(s) {
 }
 const ART_LOOKUP = ART.placements.map(p => ({
   ...p,
-  needle: artNorm(p.passage).split(' ').slice(0, 7).join(' '),
+  // 5-word needle catches more anchors (was 7, lots of placements were
+  // missing because the manuscript phrasing differed slightly past word 5).
+  needle: artNorm(p.passage).split(' ').slice(0, 5).join(' '),
 }));
 function matchPlacementsForBlock(blockText, sectionId) {
   if (!ART_LOOKUP.length) return [];
   const hay = artNorm(blockText);
   const matches = [];
   for (const p of ART_LOOKUP) {
-    if (!p.needle || p.needle.length < 12) continue;
+    if (!p.needle || p.needle.length < 8) continue;     // was 12 — looser bar
     const expected = SECTION_MAP[p.section];
     if (expected && expected !== sectionId) continue;
     if (hay.includes(p.needle)) matches.push(p);
@@ -656,7 +658,9 @@ function paginate(sectionBlocks, host, opts = {}) {
     if (b._art) {
       const fnCount = b._art.reduce((a, p) => a + (p.footnotes || []).length, 0);
       if (fnCount > 0) {
-        h += fnCount * 22 + 8;  // approx footnote area weight
+        // Each footnote takes ~28-34px when wrapping. Reserve generously
+        // so body content doesn't get truncated by the flex footnote area.
+        h += fnCount * 34 + 16;
       }
     }
     // h2 / h3 — strongly prefer a page break BEFORE them if we're past half a page already

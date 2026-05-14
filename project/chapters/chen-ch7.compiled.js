@@ -103,7 +103,12 @@ function ChenCh7({
     className: "resolution-title"
   }, inline(`No reduction`)), /*#__PURE__*/React.createElement("div", {
     className: "resolution-text"
-  }, inline(`But you don't generate more.`))))), /*#__PURE__*/React.createElement("h4", {
+  }, inline(`But you don't generate more.`)))))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Advanced Systems",
+    pageNum: basePage + 3,
+    label: `ADVANCED SYSTEMS · p.${basePage + 3}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`OTHER METHODS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -113,12 +118,7 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Work to undo changes you caused`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Spend time in an era without interference during Downtime`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Advanced Systems",
-    pageNum: basePage + 3,
-    label: `ADVANCED SYSTEMS · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Spend time in an era without interference during Downtime`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Accept Faction offers from Church or Authority`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -168,7 +168,15 @@ function ChenCh7({
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Why two different stats? Downtime maintenance uses SYNC because you are reconnecting emotionally — revisiting the people and places that anchor your waveform. The standalone Reinforce move uses ENDURE because you are rebuilding the connection rather than visiting it. One is memory. The other is labor. The distinction matters in the same way the distinction between reading about a country and walking through it matters.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
-  }, "\u2014 EC")), /*#__PURE__*/React.createElement("h4", {
+  }, "\u2014 EC")))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-7-03",
+    label: "ADVANCED SYSTEMS · spread 3"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Advanced Systems",
+    pageNum: basePage + 4,
+    label: `ADVANCED SYSTEMS · p.${basePage + 4}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`ANCHOR STRENGTH LOSS TRIGGERS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -182,15 +190,7 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Anchor (this is rare; it will be stated explicitly when it occurs)`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You voluntarily sever an Anchor Connection to gain a mechanical`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-7-03",
-    label: "ADVANCED SYSTEMS · spread 3"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Advanced Systems",
-    pageNum: basePage + 4,
-    label: `ADVANCED SYSTEMS · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You voluntarily sever an Anchor Connection to gain a mechanical`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`benefit — when you burn the last real thing tethering you to your`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -216,15 +216,7 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Spend a Downtime move`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Provide narrative justification for the growth`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Effect: increase the Asset bonus (+1 →+2 →+3), OR gain an additional capability, OR increase Stress capacity (3 →4 →5 boxes).`))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`LEVEL REQUIREMENTS`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Level 2 requires Anchor Strength `), /*#__PURE__*/React.createElement("b", null, inline(`2+`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Level 3 requires Anchor Strength `), /*#__PURE__*/React.createElement("b", null, inline(`4+`))))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Provide narrative justification for the growth`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Advanced Systems",
     pageNum: basePage + 5,
@@ -237,7 +229,15 @@ function ChenCh7({
       }]
     }),
     label: `ADVANCED SYSTEMS · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Effect: increase the Asset bonus (+1 →+2 →+3), OR gain an additional capability, OR increase Stress capacity (3 →4 →5 boxes).`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`LEVEL REQUIREMENTS`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Level 2 requires Anchor Strength `), /*#__PURE__*/React.createElement("b", null, inline(`2+`)))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Level 3 requires Anchor Strength `), /*#__PURE__*/React.createElement("b", null, inline(`4+`)))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`ACQUIRING NEW ASSETS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -272,9 +272,7 @@ function ChenCh7({
     className: "oracle-desc"
   }, inline(`Clear 2 Stress.`))))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Clear 1 Stress. Mark +1 Paradox.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Repair requires Downtime and a narrative explanation of the work.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Clear 1 Stress. Mark +1 Paradox.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-7-04",
     label: "ADVANCED SYSTEMS · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -282,7 +280,9 @@ function ChenCh7({
     runHead: "Advanced Systems",
     pageNum: basePage + 6,
     label: `ADVANCED SYSTEMS · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Repair requires Downtime and a narrative explanation of the work.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Downtime Moves Reference`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

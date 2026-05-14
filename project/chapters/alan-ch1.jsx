@@ -23,9 +23,9 @@ function AlanCh1({ tweaks, basePage = 1 }) {
         <h4 className="al-subsection">{inline(`What This Manual Covers`)}</h4>
         <AlanBody><p>{inline(`Most displacement stories are about the scramble to return, the preservation, the fight to stay intact. This one starts after that story ends.`)}</p></AlanBody>
         <AlanBody><p>{inline(`You've been contaminated long enough to know: identity erodes no matter what you do. Memories fade even when you fight. The person you were couldn't survive what you've survived. You've changed. You're still changing.`)}</p></AlanBody>
-        <AlanBody><p>{inline(`You've probably spent years asking how do I stop myself from changing. That's the wrong question. The only question that matters is: what am I becoming, and how can I use it?`)}</p></AlanBody>
       </AlPage>
       <AlPage side="recto" runHead={"ENTRY_001"} pageNum={basePage + 3} coordStamp={"[LOG // ENTRY_001]"} label={`AFTER THE TUTORIAL · p.${basePage + 3}`}>
+        <AlanBody><p>{inline(`You've probably spent years asking how do I stop myself from changing. That's the wrong question. The only question that matters is: what am I becoming, and how can I use it?`)}</p></AlanBody>
         <h4 className="al-subsection">{inline(`The Wreck: What You Are`)}</h4>
         <AlanBody><p>{inline(`You're a Wreck. Something that broke but kept moving. I've stopped using the words `)}<i>{inline(`traveler`)}</i>{inline(` and `)}<i>{inline(`victim`)}</i>{inline(` because both of them imply you were doing something to time. You weren't. Time was doing something to you, and you survived it.`)}</p></AlanBody>
         <AlanBody><p>{inline(`All Wrecks share three things.`)}</p></AlanBody>

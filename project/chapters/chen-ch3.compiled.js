@@ -93,14 +93,14 @@ function ChenCh3({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`What do I want from them? Information, safe passage, a moment of`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`peace, to hurt them, to save them.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`peace, to hurt them, to save them.`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "A Session Of \"Play\"",
     pageNum: basePage + 3,
     label: `A SESSION OF "PLAY" · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`When to Roll`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -142,7 +142,9 @@ function ChenCh3({
     className: "resolution-title"
   }, inline(`Failure with Opportunity`)), /*#__PURE__*/React.createElement("div", {
     className: "resolution-text"
-  }, inline(`You fail, but discover something useful or a new path opens. Lose 1 Coherence OR mark 1 Paradox (your choice).`))))))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`You fail, but discover something useful or a new path opens. Lose 1 Coherence OR mark 1 Paradox (your choice).`))))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Record it all. The Chronicle is the only proof you were ever here.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-3-03",
     label: "A SESSION OF \"PLAY\" · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -158,9 +160,7 @@ function ChenCh3({
       }]
     }),
     label: `A SESSION OF "PLAY" · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Record it all. The Chronicle is the only proof you were ever here.`))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`One of my favorite lies in this whole manual. You rolled a 12, congratulations. Reality bends for you. You feel synchronized. Chen calls this Complete Success.`)), /*#__PURE__*/React.createElement("p", null, inline(`I call it Borrowed Time.`)), /*#__PURE__*/React.createElement("p", null, inline(`Because I've rolled `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` on Navigation a dozen times, landed exactly where I wanted, felt that sweet surge of Coherence — and then watched the timeline I just successfully navigated collapse three weeks later because I didn't understand what I was aligning with.`)), /*#__PURE__*/React.createElement("p", null, inline(`Your dice said success. The Chronoverse is still deciding.`)), /*#__PURE__*/React.createElement("div", {
@@ -184,16 +184,16 @@ function ChenCh3({
     className: "el-subsection"
   }, inline(`Moving Between Scenes`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Ask: do I stay here, or go somewhere else? If you stay, the next scene happens in the same location — moments or hours later. Something has changed. If you go, decide where. If you're leaving the era entirely, that's a Navigation roll (see below) or forced displacement.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Ask: do I stay here, or go somewhere else? If you stay, the next scene happens in the same location — moments or hours later. Something has changed. If you go, decide where. If you're leaving the era entirely, that's a Navigation roll (see below) or forced displacement.`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Closing the Session`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A session ends when you've answered your opening question (or learned it cannot be answered here), you've played for one to three hours and feel a natural pause, or a Crisis forces a major change that ends the current chapter of your story. Then perform Downtime.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "A Session Of \"Play\"",
     pageNum: basePage + 5,
     label: `A SESSION OF "PLAY" · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`Closing the Session`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A session ends when you've answered your opening question (or learned it cannot be answered here), you've played for one to three hours and feel a natural pause, or a Crisis forces a major change that ends the current chapter of your story. Then perform Downtime.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Before you close the book, answer your opening question in your Chronicle — even if the answer is 'I couldn't find out' or 'I found out and wish I hadn't.' Then write what that answer makes you need to know next.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

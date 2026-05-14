@@ -30,9 +30,9 @@ function PlayingBothInterlude({ tweaks, basePage = 1 }) {
         <div className="interlude-body"><p><b>{inline(`YOUR HIGHEST REMAINING ANCHOR CONNECTION BECOMES A PERSISTENT CONNECTION ASSET AT LEVEL 1.`)}</b></p></div>
         <div className="interlude-body"><p>{inline(`The person or place you held onto longest is now something you can deploy.`)}</p></div>
         <div className="interlude-body"><p><b>{inline(`YOUR FINAL PARADOX SCORE BECOMES YOUR STARTING PARADOX IN EMIT.`)}</b></p></div>
-        <div className="interlude-body"><p>{inline(`You don't begin emiT clean. You begin it with the contamination you accumulated trying to stay whole.`)}</p></div>
       </IlPage>
       <IlPage side="recto" showTexture={false} pageNum={basePage + 1} label={`PLAYING BOTH · p.${basePage + 1}`}>
+        <div className="interlude-body"><p>{inline(`You don't begin emiT clean. You begin it with the contamination you accumulated trying to stay whole.`)}</p></div>
         <div className="interlude-body"><p><b>{inline(`YOU BEGIN WITH ONE ADDITIONAL MUTATION: REMEMBERS WHEN PRESERVATION MATTERED.`)}</b></p></div>
         <div className="interlude-body"><p>{inline(`Once per campaign, you may perform a Holding Action without it counting toward the once-per-campaign limit. You know what you traded. Sometimes that knowledge surfaces.`)}</p></div>
         <div className="interlude-body"><p><b>{inline(`YOUR FINAL ANCHOR STRENGTH DETERMINES YOUR STARTING CORRUPTION VECTOR.`)}</b></p></div>

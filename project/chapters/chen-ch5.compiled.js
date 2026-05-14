@@ -249,12 +249,29 @@ function ChenCh5({
     side: "recto",
     runHead: "Memory Management",
     pageNum: basePage + 9,
+    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
+      notes: [{
+        "n": 28,
+        "text": "The Holding Action is the most honest mechanic in the book. You can refuse the consequence once. Once. Then the bill comes due. I have used it twice this week in real life.",
+        "act": 3,
+        "late": false
+      }]
+    }),
     label: `MEMORY MANAGEMENT · p.${basePage + 9}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`CHRONICLE BONUSES`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Detailed Entries grant +1 Coherence once per session, when your entry: describes a scene in vivid detail, reflects on your emotional state, connects to your Anchor or Memories, and advances your understanding of your condition.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Detailed Entries grant +1 Coherence once per session, when your entry: describes a scene in vivid detail, reflects on your emotional state, connects to your Anchor or Memories, and advances your understanding of your condition.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
+    n: 28,
+    act: 3
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "gly-inline-row"
+  }, /*#__PURE__*/React.createElement(Glyph, {
+    name: "burden",
+    size: "inline",
+    stage: 0
+  }))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Reference Bonus: When facing a situation similar to a previous encounter, read the relevant past Chronicle entries. Gain +1 to the Resolution roll if past experience genuinely applies.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

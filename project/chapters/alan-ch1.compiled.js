@@ -77,13 +77,13 @@ function AlanCh1({
     className: "al-fragment__sign"
   }, "// AR")), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
-  }, inline(`What This Manual Covers`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Most displacement stories are about the scramble to return, the preservation, the fight to stay intact. This one starts after that story ends.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`You've been contaminated long enough to know: identity erodes no matter what you do. Memories fade even when you fight. The person you were couldn't survive what you've survived. You've changed. You're still changing.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`You've probably spent years asking how do I stop myself from changing. That's the wrong question. The only question that matters is: what am I becoming, and how can I use it?`)))), /*#__PURE__*/React.createElement(AlPage, {
+  }, inline(`What This Manual Covers`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Most displacement stories are about the scramble to return, the preservation, the fight to stay intact. This one starts after that story ends.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`You've been contaminated long enough to know: identity erodes no matter what you do. Memories fade even when you fight. The person you were couldn't survive what you've survived. You've changed. You're still changing.`)))), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     runHead: "ENTRY_001",
     pageNum: basePage + 3,
     coordStamp: "[LOG // ENTRY_001]",
     label: `AFTER THE TUTORIAL · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`You've probably spent years asking how do I stop myself from changing. That's the wrong question. The only question that matters is: what am I becoming, and how can I use it?`))), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
   }, inline(`The Wreck: What You Are`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`You're a Wreck. Something that broke but kept moving. I've stopped using the words `), /*#__PURE__*/React.createElement("i", null, inline(`traveler`)), inline(` and `), /*#__PURE__*/React.createElement("i", null, inline(`victim`)), inline(` because both of them imply you were doing something to time. You weren't. Time was doing something to you, and you survived it.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`All Wrecks share three things.`))), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
