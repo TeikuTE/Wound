@@ -1865,3 +1865,41 @@ h4.tbl-header {
   font-style: italic !important;
   letter-spacing: 0.04em;
 }
+
+/* Compact 2-column oracle layout for single-word tables (Action Oracle,
+   Theme Oracle) — fits a d100 in ~2 pages instead of 4. */
+.oracle-compact-row {
+  display: flex;
+  gap: 6mm;
+  margin: 1mm 0 5mm;
+  align-items: flex-start;
+}
+.oracle-compact-row .tbl--compact {
+  flex: 1;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.oracle-compact-row .tbl--compact colgroup col.col-num { width: 12mm; }
+.oracle-compact-row .tbl--compact colgroup col.col-name { width: auto; }
+.oracle-compact-row .tbl--compact td {
+  padding: 1mm 1mm 1mm 0 !important;
+  vertical-align: baseline !important;
+  border-bottom: 0.2pt solid rgba(139, 105, 20, 0.18) !important;
+}
+.oracle-compact-row .tbl--compact td.num {
+  font-family: var(--ff-mono) !important;
+  font-weight: 700;
+  font-size: 8pt !important;
+  color: var(--el-burgundy);
+  text-align: right;
+  padding-right: 2.5mm !important;
+  white-space: nowrap;
+}
+.oracle-compact-row .tbl--compact td.oracle-name {
+  font-family: var(--ff-serif-display) !important;
+  font-weight: 600 !important;
+  font-size: 9.5pt !important;
+  color: var(--el-forest);
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+}

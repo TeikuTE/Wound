@@ -367,9 +367,7 @@ You may adjust one Mode rating by 1 (up or down, minimum -1, maximum +3) when:
 - You survive a Crisis and your approach to the world has visibly changed as a result
 - A significant Memory is Lost and the absence reshapes how you operate (losing a Social memory might reduce SYNC; losing a Combat memory might reduce DISRUPT)
 - You Lock a Memory and it crystallizes a particular capacity in you
-- You spend at least 3 sessions consistently operating in one Mode, and it has become instinct
-
-When you change a Mode rating, write one sentence in your Chronicle explaining why. You deserve to remember why you are changed.
+- You spend at least 3 sessions consistently operating in one Mode, and it has become instinct When you change a Mode rating, write one sentence in your Chronicle explaining why. You deserve to remember why you are changed.
 
 There is no ceiling on how far Modes can fall. An Echo who has lost every Combat memory and spent three years hiding may find their DISRUPT at -1.
 
@@ -383,15 +381,7 @@ For each Memory, write:
 
 - **A Title** — brief and evocative, the way you'd refer to it in your head.
 - **Two Context Tags** — situations where this Memory's experience applies
-- **A short description** — what happened, in your own voice
-
-**Example Memory:**
-
-> **SAVING LIVES IN THE ER**
->
-> *Tags: Medical Knowledge / Crisis Management*
->
-> The night I held a trauma patient's chest together with my bare hands while we waited for the surgeon. I know what calm looks like when everything is going wrong.
+- **A short description** — what happened, in your own voice Example Memory: > **SAVING LIVES IN THE ER** > > *Tags: Medical Knowledge / Crisis Management* > > The night I held a trauma patient's chest together with my bare hands while we waited for the surgeon. I know what calm looks like when everything is going wrong.
 
 ### WHEN A MEMORY'S TAGS APPLY
 
@@ -427,23 +417,13 @@ Choose two. They start fragile — Level 1, three Stress boxes before they break
 
 - **Temporal Compass** — Detects anomalies, +1 OBSERVE
 - **Memory Crystallizer** — Preserves Memories, +1 ENDURE
-- **Resonance Dampener** — Resists Paradox, +1 ENDURE
-
-**ECHO TRAITS**
-
+- **Resonance Dampener** — Resists Paradox, +1 ENDURE ECHO TRAITS
 - **Temporal Sensitivity** — Sense time flows, +1 OBSERVE
 - **Adaptive Linguistics** — Learn languages instantly, +1 SYNC
-- **Chronal Resilience** — Resist temporal damage, +1 ENDURE
-
-**TEMPORAL ANCHORS**
-
+- **Chronal Resilience** — Resist temporal damage, +1 ENDURE TEMPORAL ANCHORS
 - **Heirloom Object** — Physical tether, +1 ENDURE
 - **Origin Era Knowledge** — Expertise from home time, +2 to relevant actions
-- **Persistent Connection** — Recurring person or place across time
-
-PUSHING AN ASSET
-
-When you use an Asset during a roll, you may mark 1 Stress on that Asset to add +1 to your result after rolling. Once per roll. The Asset must be fictionally present or relevant — you're leaning on the tool, not invoking an abstract bonus. If you can't describe how the Asset helps in your Chronicle entry, you can't Push it.
+- **Persistent Connection** — Recurring person or place across time PUSHING AN ASSET When you use an Asset during a roll, you may mark 1 Stress on that Asset to add +1 to your result after rolling. Once per roll. The Asset must be fictionally present or relevant — you're leaning on the tool, not invoking an abstract bonus. If you can't describe how the Asset helps in your Chronicle entry, you can't Push it.
 
 When all Stress boxes on an Asset are marked, it becomes Glitched. A Glitched Asset still grants its base benefit, but if Pushed while Glitched, you must also accept a Complication. Glitched Assets must be repaired during Downtime.
 
@@ -2752,11 +2732,7 @@ A pocket watch that ticks backwards. Hands move at inconsistent speeds. Shows ti
 
 - **Level 1 ○○○** — Extends time in stable locations. +1 SYNC when trying to remain in one era longer. +1 to Downtime recovery moves.
 
-- **Level 2 ○○○○** — Slows local time perception
-
-**during Crisis. +2 SYNC. Once per Crisis, take**
-
-an additional Response action.
+- **Level 2 ○○○○** — Slows local time perception during Crisis. +2 SYNC. Once per Crisis, take an additional Response action.
 
 - **Level 3 ○○○○○** — Temporarily anchors you to a specific moment. +3 SYNC. Prevents forced Displacement for one full scene. Cost: mark all Stress. After the anchor ends, immediate Displacement — no Navigation roll possible.
 
@@ -2790,17 +2766,9 @@ Your nervous system has rewired. You feel time as pressure and temperature. Disp
 
 - **Level 1 ○○○** — Always know exact date, time, and location. +1 Navigation. Sense Displacement 30 seconds before it occurs.
 
-- **Level 2 ○○○○** — Perceive the temporal weight of moments — which events matter, which are
+- **Level 2 ○○○○** — Perceive the temporal weight of moments — which events matter, which are fragile. +2 Navigation. Identify Nexus Points when present.
 
-**fragile. +2 Navigation. Identify Nexus Points**
-
-when present.
-
-- **Level 3 ○○○○○** — Sense other Echoes within one mile. +3 Navigation. Feel timeline scars — locations where Paradox damaged causality. Once per session, sense the correct timeline
-
-**path during Crisis. Stress Effect: when**
-
-overstressed, constant temporal vertigo — cannot distinguish present from near-future, hear the screams of divergent timelines.
+- **Level 3 ○○○○○** — Sense other Echoes within one mile. +3 Navigation. Feel timeline scars — locations where Paradox damaged causality. Once per session, sense the correct timeline path during Crisis. Stress Effect: when overstressed, constant temporal vertigo — cannot distinguish present from near-future, hear the screams of divergent timelines.
 
 **[ALAN]**
 
@@ -2864,11 +2832,7 @@ Your memories remember themselves. You recall recalling. Your nostalgia has nost
 
 clarity once per session without spending Coherence. +1 ENDURE when resisting memory loss.
 
-- **Level 2 ○○○○** — Loop memories — replay them in real-time as if experiencing fresh. +2
-
-**ENDURE. Once per session, use a Lost Memory**
-
-as if it were Active for one roll only. Cost: gain a permanent Scar afterward.
+- **Level 2 ○○○○** — Loop memories — replay them in real-time as if experiencing fresh. +2 ENDURE. Once per session, use a Lost Memory as if it were Active for one roll only. Cost: gain a permanent Scar afterward.
 
 - **Level 3 ○○○○○** — Memories propagate backwards through your personal timeline. +3 ENDURE. Once per session, implant a false memory you've always had — create a new Active Memory without replacing an existing one. Cost: mark all Stress. The false memory might be truer than the real ones. Stress Effect: cannot tell original memories from recalled memories from memories of memories.
 
@@ -3197,9 +3161,7 @@ The prophetic resonance means your arrival may have been foreseen. Both sides mi
 - **ERA 71:** Early Cold War (1945-1970)
 - **LOCATION 76:** Transportation Hub
 - **ANOMALY 56:** Historical Deviation
-- **COMPLICATION 46:** Identity Exposure
-
-Tempelhof Airport, West Berlin, 1961. But something is fundamentally wrong. The Berlin Wall — which in your timeline was built in August 1961 — was never constructed here. The city remains unified but occupied by a different power structure than you know.
+- **COMPLICATION 46:** Identity Exposure Tempelhof Airport, West Berlin, 1961. But something is fundamentally wrong. The Berlin Wall — which in your timeline was built in August 1961 — was never constructed here. The city remains unified but occupied by a different power structure than you know.
 
 Your papers list you as a resident of East Berlin, a political designation that doesn't exist in this divergent timeline. Border guards are deeply confused by your documentation. Their confusion is rapidly turning to hostility.
 
@@ -3270,7 +3232,12 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **95-96** Neon Rot — Cyber-warrens, rain that burns, holograms flickering over ruins. The future arrived and it brought poverty.
 
-**97-98** Post-Human Drift — Minds split across bodies, upload silence. The question of what counts as a person, unresolved. 99 Silent Earth Dying sun, long shadows, dust settling on monuments. The ending everyone knew was coming. 00 The Void Blankness. No era at all. The space between moments. You are alone here in a way that has no name.
+**97-98** Post-Human Drift — Minds split across bodies, upload silence. The question of what counts as a person, unresolved.
+
+**99** Silent Earth — dying sun, long shadows, dust settling on monuments. The ending everyone knew was coming.
+
+**00** The Void — blankness. No era at all. The space between moments. You are alone here in a way that has no name.
+
 
 **Structure Table (d100) — How Reality Behaves**
 
@@ -3316,7 +3283,12 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **95-96** Scar-Touched — Cracks bleeding energy. Previous displacements left wounds that haven't healed.
 
-**97-98** Crash-State — Multiple realities overlap. The building is a ruin and brand new simultaneously. 99 Entropy Acceleration Things age years in seconds. You watch a flower become dust. You don't want to know what that means for you. 00 Inverted Physics Gravity pulls up. Time moves sideways. The sun rises from the ground.
+**97-98** Crash-State — Multiple realities overlap. The building is a ruin and brand new simultaneously.
+
+**99** Entropy Acceleration — things age years in seconds. You watch a flower become dust. You don't want to know what that means for you.
+
+**00** Inverted Physics — gravity pulls up. Time moves sideways. The sun rises from the ground.
+
 
 **Conflict Table (d100) — The Named Phenomenon**
 
@@ -3362,7 +3334,12 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **95-96** The Hive's Rejection — The dominant collective consciousness is expelling aberrant ideas as physical entities. Thoughts are coming after you.
 
-**97-98** The Bottomless City — No floor, just fog. The infrastructure extends downward indefinitely. People have adapted. They don't look down. 99 The Dying Colossus Something vast is choosing to end. The ending will take everything with it. It is not malicious. It is simply done. 00 The Impossible Visitor
+**97-98** The Bottomless City — No floor, just fog. The infrastructure extends downward indefinitely. People have adapted. They don't look down.
+
+**99** The Dying Colossus — something vast is choosing to end. The ending will take everything with it. It is not malicious. It is simply done.
+
+**00** The Impossible Visitor — someone or something has arrived who should not be able to exist here. They behave as if everything is normal.
+
 
 **C.3 — Shared Oracles**
 
@@ -3658,7 +3635,12 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **94-96** Observer Effect Amplified — Things only exist while you're looking at them. Turn away — room reconfigures. Turn back — different arrangement. Lasts 1 hour.
 
-**97-98** Medium Shift — Reality operates as a different medium. Everything moves like underwater, or in stop- motion, or as animated painting. Physics unchanged, perception warped. 99 Full Stray Timeline Conversion The Chronoclast has successfully broken this branch. Roll Chronoscape: ERA + STRUCTURE + CONFLICT to determine what it's become. Irreversible. 00 The Chronoclast Leaves a Gift No shift occurs. Instead, you find an unstable Chrono-Tech device. Roll **d6**: **1-2** Paradox Engine, **3-4** Reality Splicer, 5 Temporal Graffiti Kit, 6 The Chronoclast's Personal Card.
+**97-98** Medium Shift — Reality operates as a different medium. Everything moves like underwater, or in stop- motion, or as animated painting. Physics unchanged, perception warped.
+
+**99** Full Stray Timeline Conversion — the Chronoclast has successfully broken this branch. Roll Chronoscape: ERA + STRUCTURE + CONFLICT to determine what it's become. Irreversible.
+
+**00** The Chronoclast Leaves a Gift — no shift occurs. Instead, you find an unstable Chrono-Tech device. Roll **d6**: **1-2** Paradox Engine, **3-4** Reality Splicer, 5 Temporal Graffiti Kit, 6 The Chronoclast's Personal Card.
+
 
 ## Appendix D: The Factions
 
@@ -4141,9 +4123,7 @@ I need to figure out when and where I am. The outcome is uncertain, so I roll.
 - Mode: **OBSERVE** (I'm analyzing my surroundings)
 - Memory Bonus: **+2** (Active Memory — 'Scuba Diving the Dying Reef,' tag: Observation)
 - Roll: **2d6** = 8, total **8 + 1 + 2 = 11**
-- Result: **10+** — Complete Success
-
-I recognize the architecture, the clothing styles, the technology level. Late 19th century, probably London. Victorian era, 1880s-1890s.
+- Result: **10+** — Complete Success I recognize the architecture, the clothing styles, the technology level. Late 19th century, probably London. Victorian era, 1880s-1890s.
 
 On **10+**: gain **+1 Coherence**. Coherence: +3 → +4.
 
@@ -4610,41 +4590,22 @@ Violence Count (reset at Repreival): ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ Tax
 - Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
 - Level: ○ 1 ○ 2 ○ 3
 - State: ○ Clean ○ Compromised ○ Weaponized
-- Stress: ○○○○○
-
-**Asset 2:** ________________________________________
+- Stress: ○○○○○ **Asset 2:** ________________________________________
 - Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
 - Level: ○ 1 ○ 2 ○ 3
 - State: ○ Clean ○ Compromised ○ Weaponized
-- Stress: ○○○○○
-
-**Asset 3:** ________________________________________
+- Stress: ○○○○○ **Asset 3:** ________________________________________
 - Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
 - Level: ○ 1 ○ 2 ○ 3
 - State: ○ Clean ○ Compromised ○ Weaponized
-- Stress: ○○○○○
-
-**FACTION TRACKING**
-
-Marked: ○Church ○Authority ○Scionfall ○Chronoclasts
-
-**REPREIVAL CHECKLIST**
-
+- Stress: ○○○○○ FACTION TRACKING Marked: ○Church ○Authority ○Scionfall ○Chronoclasts REPREIVAL CHECKLIST
 - □ Chronicle
 - □ Reinforce Anchor
 - □ Tend Assets
 - □ Process Scars
 - □ Reduce Paradox (optional)
 - □ Plan Next Move
-- □ Reset Violence Count
-
-**THE HOLDING ACTION (once per session)**
-
-Used this session: ○
-
-**THE EXIT QUESTION (at Corruption Vector 0)**
-
-What was the last thing you cared about that wasn’t useful? Answer: ________________________________________ ○Preserve It — one final scene, then Dissolve. ○Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.
+- □ Reset Violence Count THE HOLDING ACTION (once per session) Used this session: ○ THE EXIT QUESTION (at Corruption Vector 0) What was the last thing you cared about that wasn’t useful? Answer: ________________________________________ ○Preserve It — one final scene, then Dissolve. ○Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.
 
 **[Z]**
 

@@ -488,9 +488,16 @@ function estimateHeight(block, host) {
       return Math.ceil(text.length / 64) * 16 + 22;
     }
     case 'oracle-row': {
-      // narrow first col + description
+      // Short rows (single word, no description) render in compact 2-col
+      // mode at HALF the per-row height (because two columns side-by-side).
+      const desc = stripMD(block.desc || '');
+      const name = stripMD(block.name || '');
+      const combined = (name + ' ' + desc).trim();
+      if (combined.length <= 22 && combined.split(/\s+/).filter(Boolean).length <= 3) {
+        return 4.5;  // compact 2-col halves the effective vertical cost
+      }
       const cpl = host === 'chen' ? 48 : 46;
-      const lines = Math.max(1, Math.ceil(stripMD(block.desc).length / cpl));
+      const lines = Math.max(1, Math.ceil(desc.length / cpl));
       return lines * 15 + 6;
     }
     case 'table': {
@@ -943,9 +950,31 @@ function renderBlocks(blocks, host, opts = {}) {
       }
       case 'oracle-table': {
         const klass = host === 'chen' ? 'tbl-chen tbl-chen--oracle' : 'tbl-alan tbl-alan--oracle';
+        // Compact two-column layout when every row is a single short
+        // phrase (e.g. Action Oracle, Theme Oracle). The parser puts the
+        // single word in `desc` when there's no em-dash separator, so we
+        // check the *combined* content length.
+        const allCompact = b.rows.every(r => {
+          const desc = (r.desc || '').trim();
+          const name = (r.name || '').trim();
+          const combined = (name + ' ' + desc).trim();
+          return combined.length <= 22 && combined.split(/\s+/).filter(Boolean).length <= 3;
+        });
+        if (allCompact && b.rows.length >= 8) {
+          // Render as two columns side-by-side, splitting rows in half.
+          const mid = Math.ceil(b.rows.length / 2);
+          const left = b.rows.slice(0, mid);
+          const right = b.rows.slice(mid);
+          const renderHalf = (rows) => rows.map(r => {
+            // Prefer name; if empty, fall back to desc (since the parser
+            // puts single-word rows in desc when there's no em-dash).
+            const label = ((r.name || '').trim() || (r.desc || '').trim() || '').replace(/\*\*/g, '');
+            return `<tr><td className="num">${escapeJSX(r.range)}</td><td className="oracle-name">${escapeJSX(label)}</td></tr>`;
+          }).join('');
+          out.push(`<div className="oracle-compact-row"><table className="${klass} tbl--compact"><colgroup><col className="col-num"/><col className="col-name"/></colgroup><tbody>${renderHalf(left)}</tbody></table><table className="${klass} tbl--compact"><colgroup><col className="col-num"/><col className="col-name"/></colgroup><tbody>${renderHalf(right)}</tbody></table></div>`);
+          break;
+        }
         const rows = b.rows.map(r => {
-          // Strip stray inline `**d100**` markdown leakage that ends up in
-          // names like "(**d100**)" or row text.
           const cleanName = (r.name || '').replace(/\*\*/g, '');
           const cells = [
             `<td className="num">${escapeJSX(r.range)}</td>`,
