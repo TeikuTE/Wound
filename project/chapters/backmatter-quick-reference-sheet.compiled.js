@@ -74,7 +74,13 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`ANOMALY (7–9).`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`You are an active disturbance. -1 ongoing. NPCs from contradictory timelines may appear and contradict each other in front of you. Faction Agents track you actively. Here is where Echoes begin to make the wrong kinds of friends. The Church reaches out. Scionfall reaches out. Both of them seem reasonable when you're at 7. — EC`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`BREACH (10+).`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`Reality is unraveling locally. -2 ongoing. Crisis triggers within `)), /*#__PURE__*/React.createElement("i", null, inline(`1d6`)), inline(`* sessions. Factions converge. I have been to Breach twice. I do not recommend it. The world stops feeling solid in a specific way: edges become suggestions. The thing I lost in Breach the second time, I have never gotten back. — EC*`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`BREACH (10+).`)), inline(` `), /*#__PURE__*/React.createElement("i", null, inline(`Reality is unraveling locally. -2 ongoing. Crisis triggers within `)), /*#__PURE__*/React.createElement("i", null, inline(`1d6`)), inline(`* sessions. Factions converge. I have been to Breach twice. I do not recommend it. The world stops feeling solid in a specific way: edges become suggestions. The thing I lost in Breach the second time, I have never gotten back. — EC*`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Navigation — Temporal Echoes`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Cost: 1 Coherence before rolling. Cannot attempt at 0 Coherence or Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7+`)), inline(`. Roll: `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE + Memory Bonus. Specific date + location `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 12`)), inline(` Year + city `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(` Decade + region `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 8`)), inline(` Century + continent `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 7`)))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Perfect Resonance —arrive exactly, +1 Coherence, no Paradox`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-02",
     label: "QUICK REFERENCE SHEET · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -82,13 +88,7 @@ function BM_quick_reference_sheet({
     runHead: "Quick Reference Sheet",
     pageNum: basePage + 2,
     label: `QUICK REFERENCE SHEET · p.${basePage + 2}`
-  }, /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`Navigation — Temporal Echoes`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Cost: 1 Coherence before rolling. Cannot attempt at 0 Coherence or Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7+`)), inline(`. Roll: `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE + Memory Bonus. Specific date + location `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 12`)), inline(` Year + city `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(` Decade + region `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 8`)), inline(` Century + continent `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 7`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Perfect Resonance —arrive exactly, +1 Coherence, no Paradox`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`10–1 Successful —arrive at target, minor variance, +1 Paradox 7– Close Arrival —right era OR location (not both), +1 Paradox 6− Lost in Transit —use Anomaly Tables. − Coherence OR +2 Paradox`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -102,16 +102,16 @@ function BM_quick_reference_sheet({
     className: "el-subsection"
   }, inline(`Downtime Steps (TE)`)), /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
-  }, /*#__PURE__*/React.createElement("li", null, inline(`Chronicle the session →+1 Coherence 2. Reinforce Anchor (`), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + SYNC if Stressed — clears Anchor Stress) 3. Tend Assets (`), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + Mode per Stressed Asset) 4. Process Memory (Active →Fading →Lost →Scar, automatic) 5. Reduce Paradox (optional) 6. Plan Next Move (answer one question)`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Chronicle the session →+1 Coherence 2. Reinforce Anchor (`), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + SYNC if Stressed — clears Anchor Stress) 3. Tend Assets (`), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + Mode per Stressed Asset) 4. Process Memory (Active →Fading →Lost →Scar, automatic) 5. Reduce Paradox (optional) 6. Plan Next Move (answer one question)`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Repreival Steps (emiT)`)), /*#__PURE__*/React.createElement("ol", {
+    className: "el-numlist"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Chronicle →+1 Coherence 2. Reinforce Anchor (`), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + SYNC if Stressed) 3. Tend Assets 4. Process Scars (Active →Fading →Lost →Mutation, automatic) 5. Reduce Paradox (optional) 6. Plan Next Move 7. Reset Violence Count to 0`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Quick Reference Sheet",
     pageNum: basePage + 3,
     label: `QUICK REFERENCE SHEET · p.${basePage + 3}`
   }, /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`Repreival Steps (emiT)`)), /*#__PURE__*/React.createElement("ol", {
-    className: "el-numlist"
-  }, /*#__PURE__*/React.createElement("li", null, inline(`Chronicle →+1 Coherence 2. Reinforce Anchor (`), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + SYNC if Stressed) 3. Tend Assets 4. Process Scars (Active →Fading →Lost →Mutation, automatic) 5. Reduce Paradox (optional) 6. Plan Next Move 7. Reset Violence Count to 0`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Faction Encounters`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -129,7 +129,13 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Mark 1 when: Church captures you / fail Locked Memory roll in Desynchronization / Downtime in era contradicting Anchor Connection / Crisis outcome specifies it.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`All 3 = Strained. Cannot invoke Connections for Coherence. 6−on Reinforce Anchor = − Anchor Strength permanently.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`All 3 = Strained. Cannot invoke Connections for Coherence. 6−on Reinforce Anchor = − Anchor Strength permanently.`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Displacement Costs`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Precision Navigation (voluntary) − Coherence (paid before rolling) Failed Navigation (6− − Coherence OR +2 Paradox Forced Displacement (Faction/Crisis/random) − Coherence Crisis Displacement (Shattering/Breach) − Coherence`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Temporal Echoes — Character Sheet`)))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-03",
     label: "QUICK REFERENCE SHEET · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -138,12 +144,6 @@ function BM_quick_reference_sheet({
     pageNum: basePage + 4,
     label: `QUICK REFERENCE SHEET · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`Displacement Costs`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Precision Navigation (voluntary) − Coherence (paid before rolling) Failed Navigation (6− − Coherence OR +2 Paradox Forced Displacement (Faction/Crisis/random) − Coherence Crisis Displacement (Shattering/Breach) − Coherence`))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`Temporal Echoes — Character Sheet`)), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`THE PERSON YOU WERE`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -161,12 +161,7 @@ function BM_quick_reference_sheet({
     className: "el-subsection"
   }, inline(`OPERATIONAL MODES`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`OBSERVE (+1) ○− ○+0 ○+1 ○+2 ○+3 SYNC (+1) ○− ○+0 ○+1 ○+2 ○+3 ENDURE (+1) ○− ○+0 ○+1 ○+2 ○+3 DISRUPT (+0) ○− ○+0 ○+1 ○+2 ○+3`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Quick Reference Sheet",
-    pageNum: basePage + 5,
-    label: `QUICK REFERENCE SHEET · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`OBSERVE (+1) ○− ○+0 ○+1 ○+2 ○+3 SYNC (+1) ○− ○+0 ○+1 ○+2 ○+3 ENDURE (+1) ○− ○+0 ○+1 ○+2 ○+3 DISRUPT (+0) ○− ○+0 ○+1 ○+2 ○+3`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`WAVE COHERENCE (circle current)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -176,19 +171,16 @@ function BM_quick_reference_sheet({
     className: "el-subsection"
   }, inline(`PARADOX TRACK`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`[0] [1] [2] [3] \\| [4] [5] [6] \\| [7] [8] [9] \\| [10+]`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`[0] [1] [2] [3] \\| [4] [5] [6] \\| [7] [8] [9] \\| [10+]`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Quick Reference Sheet",
+    pageNum: basePage + 5,
+    label: `QUICK REFERENCE SHEET · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`ACTIVE MEMORIES (+2)`)), /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
-  }, /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "backmatter-quick-reference-sheet-04",
-    label: "QUICK REFERENCE SHEET · spread 4"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Quick Reference Sheet",
-    pageNum: basePage + 6,
-    label: `QUICK REFERENCE SHEET · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`FADING MEMORIES (+1)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -200,7 +192,15 @@ function BM_quick_reference_sheet({
     className: "el-subsection"
   }, inline(`ASSETS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Asset 1: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 2: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 3: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Asset 1: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 2: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 3: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "backmatter-quick-reference-sheet-04",
+    label: "QUICK REFERENCE SHEET · spread 4"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Quick Reference Sheet",
+    pageNum: basePage + 6,
+    label: `QUICK REFERENCE SHEET · p.${basePage + 6}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`FACTION TRACKING`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -212,12 +212,7 @@ function BM_quick_reference_sheet({
     className: "el-subsection"
   }, inline(`MUTATIONS (from Breach/Faction/Crisis)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`1: ________________________________________ 2: ________________________________________`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Quick Reference Sheet",
-    pageNum: basePage + 7,
-    label: `QUICK REFERENCE SHEET · p.${basePage + 7}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`1: ________________________________________ 2: ________________________________________`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`DOWNTIME CHECKLIST`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -237,7 +232,12 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Current Vector: _____ Trajectory: ________________________________________`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Decreases when: Embrace Corruption in Crisis / 3rd Mutation in one session / accept Faction transformation offer.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Decreases when: Embrace Corruption in Crisis / 3rd Mutation in one session / accept Faction transformation offer.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Quick Reference Sheet",
+    pageNum: basePage + 7,
+    label: `QUICK REFERENCE SHEET · p.${basePage + 7}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`OPERATIONAL MODES (shift by Paradox band)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -249,7 +249,13 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`[−] [−] [−] [−] [−] [−] [0] [+1] [+2] [+3] [+4] [+5] [+6] [+7] [+8]`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Max = Corruption Vector + 3. No Coherence banking in emiT.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Max = Corruption Vector + 3. No Coherence banking in emiT.`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`PARADOX`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`[0] [1] [2] [3] \\| [4] [5] [6] \\| [7] [8] [9] \\| [10+]`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`ACTIVE SCARS (+2, tools you reload)`)))))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-05",
     label: "QUICK REFERENCE SHEET · spread 5"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -257,13 +263,7 @@ function BM_quick_reference_sheet({
     runHead: "Quick Reference Sheet",
     pageNum: basePage + 8,
     label: `QUICK REFERENCE SHEET · p.${basePage + 8}`
-  }, /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`PARADOX`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`[0] [1] [2] [3] \\| [4] [5] [6] \\| [7] [8] [9] \\| [10+]`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`ACTIVE SCARS (+2, tools you reload)`)))), /*#__PURE__*/React.createElement("ol", {
+  }, /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -271,14 +271,14 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`1: ________________________________________ 2: ________________________________________ 3: ________________________________________`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`CORE SCAR (+3, permanent)`))))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`CORE SCAR (+3, permanent)`)))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Title: ________________________________________ Tags: ________________________________________ Why this one: ________________________________________`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Quick Reference Sheet",
     pageNum: basePage + 9,
     label: `QUICK REFERENCE SHEET · p.${basePage + 9}`
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Title: ________________________________________ Tags: ________________________________________ Why this one: ________________________________________`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`MUTATIONS (permanent)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

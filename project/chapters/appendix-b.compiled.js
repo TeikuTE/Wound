@@ -84,11 +84,7 @@ function AppendixB({
     tier: tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Maintenance note: if your Compass starts pointing at you instead of external anomalies, do not attempt to recalibrate. It's working correctly. You're the anomaly now.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`2. The Resonance Dampener [Chrono-Tech]`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The Dampener was issued to Loop Authority field personnel between 2042 and 2049 and recalled in 2050 after seven of the wearers stopped reporting in. The recall was incomplete. Three units are still circulating. Each one is cold to the touch in a way that does not respond to ambient temperature. The hum is consistent across all three units, suggesting either a manufacturing standard or a shared resonance phenomenon the Authority does not document. A heavy metal collar worn around the neck. Cold to the touch. Hums at frequencies that make dogs bite.`))), /*#__PURE__*/React.createElement("ul", {
-    className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Absorbs Paradox backlash. +1 ENDURE versus timeline stress. Once per session, ignore 1 point of Paradox gain.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`2. The Resonance Dampener [Chrono-Tech]`)))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-b-02",
     label: "ASSET CATALOGS · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -96,7 +92,11 @@ function AppendixB({
     runHead: "Asset Catalogs",
     pageNum: basePage + 2,
     label: `ASSET CATALOGS · p.${basePage + 2}`
-  }, /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`The Dampener was issued to Loop Authority field personnel between 2042 and 2049 and recalled in 2050 after seven of the wearers stopped reporting in. The recall was incomplete. Three units are still circulating. Each one is cold to the touch in a way that does not respond to ambient temperature. The hum is consistent across all three units, suggesting either a manufacturing standard or a shared resonance phenomenon the Authority does not document. A heavy metal collar worn around the neck. Cold to the touch. Hums at frequencies that make dogs bite.`))), /*#__PURE__*/React.createElement("ul", {
+    className: "el-list"
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Absorbs Paradox backlash. +1 ENDURE versus timeline stress. Once per session, ignore 1 point of Paradox gain.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Stabilizes local causality. +2 ENDURE. Ignore up to 2 Paradox per session. +1 to all rolls while in Anomaly state (Paradox 7-9).`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
@@ -110,19 +110,19 @@ function AppendixB({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Preserves fading memories temporarily. +1 ENDURE when resisting memory loss. Once per session, treat a Fading Memory as Active for one scene.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Can extract memories into physical form — small glowing crystals. +2 ENDURE. Extracted memories cannot fade but also cannot be accessed without re-injecting.`))), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Can extract memories into physical form — small glowing crystals. +2 ENDURE. Extracted memories cannot fade but also cannot be accessed without re-injecting.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 3,
+    label: `ASSET CATALOGS · p.${basePage + 3}`
+  }, /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — Can share memories with other Echoes or inject them into non-Displaced individuals. +3 ENDURE. Warning: recipient experiences full emotional context, temporal contamination, identity confusion, and possible spontaneous Displacement.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Used this on a version of my wife once. Timeline where we never met. Thought I'd give her our memories back — romantic gesture, real fairy tale nonsense. She Displaced three hours later. Never saw her again. The look on her face when she realized what I'd done will haunt me until I dissolve. Some gifts are curses with better packaging.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-alan-sign"
-  }, "\u2014AR"))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Asset Catalogs",
-    pageNum: basePage + 3,
-    label: `ASSET CATALOGS · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, "\u2014AR")), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`4. The Paradox Lens [Chrono-Tech]`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -134,7 +134,15 @@ function AppendixB({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — Perceives multiple timeline branches simultaneously. +3 OBSERVE. Once per session, ask one What If question and receive a vision of an alternate outcome. Warning: viewing too many possibilities causes vertigo, nosebleeds, and temporary inability to remember which timeline you're in.`))), /*#__PURE__*/React.createElement(AlanIntrusionInline, {
     tier: tier
-  }, /*#__PURE__*/React.createElement("p", null, inline(`At Level 3, you'll start seeing the version of yourself that made different choices. Standing next to you. Staring. Judging. Sometimes screaming. They look exactly like you. That's the part that gets you.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`At Level 3, you'll start seeing the version of yourself that made different choices. Standing next to you. Staring. Judging. Sometimes screaming. They look exactly like you. That's the part that gets you.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-b-03",
+    label: "ASSET CATALOGS · spread 3"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 4,
+    label: `ASSET CATALOGS · p.${basePage + 4}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`5. The Chronometric Stabilizer [Chrono-`)), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -150,15 +158,7 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`an additional Response action.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — Temporarily anchors you to a specific moment. +3 SYNC. Prevents forced Displacement for one full scene. Cost: mark all Stress. After the anchor ends, immediate Displacement — no Navigation roll possible.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-b-03",
-    label: "ASSET CATALOGS · spread 3"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Asset Catalogs",
-    pageNum: basePage + 4,
-    label: `ASSET CATALOGS · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — Temporarily anchors you to a specific moment. +3 SYNC. Prevents forced Displacement for one full scene. Cost: mark all Stress. After the anchor ends, immediate Displacement — no Navigation roll possible.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`I knew an Echo who used this at Level 3 to anchor himself to his daughter's wedding. Got to walk her down the aisle. Give the toast. Dance with her. Displacement hit the second the song ended. He landed in 1347 during the Black Death. Died there. Never jumped again. Worth it? He thought so. I'm not sure.`)), /*#__PURE__*/React.createElement("div", {
@@ -169,7 +169,12 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You'll know when you find it.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Allows one attempted Precision Navigation per session without spending Downtime. +1 to Navigation rolls.`))), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Allows one attempted Precision Navigation per session without spending Downtime. +1 to Navigation rolls.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 5,
+    label: `ASSET CATALOGS · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Forces Displacement when in danger. +2 Navigation. Once per session, trigger an emergency jump as a reaction to a threat — roll with -2 penalty but escape is guaranteed.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
@@ -180,12 +185,7 @@ function AppendixB({
     className: "el-alan-sign"
   }, "\u2014AR")), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`Echo Trait Assets`))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Asset Catalogs",
-    pageNum: basePage + 5,
-    label: `ASSET CATALOGS · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, inline(`Echo Trait Assets`)), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`7. Temporal Sensitivity [Echo Trait]`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -197,7 +197,15 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`fragile. +2 Navigation. Identify Nexus Points`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`when present.`))), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`when present.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-b-04",
+    label: "ASSET CATALOGS · spread 4"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 6,
+    label: `ASSET CATALOGS · p.${basePage + 6}`
+  }, /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — Sense other Echoes within one mile. +3 Navigation. Feel timeline scars — locations where Paradox damaged causality. Once per session, sense the correct timeline`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -216,17 +224,14 @@ function AppendixB({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Recover from physical damage faster. +1 ENDURE versus physical harm. Halve recovery time from injuries.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Immune to temporal shock. +2 ENDURE. Displacement no longer costs Coherence. Age becomes optional — choose whether to age during any given era.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-b-04",
-    label: "ASSET CATALOGS · spread 4"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Asset Catalogs",
-    pageNum: basePage + 6,
-    label: `ASSET CATALOGS · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Immune to temporal shock. +2 ENDURE. Displacement no longer costs Coherence. Age becomes optional — choose whether to age during any given era.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — Survive normally fatal trauma by rejecting the timeline where you died. +3 ENDURE. Once per session, when reduced to 0 Coherence, set it to 1 and mark all Stress instead. Cost: gain a permanent Scar and lose one Memory of your choice.`))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — Survive normally fatal trauma by rejecting the timeline where you died. +3 ENDURE. Once per session, when reduced to 0 Coherence, set it to 1 and mark all Stress instead. Cost: gain a permanent Scar and lose one Memory of your choice.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 7,
+    label: `ASSET CATALOGS · p.${basePage + 7}`
+  }, /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`I've been killed fourteen times. Shot, stabbed, burned, drowned, poisoned, thrown from towers, caught in explosions. Once I was guillotined. The blade came down. My head came off. Then the timeline corrected. Turns out I never walked up those steps — the me who did was a different branch. I shed him like snakeskin. This Asset is useful. It's also how you stop being human, one piece at a time.`)), /*#__PURE__*/React.createElement("div", {
@@ -246,11 +251,14 @@ function AppendixB({
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Used Level 3 once. Told a Roman centurion to forget he saw me. He did. He also forgot his name, his family, and pretty much everything else. Ur-Resonance isn't the ancient language Zaaken's theorems predicted. It's more like language that predates the concept of selfhood. Use it carefully. Or don't. I'm not your dad.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-alan-sign"
-  }, "\u2014AR"))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
+  }, "\u2014AR")))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-b-05",
+    label: "ASSET CATALOGS · spread 5"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
     runHead: "Asset Catalogs",
-    pageNum: basePage + 7,
-    label: `ASSET CATALOGS · p.${basePage + 7}`
+    pageNum: basePage + 8,
+    label: `ASSET CATALOGS · p.${basePage + 8}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`10. Quantum Perception [Echo Trait]`)), /*#__PURE__*/React.createElement("div", {
@@ -270,7 +278,12 @@ function AppendixB({
     className: "el-subsection"
   }, inline(`11. Memory Recursion [Echo Trait]`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Your memories remember themselves. You recall recalling. Your nostalgia has nostalgia. Your mind is an Escher construct.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Your memories remember themselves. You recall recalling. Your nostalgia has nostalgia. Your mind is an Escher construct.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 9,
+    label: `ASSET CATALOGS · p.${basePage + 9}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Level 1 ○○○ Access Fading Memories with full`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -278,15 +291,7 @@ function AppendixB({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Loop memories — replay them in real-time as if experiencing fresh. +2`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`ENDURE. Once per session, use a Lost Memory`)))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-b-05",
-    label: "ASSET CATALOGS · spread 5"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Asset Catalogs",
-    pageNum: basePage + 8,
-    label: `ASSET CATALOGS · p.${basePage + 8}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`ENDURE. Once per session, use a Lost Memory`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`as if it were Active for one roll only. Cost: gain a permanent Scar afterward.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
@@ -301,7 +306,15 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You feel the universe's immune response. Paradox whispers to you in the voice of static and regret.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Sense when actions will generate Paradox before taking them. +1 OBSERVE. Taste timeline stability in a location.`))), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Sense when actions will generate Paradox before taking them. +1 OBSERVE. Taste timeline stability in a location.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-b-06",
+    label: "ASSET CATALOGS · spread 6"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 10,
+    label: `ASSET CATALOGS · p.${basePage + 10}`
+  }, /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Predict Paradox cascades. +2 OBSERVE. Once per session, spend 1 Coherence to prevent 1 Paradox from generating — you instinctively avoid the contradiction.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
@@ -309,12 +322,7 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Stress Effect: stored Paradox leaks. Reality`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`glitches. NPCs forget conversations mid- sentence.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Asset Catalogs",
-    pageNum: basePage + 9,
-    label: `ASSET CATALOGS · p.${basePage + 9}`
-  }, /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`glitches. NPCs forget conversations mid- sentence.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Church wanted to recruit me because of this one. Said I was compatible with the resonance of contradiction. I told them to buzz off. They said I'd come around eventually. They were right. At Level 3, you feel every contradiction in a 100-meter radius. Every lie. Every broken promise. The universe is screaming Paradox constantly and you're the only one who hears it. Sure it's painful. Channel it. Weaponize it.`)), /*#__PURE__*/React.createElement("div", {
@@ -327,19 +335,16 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`A physical item from your Origin Era, worn smooth by centuries of desperate gripping. The Rolex you stole from your best friend. The wedding ring you took off at the hotel. A fading photograph. An unsent letter. A bloodsoaked weapon.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — +1 ENDURE when your identity is challenged. Once per session, touch the object and restore 1 Coherence.`))), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — +1 ENDURE when your identity is challenged. Once per session, touch the object and restore 1 Coherence.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 11,
+    label: `ASSET CATALOGS · p.${basePage + 11}`
+  }, /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — The object begins appearing in multiple eras — you find it in medieval markets, Victorian auctions, future museums. +2 ENDURE. Use the object to anchor Navigation attempts to eras where it appears.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — The object exists in quantum superposition across all timelines. +3 ENDURE. Once per session, touching it allows you to access memories from alternate versions of yourself who also possessed it. Cost: mark all Stress. These memories may contradict your own. Stress Effect: the object starts changing identities — your grandfather's watch becomes your grandmother's locket becomes a stranger's compass.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-b-06",
-    label: "ASSET CATALOGS · spread 6"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Asset Catalogs",
-    pageNum: basePage + 10,
-    label: `ASSET CATALOGS · p.${basePage + 10}`
-  }, /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — The object exists in quantum superposition across all timelines. +3 ENDURE. Once per session, touching it allows you to access memories from alternate versions of yourself who also possessed it. Cost: mark all Stress. These memories may contradict your own. Stress Effect: the object starts changing identities — your grandfather's watch becomes your grandmother's locket becomes a stranger's compass.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Mine's a safety vest. Bright red, reflective strips, name tag that says 'A. Rose.' Found it in my truck the day I Displaced. Been wearing it for 300 years. I've seen it in Renaissance paintings. Medieval tapestries. Cave drawings of a figure in red. Future museums label it 'Artifact of Unknown Origin, Circa Always.' There's a framed photograph of me wearing it in a Baltic archive I'm not supposed to know about. The caption reads UNIDENTIFIED WITNESS, RIGA, 1941. I don't know if I'm carrying the vest or the vest is carrying me. At Level 3, I can feel every version of me who ever wore it. Thousands of Alan Roses across timelines, all clinging to the same stupid piece of polyester like it's a life raft. Maybe it is.`)), /*#__PURE__*/React.createElement("div", {
@@ -350,7 +355,15 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`A specific person, bloodline, place, or institution that recurs across multiple eras. A building that never quite falls. A song that predates notation.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — +1 SYNC when interacting with the Connection. Gain advantage on social rolls with descendants or iterations of the connected element.`))), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — +1 SYNC when interacting with the Connection. Gain advantage on social rolls with descendants or iterations of the connected element.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-b-07",
+    label: "ASSET CATALOGS · spread 7"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 12,
+    label: `ASSET CATALOGS · p.${basePage + 12}`
+  }, /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 2 ○○○○`)), inline(` — Reliably locate iterations of the Connection in new eras. +2 SYNC. Once per session, call upon the Connection for aid — shelter, information, resources.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
@@ -358,12 +371,7 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Cost: each communication marks Stress. The`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Connection becomes aware they exist across time — which has consequences.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Asset Catalogs",
-    pageNum: basePage + 11,
-    label: `ASSET CATALOGS · p.${basePage + 11}`
-  }, /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Connection becomes aware they exist across time — which has consequences.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`There's a woman. I keep meeting her. Different names, different faces, but always her. The eyes give it away. 1888 London: factory worker named Mary. 1640 Florence: nun named Sister Lucia. 2179 Mars: engineer named Mir. Level 3 let me talk to all of them at once. Mir asked Mary what the sky looked like. Mary asked Lucia if God was real. Lucia asked me if love survived time. I didn't answer. They all remember each other now. They know they're echoes of the same pattern. I don't know if I saved them or damned them.`)), /*#__PURE__*/React.createElement("div", {
@@ -374,7 +382,12 @@ function AppendixB({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Expertise from your home time that persists across displacement. Your PhD, your trade skills, your cultural fluency.`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Permanent +2 bonus to any action directly related to your Origin Era's technology, culture, or history.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 1 ○○○`)), inline(` — Permanent +2 bonus to any action directly related to your Origin Era's technology, culture, or history.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Asset Catalogs",
+    pageNum: basePage + 13,
+    label: `ASSET CATALOGS · p.${basePage + 13}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Level 2 ○○○○ Introduce Origin Era knowledge`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -393,7 +406,7 @@ function AppendixB({
     className: "el-alan-sign"
   }, "\u2014AR")))));
 }
-AppendixB.pages = 12;
+AppendixB.pages = 14;
 Object.assign(window, {
   AppendixB
 });

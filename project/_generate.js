@@ -425,9 +425,21 @@ function estimateHeight(block, host) {
   switch (block.kind) {
     case 'h1':   return 60;
     case 'h2':   return host === 'chen' ? 38 : 32;
-    case 'h3':   return 24;
-    case 'h4':   return 22;
-    case 'pseudo-h3': return 22;
+    case 'h3':   {
+      // Multi-line headings need more vertical space
+      const cpl = 36;
+      const len = stripMD(block.text).length;
+      const lines = Math.max(1, Math.ceil(len / cpl));
+      return lines * 18 + 8;
+    }
+    case 'h4':
+    case 'pseudo-h3': {
+      // Multi-line subsection headers (some are 60+ chars)
+      const cpl = 38;
+      const len = stripMD(block.text).length;
+      const lines = Math.max(1, Math.ceil(len / cpl));
+      return lines * 16 + 6;
+    }
     case 'hr':   return 18;
     case 'p': {
       // Rough: ~60 chars per line in Chen, ~70 in Alan
