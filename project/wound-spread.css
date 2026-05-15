@@ -1903,3 +1903,18 @@ h4.tbl-header {
   font-variant: small-caps;
   letter-spacing: 0.04em;
 }
+
+/* Tighter oracle table rendering — fit more rows per page */
+.tbl-chen--oracle tbody td {
+  padding: 0.9mm 2mm 0.9mm 0 !important;
+}
+.tbl-chen--oracle tbody td.oracle-desc {
+  font-size: 8.5pt !important;
+  line-height: 1.36 !important;
+}
+.tbl-chen--oracle tbody td.oracle-name {
+  font-size: 8.5pt !important;
+}
+.tbl-chen--oracle tbody td.num {
+  font-size: 7.5pt !important;
+}

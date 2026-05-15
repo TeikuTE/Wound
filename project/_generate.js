@@ -500,7 +500,7 @@ function estimateHeight(block, host) {
       }
       const cpl = host === 'chen' ? 48 : 46;
       const lines = Math.max(1, Math.ceil(desc.length / cpl));
-      return lines * 15 + 6;
+      return lines * 13 + 5;
     }
     case 'table': {
       // Header row + body rows, each ~one line of body
