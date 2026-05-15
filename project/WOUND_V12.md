@@ -2106,9 +2106,7 @@ Mutation — gain a permanent personality change immediately
 
 Scar Loss — one Active Scar becomes Lost immediately (gain Mutation from the loss)
 
-Witnessed — mark WITNESSED; your next social interaction this era takes -1 SYNC and the Oracle introduces someone responding to what they
-
-saw you become
+Witnessed — mark WITNESSED; your next social interaction this era takes -1 SYNC and the Oracle introduces someone responding to what they saw you become
 
 **VIOLENCE ESCALATION**
 
@@ -3733,9 +3731,7 @@ The Authority doesn't preserve anything. They delete you one iteration at a time
 
 **CORE DOCTRINE**
 
-Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions — signal noise. Solution: trap regions in precise
-
-recursive loops, use iterative normalization to average out deviations until only base intended reality remains.
+Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions — signal noise. Solution: trap regions in precise recursive loops, use iterative normalization to average out deviations until only base intended reality remains.
 
 **HIERARCHY**
 
@@ -3765,9 +3761,7 @@ Resist: Generate Paradox inside the loop. Contradiction is poison to their norma
 
 **Negotiate: Impossible. They don't recognize**
 
-individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're
-
-not you anymore. You're a functioning Archive component.
+individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're not you anymore. You're a functioning Archive component.
 
 **The Scionfall Directive**
 
@@ -3883,9 +3877,7 @@ deals, games, creative solutions. But they're tricksters — terms always have i
 
 **Escape: Not usually necessary. They lose**
 
-interest quickly. Unless you're fascinating — then you're trapped in their attention
-
-until you do something boring or catastrophic enough to satisfy them.
+interest quickly. Unless you're fascinating — then you're trapped in their attention until you do something boring or catastrophic enough to satisfy them.
 
 **Join: Not formal membership. More like**
 
@@ -3893,43 +3885,14 @@ collaborative chaos. They give you tools, you create beautiful disasters, everyo
 
 **FACTIONAL RELATIONSHIPS**
 
-**FACTION PAIR**
-
-**RELATIONSHIP**
-
-**Church vs. Authority**
-
-**Mutual contempt. Church sees Au**
-
-**machines. Authority sees Church**
-
-inefficient.
-
-**Church vs. Scionfall**
-
-**Philosophical enemies. Both agree**
-
-fundamental — Church makes it p wants to end it.
-
-**Church vs. Chronoclasts**
-
-**The Church hunts Chronoclasts ac**
-
-worship chaos instead of the Sacr
-
-**Authority vs. Scionfall**
-
-Mostly ignore each other. Differen goals, minimal conflict. Authority vs.
-
-**Chronoclasts**
-
-**Constant warfare. Ordered univer**
-
-Both try to undo each other's work.
-
-**Scionfall vs. Chronoclasts**
-
-Pity vs. amusement. Scionfall see suffering unnecessarily. Chronocla missing the joke.
+| Faction Pair | Relationship |
+|---|---|
+| **Church vs. Authority** | Mutual contempt. Church sees Authority as soulless machines. Authority sees Church as inefficient. |
+| **Church vs. Scionfall** | Philosophical enemies. Both agree existence is fundamental — Church makes it sacred, Scionfall wants to end it. |
+| **Church vs. Chronoclasts** | The Church hunts Chronoclasts actively. They worship chaos instead of the Sacred Second. |
+| **Authority vs. Scionfall** | Mostly ignore each other. Different goals, minimal conflict. |
+| **Authority vs. Chronoclasts** | Constant warfare. Ordered universe vs. chaotic. Both try to undo each other's work. |
+| **Scionfall vs. Chronoclasts** | Pity vs. amusement. Scionfall sees Chronoclasts as suffering unnecessarily. Chronoclasts see Scionfall as missing the joke. |
 
 ## Appendix D.1: Recovered Field Intelligence
 

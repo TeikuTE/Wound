@@ -141,9 +141,7 @@ function AppendixD({
     className: "el-subsection"
   }, inline(`CORE DOCTRINE`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions — signal noise. Solution: trap regions in precise`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`recursive loops, use iterative normalization to average out deviations until only base intended reality remains.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions — signal noise. Solution: trap regions in precise recursive loops, use iterative normalization to average out deviations until only base intended reality remains.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`HIERARCHY`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -181,9 +179,7 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Negotiate: Impossible. They don't recognize`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`not you anymore. You're a functioning Archive component.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're not you anymore. You're a functioning Archive component.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`The Scionfall Directive`)), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
@@ -291,13 +287,13 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Escape: Not usually necessary. They lose`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`interest quickly. Unless you're fascinating — then you're trapped in their attention`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`until you do something boring or catastrophic enough to satisfy them.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`interest quickly. Unless you're fascinating — then you're trapped in their attention until you do something boring or catastrophic enough to satisfy them.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Join: Not formal membership. More like`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`collaborative chaos. They give you tools, you create beautiful disasters, everyone applauds. Consequences are your problem. But the art — the art is worth it.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`collaborative chaos. They give you tools, you create beautiful disasters, everyone applauds. Consequences are your problem. But the art — the art is worth it.`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`FACTIONAL RELATIONSHIPS`)))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-d-05",
     label: "THE FACTIONS · spread 5"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -305,47 +301,9 @@ function AppendixD({
     runHead: "The Factions",
     pageNum: basePage + 8,
     label: `THE FACTIONS · p.${basePage + 8}`
-  }, /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`FACTIONAL RELATIONSHIPS`)), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`FACTION PAIR`)), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`RELATIONSHIP`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Church vs. Authority`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Mutual contempt. Church sees Au`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`machines. Authority sees Church`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`inefficient.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Church vs. Scionfall`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Philosophical enemies. Both agree`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`fundamental — Church makes it p wants to end it.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Church vs. Chronoclasts`)))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`The Church hunts Chronoclasts ac`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`worship chaos instead of the Sacr`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Authority vs. Scionfall`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Mostly ignore each other. Differen goals, minimal conflict. Authority vs.`))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`Chronoclasts`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Constant warfare. Ordered univer`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Both try to undo each other's work.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Scionfall vs. Chronoclasts`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Pity vs. amusement. Scionfall see suffering unnecessarily. Chronocla missing the joke.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("table", {
+    className: "tbl-chen"
+  }, /*#__PURE__*/React.createElement("thead", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("th", null, inline(`Faction Pair`)), /*#__PURE__*/React.createElement("th", null, inline(`Relationship`)))), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("b", null, inline(`Church vs. Authority`))), /*#__PURE__*/React.createElement("td", null, inline(`Mutual contempt. Church sees Authority as soulless machines. Authority sees Church as inefficient.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("b", null, inline(`Church vs. Scionfall`))), /*#__PURE__*/React.createElement("td", null, inline(`Philosophical enemies. Both agree existence is fundamental — Church makes it sacred, Scionfall wants to end it.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("b", null, inline(`Church vs. Chronoclasts`))), /*#__PURE__*/React.createElement("td", null, inline(`The Church hunts Chronoclasts actively. They worship chaos instead of the Sacred Second.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("b", null, inline(`Authority vs. Scionfall`))), /*#__PURE__*/React.createElement("td", null, inline(`Mostly ignore each other. Different goals, minimal conflict.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("b", null, inline(`Authority vs. Chronoclasts`))), /*#__PURE__*/React.createElement("td", null, inline(`Constant warfare. Ordered universe vs. chaotic. Both try to undo each other's work.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("b", null, inline(`Scionfall vs. Chronoclasts`))), /*#__PURE__*/React.createElement("td", null, inline(`Pity vs. amusement. Scionfall sees Chronoclasts as suffering unnecessarily. Chronoclasts see Scionfall as missing the joke.`)))))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "The Factions",
     pageNum: basePage + 9,

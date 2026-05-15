@@ -58,8 +58,7 @@ function AlanCh3({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Choose ONE option you have NOT chosen since your last Repreival. If all options have been chosen since last Repreival, you must take a Mutation.`)}</p></AlanBody>
         <AlanBody><p>{inline(`Mutation — gain a permanent personality change immediately`)}</p></AlanBody>
         <AlanBody><p>{inline(`Scar Loss — one Active Scar becomes Lost immediately (gain Mutation from the loss)`)}</p></AlanBody>
-        <AlanBody><p>{inline(`Witnessed — mark WITNESSED; your next social interaction this era takes -1 SYNC and the Oracle introduces someone responding to what they`)}</p></AlanBody>
-        <AlanBody><p>{inline(`saw you become`)}</p></AlanBody>
+        <AlanBody><p>{inline(`Witnessed — mark WITNESSED; your next social interaction this era takes -1 SYNC and the Oracle introduces someone responding to what they saw you become`)}</p></AlanBody>
         <h4 className="al-subsection">{inline(`VIOLENCE ESCALATION`)}</h4>
         <AlanBody><p>{inline(`Track `)}<b>{inline(`VIOLENCE COUNT`)}</b>{inline(` (starts at `)}<b>{inline(`0`)}</b>{inline(` each session). Each time you trigger the Violence Tax, increase the count by `)}<b>{inline(`1`)}</b>{inline(`. When you take `)}<b>{inline(`Repreival`)}</b>{inline(`, reset Violence Count to `)}<b>{inline(`0`)}</b>{inline(`.`)}</p></AlanBody>
         <aside className="al-fragment"><p>{inline(`The count is narrative pressure. By the fourth or fifth Tax of a session, the consequences stop being mechanical and start being who you are becoming. Write it down. Let it accumulate.`)}</p><div className="al-fragment__sign">// AR</div></aside>

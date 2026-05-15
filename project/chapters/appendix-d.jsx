@@ -57,8 +57,7 @@ function AppendixD({ tweaks, basePage = 1 }) {
       </ChPage>
       <ChPage side="recto" runHead={"The Factions"} pageNum={basePage + 3} label={`THE FACTIONS · p.${basePage + 3}`}>
         <h4 className="el-subsection">{inline(`CORE DOCTRINE`)}</h4>
-        <div className="el-body"><p>{inline(`Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions — signal noise. Solution: trap regions in precise`)}</p></div>
-        <div className="el-body"><p>{inline(`recursive loops, use iterative normalization to average out deviations until only base intended reality remains.`)}</p></div>
+        <div className="el-body"><p>{inline(`Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions — signal noise. Solution: trap regions in precise recursive loops, use iterative normalization to average out deviations until only base intended reality remains.`)}</p></div>
         <h4 className="el-subsection">{inline(`HIERARCHY`)}</h4>
         <div className="el-body"><p>{inline(`Surveyors — catalog anomalies, emotionless, clinical, take notes constantly Correctors — deploy normalization`)}</p></div>
         <div className="el-body"><p><b>{inline(`protocols, trap Echoes in Clone Loops`)}</b></p></div>
@@ -77,8 +76,7 @@ function AppendixD({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`HOW TO DEAL WITH THEM`)}</h4>
         <div className="el-body"><p>{inline(`Resist: Generate Paradox inside the loop. Contradiction is poison to their normalization process. The more noise you create, the harder you are to average out.`)}</p></div>
         <div className="el-body"><p><b>{inline(`Negotiate: Impossible. They don't recognize`)}</b></p></div>
-        <div className="el-body"><p>{inline(`individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're`)}</p></div>
-        <div className="el-body"><p>{inline(`not you anymore. You're a functioning Archive component.`)}</p></div>
+        <div className="el-body"><p>{inline(`individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're not you anymore. You're a functioning Archive component.`)}</p></div>
         <h4 className="el-subsection">{inline(`The Scionfall Directive`)}</h4>
         <aside className="el-reflection"><p>{inline(`Scionfall has looked at CTH and concluded`)}</p><p>{inline(`existence itself is the flaw. Their entropy`)}</p><p>{inline(`acceleration is theoretically viable — reduce all`)}</p><p>{inline(`waveforms to zero and suffering ends.`)}</p><p>{inline(`They're not wrong. They're solving the wrong`)}</p><p>{inline(`problem.`)}</p><div className="el-sign">— EC</div></aside>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`They're solving the only problem that matters. Chen thinks suffering is temporary, that preservation is possible, that there's meaning in continuing. Scionfall knows better. They've seen what we become after centuries. I've never joined Scionfall. But I understand them. Some days I understand them very well. That's the real danger. Not that they'll kill you. That you'll agree with them.`)}</p><div className="el-alan-sign">—AR</div></aside>
@@ -126,34 +124,15 @@ function AppendixD({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`Negotiate: Always possible. They love`)}</b></p></div>
         <div className="el-body"><p>{inline(`deals, games, creative solutions. But they're tricksters — terms always have ironic twists. Read the fine print twice.`)}</p></div>
         <div className="el-body"><p><b>{inline(`Escape: Not usually necessary. They lose`)}</b></p></div>
-        <div className="el-body"><p>{inline(`interest quickly. Unless you're fascinating — then you're trapped in their attention`)}</p></div>
-        <div className="el-body"><p>{inline(`until you do something boring or catastrophic enough to satisfy them.`)}</p></div>
+        <div className="el-body"><p>{inline(`interest quickly. Unless you're fascinating — then you're trapped in their attention until you do something boring or catastrophic enough to satisfy them.`)}</p></div>
         <div className="el-body"><p><b>{inline(`Join: Not formal membership. More like`)}</b></p></div>
         <div className="el-body"><p>{inline(`collaborative chaos. They give you tools, you create beautiful disasters, everyone applauds. Consequences are your problem. But the art — the art is worth it.`)}</p></div>
+        <h4 className="el-subsection">{inline(`FACTIONAL RELATIONSHIPS`)}</h4>
       </ChPage>
     </Spread>
     <Spread id="appendix-d-05" label={"THE FACTIONS · spread 5"}>
       <ChPage side="verso" runHead={"The Factions"} pageNum={basePage + 8} label={`THE FACTIONS · p.${basePage + 8}`}>
-        <h4 className="el-subsection">{inline(`FACTIONAL RELATIONSHIPS`)}</h4>
-        <h4 className="el-subsection">{inline(`FACTION PAIR`)}</h4>
-        <h4 className="el-subsection">{inline(`RELATIONSHIP`)}</h4>
-        <div className="el-body"><p><b>{inline(`Church vs. Authority`)}</b></p></div>
-        <div className="el-body"><p><b>{inline(`Mutual contempt. Church sees Au`)}</b></p></div>
-        <div className="el-body"><p><b>{inline(`machines. Authority sees Church`)}</b></p></div>
-        <div className="el-body"><p>{inline(`inefficient.`)}</p></div>
-        <div className="el-body"><p><b>{inline(`Church vs. Scionfall`)}</b></p></div>
-        <div className="el-body"><p><b>{inline(`Philosophical enemies. Both agree`)}</b></p></div>
-        <div className="el-body"><p>{inline(`fundamental — Church makes it p wants to end it.`)}</p></div>
-        <div className="el-body"><p><b>{inline(`Church vs. Chronoclasts`)}</b></p></div>
-        <h4 className="el-subsection">{inline(`The Church hunts Chronoclasts ac`)}</h4>
-        <div className="el-body"><p>{inline(`worship chaos instead of the Sacr`)}</p></div>
-        <div className="el-body"><p><b>{inline(`Authority vs. Scionfall`)}</b></p></div>
-        <div className="el-body"><p>{inline(`Mostly ignore each other. Differen goals, minimal conflict. Authority vs.`)}</p></div>
-        <h4 className="el-subsection">{inline(`Chronoclasts`)}</h4>
-        <div className="el-body"><p><b>{inline(`Constant warfare. Ordered univer`)}</b></p></div>
-        <div className="el-body"><p>{inline(`Both try to undo each other's work.`)}</p></div>
-        <div className="el-body"><p><b>{inline(`Scionfall vs. Chronoclasts`)}</b></p></div>
-        <div className="el-body"><p>{inline(`Pity vs. amusement. Scionfall see suffering unnecessarily. Chronocla missing the joke.`)}</p></div>
+        <table className="tbl-chen"><thead><tr><th>{inline(`Faction Pair`)}</th><th>{inline(`Relationship`)}</th></tr></thead><tbody><tr><td><b>{inline(`Church vs. Authority`)}</b></td><td>{inline(`Mutual contempt. Church sees Authority as soulless machines. Authority sees Church as inefficient.`)}</td></tr><tr><td><b>{inline(`Church vs. Scionfall`)}</b></td><td>{inline(`Philosophical enemies. Both agree existence is fundamental — Church makes it sacred, Scionfall wants to end it.`)}</td></tr><tr><td><b>{inline(`Church vs. Chronoclasts`)}</b></td><td>{inline(`The Church hunts Chronoclasts actively. They worship chaos instead of the Sacred Second.`)}</td></tr><tr><td><b>{inline(`Authority vs. Scionfall`)}</b></td><td>{inline(`Mostly ignore each other. Different goals, minimal conflict.`)}</td></tr><tr><td><b>{inline(`Authority vs. Chronoclasts`)}</b></td><td>{inline(`Constant warfare. Ordered universe vs. chaotic. Both try to undo each other's work.`)}</td></tr><tr><td><b>{inline(`Scionfall vs. Chronoclasts`)}</b></td><td>{inline(`Pity vs. amusement. Scionfall sees Chronoclasts as suffering unnecessarily. Chronoclasts see Scionfall as missing the joke.`)}</td></tr></tbody></table>
       </ChPage>
       <ChPage side="recto" runHead={"The Factions"} pageNum={basePage + 9} label={`THE FACTIONS · p.${basePage + 9}`}>
         
