@@ -213,16 +213,26 @@ function BM_quick_reference_sheet({
     className: "el-subsection"
   }, inline(`ASSETS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Asset 1: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 2: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 3: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○`))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`FACTION TRACKING`)), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Asset 1:`)), inline(` ____________________________`))), /*#__PURE__*/React.createElement("ul", {
+    className: "el-list"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Marked: ○Church ○Authority ○Scionfall ○Chronoclasts`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Asset 2:`)), inline(` ____________________________`))), /*#__PURE__*/React.createElement("ul", {
+    className: "el-list"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Asset 3:`)), inline(` ____________________________`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Quick Reference Sheet",
     pageNum: basePage + 9,
     label: `QUICK REFERENCE SHEET · p.${basePage + 9}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("ul", {
+    className: "el-list"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`FACTION TRACKING`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Marked: ○Church ○Authority ○Scionfall ○Chronoclasts`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`SCARS (from Lost Memories)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -234,7 +244,15 @@ function BM_quick_reference_sheet({
     className: "el-subsection"
   }, inline(`DOWNTIME CHECKLIST`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`□ Chronicle (+1 Coherence) □ Reinforce Anchor □ Tend Assets □ Process Memory □ Reduce Paradox (optional) □ Plan Next Move`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`□ Chronicle (+1 Coherence) □ Reinforce Anchor □ Tend Assets □ Process Memory □ Reduce Paradox (optional) □ Plan Next Move`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "backmatter-quick-reference-sheet-06",
+    label: "QUICK REFERENCE SHEET · spread 6"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Quick Reference Sheet",
+    pageNum: basePage + 10,
+    label: `QUICK REFERENCE SHEET · p.${basePage + 10}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`emiT — Character Sheet`)), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -248,15 +266,7 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`[5] →[4] →[3] →[2] →[1] →[0: TERMINAL CONFIGURATION]`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Current Vector: _____ Trajectory: ________________________________________`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "backmatter-quick-reference-sheet-06",
-    label: "QUICK REFERENCE SHEET · spread 6"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Quick Reference Sheet",
-    pageNum: basePage + 10,
-    label: `QUICK REFERENCE SHEET · p.${basePage + 10}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Current Vector: _____ Trajectory: ________________________________________`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Decreases when: Embrace Corruption in Crisis / 3rd Mutation in one session / accept Faction transformation offer.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -264,7 +274,12 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Shadow (0–) +2 / +1 / +0 / − Flux (4–) +1 / +0 / +1 / +1 Anomaly (7–) +0 / − / +2 / +2 Breach (10+) − / − / +3 / +3`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Current Band: ________________________________________ Current Modes: _____ / _____ / _____ / _____`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Current Band: ________________________________________ Current Modes: _____ / _____ / _____ / _____`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Quick Reference Sheet",
+    pageNum: basePage + 11,
+    label: `QUICK REFERENCE SHEET · p.${basePage + 11}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`COHERENCE (circle current)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -276,14 +291,7 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`[0] [1] [2] [3] \\| [4] [5] [6] \\| [7] [8] [9] \\| [10+]`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`ACTIVE SCARS (+2, tools you reload)`))))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Quick Reference Sheet",
-    pageNum: basePage + 11,
-    label: `QUICK REFERENCE SHEET · p.${basePage + 11}`
-  }, /*#__PURE__*/React.createElement("ol", {
-    className: "el-numlist"
-  }, /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`ACTIVE SCARS (+2, tools you reload)`)))))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-07",
     label: "QUICK REFERENCE SHEET · spread 7"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -291,6 +299,13 @@ function BM_quick_reference_sheet({
     runHead: "Quick Reference Sheet",
     pageNum: basePage + 12,
     label: `QUICK REFERENCE SHEET · p.${basePage + 12}`
+  }, /*#__PURE__*/React.createElement("ol", {
+    className: "el-numlist"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Quick Reference Sheet",
+    pageNum: basePage + 13,
+    label: `QUICK REFERENCE SHEET · p.${basePage + 13}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`FADING SCARS (+1)`)), /*#__PURE__*/React.createElement("div", {
@@ -309,16 +324,9 @@ function BM_quick_reference_sheet({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Violence Count (reset at Repreival): ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ Taxes: ○Mutation ○Scar Loss ○Witnessed`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`ASSETS`))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Quick Reference Sheet",
-    pageNum: basePage + 13,
-    label: `QUICK REFERENCE SHEET · p.${basePage + 13}`
-  }, /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
   }, inline(`ASSETS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Asset 1:`)), inline(` ________________________________________`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Asset 1:`)), inline(` ____________________________`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "backmatter-quick-reference-sheet-08",
     label: "QUICK REFERENCE SHEET · spread 8"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -328,14 +336,53 @@ function BM_quick_reference_sheet({
     label: `QUICK REFERENCE SHEET · p.${basePage + 14}`
   }, /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`State: ○ Clean ○ Compromised ○ Weaponized`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○ `), /*#__PURE__*/React.createElement("b", null, inline(`Asset 2:`)), inline(` ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`State: ○ Clean ○ Compromised ○ Weaponized`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○ `), /*#__PURE__*/React.createElement("b", null, inline(`Asset 3:`)), inline(` ________________________________________`)), /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`State: ○ Clean ○ Compromised ○ Weaponized`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○ FACTION TRACKING Marked: ○Church ○Authority ○Scionfall ○Chronoclasts REPREIVAL CHECKLIST`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Chronicle`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Reinforce Anchor`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Tend Assets`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Process Scars`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Reduce Paradox (optional)`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Plan Next Move`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Reset Violence Count THE HOLDING ACTION (once per session) Used this session: ○ THE EXIT QUESTION (at Corruption Vector 0) What was the last thing you cared about that wasn’t useful? Answer: ________________________________________ ○Preserve It — one final scene, then Dissolve. ○Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`State: ○ Clean ○ Compromised ○ Weaponized`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Asset 2:`)), inline(` ____________________________`))), /*#__PURE__*/React.createElement("ul", {
+    className: "el-list"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`State: ○ Clean ○ Compromised ○ Weaponized`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Asset 3:`)), inline(` ____________________________`))), /*#__PURE__*/React.createElement("ul", {
+    className: "el-list"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)), /*#__PURE__*/React.createElement("li", null, inline(`Level: ○ 1 ○ 2 ○ 3`)), /*#__PURE__*/React.createElement("li", null, inline(`State: ○ Clean ○ Compromised ○ Weaponized`)), /*#__PURE__*/React.createElement("li", null, inline(`Stress: ○○○○○`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Quick Reference Sheet",
     pageNum: basePage + 15,
     label: `QUICK REFERENCE SHEET · p.${basePage + 15}`
-  }, /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("p", null, inline(`The signal does not decay. It is the receiver that rots. To hear the sweet siren song of the Chronoverse is to invite the frequency to dismantle you. Identity is a standing wave. You are not a traveler. You are an interference pattern. Chen believes she can stabilize the note. Alan believes he can change the key. Both are wrong. There is only the static. And the static is hungry. The other three argue about how to survive the ocean. Chen builds a boat. Alan learns to breathe water. Zaaken dissolves into the current.`)), /*#__PURE__*/React.createElement("p", null, inline(`I am the fourth.`)), /*#__PURE__*/React.createElement("p", null, inline(`I am the one who asked what the ocean was for.`)), /*#__PURE__*/React.createElement("p", null, inline(`I found the shore. I found the Architect. I cannot tell you what I saw. I can only leave you this: The Veil is thin where the signal is loudest. Do not listen. Do not look. Do not stop moving. They are listening back.`))))));
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`FACTION TRACKING`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Marked: ○ Church ○ Authority ○ Scionfall ○ Chronoclasts`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`REPREIVAL CHECKLIST`)), /*#__PURE__*/React.createElement("ul", {
+    className: "el-list"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`□ Chronicle`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Reinforce Anchor`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Tend Assets`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Process Scars`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Reduce Paradox (optional)`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Plan Next Move`)), /*#__PURE__*/React.createElement("li", null, inline(`□ Reset Violence Count`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE HOLDING ACTION`)), inline(` (once per session) — Used this session: ○`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`THE EXIT QUESTION`)), inline(` (at Corruption Vector 0)`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`What was the last thing you cared about that wasn't useful?`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Answer: ____________________________`))), /*#__PURE__*/React.createElement("ul", {
+    className: "el-list"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`○ Preserve It — one final scene, then Dissolve.`)), /*#__PURE__*/React.createElement("li", null, inline(`○ Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "backmatter-quick-reference-sheet-09",
+    label: "QUICK REFERENCE SHEET · spread 9"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Quick Reference Sheet",
+    pageNum: basePage + 16,
+    label: `QUICK REFERENCE SHEET · p.${basePage + 16}`
+  }, /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("p", null, inline(`The signal does not decay. It is the receiver that rots. To hear the sweet siren song of the Chronoverse is to invite the frequency to dismantle you. Identity is a standing wave. You are not a traveler. You are an interference pattern. Chen believes she can stabilize the note. Alan believes he can change the key. Both are wrong. There is only the static. And the static is hungry. The other three argue about how to survive the ocean. Chen builds a boat. Alan learns to breathe water. Zaaken dissolves into the current.`)), /*#__PURE__*/React.createElement("p", null, inline(`I am the fourth.`)), /*#__PURE__*/React.createElement("p", null, inline(`I am the one who asked what the ocean was for.`)), /*#__PURE__*/React.createElement("p", null, inline(`I found the shore. I found the Architect. I cannot tell you what I saw. I can only leave you this: The Veil is thin where the signal is loudest. Do not listen. Do not look. Do not stop moving. They are listening back.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Quick Reference Sheet",
+    pageNum: basePage + 17,
+    label: `QUICK REFERENCE SHEET · p.${basePage + 17}`
+  })));
 }
-BM_quick_reference_sheet.pages = 16;
+BM_quick_reference_sheet.pages = 18;
 Object.assign(window, {
   BM_quick_reference_sheet
 });

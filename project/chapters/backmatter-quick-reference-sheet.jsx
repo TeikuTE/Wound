@@ -97,17 +97,26 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <div className="el-body"><p><b>{inline(`LOCKED MEMORY (+3, permanent)`)}</b></p></div>
         <div className="el-body"><p>{inline(`Title: ________________________________________ Tags: ________________________________________ Why this one: ________________________________________`)}</p></div>
         <h4 className="el-subsection">{inline(`ASSETS`)}</h4>
-        <div className="el-body"><p>{inline(`Asset 1: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 2: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 3: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○`)}</p></div>
-        <h4 className="el-subsection">{inline(`FACTION TRACKING`)}</h4>
-        <div className="el-body"><p>{inline(`Marked: ○Church ○Authority ○Scionfall ○Chronoclasts`)}</p></div>
+        <div className="el-body"><p><b>{inline(`Asset 1:`)}</b>{inline(` ____________________________`)}</p></div>
+        <ul className="el-list"><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`Stress: ○○○○○`)}</li></ul>
+        <div className="el-body"><p><b>{inline(`Asset 2:`)}</b>{inline(` ____________________________`)}</p></div>
+        <ul className="el-list"><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`Stress: ○○○○○`)}</li></ul>
+        <div className="el-body"><p><b>{inline(`Asset 3:`)}</b>{inline(` ____________________________`)}</p></div>
       </ChPage>
       <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 9} label={`QUICK REFERENCE SHEET · p.${basePage + 9}`}>
+        <ul className="el-list"><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`Stress: ○○○○○`)}</li></ul>
+        <h4 className="el-subsection">{inline(`FACTION TRACKING`)}</h4>
+        <div className="el-body"><p>{inline(`Marked: ○Church ○Authority ○Scionfall ○Chronoclasts`)}</p></div>
         <h4 className="el-subsection">{inline(`SCARS (from Lost Memories)`)}</h4>
         <div className="el-body"><p>{inline(`1: ________________________________________ 2: ________________________________________ 3: ________________________________________ 4: ________________________________________`)}</p></div>
         <h4 className="el-subsection">{inline(`MUTATIONS (from Breach/Faction/Crisis)`)}</h4>
         <div className="el-body"><p>{inline(`1: ________________________________________ 2: ________________________________________`)}</p></div>
         <h4 className="el-subsection">{inline(`DOWNTIME CHECKLIST`)}</h4>
         <div className="el-body"><p>{inline(`□ Chronicle (+1 Coherence) □ Reinforce Anchor □ Tend Assets □ Process Memory □ Reduce Paradox (optional) □ Plan Next Move`)}</p></div>
+      </ChPage>
+    </Spread>
+    <Spread id="backmatter-quick-reference-sheet-06" label={"QUICK REFERENCE SHEET · spread 6"}>
+      <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 10} label={`QUICK REFERENCE SHEET · p.${basePage + 10}`}>
         <h4 className="el-subsection">{inline(`emiT — Character Sheet`)}</h4>
         <h4 className="el-subsection">{inline(`ORIGIN SKETCH (write in pencil)`)}</h4>
         <div className="el-body"><p>{inline(`Name (subject to revision): ________________________________________ Origin Era: ________________________________________`)}</p></div>
@@ -115,14 +124,12 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`CORRUPTION VECTOR`)}</h4>
         <div className="el-body"><p>{inline(`[5] →[4] →[3] →[2] →[1] →[0: TERMINAL CONFIGURATION]`)}</p></div>
         <div className="el-body"><p>{inline(`Current Vector: _____ Trajectory: ________________________________________`)}</p></div>
-      </ChPage>
-    </Spread>
-    <Spread id="backmatter-quick-reference-sheet-06" label={"QUICK REFERENCE SHEET · spread 6"}>
-      <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 10} label={`QUICK REFERENCE SHEET · p.${basePage + 10}`}>
         <div className="el-body"><p>{inline(`Decreases when: Embrace Corruption in Crisis / 3rd Mutation in one session / accept Faction transformation offer.`)}</p></div>
         <h4 className="el-subsection">{inline(`OPERATIONAL MODES (shift by Paradox band)`)}</h4>
         <div className="el-body"><p>{inline(`Shadow (0–) +2 / +1 / +0 / − Flux (4–) +1 / +0 / +1 / +1 Anomaly (7–) +0 / − / +2 / +2 Breach (10+) − / − / +3 / +3`)}</p></div>
         <div className="el-body"><p>{inline(`Current Band: ________________________________________ Current Modes: _____ / _____ / _____ / _____`)}</p></div>
+      </ChPage>
+      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 11} label={`QUICK REFERENCE SHEET · p.${basePage + 11}`}>
         <h4 className="el-subsection">{inline(`COHERENCE (circle current)`)}</h4>
         <div className="el-body"><p>{inline(`[−] [−] [−] [−] [−] [−] [0] [+1] [+2] [+3] [+4] [+5] [+6] [+7] [+8]`)}</p></div>
         <div className="el-body"><p>{inline(`Max = Corruption Vector + 3. No Coherence banking in emiT.`)}</p></div>
@@ -130,12 +137,12 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`[0] [1] [2] [3] \\| [4] [5] [6] \\| [7] [8] [9] \\| [10+]`)}</p></div>
         <div className="el-body"><p><b>{inline(`ACTIVE SCARS (+2, tools you reload)`)}</b></p></div>
       </ChPage>
-      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 11} label={`QUICK REFERENCE SHEET · p.${basePage + 11}`}>
-        <ol className="el-numlist"><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li></ol>
-      </ChPage>
     </Spread>
     <Spread id="backmatter-quick-reference-sheet-07" label={"QUICK REFERENCE SHEET · spread 7"}>
       <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 12} label={`QUICK REFERENCE SHEET · p.${basePage + 12}`}>
+        <ol className="el-numlist"><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li><li>{inline(`Title: ________________________________________ Tags: ________________________________________ / ________________________________________ Invocation: ________________________________________`)}</li></ol>
+      </ChPage>
+      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 13} label={`QUICK REFERENCE SHEET · p.${basePage + 13}`}>
         <h4 className="el-subsection">{inline(`FADING SCARS (+1)`)}</h4>
         <div className="el-body"><p>{inline(`1: ________________________________________ 2: ________________________________________ 3: ________________________________________`)}</p></div>
         <div className="el-body"><p><b>{inline(`CORE SCAR (+3, permanent)`)}</b></p></div>
@@ -145,22 +152,39 @@ function BM_quick_reference_sheet({ tweaks, basePage = 1 }) {
         <h4 className="el-subsection">{inline(`VIOLENCE TAX TRACKER`)}</h4>
         <div className="el-body"><p>{inline(`Violence Count (reset at Repreival): ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ Taxes: ○Mutation ○Scar Loss ○Witnessed`)}</p></div>
         <h4 className="el-subsection">{inline(`ASSETS`)}</h4>
-      </ChPage>
-      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 13} label={`QUICK REFERENCE SHEET · p.${basePage + 13}`}>
-        <h4 className="el-subsection">{inline(`ASSETS`)}</h4>
-        <div className="el-body"><p><b>{inline(`Asset 1:`)}</b>{inline(` ________________________________________`)}</p></div>
+        <div className="el-body"><p><b>{inline(`Asset 1:`)}</b>{inline(` ____________________________`)}</p></div>
       </ChPage>
     </Spread>
     <Spread id="backmatter-quick-reference-sheet-08" label={"QUICK REFERENCE SHEET · spread 8"}>
       <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 14} label={`QUICK REFERENCE SHEET · p.${basePage + 14}`}>
-        <ul className="el-list"><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`State: ○ Clean ○ Compromised ○ Weaponized`)}</li><li>{inline(`Stress: ○○○○○ `)}<b>{inline(`Asset 2:`)}</b>{inline(` ________________________________________`)}</li><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`State: ○ Clean ○ Compromised ○ Weaponized`)}</li><li>{inline(`Stress: ○○○○○ `)}<b>{inline(`Asset 3:`)}</b>{inline(` ________________________________________`)}</li><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`State: ○ Clean ○ Compromised ○ Weaponized`)}</li><li>{inline(`Stress: ○○○○○ FACTION TRACKING Marked: ○Church ○Authority ○Scionfall ○Chronoclasts REPREIVAL CHECKLIST`)}</li><li>{inline(`□ Chronicle`)}</li><li>{inline(`□ Reinforce Anchor`)}</li><li>{inline(`□ Tend Assets`)}</li><li>{inline(`□ Process Scars`)}</li><li>{inline(`□ Reduce Paradox (optional)`)}</li><li>{inline(`□ Plan Next Move`)}</li><li>{inline(`□ Reset Violence Count THE HOLDING ACTION (once per session) Used this session: ○ THE EXIT QUESTION (at Corruption Vector 0) What was the last thing you cared about that wasn’t useful? Answer: ________________________________________ ○Preserve It — one final scene, then Dissolve. ○Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.`)}</li></ul>
+        <ul className="el-list"><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`State: ○ Clean ○ Compromised ○ Weaponized`)}</li><li>{inline(`Stress: ○○○○○`)}</li></ul>
+        <div className="el-body"><p><b>{inline(`Asset 2:`)}</b>{inline(` ____________________________`)}</p></div>
+        <ul className="el-list"><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`State: ○ Clean ○ Compromised ○ Weaponized`)}</li><li>{inline(`Stress: ○○○○○`)}</li></ul>
+        <div className="el-body"><p><b>{inline(`Asset 3:`)}</b>{inline(` ____________________________`)}</p></div>
+        <ul className="el-list"><li>{inline(`Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived`)}</li><li>{inline(`Level: ○ 1 ○ 2 ○ 3`)}</li><li>{inline(`State: ○ Clean ○ Compromised ○ Weaponized`)}</li><li>{inline(`Stress: ○○○○○`)}</li></ul>
       </ChPage>
       <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 15} label={`QUICK REFERENCE SHEET · p.${basePage + 15}`}>
+        <h4 className="el-subsection">{inline(`FACTION TRACKING`)}</h4>
+        <div className="el-body"><p>{inline(`Marked: ○ Church ○ Authority ○ Scionfall ○ Chronoclasts`)}</p></div>
+        <h4 className="el-subsection">{inline(`REPREIVAL CHECKLIST`)}</h4>
+        <ul className="el-list"><li>{inline(`□ Chronicle`)}</li><li>{inline(`□ Reinforce Anchor`)}</li><li>{inline(`□ Tend Assets`)}</li><li>{inline(`□ Process Scars`)}</li><li>{inline(`□ Reduce Paradox (optional)`)}</li><li>{inline(`□ Plan Next Move`)}</li><li>{inline(`□ Reset Violence Count`)}</li></ul>
+        <div className="el-body"><p><b>{inline(`THE HOLDING ACTION`)}</b>{inline(` (once per session) — Used this session: ○`)}</p></div>
+        <div className="el-body"><p><b>{inline(`THE EXIT QUESTION`)}</b>{inline(` (at Corruption Vector 0)`)}</p></div>
+        <div className="el-body"><p>{inline(`What was the last thing you cared about that wasn't useful?`)}</p></div>
+        <div className="el-body"><p>{inline(`Answer: ____________________________`)}</p></div>
+        <ul className="el-list"><li>{inline(`○ Preserve It — one final scene, then Dissolve.`)}</li><li>{inline(`○ Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.`)}</li></ul>
+      </ChPage>
+    </Spread>
+    <Spread id="backmatter-quick-reference-sheet-09" label={"QUICK REFERENCE SHEET · spread 9"}>
+      <ChPage side="verso" runHead={"Quick Reference Sheet"} pageNum={basePage + 16} label={`QUICK REFERENCE SHEET · p.${basePage + 16}`}>
         <Zaaken><p>{inline(`The signal does not decay. It is the receiver that rots. To hear the sweet siren song of the Chronoverse is to invite the frequency to dismantle you. Identity is a standing wave. You are not a traveler. You are an interference pattern. Chen believes she can stabilize the note. Alan believes he can change the key. Both are wrong. There is only the static. And the static is hungry. The other three argue about how to survive the ocean. Chen builds a boat. Alan learns to breathe water. Zaaken dissolves into the current.`)}</p><p>{inline(`I am the fourth.`)}</p><p>{inline(`I am the one who asked what the ocean was for.`)}</p><p>{inline(`I found the shore. I found the Architect. I cannot tell you what I saw. I can only leave you this: The Veil is thin where the signal is loudest. Do not listen. Do not look. Do not stop moving. They are listening back.`)}</p></Zaaken>
+      </ChPage>
+      <ChPage side="recto" runHead={"Quick Reference Sheet"} pageNum={basePage + 17} label={`QUICK REFERENCE SHEET · p.${basePage + 17}`}>
+        
       </ChPage>
     </Spread>
   </>);
 }
 
-BM_quick_reference_sheet.pages = 16;
+BM_quick_reference_sheet.pages = 18;
 Object.assign(window, { BM_quick_reference_sheet });

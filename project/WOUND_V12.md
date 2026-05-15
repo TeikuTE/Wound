@@ -4429,7 +4429,23 @@ Title: ________________________________________ Tags: __________________________
 
 **ASSETS**
 
-Asset 1: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 2: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○ Asset 3: ________________________________________ Type: ○Chrono-Tech ○Echo Trait ○Temporal Anchor Level: ○1 ○2 ○3 Stress: ○○○○○
+**Asset 1:** ____________________________
+
+- Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor
+- Level: ○ 1 ○ 2 ○ 3
+- Stress: ○○○○○
+
+**Asset 2:** ____________________________
+
+- Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor
+- Level: ○ 1 ○ 2 ○ 3
+- Stress: ○○○○○
+
+**Asset 3:** ____________________________
+
+- Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor
+- Level: ○ 1 ○ 2 ○ 3
+- Stress: ○○○○○
 
 **FACTION TRACKING**
 
@@ -4509,28 +4525,51 @@ Violence Count (reset at Repreival): ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ Tax
 
 **ASSETS**
 
-**ASSETS**
+**Asset 1:** ____________________________
 
-**Asset 1:** ________________________________________
 - Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
 - Level: ○ 1 ○ 2 ○ 3
 - State: ○ Clean ○ Compromised ○ Weaponized
-- Stress: ○○○○○ **Asset 2:** ________________________________________
+- Stress: ○○○○○
+
+**Asset 2:** ____________________________
+
 - Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
 - Level: ○ 1 ○ 2 ○ 3
 - State: ○ Clean ○ Compromised ○ Weaponized
-- Stress: ○○○○○ **Asset 3:** ________________________________________
+- Stress: ○○○○○
+
+**Asset 3:** ____________________________
+
 - Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
 - Level: ○ 1 ○ 2 ○ 3
 - State: ○ Clean ○ Compromised ○ Weaponized
-- Stress: ○○○○○ FACTION TRACKING Marked: ○Church ○Authority ○Scionfall ○Chronoclasts REPREIVAL CHECKLIST
+- Stress: ○○○○○
+
+**FACTION TRACKING**
+
+Marked: ○ Church ○ Authority ○ Scionfall ○ Chronoclasts
+
+**REPREIVAL CHECKLIST**
+
 - □ Chronicle
 - □ Reinforce Anchor
 - □ Tend Assets
 - □ Process Scars
 - □ Reduce Paradox (optional)
 - □ Plan Next Move
-- □ Reset Violence Count THE HOLDING ACTION (once per session) Used this session: ○ THE EXIT QUESTION (at Corruption Vector 0) What was the last thing you cared about that wasn’t useful? Answer: ________________________________________ ○Preserve It — one final scene, then Dissolve. ○Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.
+- □ Reset Violence Count
+
+**THE HOLDING ACTION** (once per session) — Used this session: ○
+
+**THE EXIT QUESTION** (at Corruption Vector 0)
+
+What was the last thing you cared about that wasn't useful?
+
+Answer: ____________________________
+
+- ○ Preserve It — one final scene, then Dissolve.
+- ○ Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.
 
 **[Z]**
 

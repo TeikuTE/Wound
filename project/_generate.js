@@ -657,19 +657,28 @@ function paginate(sectionBlocks, host, opts = {}) {
         rows.push(sectionBlocks[i]);
         i++;
       }
-      // Render as one or more table blocks across pages; try to keep header + first rows together.
       let remaining = rows.slice();
       while (remaining.length) {
-        // Estimate the row heights
         let take = 0, h = 0;
         for (const r of remaining) {
           const rh = estimateHeight(r, host);
           if (used + h + rh > budget && take > 0) break;
           h += rh; take++;
         }
-        if (take === 0) {           // can't fit a single row; flush page then retry
+        if (take === 0) {
           flush();
           continue;
+        }
+        // Avoid stranding 1–3 orphan rows on the next page: if there
+        // would be only a few rows left after this chunk, pull back a
+        // couple of rows so the next page has at least a reasonable count.
+        const tail = remaining.length - take;
+        if (tail >= 1 && tail <= 3 && take > 5) {
+          // Move 2-3 rows from this chunk to the next so it's not orphaned
+          const moveBack = Math.min(take - 4, 3);
+          take -= moveBack;
+          h = 0;
+          for (let k = 0; k < take; k++) h += estimateHeight(remaining[k], host);
         }
         curr.push({ kind: 'oracle-table', rows: remaining.slice(0, take), continued: take < remaining.length });
         used += h;
