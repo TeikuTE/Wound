@@ -958,16 +958,17 @@ function renderBlocks(blocks, host, opts = {}) {
       }
       case 'oracle-table': {
         const klass = host === 'chen' ? 'tbl-chen tbl-chen--oracle' : 'tbl-alan tbl-alan--oracle';
-        // Compact two-column layout when every row is a single short
-        // phrase (e.g. Action Oracle, Theme Oracle). The parser puts the
-        // single word in `desc` when there's no em-dash separator, so we
-        // check the *combined* content length.
-        const allCompact = b.rows.every(r => {
+        // Compact two-column layout when MOST rows are short single-phrase
+        // (e.g. Action Oracle with one long [PARADOX] outlier). Allow up
+        // to 2 outliers if the median row is short.
+        const isShort = r => {
           const desc = (r.desc || '').trim();
           const name = (r.name || '').trim();
           const combined = (name + ' ' + desc).trim();
-          return combined.length <= 22 && combined.split(/\s+/).filter(Boolean).length <= 3;
-        });
+          return combined.length <= 26 && combined.split(/\s+/).filter(Boolean).length <= 3;
+        };
+        const shortCount = b.rows.filter(isShort).length;
+        const allCompact = b.rows.length >= 8 && shortCount >= b.rows.length - 2;
         if (allCompact && b.rows.length >= 8) {
           // Render as two columns side-by-side, splitting rows in half.
           const mid = Math.ceil(b.rows.length / 2);

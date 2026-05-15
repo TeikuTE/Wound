@@ -3443,17 +3443,17 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **11-15** Greed — accumulate wealth, power, or influence; more is never enough.
 
-**16-20** Love — protect, reconnect with, or win over someo
+**16-20** Love — protect, reconnect with, or win over someone specific.
 
-**21-25** Duty — fulfill obligation, honor commitment, serve
+**21-25** Duty — fulfill obligation, honor commitment, serve a cause greater than themselves.
 
-**26-30** Ambition — achieve status, recognition, or advanc hierarchy
+**26-30** Ambition — achieve status, recognition, or advancement in their hierarchy.
 
 **31-35** Fear — avoid danger, exposure, or consequence; obey the threat that scares them most.
 
-**36-40** Curiosity — understand mystery, acquire knowledg
+**36-40** Curiosity — understand mystery, acquire knowledge whatever the cost.
 
-**41-45** Faith — serve a higher power, ideological cause, or
+**41-45** Faith — serve a higher power, ideological cause, or sacred order.
 
 **46-50** Justice — right systemic wrongs, restore balance; judge the wrongdoer.
 
