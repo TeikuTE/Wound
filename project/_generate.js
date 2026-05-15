@@ -496,7 +496,7 @@ function estimateHeight(block, host) {
       const name = stripMD(block.name || '');
       const combined = (name + ' ' + desc).trim();
       if (combined.length <= 22 && combined.split(/\s+/).filter(Boolean).length <= 3) {
-        return 4.5;  // compact 2-col halves the effective vertical cost
+        return 7;  // compact 2-col halves the effective vertical cost 2-col halves the effective vertical cost
       }
       const cpl = host === 'chen' ? 48 : 46;
       const lines = Math.max(1, Math.ceil(desc.length / cpl));
