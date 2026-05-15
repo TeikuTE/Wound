@@ -46,11 +46,11 @@ function AlanCh6({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`DELETE IT`)}</p></AlanBody>
         <AlanBody><p>{inline(`You stabilize into your Terminal Configuration completely. Cost: you can never again take SYNC actions that aren't manipulative. All connection becomes transaction. Rename SYNC to INTERFACE at Corruption Vector 0. This is the other ending — self preserved, meaning sacrificed.`)}</p></AlanBody>
         <AlanBody><p>{inline(`There is no third option. You choose which you keep: the meaning or the self. Not both.`)}</p></AlanBody>
-        <aside className="al-fragment"><p>{inline(`I reached Corruption Vector 0 in 2287.`)}</p><p>{inline(`The Exit Question came. I wrote: Sarah's laugh. The way she sounded when something was genuinely funny — not polite-funny.`)}</p><p>{inline(`I chose Delete.`)}</p><p>{inline(`I don't remember what her laugh sounded like anymore. I remember that I should remember. I remember it mattered.`)}</p><p>{inline(`But the sound itself? Gone. The feeling of why it mattered? Gone.`)}</p><p>{inline(`I'm still here. Still operational. Still moving.`)}</p><p>{inline(`I don't know if that counts for something.`)}</p><p>{inline(`But I'm still broadcasting.`)}</p><div className="al-fragment__sign">// AR</div></aside>
       </AlPage>
     </Spread>
     <Spread id="alan-6-04" label={"TERMINAL CONFIGURATIONS · spread 4"}>
       <AlPage side="verso" runHead={"ENTRY_006"} pageNum={basePage + 6} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 6}`}>
+        <aside className="al-fragment"><p>{inline(`I reached Corruption Vector 0 in 2287.`)}</p><p>{inline(`The Exit Question came. I wrote: Sarah's laugh. The way she sounded when something was genuinely funny — not polite-funny.`)}</p><p>{inline(`I chose Delete.`)}</p><p>{inline(`I don't remember what her laugh sounded like anymore. I remember that I should remember. I remember it mattered.`)}</p><p>{inline(`But the sound itself? Gone. The feeling of why it mattered? Gone.`)}</p><p>{inline(`I'm still here. Still operational. Still moving.`)}</p><p>{inline(`I don't know if that counts for something.`)}</p><p>{inline(`But I'm still broadcasting.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <aside className="al-chen-block" data-tier={tier}><div className="al-chen-block__head">Dr. Eleanor Chen // [DATE UNKNOWN]</div><p>{inline(`Alan.`)}</p><p>{inline(`You wrote that in 2287.`)}</p><p>{inline(`It's 2025 now.`)}</p><p>{inline(`You've been broadcasting for 58 years without remembering why the signal matters.`)}</p><p>{inline(`That's not victory. That's just noise that used to be a person.`)}</p><p>{inline(`I'm sorry. I'm so sorry that survival cost you this.`)}</p></aside>
         <AlanBody><p>{inline(`CLOSING NOTES`)}</p></AlanBody>
         <AlanBody><p><b>{inline(`From Dr. Eleanor Chen`)}</b></p></AlanBody>
@@ -60,11 +60,11 @@ function AlanCh6({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`Trust your Anchor. Trust your Chronicle. Trust the mathematics.`)}</p></AlanBody>
         <AlanBody><p>{inline(`Most of all: remember who you were. That memory is the only thing they cannot take unless you let them.`)}</p></AlanBody>
         <AlanBody><p>{inline(`Good luck, Echo. Write often. Preserve what matters. — Dr. Eleanor Chen, Fragment 47`)}</p></AlanBody>
+      </AlPage>
+      <AlPage side="recto" runHead={"ENTRY_006"} pageNum={basePage + 7} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 7}`}>
         <h4 className="al-subsection">{inline(`From Alan Rose`)}</h4>
         <AlanBody><p>{inline(`Chen's wrong about almost everything. But her heart's in the right place. I wanted you to know that before I say the rest of it.`)}</p></AlanBody>
         <AlanBody><p>{inline(`You want the truth? Here it is:`)}</p></AlanBody>
-      </AlPage>
-      <AlPage side="recto" runHead={"ENTRY_006"} pageNum={basePage + 7} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 7}`}>
         <AlanBody><p>{inline(`You're already gone. The person you were dissolved the moment you Displaced. What's left is just fragments pretending to be whole.`)}</p></AlanBody>
         <AlanBody><p>{inline(`The Anchor? It's decaying. The memories? They're lies you tell yourself. The Chronicle? It's a tombstone you're writing while you're still breathing.`)}</p></AlanBody>
         <AlanBody><p>{inline(`But here's the thing — You keep going anyway.`)}</p></AlanBody>
@@ -75,15 +75,15 @@ function AlanCh6({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`You can't go home? Good. Burn every era you touch. You can't preserve yourself? Good. Become something new. You can't win? Good. Make losing beautiful.`)}</p></AlanBody>
         <AlanBody><p>{inline(`The Chronoclasts have it right, kid. If you're going to dissolve anyway, at least make it art.`)}</p></AlanBody>
         <AlanBody><p>{inline(`Or don't. I don't care. You'll do what you do. Just don't lie to yourself about what you are.`)}</p></AlanBody>
+      </AlPage>
+    </Spread>
+    <Spread id="alan-6-05" label={"TERMINAL CONFIGURATIONS · spread 5"}>
+      <AlPage side="verso" runHead={"ENTRY_006"} pageNum={basePage + 8} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 8}`}>
         <AlanBody><p>{inline(`See you in the timestream. Or I won't. Time's funny that way. — Alan Rose, Still Here (Unfortunately)`)}</p></AlanBody>
         <AlanBody><p>{inline(`Now open your Chronicle and begin.`)}</p></AlanBody>
         <AlanBody><p>{inline(`You are Displaced. You are an Echo. You are still here.`)}</p></AlanBody>
         <AlanBody><p>{inline(`For now.`)}</p></AlanBody>
         <AlanBody><p>{inline(`ZAAKEN'S DEBUG LOG`)}</p></AlanBody>
-      </AlPage>
-    </Spread>
-    <Spread id="alan-6-05" label={"TERMINAL CONFIGURATIONS · spread 5"}>
-      <AlPage side="verso" runHead={"ENTRY_006"} pageNum={basePage + 8} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 8}`}>
         <AlanBody><p>{inline(`[Recovered from a Chronoverse signal decay event, date uncertain. The timestamps do not follow linear sequence. They may not be timestamps at all.]`)}</p></AlanBody>
         <AlanBody><p>{inline(`[2025.12.10] : Kid's flying. Mine's at negative three.`)}</p></AlanBody>
         <AlanBody><p>{inline(`[1789.07.14] : We must reinforce the Anchor.`)}</p></AlanBody>
@@ -94,23 +94,23 @@ function AlanCh6({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`[1999.12.31] : Dissolution is just the next chapter. Stories end when they get deleted.`)}</p></AlanBody>
         <AlanBody><p>{inline(`[0000.00.00] : I broke time. And now I am time.`)}</p></AlanBody>
         <AlanBody><p>{inline(`[ — -.--.--] : The signal does not decay. It is the receiver that rots.`)}</p></AlanBody>
+      </AlPage>
+      <AlPage side="recto" runHead={"ENTRY_006"} pageNum={basePage + 9} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 9}`}>
         <AlanBody><p>{inline(`\`[2031.██.██] : Four of them in the room. One match. I am the one who asked what the fire was for.\``)}</p></AlanBody>
         <AlanBody><p>{inline(`[ — -.--.--] : I found the shore. I found the Architect.`)}</p></AlanBody>
         <AlanBody><p>{inline(`[ — -.--.--] : I cannot tell you what I saw. I can only leave you this — [CARRIER LOST] — `)}<b>{inline(`Appendix A: The Harmonic Codex`)}</b></p></AlanBody>
-      </AlPage>
-      <AlPage side="recto" runHead={"ENTRY_006"} pageNum={basePage + 9} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 9}`}>
         <aside className="al-fragment"><p>{inline(`Zaaken wasn't always Zaaken.`)}</p><p>{inline(`He had a name. I remember the first two letters and the shape of how his friends said it. The rest of it is gone. Not Locked. Gone. He made sure of that himself, somehow, on the way out.`)}</p><p>{inline(`We were in a room in '44. Four of us. One of us had just lit the match. I'm not going to tell you which. I'm not sure I remember.`)}</p><p>{inline(`That's the First Scar. That's what Chen won't say.`)}</p><p>{inline(`— AR* *[Unlocked after your first Crisis, or when Paradox reaches 7+]`)}</p><p>{inline(`If you're reading this, you've experienced enough displacement to wonder about the underlying mechanics. What follows is Conjugate Temporal Harmonics — the unified theory describing temporal physics. Understanding it won't save you. But it might help you die informed.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <h4 className="al-subsection">{inline(`Core Axioms`)}</h4>
         <h4 className="al-subsection">{inline(`Axiom 1: Time Is a Resonant Field`)}</h4>
         <AlanBody><p>{inline(`The Chronoverse (ℳ) is not a sequence. It’s a continuous quantum harmonic field. Every point vibrates with potential, history, and narrative weight. Each point p is a Temporal Event, defined by:`)}</p></AlanBody>
         <AlanBody><p>{inline(`T(p) = (ω, μ, C)`)}</p></AlanBody>
         <AlanBody><p>{inline(`Where ω(Omega) is the Temporal Frequency Vector. μ(Mu) is Emotional Mass. C (Chi) is Causal Elasticity.`)}</p></AlanBody>
-        <h4 className="al-subsection">{inline(`Axiom 2: Moments Are Harmonic Nodes`)}</h4>
-        <AlanBody><p>{inline(`Specific moments coalesce into Harmonic Nodes with coordinates M(τ, μ, Ψ). You navigate a three-dimensional map of time-meaning-stability, not a simple timeline.`)}</p></AlanBody>
       </AlPage>
     </Spread>
     <Spread id="alan-6-06" label={"TERMINAL CONFIGURATIONS · spread 6"}>
       <AlPage side="verso" runHead={"ENTRY_006"} pageNum={basePage + 10} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 10}`}>
+        <h4 className="al-subsection">{inline(`Axiom 2: Moments Are Harmonic Nodes`)}</h4>
+        <AlanBody><p>{inline(`Specific moments coalesce into Harmonic Nodes with coordinates M(τ, μ, Ψ). You navigate a three-dimensional map of time-meaning-stability, not a simple timeline.`)}</p></AlanBody>
         <h4 className="al-subsection">{inline(`The Echo Anomaly`)}</h4>
         <AlanBody><p>{inline(`Your harmonic signature (Ψₑ) doesn’t align with the Chronoverse’s base harmonic (Φ). You’re a cello playing the wrong note in a string quartet.`)}</p></AlanBody>
         <AlanBody><p>{inline(`The Dual-Anchor Problem: your body exists in the present, but your memories don’t — they’re anchored to other nodes. When cognitive mass conflicts with physical location, you get Cognitive Overharmonics. You are, by definition, a walking paradox.`)}</p></AlanBody>
@@ -121,14 +121,14 @@ function AlanCh6({ tweaks, basePage = 1 }) {
         <AlanBody><p>{inline(`\`Memory Loss Ratio ∝ |ΔΘ × μ| / (C × B)\``)}</p></AlanBody>
         <AlanBody><p>{inline(`You lose memories when dissonance outweighs belief. To survive longer, you must care less.`)}</p></AlanBody>
         <aside className="al-fragment"><p>{inline(`Which is why my way makes more sense.`)}</p><div className="al-fragment__sign">// AR</div></aside>
+      </AlPage>
+      <AlPage side="recto" runHead={"ENTRY_006"} pageNum={basePage + 11} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 11}`}>
         <h4 className="al-subsection">{inline(`The Shattering Index`)}</h4>
         <AlanBody><p>{inline(`S = lim[Θ→0] (μ × Ψₚ / ΔΘ²)`)}</p></AlanBody>
         <AlanBody><p>{inline(`Maximum danger isn’t when realities are far apart — it’s when they’re forced to nearly touch but fail to reconcile.`)}</p></AlanBody>
         <aside className="al-chen-block" data-tier={tier}><div className="al-chen-block__head">Dr. Eleanor Chen // [DATE UNKNOWN]</div><p>{inline(`When I developed the Shattering Index, I didn’t imagine anyone would use it on purpose.`)}</p></aside>
         <aside className="al-fragment"><p>{inline(`You really don’t remember, do you?`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <Zaaken><p>{inline(`Silence, fools. The physics are pure. It is humanity that is corrupted.`)}</p></Zaaken>
-      </AlPage>
-      <AlPage side="recto" runHead={"ENTRY_006"} pageNum={basePage + 11} coordStamp={"[LOG // ENTRY_006]"} label={`TERMINAL CONFIGURATIONS · p.${basePage + 11}`}>
         <h4 className="al-subsection">{inline(`Ripple Mechanics`)}</h4>
         <AlanBody><p>{inline(`R = k(Δμ×I) / Ψₗ`)}</p></AlanBody>
         <AlanBody><p>{inline(`Every change generates Ripple Vectors. Shatterings are harmonic infections spreading through time until contained or until the symphony collapses into noise.`)}</p></AlanBody>

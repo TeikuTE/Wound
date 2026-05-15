@@ -181,14 +181,14 @@ function ChenCh7({
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Anchor Strength does not decrease passively. It decreases when you make a choice that costs you your origin. I have watched Echoes give it away in installments small enough that they did not register the transaction until the Anchor was gone.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
-  }, "\u2014 EC")), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`Asset Management`))), /*#__PURE__*/React.createElement(ChPage, {
+  }, "\u2014 EC"))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Advanced Systems",
     pageNum: basePage + 5,
     label: `ADVANCED SYSTEMS · p.${basePage + 5}`
   }, /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Asset Management`)), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`ASSET EVOLUTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -216,9 +216,7 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Mechanical cost: spend 5 Coherence during Downtime and write a Chronicle entry that justifies the acquisition — what happened, what changed, why this Asset now exists in your world. The new Asset begins at Level 1 with 3 Stress boxes.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Alternatively, a Faction Agent may offer a new Asset as part of a trade — usually unstable, usually with a catch, always tempting.`))), /*#__PURE__*/React.createElement(AlanIntrusionInline, {
-    tier: tier
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Alternatively, a Faction Agent may offer a new Asset as part of a trade — usually unstable, usually with a catch, always tempting.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-7-04",
     label: "ADVANCED SYSTEMS · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -226,7 +224,9 @@ function ChenCh7({
     runHead: "Advanced Systems",
     pageNum: basePage + 6,
     label: `ADVANCED SYSTEMS · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement(AlanIntrusionInline, {
+    tier: tier
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

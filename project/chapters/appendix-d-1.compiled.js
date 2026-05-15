@@ -100,7 +100,15 @@ function AppendixD1({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Authority calls this suicidal. They have it backward. The world outside the Fracture is the desert. The Shattering is the water. The Causal Fear response they've spent centuries cultivating in you? That's not instinct. That's a leash. The Toxo-Glitch cuts it.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Find the Seam. Jump. The Revel will catch you. Or it won't. Either way you'll finally feel something real."`))))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Find the Seam. Jump. The Revel will catch you. Or it won't. Either way you'll finally feel something real."`))))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-d-1-02",
+    label: "RECOVERED FIELD INTELLIGENCE · spread 2"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Recovered Field Intelligence",
+    pageNum: basePage + 2,
+    label: `RECOVERED FIELD INTELLIG · p.${basePage + 2}`
+  }, /*#__PURE__*/React.createElement("aside", {
     className: "el-memo el-memo--scionfall"
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-memo__chrome"
@@ -120,14 +128,11 @@ function AppendixD1({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`We have found that most clients, in retrospect, wish they had come to us sooner. We are not the end. We are the reduction of noise to bearable levels.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`One perfect memory. Warm. Safe. Yours. You get to keep it. Isn't that what you wanted? Just one thing to stay?"`))))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-d-1-02",
-    label: "RECOVERED FIELD INTELLIGENCE · spread 2"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
+  }, /*#__PURE__*/React.createElement("p", null, inline(`One perfect memory. Warm. Safe. Yours. You get to keep it. Isn't that what you wanted? Just one thing to stay?"`)))))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
     runHead: "Recovered Field Intelligence",
-    pageNum: basePage + 2,
-    label: `RECOVERED FIELD INTELLIG · p.${basePage + 2}`
+    pageNum: basePage + 3,
+    label: `RECOVERED FIELD INTELLIG · p.${basePage + 3}`
   }, /*#__PURE__*/React.createElement("aside", {
     className: "el-memo el-memo--scionfall"
   }, /*#__PURE__*/React.createElement("div", {
@@ -148,12 +153,7 @@ function AppendixD1({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Symptomatology: the Glass Voice (metallic ring when speaking of the vitrified period), Sharp Retrospection (actual physical pain on recall), and Mnemonic Bleeding (composite hallucination where vitrified memories merge with adjacent ones).`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The Office of Ultimate Compassion acknowledges these outcomes. We are very sorry. We are always very sorry."`)))))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Recovered Field Intelligence",
-    pageNum: basePage + 3,
-    label: `RECOVERED FIELD INTELLIG · p.${basePage + 3}`
-  })));
+  }, /*#__PURE__*/React.createElement("p", null, inline(`The Office of Ultimate Compassion acknowledges these outcomes. We are very sorry. We are always very sorry."`))))))));
 }
 AppendixD1.pages = 4;
 Object.assign(window, {

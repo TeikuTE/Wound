@@ -442,18 +442,20 @@ function estimateHeight(block, host) {
     }
     case 'hr':   return 18;
     case 'p': {
-      // Rough: ~60 chars per line in Chen, ~70 in Alan
-      const cpl = host === 'chen' ? 64 : 60;
+      // 10.5pt Garamond at line-height 1.52 renders ~21px/line; 9.5pt Plex
+      // Mono at line-height 1.55 renders ~20px/line. Interlude 10.5pt
+      // Manrope at 1.55 → ~21px/line.
+      const cpl = host === 'chen' ? 64 : host === 'alan' ? 58 : 56;
       const text = stripMD(block.text);
       const lines = Math.max(1, Math.ceil(text.length / cpl));
-      const lh   = host === 'chen' ? 18 : 18;
-      return lines * lh + 8;
+      const lh   = host === 'chen' ? 21 : host === 'alan' ? 20 : 22;
+      return lines * lh + 9;  // +9 for paragraph margin-bottom
     }
     case 'ul':
     case 'ol': {
-      const cpl = host === 'chen' ? 60 : 56;
-      const lh  = host === 'chen' ? 18 : 18;
-      return block.items.reduce((acc, t) => acc + Math.ceil(stripMD(t).length / cpl) * lh + 2, 4) + 6;
+      const cpl = host === 'chen' ? 58 : 54;
+      const lh  = host === 'chen' ? 21 : 20;
+      return block.items.reduce((acc, t) => acc + Math.ceil(stripMD(t).length / cpl) * lh + 3, 6) + 8;
     }
     case 'blockquote': {
       const cpl = 56;
@@ -701,15 +703,21 @@ function paginate(sectionBlocks, host, opts = {}) {
   }
   flush();
 
-  // Rebalance: if the last page has way less content than the average, try to
-  // shrink the budget so pages fill more evenly. Aim for at-most ~25% gap.
+  // Rebalance: if ANY page (especially the last) is sparse compared to
+  // the average, try a tighter budget so pages re-flow with similar density.
+  // Try repeatedly (max 4 rebalances) since each tighten may shift different
+  // splits to better positions.
   if (pages.length >= 2) {
     const totals = pages.map(p => p.reduce((a, b) => a + estimateHeight(b, host), 0));
     const avg = totals.reduce((a, n) => a + n, 0) / totals.length;
     const last = totals[totals.length - 1];
-    if (last < avg * 0.55 && budget > 540) {
-      // Retry with tighter budget so pages re-flow into n-1 with similar fullness
-      return paginate(sectionBlocks, host, { ...opts, budget: Math.floor(budget * 0.93) });
+    const min = Math.min(...totals);
+    const retryCount = opts._retryCount || 0;
+    // Trigger rebalance if last page or any page is < 50% of average.
+    if ((last < avg * 0.55 || min < avg * 0.45) && budget > 520 && retryCount < 4) {
+      return paginate(sectionBlocks, host, {
+        ...opts, budget: Math.floor(budget * 0.93), _retryCount: retryCount + 1,
+      });
     }
   }
   return pages;
@@ -1051,7 +1059,12 @@ function emitSpreads(section) {
   const isAppendix = section.id.startsWith('appendix-');
   const isBack    = section.id.startsWith('backmatter-');
 
-  const pages = paginate(blocks, host, { budget: isAppendix ? 700 : 660, sectionId: section.id });
+  // Interlude pages use the Manrope sans-serif font which renders a bit
+  // taller per line than the serif body — bump budget so dense content
+  // doesn't strand short tails on the next page.
+  const isInterlude = host === 'interlude';
+  const budget = isAppendix ? 700 : (isInterlude ? 720 : 660);
+  const pages = paginate(blocks, host, { budget, sectionId: section.id });
 
   const spreads = [];
   let spreadIdx = 0;

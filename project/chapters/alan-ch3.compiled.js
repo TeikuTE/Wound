@@ -68,13 +68,7 @@ function AlanCh3({
     className: "al-subsection"
   }, inline(`STATE EFFECT`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Synchronized (+4 to +8) +1 to all rolls`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Flux (0 to +3) No modifier`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Crisis (-6 to -1) -1 to all rolls. At -6: trigger Fracture Event.`))), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
-  }, inline(`Paradox (Temporal Contamination)`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Track from 0 to `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`. Generate Paradox when you alter recorded history significantly (+1 to +3), share anachronistic knowledge (+1), create causal loops (+2), or use glitching Chrono-Tech (+1).`))), /*#__PURE__*/React.createElement("h4", {
-    className: "al-subsection"
-  }, inline(`HIGH PARADOX ISN'T JUST DANGER`)), /*#__PURE__*/React.createElement("aside", {
-    className: "al-fragment"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Look at those Mode shifts again. At Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, your DISRUPT is +2, your ENDURE is +2. You're being hunted. You're also powerful. At Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`, your DISRUPT is +3, your ENDURE is +3. You've become priority target and extremely difficult to kill.`)), /*#__PURE__*/React.createElement("div", {
-    className: "al-fragment__sign"
-  }, "// AR")))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`Paradox (Temporal Contamination)`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Track from 0 to `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`. Generate Paradox when you alter recorded history significantly (+1 to +3), share anachronistic knowledge (+1), create causal loops (+2), or use glitching Chrono-Tech (+1).`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-3-03",
     label: "OPERATIONAL PROCEDURES · spread 3"
   }, /*#__PURE__*/React.createElement(AlPage, {
@@ -84,6 +78,12 @@ function AlanCh3({
     coordStamp: "[LOG // ENTRY_003]",
     label: `OPERATIONAL PROCEDURES · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("h4", {
+    className: "al-subsection"
+  }, inline(`HIGH PARADOX ISN'T JUST DANGER`)), /*#__PURE__*/React.createElement("aside", {
+    className: "al-fragment"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Look at those Mode shifts again. At Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, your DISRUPT is +2, your ENDURE is +2. You're being hunted. You're also powerful. At Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`, your DISRUPT is +3, your ENDURE is +3. You've become priority target and extremely difficult to kill.`)), /*#__PURE__*/React.createElement("div", {
+    className: "al-fragment__sign"
+  }, "// AR")), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
   }, inline(`Memory System`)), /*#__PURE__*/React.createElement("aside", {
     className: "al-fragment"
@@ -95,7 +95,13 @@ function AlanCh3({
     className: "al-fragment"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Call it tactical expenditure of identity. Call it self-destruction. Both lines lead to the same spreadsheet. Spend accordingly.`)), /*#__PURE__*/React.createElement("div", {
     className: "al-fragment__sign"
-  }, "// AR")), /*#__PURE__*/React.createElement("aside", {
+  }, "// AR"))), /*#__PURE__*/React.createElement(AlPage, {
+    side: "recto",
+    runHead: "ENTRY_003",
+    pageNum: basePage + 5,
+    coordStamp: "[LOG // ENTRY_003]",
+    label: `OPERATIONAL PROCEDURES · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("aside", {
     className: "al-chen-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("div", {
@@ -104,25 +110,11 @@ function AlanCh3({
     className: "al-fragment"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Buzz off, doc. It's not like you remember what happened. Otherwise you'd be on my side. You were once.`)), /*#__PURE__*/React.createElement("p", null, inline(`Remember the First Scar? The night in '44 when the four of us —`)), /*#__PURE__*/React.createElement("p", null, inline(`Never mind.`)), /*#__PURE__*/React.createElement("div", {
     className: "al-fragment__sign"
-  }, "// AR")), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`[CHEN]: Four?`))))), /*#__PURE__*/React.createElement(AlPage, {
-    side: "recto",
-    runHead: "ENTRY_003",
-    pageNum: basePage + 5,
-    coordStamp: "[LOG // ENTRY_003]",
-    label: `OPERATIONAL PROCEDURES · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, "// AR")), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`[CHEN]: Four?`)))), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
   }, inline(`The Corruption Log`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Document your transformation in your journal. Track: current Paradox state, Corruption Vector progress, Scars acquired and spent, Mutations gained, what you took from each era.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Creating a detailed entry grants +1 Paradox — not Coherence. You grow stronger by documenting corruption, not by clinging to your origin.`))), /*#__PURE__*/React.createElement("h4", {
     className: "al-subsection"
-  }, inline(`The Violence Tax`)), /*#__PURE__*/React.createElement("aside", {
-    className: "al-fragment"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Violence is taxed. The tax is paid in pieces of you that you don't get back.`)), /*#__PURE__*/React.createElement("p", null, inline(`Ten violent acts. The tracker fills as you act. At the end of every Repreival, the tracker resets — but only after you pay. The payment options are: a Mutation, the loss of a Scar that was useful to you, or being witnessed by someone whose memory of you was clean.`)), /*#__PURE__*/React.createElement("p", null, inline(`I have hit the tracker reset eleven times. I no longer remember which payments I chose for the first six. I remember the witnessed ones. I remember the faces of the people who saw me do what I did. They are the ones still in my head, even after the rest of the violence has filed itself away into something that feels almost neutral.`)), /*#__PURE__*/React.createElement("p", null, inline(`The tax is not a punishment. It is the cost of doing this. The illusion is that there will be a moment of cleanness — a reset where the blood is off your hands. There is not. There is only the next Repreival, the next payment, the next thing you do not get back.`)), /*#__PURE__*/React.createElement("div", {
-    className: "al-fragment__sign"
-  }, "// AR")), /*#__PURE__*/React.createElement("aside", {
-    className: "al-fragment"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Violence works. It also corrupts you in real time. The Tax is how we keep that visible.`)), /*#__PURE__*/React.createElement("div", {
-    className: "al-fragment__sign"
-  }, "// AR")), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`When you succeed with `), /*#__PURE__*/React.createElement("b", null, inline(`DISRUPT`)), inline(` (any result), roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(`. On `), /*#__PURE__*/React.createElement("b", null, inline(`3-6`)), inline(`: no tax this time. On `), /*#__PURE__*/React.createElement("b", null, inline(`1-2`)), inline(`: pay the Tax.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`The Violence Tax`)))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-3-04",
     label: "OPERATIONAL PROCEDURES · spread 4"
   }, /*#__PURE__*/React.createElement(AlPage, {
@@ -131,21 +123,29 @@ function AlanCh3({
     pageNum: basePage + 6,
     coordStamp: "[LOG // ENTRY_003]",
     label: `OPERATIONAL PROCEDURES · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("h4", {
-    className: "al-subsection"
-  }, inline(`PAYING THE TAX`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Choose ONE option you have NOT chosen since your last Repreival. If all options have been chosen since last Repreival, you must take a Mutation.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Mutation — gain a permanent personality change immediately`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Scar Loss — one Active Scar becomes Lost immediately (gain Mutation from the loss)`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Witnessed — mark WITNESSED; your next social interaction this era takes -1 SYNC and the Oracle introduces someone responding to what they saw you become`))), /*#__PURE__*/React.createElement("h4", {
-    className: "al-subsection"
-  }, inline(`VIOLENCE ESCALATION`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Track `), /*#__PURE__*/React.createElement("b", null, inline(`VIOLENCE COUNT`)), inline(` (starts at `), /*#__PURE__*/React.createElement("b", null, inline(`0`)), inline(` each session). Each time you trigger the Violence Tax, increase the count by `), /*#__PURE__*/React.createElement("b", null, inline(`1`)), inline(`. When you take `), /*#__PURE__*/React.createElement("b", null, inline(`Repreival`)), inline(`, reset Violence Count to `), /*#__PURE__*/React.createElement("b", null, inline(`0`)), inline(`.`))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("aside", {
     className: "al-fragment"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The count is narrative pressure. By the fourth or fifth Tax of a session, the consequences stop being mechanical and start being who you are becoming. Write it down. Let it accumulate.`)), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Violence is taxed. The tax is paid in pieces of you that you don't get back.`)), /*#__PURE__*/React.createElement("p", null, inline(`Ten violent acts. The tracker fills as you act. At the end of every Repreival, the tracker resets — but only after you pay. The payment options are: a Mutation, the loss of a Scar that was useful to you, or being witnessed by someone whose memory of you was clean.`)), /*#__PURE__*/React.createElement("p", null, inline(`I have hit the tracker reset eleven times. I no longer remember which payments I chose for the first six. I remember the witnessed ones. I remember the faces of the people who saw me do what I did. They are the ones still in my head, even after the rest of the violence has filed itself away into something that feels almost neutral.`)), /*#__PURE__*/React.createElement("p", null, inline(`The tax is not a punishment. It is the cost of doing this. The illusion is that there will be a moment of cleanness — a reset where the blood is off your hands. There is not. There is only the next Repreival, the next payment, the next thing you do not get back.`)), /*#__PURE__*/React.createElement("div", {
     className: "al-fragment__sign"
-  }, "// AR"))), /*#__PURE__*/React.createElement(AlPage, {
+  }, "// AR")), /*#__PURE__*/React.createElement("aside", {
+    className: "al-fragment"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Violence works. It also corrupts you in real time. The Tax is how we keep that visible.`)), /*#__PURE__*/React.createElement("div", {
+    className: "al-fragment__sign"
+  }, "// AR")), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`When you succeed with `), /*#__PURE__*/React.createElement("b", null, inline(`DISRUPT`)), inline(` (any result), roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(`. On `), /*#__PURE__*/React.createElement("b", null, inline(`3-6`)), inline(`: no tax this time. On `), /*#__PURE__*/React.createElement("b", null, inline(`1-2`)), inline(`: pay the Tax.`))), /*#__PURE__*/React.createElement("h4", {
+    className: "al-subsection"
+  }, inline(`PAYING THE TAX`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Choose ONE option you have NOT chosen since your last Repreival. If all options have been chosen since last Repreival, you must take a Mutation.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Mutation — gain a permanent personality change immediately`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Scar Loss — one Active Scar becomes Lost immediately (gain Mutation from the loss)`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Witnessed — mark WITNESSED; your next social interaction this era takes -1 SYNC and the Oracle introduces someone responding to what they saw you become`)))), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",
     runHead: "ENTRY_003",
     pageNum: basePage + 7,
     coordStamp: "[LOG // ENTRY_003]",
     label: `OPERATIONAL PROCEDURES · p.${basePage + 7}`
-  }, /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: "al-subsection"
+  }, inline(`VIOLENCE ESCALATION`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, inline(`Track `), /*#__PURE__*/React.createElement("b", null, inline(`VIOLENCE COUNT`)), inline(` (starts at `), /*#__PURE__*/React.createElement("b", null, inline(`0`)), inline(` each session). Each time you trigger the Violence Tax, increase the count by `), /*#__PURE__*/React.createElement("b", null, inline(`1`)), inline(`. When you take `), /*#__PURE__*/React.createElement("b", null, inline(`Repreival`)), inline(`, reset Violence Count to `), /*#__PURE__*/React.createElement("b", null, inline(`0`)), inline(`.`))), /*#__PURE__*/React.createElement("aside", {
+    className: "al-fragment"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`The count is narrative pressure. By the fourth or fifth Tax of a session, the consequences stop being mechanical and start being who you are becoming. Write it down. Let it accumulate.`)), /*#__PURE__*/React.createElement("div", {
+    className: "al-fragment__sign"
+  }, "// AR")), /*#__PURE__*/React.createElement("aside", {
     className: "al-fragment"
   }, /*#__PURE__*/React.createElement("p", null, inline(`I didn't have this rule for my first 200 years. I just used DISRUPT whenever I needed to end something. Every problem became a nail because I'd become a hammer.`)), /*#__PURE__*/React.createElement("p", null, inline(`If I'd been tracking Violence Count honestly? I'd be at four digits.`)), /*#__PURE__*/React.createElement("p", null, inline(`The Tax isn't punishment. It's just making visible what was always happening.`)), /*#__PURE__*/React.createElement("p", null, inline(`Every time you solve something through violence, you lose a piece. Eventually you realize you've got nothing left but the violence.`)), /*#__PURE__*/React.createElement("p", null, inline(`That's not evolution. That's addiction.`)), /*#__PURE__*/React.createElement("p", null, inline(`— AR (two hundred years later)`)), /*#__PURE__*/React.createElement("p", null, inline(`The Holding Action`)), /*#__PURE__*/React.createElement("p", null, inline(`Once per session, when doing so is meaningfully costly, you may choose preservation over optimization. You cannot perform a Holding Action in a scene of safety or momentum. Preservation only matters when it costs you something.`)), /*#__PURE__*/React.createElement("p", null, inline(`Describe an act of human preservation:`)), /*#__PURE__*/React.createElement("p", null, inline(`•Comfort someone who can't help you`)), /*#__PURE__*/React.createElement("p", null, inline(`•Honor a promise when breaking it would be easier`)), /*#__PURE__*/React.createElement("p", null, inline(`•Maintain a ritual that serves no tactical purpose`)), /*#__PURE__*/React.createElement("p", null, inline(`•Write someone's name when they're already gone`)), /*#__PURE__*/React.createElement("p", null, inline(`•Apologize when it won't change the outcome`)), /*#__PURE__*/React.createElement("p", null, inline(`Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + SYNC or OBSERVE (your choice).`)), /*#__PURE__*/React.createElement("p", null, inline(`10+`), /*#__PURE__*/React.createElement("i", null, inline(``)), inline(` Choose one: Reduce Paradox by 1, OR restore 1 Coherence.`)), /*#__PURE__*/React.createElement("div", {
     className: "al-fragment__sign"
@@ -203,9 +203,7 @@ function AlanCh3({
     className: "al-subsection"
   }, inline(`REPREIVAL RITUAL (IN ORDER)`)), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`1. Chronicle.`)), inline(` Write in your Log: where and when you are, what happened, one significant choice you made, one thing you lost or changed. Don't pretty it up. If you write enough, you might trick your brain into thinking you're real. Effect: gain `), /*#__PURE__*/React.createElement("b", null, inline(`+1 Coherence`)), inline(`.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`2. Fix the Anchor.`)), inline(` If your `), /*#__PURE__*/React.createElement("b", null, inline(`Anchor`)), inline(` took Stress, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6 + SYNC`)), inline(` (Difficulty `), /*#__PURE__*/React.createElement("b", null, inline(`10`)), inline(`).`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("ul", {
     className: "al-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: clear all Anchor Stress. Good as new.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: clear 1 Stress. You patched one hole.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`: no Stress cleared. It's still junk.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`3. Scavenge Assets.`)), inline(` For each Stressed Asset, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6 + relevant Mode`)), inline(`.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("ul", {
-    className: "al-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: clear all Stress. Working again.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: clear 1 Stress. Working mostly.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`: still trash. If an Asset is fully broken, spend the whole Repreival fixing it or find a replacement.`)))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: clear all Anchor Stress. Good as new.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: clear 1 Stress. You patched one hole.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`: no Stress cleared. It's still junk.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`3. Scavenge Assets.`)), inline(` For each Stressed Asset, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6 + relevant Mode`)), inline(`.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "alan-3-06",
     label: "OPERATIONAL PROCEDURES · spread 6"
   }, /*#__PURE__*/React.createElement(AlPage, {
@@ -214,7 +212,9 @@ function AlanCh3({
     pageNum: basePage + 10,
     coordStamp: "[LOG // ENTRY_003]",
     label: `OPERATIONAL PROCEDURES · p.${basePage + 10}`
-  }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`4. Let It Rot.`)), inline(` Your oldest Active `), /*#__PURE__*/React.createElement("b", null, inline(`Scar`)), inline(` fades. Your oldest Fading Scar vanishes and leaves a `), /*#__PURE__*/React.createElement("b", null, inline(`Mutation`)), inline(` behind. Your `), /*#__PURE__*/React.createElement("b", null, inline(`Core Scar`)), inline(` never fades. Create new Scars for significant events. You can't stop the rot. You can only watch it.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`5. Cool Down (Optional).`)), inline(` Try to lower your `), /*#__PURE__*/React.createElement("b", null, inline(`Paradox`)), inline(`, or don't.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("ul", {
+    className: "al-list"
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: clear all Stress. Working again.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: clear 1 Stress. Working mostly.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`: still trash. If an Asset is fully broken, spend the whole Repreival fixing it or find a replacement.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`4. Let It Rot.`)), inline(` Your oldest Active `), /*#__PURE__*/React.createElement("b", null, inline(`Scar`)), inline(` fades. Your oldest Fading Scar vanishes and leaves a `), /*#__PURE__*/React.createElement("b", null, inline(`Mutation`)), inline(` behind. Your `), /*#__PURE__*/React.createElement("b", null, inline(`Core Scar`)), inline(` never fades. Create new Scars for significant events. You can't stop the rot. You can only watch it.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`5. Cool Down (Optional).`)), inline(` Try to lower your `), /*#__PURE__*/React.createElement("b", null, inline(`Paradox`)), inline(`, or don't.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("ul", {
     className: "al-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Temporal Grounding:`)), inline(` Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6 + SYNC`)), inline(` (Difficulty `), /*#__PURE__*/React.createElement("b", null, inline(`10`)), inline(`). On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: reduce Paradox by `), /*#__PURE__*/React.createElement("b", null, inline(`2`)), inline(`. On `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: reduce by `), /*#__PURE__*/React.createElement("b", null, inline(`1`)), inline(`.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Ritual Purification:`)), inline(` Reduce Paradox by `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(`. The cost depends on method, and a Faction's "cleaning" costs you a piece of your soul.`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Run hot.`)), inline(` See what happens.`)))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6. Next Target.`)), inline(` Answer in your Log: `), /*#__PURE__*/React.createElement("i", null, inline(`What am I trying to break next?`)), inline(` Write it down. If you don't have a target, you're just waiting to die.`))), /*#__PURE__*/React.createElement(AlanBody, null, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`7. Reset Violence Count to 0.`))))), /*#__PURE__*/React.createElement(AlPage, {
     side: "recto",

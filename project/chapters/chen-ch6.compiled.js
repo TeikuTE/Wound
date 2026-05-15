@@ -110,7 +110,12 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`(`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 13`)), inline(`)`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Add modifiers for relevant Assets (+1 to +2), actions taken during Phase 2 (+1 per successful scene), and desperate sacrifices (burning Coherence, marking Asset Stress).`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Add modifiers for relevant Assets (+1 to +2), actions taken during Phase 2 (+1 per successful scene), and desperate sacrifices (burning Coherence, marking Asset Stress).`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Crisis Management",
+    pageNum: basePage + 5,
+    label: `CRISIS MANAGEMENT · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`For Desynchronization and Paradox Crises:`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -136,12 +141,7 @@ function ChenCh6({
     className: "oracle-desc"
   }, inline(`Memory, Asset, or Anchor Strength.`))))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Crisis consumes you. Choose: Transform (retire Echo, become something else) or Dissolve (game over).`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Crisis Management",
-    pageNum: basePage + 5,
-    label: `CRISIS MANAGEMENT · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Crisis consumes you. Choose: Transform (retire Echo, become something else) or Dissolve (game over).`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`IDENTITY CRISIS RESOLUTION (DIFFICULTY 13)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -171,13 +171,7 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Dissolution. The final tether snaps. Your Echo dissolves into the timestream. Write your final Chronicle entry as fragments — not sentences, just images and half-words, fading at the edges. Then close the book.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Faction Interventions (Paradox `)), inline(`10+`), /*#__PURE__*/React.createElement("b", null, inline(`, Phase 2)`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`When Paradox reaches `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` and you enter Crisis, one Faction intervenes during Phase 2. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(` or choose based on narrative: 1 = Church, 2 = Authority, 3 = Scionfall, 4 = Chronoclasts. Or roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(` twice for Factional War — two Factions fight over you.`))), /*#__PURE__*/React.createElement("aside", {
-    className: "el-reflection"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Of the four Interventions below, I have personally witnessed three. The Scionfall I have only ever reconstructed from witness testimony, because anyone present long enough to give me a useful account did not survive being present. Treat the Scionfall section accordingly. The numbers are my best estimate. The descriptions are everyone else's.`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-sign"
-  }, "\u2014 EC")))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Faction Interventions (Paradox `)), inline(`10+`), /*#__PURE__*/React.createElement("b", null, inline(`, Phase 2)`)))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-6-04",
     label: "CRISIS MANAGEMENT · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -185,7 +179,13 @@ function ChenCh6({
     runHead: "Crisis Management",
     pageNum: basePage + 6,
     label: `CRISIS MANAGEMENT · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`When Paradox reaches `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` and you enter Crisis, one Faction intervenes during Phase 2. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(` or choose based on narrative: 1 = Church, 2 = Authority, 3 = Scionfall, 4 = Chronoclasts. Or roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(` twice for Factional War — two Factions fight over you.`))), /*#__PURE__*/React.createElement("aside", {
+    className: "el-reflection"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Of the four Interventions below, I have personally witnessed three. The Scionfall I have only ever reconstructed from witness testimony, because anyone present long enough to give me a useful account did not survive being present. Treat the Scionfall section accordingly. The numbers are my best estimate. The descriptions are everyone else's.`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-sign"
+  }, "\u2014 EC")), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`CHURCH INTERVENTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -231,7 +231,12 @@ function ChenCh6({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Trapped for `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(` iterations. Each iteration, one Active Memory becomes Fading. Then escape.`))))), /*#__PURE__*/React.createElement("div", {
+  }, inline(`Trapped for `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(` iterations. Each iteration, one Active Memory becomes Fading. Then escape.`)))))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Crisis Management",
+    pageNum: basePage + 7,
+    label: `CRISIS MANAGEMENT · p.${basePage + 7}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Fully looped. Quick Resolution: lose all Active Memories from the scene (become Fading), reduce Paradox by `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(`, loop releases you. Or play the Vignette (Appendix E: Loop Containment Protocol).`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -255,12 +260,7 @@ function ChenCh6({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Partially affected. Lose 2 Coherence, one Fading Memory becomes Lost. Herald offers one more time, then leaves.`)))))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Crisis Management",
-    pageNum: basePage + 7,
-    label: `CRISIS MANAGEMENT · p.${basePage + 7}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, inline(`Partially affected. Lose 2 Coherence, one Fading Memory becomes Lost. Herald offers one more time, then leaves.`))))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Succumbing. Accept cessation (game ends peacefully), OR spend 3 Coherence + invoke Locked Memory to resist (gain Scar: Hollow Moments), OR play the Vignette (Appendix E: The Nullwave Protocol).`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -286,7 +286,15 @@ function ChenCh6({
     className: "oracle-desc"
   }, inline(`Escape but contaminated. Gain +2 Paradox, suffer -1 Coherence from exposure.`))))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Lost in decoherence. Quick Resolution: lose `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(` Coherence, gain Scar: Probability Sight, Chronoclast loses interest. Or play the Vignette (Appendix E: Decoherence Bloom Survival).`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Lost in decoherence. Quick Resolution: lose `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(` Coherence, gain Scar: Probability Sight, Chronoclast loses interest. Or play the Vignette (Appendix E: Decoherence Bloom Survival).`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-6-05",
+    label: "CRISIS MANAGEMENT · spread 5"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Crisis Management",
+    pageNum: basePage + 8,
+    label: `CRISIS MANAGEMENT · p.${basePage + 8}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`WHEN TWO CRISES COLLIDE`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -304,15 +312,7 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Phase 3: Difficulty increases to 12 for all resolution rolls. The`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Locked Memory bonus still applies.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-6-05",
-    label: "CRISIS MANAGEMENT · spread 5"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Crisis Management",
-    pageNum: basePage + 8,
-    label: `CRISIS MANAGEMENT · p.${basePage + 8}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Locked Memory bonus still applies.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Results on a Compound Crisis:`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -340,7 +340,12 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Dissolution or Terminal Transformation. No partial options.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A Compound Crisis means the Chronoverse has decided you are not a nuisance. You are a problem.`))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A Compound Crisis means the Chronoverse has decided you are not a nuisance. You are a problem.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Crisis Management",
+    pageNum: basePage + 9,
+    label: `CRISIS MANAGEMENT · p.${basePage + 9}`
+  }, /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`A point I should have raised earlier. When causality attacks you from more than one direction, such as hitting Breach Paradox and Crisis Coherence, accruing multiple Faction Marks, you will have a difficult time maintaining. The deck is quantitatively stacked against you.`)), /*#__PURE__*/React.createElement("p", null, inline(`The only way out is to reassess the choices you've deferred. Accept an Offer. Burn your Locked Memory. Take the Holding Action. Allow a Mutation.`)), /*#__PURE__*/React.createElement("p", null, inline(`Echoes who refuse all options will not be able to roll their way out.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
@@ -350,12 +355,7 @@ function ChenCh6({
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`To the reader who has been wondering.`)), /*#__PURE__*/React.createElement("p", null, inline(`Alan and I were colleagues. Briefly. We did not part on good terms.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
-  }, "\u2014 EC")), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Superesse.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Crisis Management",
-    pageNum: basePage + 9,
-    label: `CRISIS MANAGEMENT · p.${basePage + 9}`
-  })));
+  }, "\u2014 EC")), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Superesse.`))))));
 }
 ChenCh6.pages = 10;
 Object.assign(window, {

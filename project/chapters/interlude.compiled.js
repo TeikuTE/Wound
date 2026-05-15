@@ -70,14 +70,14 @@ function PlayingBothInterlude({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The person or place you held onto longest is now something you can deploy.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`YOUR FINAL PARADOX SCORE BECOMES YOUR STARTING PARADOX IN EMIT.`)))), /*#__PURE__*/React.createElement("div", {
-    className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You don't begin emiT clean. You begin it with the contamination you accumulated trying to stay whole.`)))), /*#__PURE__*/React.createElement(IlPage, {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`YOUR FINAL PARADOX SCORE BECOMES YOUR STARTING PARADOX IN EMIT.`))))), /*#__PURE__*/React.createElement(IlPage, {
     side: "recto",
     showTexture: false,
     pageNum: basePage + 1,
     label: `PLAYING BOTH · p.${basePage + 1}`
   }, /*#__PURE__*/React.createElement("div", {
+    className: "interlude-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You don't begin emiT clean. You begin it with the contamination you accumulated trying to stay whole.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`YOU BEGIN WITH ONE ADDITIONAL MUTATION: REMEMBERS WHEN PRESERVATION MATTERED.`)))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"

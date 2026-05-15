@@ -2826,9 +2826,7 @@ Chen's favorite. She thinks seeing probability makes you wise. Once you can see 
 
 Your memories remember themselves. You recall recalling. Your nostalgia has nostalgia. Your mind is an Escher construct.
 
-**Level 1 ○○○ Access Fading Memories with full**
-
-clarity once per session without spending Coherence. +1 ENDURE when resisting memory loss.
+Level 1 ○○○ Access Fading Memories with full clarity once per session without spending Coherence. +1 ENDURE when resisting memory loss.
 
 - **Level 2 ○○○○** — Loop memories — replay them in real-time as if experiencing fresh. +2 ENDURE. Once per session, use a Lost Memory as if it were Active for one roll only. Cost: gain a permanent Scar afterward.
 
@@ -2850,9 +2848,7 @@ You feel the universe's immune response. Paradox whispers to you in the voice of
 
 - **Level 3 ○○○○○** — Harvest Paradox — store contradictions in your body. +3 OBSERVE. Absorb up to 3 Paradox from your track into the Asset's Stress boxes. When released (mark all Stress), spend stored Paradox as raw temporal energy — each point grants +2 to one roll or powers specialized Chrono-Tech.
 
-**Stress Effect: stored Paradox leaks. Reality**
-
-glitches. NPCs forget conversations mid- sentence.
+**Stress Effect: stored Paradox leaks. Reality** glitches. NPCs forget conversations mid- sentence.
 
 **[ALAN]**
 
@@ -2904,13 +2900,9 @@ Expertise from your home time that persists across displacement. Your PhD, your 
 
 - **Level 1 ○○○** — Permanent +2 bonus to any action directly related to your Origin Era's technology, culture, or history.
 
-**Level 2 ○○○○ Introduce Origin Era knowledge**
+Level 2 ○○○○ Introduce Origin Era knowledge to other timelines carefully. +2 OBSERVE or SYNC when teaching or sharing. +1 to Paradox reduction when working to minimize anachronistic contamination.
 
-to other timelines carefully. +2 OBSERVE or SYNC when teaching or sharing. +1 to Paradox reduction when working to minimize anachronistic contamination.
-
-**Level 3 ○○○○○ Manifest Origin Era**
-
-knowledge as physical reality. +3 bonus. Once per session, create an object or technique from your home time that shouldn't exist in the current era — it lasts one scene, then fades.
+Level 3 ○○○○○ Manifest Origin Era knowledge as physical reality. +3 bonus. Once per session, create an object or technique from your home time that shouldn't exist in the current era — it lasts one scene, then fades.
 
 **Cost: mark all Stress, gain +1 Paradox. Stress**
 
@@ -3673,9 +3665,7 @@ I've seen Church rituals work. Watched them stabilize collapsing timelines throu
 
 **CORE DOCTRINE**
 
-**Faith is the Collapse Function. Reality exists as**
-
-uncollapsed waveform — infinite screaming possibility. Only focused, coherent belief collapses it into stable singular timeline. The strongest emotions are pain and trauma. Therefore: quantized suffering is the perfect fuel for temporal stability. The Sacred Second: a mythical moment of perfect temporal stability they're trying to reach or create. Requires absolute unified belief from all Echoes, powered by ritualized suffering.
+Faith is the Collapse Function. Reality exists as uncollapsed waveform — infinite screaming possibility. Only focused, coherent belief collapses it into stable singular timeline. The strongest emotions are pain and trauma. Therefore: quantized suffering is the perfect fuel for temporal stability. The Sacred Second: a mythical moment of perfect temporal stability they're trying to reach or create. Requires absolute unified belief from all Echoes, powered by ritualized suffering.
 
 **HIERARCHY**
 
@@ -3683,9 +3673,7 @@ Shepherds — recruitment forces. They offer purpose to suffering. They tell you
 
 **RITUALS**
 
-**The Catechism Pulse: repetitive trauma**
-
-designed to break your waveform into component frequencies, then rebuild and repurpose according to Church doctrine. Harmonic Crucifixion: binding an Echo in causal contradiction, forcing them to relive traumatic failure on loop until the emotional resonance can be harvested. Lockstep Binding: the final ritual — reduces an Echo's entropy to near-zero. The result: calm, cold, utterly stable. No longer human. Perfectly obedient.
+The Catechism Pulse: repetitive trauma designed to break your waveform into component frequencies, then rebuild and repurpose according to Church doctrine. Harmonic Crucifixion: binding an Echo in causal contradiction, forcing them to relive traumatic failure on loop until the emotional resonance can be harvested. Lockstep Binding: the final ritual — reduces an Echo's entropy to near-zero. The result: calm, cold, utterly stable. No longer human. Perfectly obedient.
 
 **WHAT THEY WANT FROM YOU**
 
@@ -3699,17 +3687,11 @@ contradictions are valuable fuel. They'll extract Paradox whether you consent or
 
 **HOW TO DEAL WITH THEM**
 
-**Resist: High ENDURE required. The Church**
+Resist: High ENDURE required. The Church specializes in breaking wills. Their methods are patient and escalating. Negotiate: Possible in rare instances if you offer alternative value — information, a specific service, or access to another Echo.
 
-specializes in breaking wills. Their methods are patient and escalating. Negotiate: Possible in rare instances if you offer alternative value — information, a specific service, or access to another Echo.
+Escape: Difficult. They are organized across every era and century. They do not forget who they've marked.
 
-**Escape: Difficult. They are organized across**
-
-every era and century. They do not forget who they've marked.
-
-**Join: Mechanically viable. Gain protection,**
-
-resources, community. Cost: your suffering becomes their fuel. You gradually lose autonomy as your waveform is stabilized — controlled.
+Join: Mechanically viable. Gain protection, resources, community. Cost: your suffering becomes their fuel. You gradually lose autonomy as your waveform is stabilized — controlled.
 
 **The Loop Authority**
 
@@ -3743,13 +3725,9 @@ Archivists — process normalized data, determine which timeline versions are co
 
 **METHODS**
 
-**Iterative Waveform Normalization: apply a**
+Iterative Waveform Normalization: apply a convolution filter repeatedly to your waveform. Each iteration, sharp unique features smooth out. After enough cycles, you're unrecognizable.
 
-convolution filter repeatedly to your waveform. Each iteration, sharp unique features smooth out. After enough cycles, you're unrecognizable.
-
-**Clone Loops: physical manifestation of IWN. You**
-
-repeat the same moments endlessly, each repetition making you slightly more average. Eventually you become the statistical median of all possible yous.
+Clone Loops: physical manifestation of IWN. You repeat the same moments endlessly, each repetition making you slightly more average. Eventually you become the statistical median of all possible yous.
 
 **WHAT THEY WANT FROM YOU**
 
@@ -3759,9 +3737,7 @@ Paradox **4-6**: Voluntary correction — they offer to smooth out your timeline
 
 Resist: Generate Paradox inside the loop. Contradiction is poison to their normalization process. The more noise you create, the harder you are to average out.
 
-**Negotiate: Impossible. They don't recognize**
-
-individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're not you anymore. You're a functioning Archive component.
+Negotiate: Impossible. They don't recognize individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're not you anymore. You're a functioning Archive component.
 
 **The Scionfall Directive**
 
@@ -3795,17 +3771,13 @@ If time is pain, then mercy is cessation. Displacement causes suffering. Time ca
 
 Heralds — gentle, kind, exhausted; offer cessation as a gift; never force; always sad when refused
 
-**Shepherds — perform Graceful Severance**
-
-rituals; peaceful dissolution of waveforms Architects — design and deploy Nullwave emissions; create localized entropy fields The Silence — those who've achieved partial cessation; barely perceptible; waiting
+Shepherds — perform Graceful Severance rituals; peaceful dissolution of waveforms Architects — design and deploy Nullwave emissions; create localized entropy fields The Silence — those who've achieved partial cessation; barely perceptible; waiting
 
 **METHODS**
 
 Graceful Severance: painless ritual that decoheres your waveform. You simply stop. No violence. No suffering. Just a gentle fade to zero. Nullwave Emissions: entropy field that drains emotional mass from the local area. Colors fade.
 
-**Sounds dampen. Meaning erodes. Creates**
-
-overwhelming desire to cease.
+Sounds dampen. Meaning erodes. Creates overwhelming desire to cease.
 
 **WHAT THEY WANT FROM YOU**
 
@@ -3813,9 +3785,7 @@ At any Paradox level: consent. They want you to choose cessation. They'll wait. 
 
 **HOW TO DEAL WITH THEM**
 
-**Resist: Requires constant emotional**
-
-intensity. Generate high emotional mass (μ — passion, rage, love, fierce curiosity. The Nullwave can't drain what burns too bright. Negotiate: They're always negotiating. Every conversation is a recruitment
+Resist: Requires constant emotional intensity. Generate high emotional mass (μ — passion, rage, love, fierce curiosity. The Nullwave can't drain what burns too bright. Negotiate: They're always negotiating. Every conversation is a recruitment
 
 **attempt. Kind. Patient. Terrifying in their**
 
@@ -3855,9 +3825,7 @@ Time is art — remix it or rot. A paradox is just a punchline. True beauty lies
 
 **HIERARCHY**
 
-**Loose collective. No real hierarchy. Organized**
-
-chaos. Provocateurs — identify boring stable timelines and introduce disruption Remixers — active saboteurs, create Paradox for aesthetic reasons Conductors — orchestrate complex multi- timeline disruptions, treat causality as instrument The Avant-Garde — most skilled and most unstable; can perceive multiple timeline branches simultaneously
+Loose collective. No real hierarchy. Organized chaos. Provocateurs — identify boring stable timelines and introduce disruption Remixers — active saboteurs, create Paradox for aesthetic reasons Conductors — orchestrate complex multi- timeline disruptions, treat causality as instrument The Avant-Garde — most skilled and most unstable; can perceive multiple timeline branches simultaneously
 
 **WHAT THEY WANT FROM YOU**
 
@@ -3871,17 +3839,11 @@ Resist: Impossible to predict. Roll **d6** when refusing a Chronoclast: on **1-2
 
 the situation worse; on **5-6**, they find your refusal interesting and escalate dramatically to see what you do.
 
-**Negotiate: Always possible. They love**
+Negotiate: Always possible. They love deals, games, creative solutions. But they're tricksters — terms always have ironic twists. Read the fine print twice.
 
-deals, games, creative solutions. But they're tricksters — terms always have ironic twists. Read the fine print twice.
+Escape: Not usually necessary. They lose interest quickly. Unless you're fascinating — then you're trapped in their attention until you do something boring or catastrophic enough to satisfy them.
 
-**Escape: Not usually necessary. They lose**
-
-interest quickly. Unless you're fascinating — then you're trapped in their attention until you do something boring or catastrophic enough to satisfy them.
-
-**Join: Not formal membership. More like**
-
-collaborative chaos. They give you tools, you create beautiful disasters, everyone applauds. Consequences are your problem. But the art — the art is worth it.
+Join: Not formal membership. More like collaborative chaos. They give you tools, you create beautiful disasters, everyone applauds. Consequences are your problem. But the art — the art is worth it.
 
 **FACTIONAL RELATIONSHIPS**
 

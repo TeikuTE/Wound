@@ -265,11 +265,7 @@ function AppendixE({
     className: "el-subsection"
   }, inline(`Chronoclasts: Decoherence Bloom Survival`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A Chronoclast has detonated a Time Bomb. Local reality has entered superposition — multiple contradictory states existing simultaneously. You're lost in the chaos. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(` to determine the decoherence:`))), /*#__PURE__*/React.createElement("ul", {
-    className: "el-list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`1`)), inline(` = Gravity Reversal (everything falls upward)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`2`)), inline(` = Temporal Viscosity (time flows like molasses)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`3`)), inline(` = Language Inversion (everyone speaks backwards)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`4`)), inline(` = Object Phasing (solid matter becomes permeable)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`5`)), inline(` = Causal Chaos (actions have random or delayed effects)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`6`)), inline(` = Quantum Multiplication (everyone splits into 3 simultaneous versions)`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Navigation: each action, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`):`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A Chronoclast has detonated a Time Bomb. Local reality has entered superposition — multiple contradictory states existing simultaneously. You're lost in the chaos. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(` to determine the decoherence:`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-e-03",
     label: "CAPTIVITY VIGNETTES · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -277,7 +273,11 @@ function AppendixE({
     runHead: "Captivity Vignettes",
     pageNum: basePage + 4,
     label: `CAPTIVITY VIGNETTES · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("ul", {
+    className: "el-list"
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`1`)), inline(` = Gravity Reversal (everything falls upward)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`2`)), inline(` = Temporal Viscosity (time flows like molasses)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`3`)), inline(` = Language Inversion (everyone speaks backwards)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`4`)), inline(` = Object Phasing (solid matter becomes permeable)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`5`)), inline(` = Causal Chaos (actions have random or delayed effects)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`6`)), inline(` = Quantum Multiplication (everyone splits into 3 simultaneous versions)`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Navigation: each action, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`):`))), /*#__PURE__*/React.createElement("div", {
     className: "el-resolution"
   }, /*#__PURE__*/React.createElement("div", {
     className: "resolution-row"
