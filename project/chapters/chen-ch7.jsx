@@ -51,8 +51,7 @@ function ChenCh7({ tweaks, basePage = 1 }) {
         <aside className="el-reflection"><p>{inline(`Anchor Strength does not decrease passively. It decreases when you make a choice that costs you your origin. I have watched Echoes give it away in installments small enough that they did not register the transaction until the Anchor was gone.`)}</p><div className="el-sign">— EC</div></aside>
       </ChPage>
       <ChPage side="recto" runHead={"Advanced Systems"} pageNum={basePage + 5} label={`ADVANCED SYSTEMS · p.${basePage + 5}`}>
-        <h4 className="el-subsection">{inline(`Asset Management`)}</h4>
-        <h4 className="el-subsection">{inline(`ASSET EVOLUTION`)}</h4>
+        <h4 className="el-subsection">{inline(`Asset Management ASSET EVOLUTION`)}</h4>
         <div className="el-body"><p>{inline(`Assets can improve with use (Levels 1-3). To advance an Asset:`)}</p></div>
         <div className="el-body"><p>{inline(`The Asset must be referenced in 3 significant Chronicle entries`)}</p></div>
         <div className="el-body"><p>{inline(`Spend 3 Coherence`)}</p></div>
@@ -66,11 +65,11 @@ function ChenCh7({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`You start with 2 Assets. During a campaign, you may gain additional Asset slots (up to a maximum of 5 total) through significant narrative events — recovering lost Chrono-Tech in the field, forging a bond with an NPC that crystallizes into a Persistent Connection, or unlocking a new Echo Trait after surviving a Crisis.`)}</p></div>
         <div className="el-body"><p>{inline(`Mechanical cost: spend 5 Coherence during Downtime and write a Chronicle entry that justifies the acquisition — what happened, what changed, why this Asset now exists in your world. The new Asset begins at Level 1 with 3 Stress boxes.`)}</p></div>
         <div className="el-body"><p>{inline(`Alternatively, a Faction Agent may offer a new Asset as part of a trade — usually unstable, usually with a catch, always tempting.`)}</p></div>
+        <AlanIntrusionInline tier={tier}><p>{inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`)}</p></AlanIntrusionInline>
       </ChPage>
     </Spread>
     <Spread id="chen-7-04" label={"ADVANCED SYSTEMS · spread 4"}>
       <ChPage side="verso" runHead={"Advanced Systems"} pageNum={basePage + 6} label={`ADVANCED SYSTEMS · p.${basePage + 6}`}>
-        <AlanIntrusionInline tier={tier}><p>{inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`)}</p></AlanIntrusionInline>
         <div className="el-body"><p>{inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`)}</p></div>
         <div className="el-body"><p>{inline(`To repair, roll `)}<b>{inline(`2d6`)}</b>{inline(` + OBSERVE (for Chrono-Tech) or ENDURE (for Echo Traits):`)}</p></div>
         <div className="el-body"><p><b>{inline(`10+`)}</b>{inline(` Clear all Stress. Asset functions perfectly.`)}</p></div>

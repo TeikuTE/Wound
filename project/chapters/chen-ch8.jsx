@@ -32,8 +32,7 @@ function ChenCh8({ tweaks, basePage = 1 }) {
     </Spread>
     <Spread id="chen-8-03" label={"LONG-TERM PLAY · spread 3"}>
       <ChPage side="verso" runHead={"Long-Term Play"} pageNum={basePage + 4} label={`LONG-TERM PLAY · p.${basePage + 4}`}>
-        <h4 className="el-subsection">{inline(`Evolving Threats`)}</h4>
-        <h4 className="el-subsection">{inline(`FACTION ESCALATION`)}</h4>
+        <h4 className="el-subsection">{inline(`Evolving Threats FACTION ESCALATION`)}</h4>
         <div className="el-body"><p>{inline(`As Paradox rises, Faction interference increases: Shadow (0-3) — unaware of you. Flux (4-6) — Scouts observe. Anomaly (7-9) — Agents intervene. Breach (10+) — active hunting, capture attempts, violence.`)}</p></div>
         <h4 className="el-subsection">{inline(`TIMELINE INSTABILITY`)}</h4>
         <div className="el-body"><p>{inline(`The more you interfere, the more unstable your surroundings: anachronisms appearing, people remembering multiple versions of events, physical impossibilities manifesting, other Echoes drawn to your disturbance.`)}</p></div>

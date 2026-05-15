@@ -72,8 +72,7 @@ function AppendixF({ tweaks, basePage = 1 }) {
       <ChPage side="verso" runHead={"Examples Of Play"} pageNum={basePage + 4} label={`EXAMPLES OF PLAY · p.${basePage + 4}`}>
         <div className="el-body"><p>{inline(`The Authority's Offer: normalize one Active Memory (bonus drops from `)}<b>{inline(`+2`)}</b>{inline(` to `)}<b>{inline(`+0`)}</b>{inline(`, emotional context erased) → Reduce Paradox by `)}<b>{inline(`2`)}</b>{inline(`, clear `)}<b>{inline(`1 Stress`)}</b>{inline(` from one Asset. Sarah's options: Accept, Refuse, or Drive Off. She refuses. "No. I'm not letting you erase Elena. I'm not letting you normalize any of this."`)}</p></div>
         <div className="el-body"><p>{inline(`Consequence: they Mark her (`)}<b>{inline(`-1`)}</b>{inline(` to Navigation until next Downtime), and begin preparing a Clone Loop (`)}<b>{inline(`Difficulty 8`)}</b>{inline(` instead of 10 next time Paradox reaches `)}<b>{inline(`10+`)}</b>{inline(`).`)}</p></div>
-        <h4 className="el-subsection">{inline(`CHRONICLE NOTE: MARKED — LOOP`)}</h4>
-        <h4 className="el-subsection">{inline(`AUTHORITY`)}</h4>
+        <h4 className="el-subsection">{inline(`CHRONICLE NOTE: MARKED — LOOP AUTHORITY`)}</h4>
         <div className="el-body"><p>{inline(`They're preparing a Clone Loop specifically for me. `)}<b>{inline(`Difficulty 8`)}</b>{inline(` to trap me (reduced from standard 10). Next time Authority would appear, they appear automatically. I kept Elena's birthday. I kept everything. Ask me if it was worth it when I'm in the Loop.`)}</p></div>
         <hr className="el-section-rule" />
         <h4 className="el-subsection">{inline(`Example 5: Downtime`)}</h4>

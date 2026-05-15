@@ -152,8 +152,7 @@ function AppendixB({ tweaks, basePage = 1 }) {
         <ul className="el-list"><li><b>{inline(`Level 1 ○○○`)}</b>{inline(` — +1 SYNC when interacting with the Connection. Gain advantage on social rolls with descendants or iterations of the connected element.`)}</li></ul>
         <ul className="el-list"><li><b>{inline(`Level 2 ○○○○`)}</b>{inline(` — Reliably locate iterations of the Connection in new eras. +2 SYNC. Once per session, call upon the Connection for aid — shelter, information, resources.`)}</li></ul>
         <ul className="el-list"><li><b>{inline(`Level 3 ○○○○○`)}</b>{inline(` — The Connection exists across all timelines simultaneously. +3 SYNC. Communicate with past and future iterations.`)}</li></ul>
-        <div className="el-body"><p><b>{inline(`Cost: each communication marks Stress. The`)}</b></p></div>
-        <div className="el-body"><p>{inline(`Connection becomes aware they exist across time — which has consequences.`)}</p></div>
+        <div className="el-body"><p><b>{inline(`Cost: each communication marks Stress.`)}</b>{inline(` The Connection becomes aware they exist across time — which has consequences.`)}</p></div>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`There's a woman. I keep meeting her. Different names, different faces, but always her. The eyes give it away. 1888 London: factory worker named Mary. 1640 Florence: nun named Sister Lucia. 2179 Mars: engineer named Mir. Level 3 let me talk to all of them at once. Mir asked Mary what the sky looked like. Mary asked Lucia if God was real. Lucia asked me if love survived time. I didn't answer. They all remember each other now. They know they're echoes of the same pattern. I don't know if I saved them or damned them.`)}</p><div className="el-alan-sign">—AR</div></aside>
       </ChPage>
       <ChPage side="recto" runHead={"Asset Catalogs"} pageNum={basePage + 15} label={`ASSET CATALOGS · p.${basePage + 15}`}>

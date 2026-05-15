@@ -151,9 +151,7 @@ function AppendixF({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Consequence: they Mark her (`), /*#__PURE__*/React.createElement("b", null, inline(`-1`)), inline(` to Navigation until next Downtime), and begin preparing a Clone Loop (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 8`)), inline(` instead of 10 next time Paradox reaches `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`).`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`CHRONICLE NOTE: MARKED — LOOP`)), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`AUTHORITY`)), /*#__PURE__*/React.createElement("div", {
+  }, inline(`CHRONICLE NOTE: MARKED — LOOP AUTHORITY`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`They're preparing a Clone Loop specifically for me. `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 8`)), inline(` to trap me (reduced from standard 10). Next time Authority would appear, they appear automatically. I kept Elena's birthday. I kept everything. Ask me if it was worth it when I'm in the Loop.`))), /*#__PURE__*/React.createElement("hr", {
     className: "el-section-rule"

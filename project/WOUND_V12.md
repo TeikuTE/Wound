@@ -1474,9 +1474,8 @@ You complete The Return and choose Return Changed — your Anchor binds permanen
 
 — EC
 
-**Asset Management**
+**Asset Management ASSET EVOLUTION**
 
-**ASSET EVOLUTION**
 
 Assets can improve with use (Levels 1-3). To advance an Asset:
 
@@ -1592,9 +1591,8 @@ Goal: document history, preserve what would otherwise be lost. Ongoing play focu
 
 Goal: simply endure as long as possible. High-difficulty mode: start with Anchor Strength 2, forced Displacement every **2-3** scenes, higher Paradox generation. Ends when you finally dissolve, transform, or find unexpected peace.
 
-**Evolving Threats**
+**Evolving Threats FACTION ESCALATION**
 
-**FACTION ESCALATION**
 
 As Paradox rises, Faction interference increases: Shadow (0-3) — unaware of you. Flux (4-6) — Scouts observe. Anomaly (7-9) — Agents intervene. Breach (10+) — active hunting, capture attempts, violence.
 
@@ -2884,9 +2882,7 @@ A specific person, bloodline, place, or institution that recurs across multiple 
 
 - **Level 3 ○○○○○** — The Connection exists across all timelines simultaneously. +3 SYNC. Communicate with past and future iterations.
 
-**Cost: each communication marks Stress. The**
-
-Connection becomes aware they exist across time — which has consequences.
+**Cost: each communication marks Stress.** The Connection becomes aware they exist across time — which has consequences.
 
 **[ALAN]**
 
@@ -3120,9 +3116,8 @@ Roll ERA + LOCATION + ANOMALY + COMPLICATION when Navigation fails, when forced 
 
 **99-00** [PARADOX] — Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive with opposing interventions. Introduce both forces. Do not resolve the contradiction. Mark +1 Paradox immediately.
 
-**Example Interpretations**
+**Example Interpretations EXAMPLE INTERPRETATIONS**
 
-**EXAMPLE INTERPRETATIONS**
 
 How four dice results combine into coherent situations.
 
@@ -4111,9 +4106,8 @@ The Authority's Offer: normalize one Active Memory (bonus drops from **+2** to *
 
 Consequence: they Mark her (**-1** to Navigation until next Downtime), and begin preparing a Clone Loop (**Difficulty 8** instead of 10 next time Paradox reaches **10+**).
 
-**CHRONICLE NOTE: MARKED — LOOP**
+**CHRONICLE NOTE: MARKED — LOOP AUTHORITY**
 
-**AUTHORITY**
 
 They're preparing a Clone Loop specifically for me. **Difficulty 8** to trap me (reduced from standard 10). Next time Authority would appear, they appear automatically. I kept Elena's birthday. I kept everything. Ask me if it was worth it when I'm in the Loop.
 

@@ -356,9 +356,7 @@ function AppendixB({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`Level 3 ○○○○○`)), inline(` — The Connection exists across all timelines simultaneously. +3 SYNC. Communicate with past and future iterations.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Cost: each communication marks Stress. The`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Connection becomes aware they exist across time — which has consequences.`))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Cost: each communication marks Stress.`)), inline(` The Connection becomes aware they exist across time — which has consequences.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`There's a woman. I keep meeting her. Different names, different faces, but always her. The eyes give it away. 1888 London: factory worker named Mary. 1640 Florence: nun named Sister Lucia. 2179 Mars: engineer named Mir. Level 3 let me talk to all of them at once. Mir asked Mary what the sky looked like. Mary asked Lucia if God was real. Lucia asked me if love survived time. I didn't answer. They all remember each other now. They know they're echoes of the same pattern. I don't know if I saved them or damned them.`)), /*#__PURE__*/React.createElement("div", {

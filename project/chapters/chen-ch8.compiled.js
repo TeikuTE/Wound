@@ -89,9 +89,7 @@ function ChenCh8({
     label: `LONG-TERM PLAY · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`Evolving Threats`)), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`FACTION ESCALATION`)), /*#__PURE__*/React.createElement("div", {
+  }, inline(`Evolving Threats FACTION ESCALATION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`As Paradox rises, Faction interference increases: Shadow (0-3) — unaware of you. Flux (4-6) — Scouts observe. Anomaly (7-9) — Agents intervene. Breach (10+) — active hunting, capture attempts, violence.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"

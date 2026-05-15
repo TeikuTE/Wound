@@ -812,9 +812,7 @@ function AppendixC({
     className: "oracle-desc"
   }, inline(`Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive with opposing interventions. Introduce both forces. Do not resolve the contradiction. Mark +1 Paradox immediately.`))))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`Example Interpretations`)), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`EXAMPLE INTERPRETATIONS`)), /*#__PURE__*/React.createElement("div", {
+  }, inline(`Example Interpretations EXAMPLE INTERPRETATIONS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`How four dice results combine into coherent situations.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
