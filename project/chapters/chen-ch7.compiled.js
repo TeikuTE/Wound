@@ -42,30 +42,13 @@ function ChenCh7({
     side: "verso",
     runHead: "Advanced Systems",
     pageNum: basePage + 2,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 28,
-        "text": "The Holding Action is the most honest mechanic in the book. You can refuse the consequence once. Once. Then the bill comes due. I have used it twice this week in real life.",
-        "act": 3,
-        "late": false
-      }]
-    }),
     label: `ADVANCED SYSTEMS · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`THE HOLDING ACTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Once per session, when you would suffer a consequence you cannot afford to bear in this scene, you may declare the Holding Action. The consequence does not vanish. It defers — by exactly one scene, no longer.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 28,
-    act: 3
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "burden",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Once per session, when you would suffer a consequence you cannot afford to bear in this scene, you may declare the Holding Action. The consequence does not vanish. It defers — by exactly one scene, no longer.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Holding Action is not a tool. It is a refusal. You are telling the timeline that this is not the right moment. The timeline accepts this once. It does not forget you asked. The deferred consequence will arrive, intensified, in the scene that follows. You buy yourself the room to handle it on better ground; you do not avoid handling it.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -186,25 +169,26 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Strength above that is gone)`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A Faction Agent's Imposed consequence specifically targets your`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A Faction Agent's Imposed consequence specifically targets your Anchor.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Anchor (this is rare; it will be stated explicitly when it occurs)`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You voluntarily sever an Anchor Connection to gain a mechanical`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`benefit — when you burn the last real thing tethering you to your`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You voluntarily sever an Anchor Connection to gain a mechanical benefit — when you burn the last real thing tethering you to your origin, the cost is permanent.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`origin for short-term survival, the Anchor notices`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You complete The Return and choose Return Changed — your Anchor binds`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`permanently, but at whatever Strength it was when you arrived`))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You complete The Return and choose Return Changed — your Anchor binds permanently, but at whatever Strength it was when you arrived`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Anchor Strength does not decrease passively. It decreases when you make a choice that costs you your origin. I have watched Echoes give it away in installments small enough that they did not register the transaction until the Anchor was gone.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
   }, "\u2014 EC")), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`Asset Management`)), /*#__PURE__*/React.createElement("h4", {
+  }, inline(`Asset Management`))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Advanced Systems",
+    pageNum: basePage + 5,
+    label: `ADVANCED SYSTEMS · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`ASSET EVOLUTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -216,20 +200,7 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Spend a Downtime move`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Provide narrative justification for the growth`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Advanced Systems",
-    pageNum: basePage + 5,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 29,
-        "text": "My watch stopped today. Not the battery. The hands melted into the face. Checked the sheet — Saul's Asset Stress is maxed. The math knew before I did.",
-        "act": 3,
-        "late": false
-      }]
-    }),
-    label: `ADVANCED SYSTEMS · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Provide narrative justification for the growth`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Effect: increase the Asset bonus (+1 →+2 →+3), OR gain an additional capability, OR increase Stress capacity (3 →4 →5 boxes).`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -247,18 +218,17 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Alternatively, a Faction Agent may offer a new Asset as part of a trade — usually unstable, usually with a catch, always tempting.`))), /*#__PURE__*/React.createElement(AlanIntrusionInline, {
     tier: tier
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-7-04",
+    label: "ADVANCED SYSTEMS · spread 4"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Advanced Systems",
+    pageNum: basePage + 6,
+    label: `ADVANCED SYSTEMS · p.${basePage + 6}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 29,
-    act: 3
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "burden",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`To repair, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE (for Chrono-Tech) or ENDURE (for Echo Traits):`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -276,15 +246,7 @@ function ChenCh7({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Clear 2 Stress.`))))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-7-04",
-    label: "ADVANCED SYSTEMS · spread 4"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Advanced Systems",
-    pageNum: basePage + 6,
-    label: `ADVANCED SYSTEMS · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, inline(`Clear 2 Stress.`))))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Clear 1 Stress. Mark +1 Paradox.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -298,9 +260,7 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Repair Asset: see Asset Repair rules above`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Study Era: immerse in the current time period, create a new Memory`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`related to its culture or technology`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Study Era: immerse in the current time period, create a new Memory related to its culture or technology`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Reinforce Anchor: see Anchor Reinforcement above`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

@@ -9,14 +9,13 @@ function ChenCh8({ tweaks, basePage = 1 }) {
     <Spread id="chen-8-opener" label={"LONG-TERM PLAY · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label="LONG-TERM PLAY · opener">
-        <div className="chapter-sigil"><Glyph name="recursion" size="sigil" stage={0} /></div>
         <ChenChapterHead icon="assets/chen-icon-handless-clock.svg" number="VIII" title="Long-Term Play" />
       </ChPage>
     </Spread>
     <Spread id="chen-8-02" label={"LONG-TERM PLAY · spread 2"}>
-      <ChPage side="verso" runHead={"Long-Term Play"} pageNum={basePage + 2} footnotes={<FinderFootnotes notes={[{"n":30,"text":"Campaign structures are good. Not going to use them. Saul and I are on the One True Run now. There is no other version of this campaign.","act":3,"late":false}]} />} label={`LONG-TERM PLAY · p.${basePage + 2}`}>
+      <ChPage side="verso" runHead={"Long-Term Play"} pageNum={basePage + 2} label={`LONG-TERM PLAY · p.${basePage + 2}`}>
         <h4 className="el-subsection">{inline(`Campaign Structures`)}</h4>
-        <div className="el-body el-dropcap" data-firstpara><p>{inline(`Temporal Echoes supports several campaign structures. They're not mutually exclusive — your campaign might move between them as circumstances change.`)}<FootnoteMarker n={30} act={3} /></p><span className="gly-inline-row"><Glyph name="recursion" size="inline" stage={0} /></span></div>
+        <div className="el-body el-dropcap" data-firstpara><p>{inline(`Temporal Echoes supports several campaign structures. They're not mutually exclusive — your campaign might move between them as circumstances change.`)}</p></div>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`I followed every procedure. Every rule. Every preservation protocol in Chen's manual. I maintained Coherence above +5 for two centuries. I Locked my defining memory. I reinforced my Anchor quarterly. I wrote in the Chronicle every single day.`)}</p><p>{inline(`And this morning I read my first entry. The one I wrote on Day 1, right after Displacement. The one where I described my lab, my daughter, my life.`)}</p><p>{inline(`And I didn't recognize it.`)}</p><p>{inline(`Not that I'd forgotten — the mechanics were intact, the memory was still Active. But reading those words felt like reading someone else's diary. The person who wrote that entry cared about those things. The person reading it now... doesn't.`)}</p><p>{inline(`The Chronicle preserved everything Chen said it would.`)}</p><p>{inline(`It just couldn't preserve the person who cared about preserving it.`)}</p><p>{inline(`I think that might be the joke.`)}</p><p>{inline(`(No signature. No date. The handwriting changes halfway through.)`)}</p><div className="el-alan-sign">—AR</div></aside>
         <h4 className="el-subsection">{inline(`THE RETURN (10-15 SESSIONS)`)}</h4>
         <div className="el-body"><p>{inline(`Goal: gather knowledge and resources to attempt a return Navigation. Milestones: increase Anchor Strength to 5, reduce Paradox to 0, acquire specific Chrono-Tech Assets, Lock your defining Memory, make the final Navigation roll (`)}<b>{inline(`Difficulty 13`)}</b>{inline(`+).`)}</p></div>

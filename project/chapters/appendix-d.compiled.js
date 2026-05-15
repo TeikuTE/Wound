@@ -89,15 +89,7 @@ function AppendixD({
     className: "el-subsection"
   }, inline(`The Catechism Pulse: repetitive trauma`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`designed to break your waveform into component frequencies, then rebuild and repurpose according to Church doctrine. Harmonic Crucifixion: binding an Echo in causal contradiction, forcing them to relive traumatic failure on loop until the emotional resonance can be harvested. Lockstep Binding: the final ritual — reduces an Echo's entropy to near-zero. The result: calm, cold, utterly stable. No longer human. Perfectly obedient.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-d-02",
-    label: "THE FACTIONS · spread 2"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "The Factions",
-    pageNum: basePage + 2,
-    label: `THE FACTIONS · p.${basePage + 2}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`designed to break your waveform into component frequencies, then rebuild and repurpose according to Church doctrine. Harmonic Crucifixion: binding an Echo in causal contradiction, forcing them to relive traumatic failure on loop until the emotional resonance can be harvested. Lockstep Binding: the final ritual — reduces an Echo's entropy to near-zero. The result: calm, cold, utterly stable. No longer human. Perfectly obedient.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`WHAT THEY WANT FROM YOU`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -107,7 +99,15 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Paradox `)), inline(`7-9`), /*#__PURE__*/React.createElement("b", null, inline(` (Anomaly): Harvest. Your`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`contradictions are valuable fuel. They'll extract Paradox whether you consent or not. Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` (Breach): Conversion or disposal.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`contradictions are valuable fuel. They'll extract Paradox whether you consent or not. Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` (Breach): Conversion or disposal.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-d-02",
+    label: "THE FACTIONS · spread 2"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "The Factions",
+    pageNum: basePage + 2,
+    label: `THE FACTIONS · p.${basePage + 2}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`HOW TO DEAL WITH THEM`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -127,23 +127,21 @@ function AppendixD({
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Authority treats time as corrupted data`)), /*#__PURE__*/React.createElement("p", null, inline(`requiring correction. Their Iterative Waveform`)), /*#__PURE__*/React.createElement("p", null, inline(`Normalization is mathematically sound — recursive convolution filters do smooth anomalies. Their error is conflating stable with correct. A flattened waveform isn't preserved. It's erased.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
-  }, "\u2014 EC"))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "The Factions",
-    pageNum: basePage + 3,
-    label: `THE FACTIONS · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("aside", {
+  }, "\u2014 EC")), /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Authority doesn't preserve anything. They delete you one iteration at a time until what's left is a perfect, soulless average of nothing. I was in a Clone Loop for 47 iterations. October 1974, Hillcrest, New York. Same month, over and over. Each loop I remembered less. Cared less. Became less. By iteration 30, I couldn't remember why I'd been trying to escape. By iteration 45, I couldn't remember my name. Got out on iteration 47 by doing something catastrophically stupid. Worst of all, they are incredibly boring.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-alan-sign"
-  }, "\u2014AR")), /*#__PURE__*/React.createElement("h4", {
+  }, "\u2014AR"))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "The Factions",
+    pageNum: basePage + 3,
+    label: `THE FACTIONS · p.${basePage + 3}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`CORE DOCTRINE`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`— signal noise. Solution: trap regions in precise`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions — signal noise. Solution: trap regions in precise`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`recursive loops, use iterative normalization to average out deviations until only base intended reality remains.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -153,15 +151,7 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`protocols, trap Echoes in Clone Loops`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Archivists — process normalized data, determine which timeline versions are correct The Algorithm — distributed AI or hive-mind that calculates optimal timeline states; no longer human, if it ever was`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-d-03",
-    label: "THE FACTIONS · spread 3"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "The Factions",
-    pageNum: basePage + 4,
-    label: `THE FACTIONS · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Archivists — process normalized data, determine which timeline versions are correct The Algorithm — distributed AI or hive-mind that calculates optimal timeline states; no longer human, if it ever was`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`METHODS`)), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -175,7 +165,15 @@ function AppendixD({
     className: "el-subsection"
   }, inline(`WHAT THEY WANT FROM YOU`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`4-6`)), inline(`: Voluntary correction — they offer to smooth out your timeline inconsistencies. Painless. Efficient. Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: Mandatory normalization — you're too noisy. They'll loop you until you're quiet. Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: Quarantine and indefinite looping.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`4-6`)), inline(`: Voluntary correction — they offer to smooth out your timeline inconsistencies. Painless. Efficient. Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: Mandatory normalization — you're too noisy. They'll loop you until you're quiet. Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: Quarantine and indefinite looping.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-d-03",
+    label: "THE FACTIONS · spread 3"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "The Factions",
+    pageNum: basePage + 4,
+    label: `THE FACTIONS · p.${basePage + 4}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`HOW TO DEAL WITH THEM`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -183,16 +181,9 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Negotiate: Impossible. They don't recognize`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`— they assimilate. Once normalized, you're`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`not you anymore. You're a functioning Archive component.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "The Factions",
-    pageNum: basePage + 5,
-    label: `THE FACTIONS · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`not you anymore. You're a functioning Archive component.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`The Scionfall Directive`)), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
@@ -207,7 +198,12 @@ function AppendixD({
     className: "el-subsection"
   }, inline(`CORE DOCTRINE`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`If time is pain, then mercy is cessation. Displacement causes suffering. Time causes suffering. Existence in the Chronoverse equals eternal waveform stress. Only solution: engineer a zero-differential universe — absolute silence, zero resonance, perfect peace. Nothing changes. Nothing hurts. Nothing is.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`If time is pain, then mercy is cessation. Displacement causes suffering. Time causes suffering. Existence in the Chronoverse equals eternal waveform stress. Only solution: engineer a zero-differential universe — absolute silence, zero resonance, perfect peace. Nothing changes. Nothing hurts. Nothing is.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "The Factions",
+    pageNum: basePage + 5,
+    label: `THE FACTIONS · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`HIERARCHY`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -215,15 +211,7 @@ function AppendixD({
     className: "el-subsection"
   }, inline(`Shepherds — perform Graceful Severance`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`rituals; peaceful dissolution of waveforms Architects — design and deploy Nullwave emissions; create localized entropy fields The Silence — those who've achieved partial cessation; barely perceptible; waiting`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-d-04",
-    label: "THE FACTIONS · spread 4"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "The Factions",
-    pageNum: basePage + 6,
-    label: `THE FACTIONS · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`rituals; peaceful dissolution of waveforms Architects — design and deploy Nullwave emissions; create localized entropy fields The Silence — those who've achieved partial cessation; barely perceptible; waiting`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`METHODS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -247,16 +235,17 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`compassion.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Escape: Run. They don't chase aggressively`)))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`— but they remember you. They'll find you`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`again when you're weaker, when the Paradox is higher, when you're alone in the middle of the night in some era where nothing makes sense. Accept: Game ends. Character dissolved. Choosing peace over continued suffering is a mechanically valid ending. Some Echoes choose this. It's valid.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Escape: Run. They don't chase aggressively`)))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-d-04",
+    label: "THE FACTIONS · spread 4"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
     runHead: "The Factions",
-    pageNum: basePage + 7,
-    label: `THE FACTIONS · p.${basePage + 7}`
-  }, /*#__PURE__*/React.createElement("h4", {
+    pageNum: basePage + 6,
+    label: `THE FACTIONS · p.${basePage + 6}`
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`— but they remember you. They'll find you again when you're weaker, when the Paradox is higher, when you're alone in the middle of the night in some era where nothing makes sense. Accept: Game ends. Character dissolved. Choosing peace over continued suffering is a mechanically valid ending. Some Echoes choose this. It's valid.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`The Chronoclasts`)), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
@@ -277,14 +266,11 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Loose collective. No real hierarchy. Organized`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`chaos. Provocateurs — identify boring stable timelines and introduce disruption Remixers — active saboteurs, create Paradox for aesthetic reasons Conductors — orchestrate complex multi- timeline disruptions, treat causality as instrument The Avant-Garde — most skilled and most unstable; can perceive multiple timeline branches simultaneously`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-d-05",
-    label: "THE FACTIONS · spread 5"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
+  }, /*#__PURE__*/React.createElement("p", null, inline(`chaos. Provocateurs — identify boring stable timelines and introduce disruption Remixers — active saboteurs, create Paradox for aesthetic reasons Conductors — orchestrate complex multi- timeline disruptions, treat causality as instrument The Avant-Garde — most skilled and most unstable; can perceive multiple timeline branches simultaneously`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
     runHead: "The Factions",
-    pageNum: basePage + 8,
-    label: `THE FACTIONS · p.${basePage + 8}`
+    pageNum: basePage + 7,
+    label: `THE FACTIONS · p.${basePage + 7}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`WHAT THEY WANT FROM YOU`)), /*#__PURE__*/React.createElement("div", {
@@ -305,19 +291,20 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Escape: Not usually necessary. They lose`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`interest quickly. Unless you're fascinating`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`— then you're trapped in their attention`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`interest quickly. Unless you're fascinating — then you're trapped in their attention`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`until you do something boring or catastrophic enough to satisfy them.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Join: Not formal membership. More like`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`collaborative chaos. They give you tools, you create beautiful disasters, everyone applauds. Consequences are your problem. But the art — the art is worth it.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
+  }, /*#__PURE__*/React.createElement("p", null, inline(`collaborative chaos. They give you tools, you create beautiful disasters, everyone applauds. Consequences are your problem. But the art — the art is worth it.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-d-05",
+    label: "THE FACTIONS · spread 5"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
     runHead: "The Factions",
-    pageNum: basePage + 9,
-    label: `THE FACTIONS · p.${basePage + 9}`
+    pageNum: basePage + 8,
+    label: `THE FACTIONS · p.${basePage + 8}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`FACTIONAL RELATIONSHIPS`)), /*#__PURE__*/React.createElement("h4", {
@@ -354,11 +341,16 @@ function AppendixD({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Constant warfare. Ordered univer`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Both try to undo each other's wor`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Both try to undo each other's work.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Scionfall vs. Chronoclasts`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Pity vs. amusement. Scionfall see suffering unnecessarily. Chronocla missing the joke.`))))));
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Pity vs. amusement. Scionfall see suffering unnecessarily. Chronocla missing the joke.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "The Factions",
+    pageNum: basePage + 9,
+    label: `THE FACTIONS · p.${basePage + 9}`
+  })));
 }
 AppendixD.pages = 10;
 Object.assign(window, {

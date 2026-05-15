@@ -51,13 +51,7 @@ function AppendixB({
     label: `ASSET CATALOGS · p.${basePage + 0}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Assets are tools, abilities, and connections that survived your Displacement. Each has three levels and a Stress track that expands with advancement. Push any Asset during a roll by marking 1 Stress to add +1 to your result — but only if the Asset is fictionally present and relevant. emiT players: every time you Push a Chrono-Tech Asset, also roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(`. On `), /*#__PURE__*/React.createElement("b", null, inline(`1-2`)), inline(`, it glitches — choose to gain +1 Paradox or have the Asset unavailable this scene. Passive bonuses never trigger this. See emiT Chapter 2 for full Asset Corruption rules.`)), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "burden",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("h3", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Assets are tools, abilities, and connections that survived your Displacement. Each has three levels and a Stress track that expands with advancement. Push any Asset during a roll by marking 1 Stress to add +1 to your result — but only if the Asset is fictionally present and relevant. emiT players: every time you Push a Chrono-Tech Asset, also roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(`. On `), /*#__PURE__*/React.createElement("b", null, inline(`1-2`)), inline(`, it glitches — choose to gain +1 Paradox or have the Asset unavailable this scene. Passive bonuses never trigger this. See emiT Chapter 2 for full Asset Corruption rules.`))), /*#__PURE__*/React.createElement("h3", {
     className: "el-section"
   }, inline(`Scar-Derived Assets (emiT only)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

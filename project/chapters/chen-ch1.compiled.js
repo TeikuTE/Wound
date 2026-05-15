@@ -31,13 +31,7 @@ function ChenCh1({
     side: "recto",
     showWatermark: true,
     label: "UNDERSTANDING DISPLACEMENT \xB7 opener"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "chapter-sigil"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "momentum",
-    size: "sigil",
-    stage: 0
-  })), /*#__PURE__*/React.createElement(ChenChapterHead, {
+  }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-broken-compass.svg",
     number: "I",
     title: "Understanding Displacement"
@@ -91,21 +85,10 @@ function ChenCh1({
     side: "verso",
     runHead: "Understanding Displacement",
     pageNum: basePage + 4,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 8,
-        "text": "Yes Chen, the three questions are also in every TTRPG essay since 2018. Solid framing though.",
-        "act": 1,
-        "late": false
-      }]
-    }),
     label: `UNDERSTANDING DISPLACEME · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`These are the three questions I have never met an Echo who could avoid for long.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 8,
-    act: 1
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`These are the three questions I have never met an Echo who could avoid for long.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Every Echo must eventually answer these:`))), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"

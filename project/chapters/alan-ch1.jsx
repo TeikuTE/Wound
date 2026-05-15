@@ -9,13 +9,12 @@ function AlanCh1({ tweaks, basePage = 1 }) {
     <Spread id="alan-1-opener" label={"AFTER THE TUTORIAL · opener"}>
       <AlPage side="verso" label="(blank)" />
       <AlPage side="recto" label="alan-1 · opener">
-        <div className="chapter-sigil"><Glyph name="drift" size="sigil" stage={0} /></div>
         <AlanChapterHead entry={1} sub="AFTER THE TUTORIAL" coord="[TEMPORAL LOG // ENTRY_001 // ERA: 14 // NODE: AFTER]" />
         <AlanFragment top={170} right={4} rotate={-3} size={9}>// 2287.048.0001</AlanFragment>
       </AlPage>
     </Spread>
     <Spread id="alan-1-02" label={"AFTER THE TUTORIAL · spread 2"}>
-      <AlPage side="verso" runHead={"ENTRY_001"} pageNum={basePage + 2} coordStamp={"[LOG // ENTRY_001]"} footnotes={<FinderFootnotes notes={[{"n":35,"text":"1944. The building. Four people. I have only been reading for six weeks and I already know this story by its silhouette. The book is teaching me its own grammer.","act":3,"late":false}]} />} label={`AFTER THE TUTORIAL · p.${basePage + 2}`}>
+      <AlPage side="verso" runHead={"ENTRY_001"} pageNum={basePage + 2} coordStamp={"[LOG // ENTRY_001]"} label={`AFTER THE TUTORIAL · p.${basePage + 2}`}>
         <aside className="al-fragment"><p>{inline(`You want to know how I learned this. 2044. Four of us in a building that was already coming down. I had ninety seconds to decide which one of the other three I was going to —`)}</p><p>{inline(`Never mind.`)}</p><p>{inline(`Transformation has timing. Wait until you're ready and you've already waited too long.`)}</p><div className="al-fragment__sign">// AR</div></aside>
         <Zaaken><p>{inline(`The signal does not decay. It is the receiver that rots. To hear the sweet siren song of the Chronoverse is to invite the frequency to dismantle you. This manual is the infection. Begin.`)}</p><p>{inline(`Time is not an ocean or a river. It's a broken machine. You don't 'drift' — you short-circuit between eras. The currents are live wires. The depths are full of things that used to be people.`)}</p><p>{inline(`This is a survival manual for the temporally contaminated. You've been Displaced. Your memory is degrading. Reality is hostile. Your goal is to last long enough to become dangerous.`)}</p><p>{inline(`I've been doing this for 340 years. Here's what I've learned: identity is expensive. Transformation is cheap.`)}</p><p>{inline(`You can spend decades clinging to who you were, burning resources like rocket fuel, white-knuckling every Memory until your mind breaks. Or you can adapt. Let the parts that don't work anymore fall away. Keep what's useful. Become something that can survive what would have killed who you were.`)}</p><p>{inline(`The universe is trying to kill you. Your Memories are weapons. Your Scars are ammunition. Use them.`)}</p></Zaaken>
         <aside className="al-chen-block" data-tier={tier}><div className="al-chen-block__head">Dr. Eleanor Chen // [DATE UNKNOWN]</div><p>{inline(`Alan, what's your goal? Echoes need our help. Stop turning them into weapons.`)}</p></aside>
@@ -23,9 +22,9 @@ function AlanCh1({ tweaks, basePage = 1 }) {
         <h4 className="al-subsection">{inline(`What This Manual Covers`)}</h4>
         <AlanBody><p>{inline(`Most displacement stories are about the scramble to return, the preservation, the fight to stay intact. This one starts after that story ends.`)}</p></AlanBody>
         <AlanBody><p>{inline(`You've been contaminated long enough to know: identity erodes no matter what you do. Memories fade even when you fight. The person you were couldn't survive what you've survived. You've changed. You're still changing.`)}</p></AlanBody>
+        <AlanBody><p>{inline(`You've probably spent years asking how do I stop myself from changing. That's the wrong question. The only question that matters is: what am I becoming, and how can I use it?`)}</p></AlanBody>
       </AlPage>
       <AlPage side="recto" runHead={"ENTRY_001"} pageNum={basePage + 3} coordStamp={"[LOG // ENTRY_001]"} label={`AFTER THE TUTORIAL · p.${basePage + 3}`}>
-        <AlanBody><p>{inline(`You've probably spent years asking how do I stop myself from changing. That's the wrong question. The only question that matters is: what am I becoming, and how can I use it?`)}</p></AlanBody>
         <h4 className="al-subsection">{inline(`The Wreck: What You Are`)}</h4>
         <AlanBody><p>{inline(`You're a Wreck. Something that broke but kept moving. I've stopped using the words `)}<i>{inline(`traveler`)}</i>{inline(` and `)}<i>{inline(`victim`)}</i>{inline(` because both of them imply you were doing something to time. You weren't. Time was doing something to you, and you survived it.`)}</p></AlanBody>
         <AlanBody><p>{inline(`All Wrecks share three things.`)}</p></AlanBody>

@@ -27,30 +27,14 @@ function FrontMatter({
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     showTexture: false,
-    label: "cover/half-title"
+    label: "half-title"
   }, /*#__PURE__*/React.createElement("div", {
     className: "il-halftitle"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "il-cover-sigil"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    kind: "sigil",
-    name: "master",
-    size: "sigil"
-  })), /*#__PURE__*/React.createElement("div", {
     className: "il-halftitle__mark"
   }, "WOUND"), /*#__PURE__*/React.createElement("div", {
     className: "il-halftitle__sub"
-  }, "Temporal Echoes / emiT"), /*#__PURE__*/React.createElement("div", {
-    className: "il-cover-footnote"
-  }, "Twine on the cover finally snapped this morning. One smells like ozone. The other like copper and cold air. Calling them the Wounds \u2014 Chen the Anachron, Rose the Apikoros. Tell me you'd resist."), /*#__PURE__*/React.createElement("div", {
-    className: "il-cover-ghost"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "collapse",
-    size: "ghost",
-    late: true
-  })), /*#__PURE__*/React.createElement("div", {
-    className: "il-cover-scrawl"
-  }, "Anachron / Apikoros"))), /*#__PURE__*/React.createElement(IlPage, {
+  }, "Temporal Echoes / emiT"))), /*#__PURE__*/React.createElement(IlPage, {
     side: "recto",
     showTexture: false,
     label: "title"
@@ -76,22 +60,12 @@ function FrontMatter({
     side: "verso",
     showTexture: false,
     pageNum: basePage + 0,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 2,
-        "text": "He's writing about the NICU and I'm reading it in the same chair I sat in three months ago waiting for my own kid's blood work. Bad time to start this book. Doing it anyway.",
-        "act": 1,
-        "late": false
-      }]
-    }),
     label: `FRONT MATTER · p.${basePage + 0}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`A Solo Journaling RPG Duology About Memory, Loss, and What We Become`)))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`First Edition, 2025 · ©2026 All Rights Reserved`))), /*#__PURE__*/React.createElement("div", {
-    className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`temporalechoesgame@gmail.com`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`First Edition, 2025 · ©2026 All Rights Reserved temporalechoesgame@gmail.com`))), /*#__PURE__*/React.createElement("div", {
     className: "al-rule",
     "aria-hidden": true
   }), /*#__PURE__*/React.createElement("h2", {
@@ -102,90 +76,43 @@ function FrontMatter({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`I had just gotten out of the hospital with my kid, a beautiful eight-month-old boy who worked harder than anyone I've ever met at the things most of us take for granted — eating and breathing. We went to the hospital after seven months of constant screaming, endless vomiting, and only gaining one pound. If you aren't a parent, take my word: it was bad.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`During the first seven months after my wife had given birth, we were in a constant struggle for survival. Visiting specialists whose titles I couldn't pronounce, never sleeping more than an hour at a time because every time he wakes up is an opportunity to get some more calories in. Fighting with feeding trackers and hollowing ourselves out, day by day, while we wondered what was wrong with our kid and why no one had an answer.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 2,
-    act: 1
-  })))), /*#__PURE__*/React.createElement(IlPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`During the first seven months after my wife had given birth, we were in a constant struggle for survival. Visiting specialists whose titles I couldn't pronounce, never sleeping more than an hour at a time because every time he wakes up is an opportunity to get some more calories in. Fighting with feeding trackers and hollowing ourselves out, day by day, while we wondered what was wrong with our kid and why no one had an answer.`))), /*#__PURE__*/React.createElement("div", {
+    className: "interlude-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Getting to the hospital was a relief, in a way. It meant the cavalry had arrived and we could — well, not relax, but finally let an adult figure out what was going on. Turns out, our kid had an ultra-rare lung disease. Only about a thousand babies in the world have it. He'd need a feeding tube and twenty-four-hour oxygen — but he'd be alright in the long run.`)))), /*#__PURE__*/React.createElement(IlPage, {
     side: "recto",
     showTexture: false,
     pageNum: basePage + 1,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 3,
-        "text": "Oh. He's frum. He's frum and he lost his tefillin in the wellness room. I have read three lines past that sentence five times. Going to make tea.",
-        "act": 1,
-        "late": false
-      }]
-    }),
     label: `FRONT MATTER · p.${basePage + 1}`
   }, /*#__PURE__*/React.createElement("div", {
-    className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Getting to the hospital was a relief, in a way. It meant the cavalry had arrived and we could — well, not relax, but finally let an adult figure out what was going on. Turns out, our kid had an ultra-rare lung disease. Only about a thousand babies in the world have it. He'd need a feeding tube and twenty-four-hour oxygen — but he'd be alright in the long run.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Of course, that didn't count for much when I arrived back in the office. After a week back, my boss and the manager called me in for a meeting on a half hour's notice. They didn't tell me what it was about. They slid some papers across the table at me. Performance Improvement Plan. 'We want this to work, but your numbers were just too low these past few months. But we like you. The problem is that you're just too damn likable.' They slapped me on the back and said I was a good man. I was numb, but I'd been through tougher straits before. I'd buckle down and beat the PIP. After all, what is getting told that you're not good enough compared to watching your child fight for his life?`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`But then, the kicker came.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`I lost my tefillin. If you know you know. Between my kid's health issues, the pressures of my job, and my newfound inability to connect with God in the way I'd done for over two decades, I finally crumpled. I sat down in my office's wellness room — reserved for nursing mothers, but I didn't care — and cried like my baby couldn't.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 3,
-    act: 1
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`I lost my tefillin. If you know you know. Between my kid's health issues, the pressures of my job, and my newfound inability to connect with God in the way I'd done for over two decades, I finally crumpled. I sat down in my office's wellness room — reserved for nursing mothers, but I didn't care — and cried like my baby couldn't.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`I saw these two manuscripts in the corner of the room, tied together with a bit of twine. Stains streaked the pages — I couldn't tell if it was ink, blood or something else.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Screw it.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Screw it.`))), /*#__PURE__*/React.createElement("div", {
+    className: "interlude-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`If you're reading this, it means you found this copy. If you're holding it in your hands — be careful what you write in the margins. The book remembers.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "front-02",
     label: "FRONT MATTER · spread 2"
   }, /*#__PURE__*/React.createElement(IlPage, {
     side: "verso",
     showTexture: false,
     pageNum: basePage + 2,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 4,
-        "text": "Most metal opening sentence in a TTRPG manual since Cy_Borg. We are cooking.",
-        "act": 1,
-        "late": false
-      }, {
-        "n": 57,
-        "text": "I was already an Echo when I picked it up.",
-        "act": 5,
-        "late": true
-      }]
-    }),
     label: `FRONT MATTER · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`If you're reading this, it means you found this copy. If you're holding it in your hands — be careful what you write in the margins. The book remembers.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 4,
-    act: 1
-  }), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 57,
-    act: 5
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "null",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`I didn't know then that the two voices arguing in those pages had once been something like friends. Something like allies. They shared a moment I've only glimpsed in fragments — a night in 1944, a burning building, a choice that broke four people into the four philosophies that now hunt each other across the timestream.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`I didn't know then that the two voices arguing in those pages had once been something like friends. Something like allies. They shared a moment I've only glimpsed in fragments — a night in 1944, a burning building, a choice that broke four people into the four philosophies that now hunt each other across the timestream.`)))), /*#__PURE__*/React.createElement(IlPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes is Dr. Eleanor Chen's preservation manual. She believes you can come home intact. She's spent thirty years documenting how to survive displacement without losing yourself.`)))), /*#__PURE__*/React.createElement(IlPage, {
     side: "recto",
     showTexture: false,
     pageNum: basePage + 3,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 5,
-        "text": "A bit pretentious. Going to play along. Starting with Anachron and seeing if I can keep an Echo intact.",
-        "act": 1,
-        "late": false
-      }]
-    }),
     label: `FRONT MATTER · p.${basePage + 3}`
   }, /*#__PURE__*/React.createElement("div", {
-    className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes is Dr. Eleanor Chen's preservation manual. She believes you can come home intact. She's spent thirty years documenting how to survive displacement without losing yourself.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`emiT is Alan Rose's transformation protocol. He believes trying to preserve your original identity is expensive, painful, and ultimately futile. His book is about becoming operationally effective through change — about finding out what you're capable of when you stop spending everything you have on staying the same.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -195,10 +122,11 @@ function FrontMatter({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`This duology is two complete, playable games. You can read and play either book independently. If you play both with the same Echo — first Chen's path, then Alan's — something additional opens up: a conversation between the two books about what preservation costs and what transformation takes. The rules for carrying a character between them are in the section called Playing Both.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes is designed for progressive complexity. Do not read it cover to cover. You will be overwhelmed and you will quit. Read in stages.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 5,
-    act: 1
-  }))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes is designed for progressive complexity. Do not read it cover to cover. You will be overwhelmed and you will quit. Read in stages.`))), /*#__PURE__*/React.createElement("h4", {
+    className: "interlude-eyebrow"
+  }, inline(`YOUR FIRST 3 OR 4 SESSIONS — READ ONLY THIS`)), /*#__PURE__*/React.createElement("div", {
+    className: "interlude-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Chapters 1–5 (Chapters 1–5 of Temporal Echoes) The Action Oracle (Appendix C.3) This is all you need to survive your first jumps. You will not understand the rest yet. That is intentional.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "front-03",
     label: "FRONT MATTER · spread 3"
   }, /*#__PURE__*/React.createElement(IlPage, {
@@ -207,10 +135,6 @@ function FrontMatter({
     pageNum: basePage + 4,
     label: `FRONT MATTER · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("h4", {
-    className: "interlude-eyebrow"
-  }, inline(`YOUR FIRST 3 OR 4 SESSIONS — READ ONLY THIS`)), /*#__PURE__*/React.createElement("div", {
-    className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Chapters 1–5 (Chapters 1–5 of Temporal Echoes) The Action Oracle (Appendix C.3) This is all you need to survive your first jumps. You will not understand the rest yet. That is intentional.`))), /*#__PURE__*/React.createElement("h4", {
     className: "interlude-eyebrow"
   }, inline(`WHEN CRISIS HITS (PARADOX 7+ OR COHERENCE −6) — ADD THIS`)), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -228,14 +152,6 @@ function FrontMatter({
     side: "recto",
     showTexture: false,
     pageNum: basePage + 5,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 6,
-        "text": "Eight appendices for a \"first 3 sessions\" game. The author needs a Reduction phase. Structure is solid though.",
-        "act": 1,
-        "late": false
-      }]
-    }),
     label: `FRONT MATTER · p.${basePage + 5}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -243,10 +159,7 @@ function FrontMatter({
     className: "interlude-eyebrow"
   }, inline(`DOCUMENT STRUCTURE`)), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Book 1: Temporal Echoes (Chapters 1-8) Dr. Eleanor Chen's preservation manual.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 6,
-    act: 1
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Book 1: Temporal Echoes (Chapters 1-8) Dr. Eleanor Chen's preservation manual.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Book 2: emiT (Chapters 1-6) Alan Rose's transformation protocol.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"

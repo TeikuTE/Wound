@@ -62,35 +62,71 @@ function AppendixE({
   }, inline(`THE LOOP`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Each iteration, you experience the full Memory up to the moment of failure. Then it resets. You remember all previous iterations. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + ENDURE vs. `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(` for each loop:`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` Hold. Reduce your Paradox by 1 (they`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`harvest it). Lose 1 Coherence. You may attempt escape after 3 loops.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` Weaken. They harvest 1 Paradox. Lose 1`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-resolution"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `10+`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Hold`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Reduce your Paradox by 1 (they harvest it). Lose 1 Coherence. You may attempt escape after 3 loops.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `7-9`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Weaken`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`They harvest 1 Paradox. Lose 1`))))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Coherence. Cannot escape yet.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Break. They harvest 2 Paradox. Lose 2`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Coherence. One Active Memory related to this scene becomes Fading. After 3 loops regardless of result, you may attempt escape. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + DISRUPT or SYNC (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`):`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` Break free. Templars release you —you're`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`no longer useful. Take Scar: Phantom Screams.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` Escape. But they Mark you. They'll hunt you`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`specifically next encounter.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Remain captured. Three more loops. Then`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Coherence. One Active Memory related to this scene becomes Fading. After 3 loops regardless of result, you may attempt escape. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + DISRUPT or SYNC (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`):`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Captivity Vignettes",
     pageNum: basePage + 1,
     label: `CAPTIVITY VIGNETTES · p.${basePage + 1}`
   }, /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`choose: automatic release (you're exhausted and useless), or undergo Lockstep Binding and become a Templar (character retired to NPC status).`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-resolution"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `10+`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Break free`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Templars release you —you're no longer useful. Take Scar: Phantom Screams.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `7-9`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Escape`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`But they Mark you. They'll hunt you specifically next encounter.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `6-`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Remain captured`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Three more loops. Then choose: automatic release (you're exhausted and useless), or undergo Lockstep Binding and become a Templar (character retired to NPC status).`))))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Authority: Loop Containment Protocol`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -99,30 +135,40 @@ function AppendixE({
   }, inline(`ITERATION MECHANICS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Start Iteration Counter at 0. Each loop, increment by 1. The Difficulty of your escape attempt decreases as the pattern becomes clearer — but your memories are degrading. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE each iteration (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(` minus Iteration Count):`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-resolution"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `10+`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Notice the pattern`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`You can attempt to break the loop. No memory loss this iteration.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `7-9`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Something's wrong`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Can't quite pin it down. Choose one Active Memory related to this scene — it becomes Fading.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `6-`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Don't notice`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`The loop feels natural. One`))))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` Notice the pattern. You can attempt to`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`break the loop. No memory loss this iteration.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` Something's wrong. Can't quite pin it`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`down. Choose one Active Memory related to this scene — it becomes Fading.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Don't notice. The loop feels natural. One`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Active Memory becomes Fading, or if all are already Fading, one Fading becomes Lost.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`After noticing the pattern, attempt escape: Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + DISRUPT (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 12`)), inline(` minus Iteration Count):`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` Break the loop. Gain +3 Paradox. Loop`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`shatters. You're free.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` Partially break. Released, but all memories`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`from the looped scene are permanently Fading.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Fail. Loop continues. Lose 1 Coherence from`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Active Memory becomes Fading, or if all are already Fading, one Fading becomes Lost.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-e-02",
     label: "CAPTIVITY VIGNETTES · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -132,13 +178,41 @@ function AppendixE({
     label: `CAPTIVITY VIGNETTES · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`the effort. Try again next iteration. After 10 iterations: loop releases you automatically. All Active Memories become Fading. Reduce Paradox by `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(`. Gain Scar: Recursive Doubt.`)), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "recursion",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`After noticing the pattern, attempt escape: Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + DISRUPT (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 12`)), inline(` minus Iteration Count):`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-resolution"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `10+`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Break the loop`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Gain +3 Paradox. Loop shatters. You're free.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `7-9`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Partially break`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Released, but all memories from the looped scene are permanently Fading.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `6-`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Fail`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Loop continues. Lose 1 Coherence from the iteration.`))))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`the effort. Try again next iteration. After 10 iterations: loop releases you automatically. All Active Memories become Fading. Reduce Paradox by `), /*#__PURE__*/React.createElement("b", null, inline(`1d6`)), inline(`. Gain Scar: Recursive Doubt.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Scionfall: The Nullwave Protocol`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -147,14 +221,35 @@ function AppendixE({
   }, inline(`THE DRAIN`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Each round, describe one sense or aspect of reality fading — colors washing to grey, sounds becoming muffled, touch losing sensation, emotions flattening, meaning eroding from words. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + ENDURE (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`):`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-resolution"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `10+`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Resist`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Maintain coherence through will or passion. No loss this round. Herald observes, patient.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `7-9`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Partially affected`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Lose 1 Coherence. One`))))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` Resist. Maintain coherence through will or`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`passion. No loss this round. Herald observes, patient.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` Partially affected. Lose 1 Coherence. One`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Fading Memory becomes Lost. Herald asks again: Why continue?`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Fading Memory becomes Lost. Herald asks again: Why continue?`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Captivity Vignettes",
+    pageNum: basePage + 3,
+    label: `CAPTIVITY VIGNETTES · p.${basePage + 3}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` The Nullwave reaches deep. Lose 2 Coherence. Either one Active Memory becomes Fading, or you roll next round with `), /*#__PURE__*/React.createElement("b", null, inline(`-2`)), inline(` penalty.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -162,12 +257,7 @@ function AppendixE({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Escape:`)), inline(` Spend `), /*#__PURE__*/React.createElement("b", null, inline(`3 Coherence`)), inline(` and invoke your Locked Memory — the one thing you absolutely cannot lose. This creates enough emotional mass to spike your waveform and disrupt the Nullwave. Herald withdraws. Gain Scar: `), /*#__PURE__*/React.createElement("i", null, inline(`Hollow Moments`)), inline(`. Scionfall will return during your next Crisis.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Alternatively: generate `), /*#__PURE__*/React.createElement("b", null, inline(`+3 Paradox`)), inline(` minimum through an act so violent and contradictory that it disrupts the null field. Herald withdraws, disappointed.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Captivity Vignettes",
-    pageNum: basePage + 3,
-    label: `CAPTIVITY VIGNETTES · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Alternatively: generate `), /*#__PURE__*/React.createElement("b", null, inline(`+3 Paradox`)), inline(` minimum through an act so violent and contradictory that it disrupts the null field. Herald withdraws, disappointed.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`After 5 rounds:`)), inline(` Herald makes a final offer. One more round if refused. If you survive the 6th round, Herald withdraws — you've proven you're not ready for mercy yet.`))), /*#__PURE__*/React.createElement("hr", {
     className: "el-section-rule"
@@ -179,21 +269,56 @@ function AppendixE({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`1`)), inline(` = Gravity Reversal (everything falls upward)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`2`)), inline(` = Temporal Viscosity (time flows like molasses)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`3`)), inline(` = Language Inversion (everyone speaks backwards)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`4`)), inline(` = Object Phasing (solid matter becomes permeable)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`5`)), inline(` = Causal Chaos (actions have random or delayed effects)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`6`)), inline(` = Quantum Multiplication (everyone splits into 3 simultaneous versions)`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Navigation: each action, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`):`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Navigation: each action, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 10`)), inline(`):`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-e-03",
+    label: "CAPTIVITY VIGNETTES · spread 3"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Captivity Vignettes",
+    pageNum: basePage + 4,
+    label: `CAPTIVITY VIGNETTES · p.${basePage + 4}`
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "el-resolution"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `10+`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Navigate expertly`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Find a stable path. No cost.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `7-9`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Progress, but exposure`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Move toward escape but gain +1 Paradox.`)))), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-row"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-roll"
+  }, `6-`), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "resolution-title"
+  }, inline(`Lost`)), /*#__PURE__*/React.createElement("div", {
+    className: "resolution-text"
+  }, inline(`Lose `), /*#__PURE__*/React.createElement("b", null, inline(`1d3`)), inline(` Coherence. No progress.`))))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` Navigate expertly. Find a stable path. No`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`cost.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` Progress, but exposure. Move toward`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`escape but gain +1 Paradox.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Lost. Lose `), /*#__PURE__*/React.createElement("b", null, inline(`1d3`)), inline(` Coherence. No progress.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Every 3 rounds, the Chronoclast evaluates you. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(`: 1 = bored (they make it worse, another decoherence effect stacks), 2 = disappointed (they abandon you, escape becomes `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 8`)), inline(`), `), /*#__PURE__*/React.createElement("b", null, inline(`3-4`)), inline(` = amused (they offer cryptic advice, +2 to next roll), 5 = impressed (they offer to help — automatic success on next roll, but you're Marked), 6 = inspired (they applaud and gift you an unstable Asset). After 5 successful navigation rolls (10+), you find the edge of the decoherence bloom and escape. Gain Scar: Probability Sight — you occasionally see multiple outcomes simultaneously, which causes vertigo and indecision.`))))));
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Every 3 rounds, the Chronoclast evaluates you. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(`: 1 = bored (they make it worse, another decoherence effect stacks), 2 = disappointed (they abandon you, escape becomes `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 8`)), inline(`), `), /*#__PURE__*/React.createElement("b", null, inline(`3-4`)), inline(` = amused (they offer cryptic advice, +2 to next roll), 5 = impressed (they offer to help — automatic success on next roll, but you're Marked), 6 = inspired (they applaud and gift you an unstable Asset). After 5 successful navigation rolls (10+), you find the edge of the decoherence bloom and escape. Gain Scar: Probability Sight — you occasionally see multiple outcomes simultaneously, which causes vertigo and indecision.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Captivity Vignettes",
+    pageNum: basePage + 5,
+    label: `CAPTIVITY VIGNETTES · p.${basePage + 5}`
+  })));
 }
-AppendixE.pages = 4;
+AppendixE.pages = 6;
 Object.assign(window, {
   AppendixE
 });

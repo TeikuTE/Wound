@@ -48,21 +48,10 @@ function AppendixF({
     side: "verso",
     runHead: "Examples Of Play",
     pageNum: basePage + 0,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 52,
-        "text": "Don't read these. They are not fiction. They are Recovered Intelligence. They are the people who found this book before me.",
-        "act": 5,
-        "late": false
-      }]
-    }),
     label: `EXAMPLES OF PLAY · p.${basePage + 0}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`These examples show how mechanics translate into fiction. They demonstrate when to roll, how to interpret Oracles, how to track resources, and how to write in your Chronicle. The character is Dr. Sarah Martinez, a climate scientist from 2089 Miami, played across a sample campaign.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 52,
-    act: 5
-  }))), /*#__PURE__*/React.createElement("hr", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`These examples show how mechanics translate into fiction. They demonstrate when to roll, how to interpret Oracles, how to track resources, and how to write in your Chronicle. The character is Dr. Sarah Martinez, a climate scientist from 2089 Miami, played across a sample campaign.`))), /*#__PURE__*/React.createElement("hr", {
     className: "el-section-rule"
   }), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"

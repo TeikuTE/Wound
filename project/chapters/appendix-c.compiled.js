@@ -51,13 +51,7 @@ function AppendixC({
     label: `ORACLE TABLES · p.${basePage + 0}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The Oracles are not random number generators. They are the Chronoverse talking back.`)), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "ripple",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`The Oracles are not random number generators. They are the Chronoverse talking back.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`C.1 — Anomaly Tables (Temporal Echoes)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -867,9 +861,7 @@ function AppendixC({
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`ERA 91:`)), inline(` Near Future (2030-2050)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`LOCATION 81:`)), inline(` Medical Facility`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`ANOMALY 76:`)), inline(` Chronal Sickness`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`COMPLICATION 66:`)), inline(` Temporal Sickness (Personal)`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Climate refugee medical processing center, North America, 2043. The facility is overwhelmed with people suffering temporal contamination — side effects of living near displacement zones that have opened across the continent due to climate-driven reality breakdown. Symptoms include rapid aging,`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`remembering futures that haven't occurred, bodies flickering between temporal states. You arrive already visibly sick with your own high-Paradox contamination symptoms. The intake staff immediately assume you're another refugee with chronal radiation poisoning. They think you're contagious. Quarantine protocols are beginning. Your actual displacement might worsen the local instability — and medical intervention from this era might help or destroy you.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Climate refugee medical processing center, North America, 2043. The facility is overwhelmed with people suffering temporal contamination — side effects of living near displacement zones that have opened across the continent due to climate-driven reality breakdown. Symptoms include rapid aging, remembering futures that haven't occurred, bodies flickering between temporal states. You arrive already visibly sick with your own high-Paradox contamination symptoms. The intake staff immediately assume you're another refugee with chronal radiation poisoning. They think you're contagious. Quarantine protocols are beginning. Your actual displacement might worsen the local instability — and medical intervention from this era might help or destroy you.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`C.2 — The Chronoscape (emiT)`)), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("p", null, inline(`To consult an Oracle is to press your ear against a crack in the world.`)), /*#__PURE__*/React.createElement("p", null, inline(`If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stray Timeline. Don't reroll. Lean into the impossibility.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
@@ -1722,19 +1714,19 @@ function AppendixC({
     className: "oracle-name"
   }, `Survival`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`ensure personal safety, secure basic ne`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`ensure personal safety, secure basic needs (food, shelter, warmth), avoid lethal threats.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `06-10`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Revenge`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`settle old scores, right past wrongs, jus`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`settle old scores, right past wrongs, justice on their own terms.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `11-15`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Greed`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`accumulate wealth, power, or influence; m`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`accumulate wealth, power, or influence; more is never enough.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `16-20`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -1758,7 +1750,7 @@ function AppendixC({
     className: "oracle-name"
   }, `Fear`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`avoid danger, exposure, or consequence; o`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`avoid danger, exposure, or consequence; obey the threat that scares them most.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `36-40`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -1776,37 +1768,13 @@ function AppendixC({
     className: "oracle-name"
   }, `Justice`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`right systemic wrongs, restore balance; j`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`right systemic wrongs, restore balance; judge the wrongdoer.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `51-55`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Redemption`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`atone for past failures; seeking forg forgiveness`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `56-60`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `Control`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`maintain order, prevent chaos; need for`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `61-65`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `Freedom`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`escape constraint, oppression, or oblig`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `66-70`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `Protection`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`guard something precious: family, se`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `71-75`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `Discovery`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`uncover truth, reveal hidden informat`))))))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`atone for past failures; seeking forgiveness.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-12",
     label: "ORACLE TABLES · spread 12"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -1824,47 +1792,71 @@ function AppendixC({
     className: "col-desc"
   })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
+  }, `56-60`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Control`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`maintain order, prevent chaos; need for predictability.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `61-65`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Freedom`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`escape constraint, oppression, or obligation.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `66-70`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Protection`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`guard something precious: family, secret, faith, place.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `71-75`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Discovery`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`uncover truth, reveal hidden information.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
   }, `76-80`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Belonging`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`find community, gain acceptance, ear`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`find community, gain acceptance, earn a place among people who matter to them.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `81-85`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Legacy`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`leave lasting mark, be remembered, sha`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`leave lasting mark, be remembered, shape what comes next.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `86-90`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Desperation`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`backed into a corner, out of options everything`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`backed into a corner, out of options, everything they had is at stake.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `91-93`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Obsession`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`pursue singular goal regardless of co`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`pursue singular goal regardless of cost.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `94-96`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Confusion`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`seeking clarity of chaotic situation; lo`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`seeking clarity of chaotic situation; looking for someone to explain what is happening.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `97-98`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Manipulation`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`use others as tools for a hidden ag game`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`use others as tools for a hidden agenda; the game is theirs alone.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `99-00`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Faction Aligned`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`: 1=Church, 2=Authority, 4=Chronoclasts`))))), /*#__PURE__*/React.createElement("h4", {
+  }, inline(`roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`: 1=Church, 2=Authority, 3=Scionfall, 4=Chronoclasts`))))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Theme Oracle (d100)`)), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
@@ -1916,7 +1908,20 @@ function AppendixC({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Sacrifice`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`Sacrifice`)))))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Oracle Tables",
+    pageNum: basePage + 23,
+    label: `ORACLE TABLES · p.${basePage + 23}`
+  }, /*#__PURE__*/React.createElement("table", {
+    className: "tbl-chen tbl-chen--oracle"
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `15-16`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -1970,20 +1975,7 @@ function AppendixC({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Courage`)))))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Oracle Tables",
-    pageNum: basePage + 23,
-    label: `ORACLE TABLES · p.${basePage + 23}`
-  }, /*#__PURE__*/React.createElement("table", {
-    className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
-    className: "col-num"
-  }), /*#__PURE__*/React.createElement("col", {
-    className: "col-name"
-  }), /*#__PURE__*/React.createElement("col", {
-    className: "col-desc"
-  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`Courage`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `33-34`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -2073,7 +2065,23 @@ function AppendixC({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Passion`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`Passion`))))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-c-13",
+    label: "ORACLE TABLES · spread 13"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Oracle Tables",
+    pageNum: basePage + 24,
+    label: `ORACLE TABLES · p.${basePage + 24}`
+  }, /*#__PURE__*/React.createElement("table", {
+    className: "tbl-chen tbl-chen--oracle"
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `63-64`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -2127,23 +2135,7 @@ function AppendixC({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Balance`))))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-c-13",
-    label: "ORACLE TABLES · spread 13"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Oracle Tables",
-    pageNum: basePage + 24,
-    label: `ORACLE TABLES · p.${basePage + 24}`
-  }, /*#__PURE__*/React.createElement("table", {
-    className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
-    className: "col-num"
-  }), /*#__PURE__*/React.createElement("col", {
-    className: "col-name"
-  }), /*#__PURE__*/React.createElement("col", {
-    className: "col-desc"
-  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`Balance`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `81-82`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -2203,7 +2195,12 @@ function AppendixC({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Liminality`))))), /*#__PURE__*/React.createElement("h4", {
+  }, inline(`Liminality`)))))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Oracle Tables",
+    pageNum: basePage + 25,
+    label: `ORACLE TABLES · p.${basePage + 25}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Timeline Shift Oracle (d100)`)), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
@@ -2243,20 +2240,7 @@ function AppendixC({
     className: "oracle-name"
   }, `Temporal Echo Layer`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`This location exists simultaneously in two eras. Both fully present, overlapping transparently. You can interact with both.`)))))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Oracle Tables",
-    pageNum: basePage + 25,
-    label: `ORACLE TABLES · p.${basePage + 25}`
-  }, /*#__PURE__*/React.createElement("table", {
-    className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
-    className: "col-num"
-  }), /*#__PURE__*/React.createElement("col", {
-    className: "col-name"
-  }), /*#__PURE__*/React.createElement("col", {
-    className: "col-desc"
-  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`This location exists simultaneously in two eras. Both fully present, overlapping transparently. You can interact with both.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `26-30`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -2286,7 +2270,23 @@ function AppendixC({
     className: "oracle-name"
   }, `Emotional Reversal`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`All emotional responses invert. Joy becomes sorrow. Fear becomes courage. People act on reversed emotions as if normal.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`All emotional responses invert. Joy becomes sorrow. Fear becomes courage. People act on reversed emotions as if normal.`))))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "appendix-c-14",
+    label: "ORACLE TABLES · spread 14"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Oracle Tables",
+    pageNum: basePage + 26,
+    label: `ORACLE TABLES · p.${basePage + 26}`
+  }, /*#__PURE__*/React.createElement("table", {
+    className: "tbl-chen tbl-chen--oracle"
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `51-55`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -2316,23 +2316,7 @@ function AppendixC({
     className: "oracle-name"
   }, `Prophetic Static`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Everyone sees 10 seconds into their own future constantly. Creates paralysis by analysis. Lasts 1 hour.`))))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "appendix-c-14",
-    label: "ORACLE TABLES · spread 14"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Oracle Tables",
-    pageNum: basePage + 26,
-    label: `ORACLE TABLES · p.${basePage + 26}`
-  }, /*#__PURE__*/React.createElement("table", {
-    className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
-    className: "col-num"
-  }), /*#__PURE__*/React.createElement("col", {
-    className: "col-name"
-  }), /*#__PURE__*/React.createElement("col", {
-    className: "col-desc"
-  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`Everyone sees 10 seconds into their own future constantly. Creates paralysis by analysis. Lasts 1 hour.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `76-80`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -2362,18 +2346,26 @@ function AppendixC({
     className: "oracle-name"
   }, `Observer Effect Amplified`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Things only exist while you're looking at them. Turn away — room reconfigures. Turn back — different arrangement. Lasts 1 hour.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, inline(`Things only exist while you're looking at them. Turn away — room reconfigures. Turn back — different arrangement. Lasts 1 hour.`)))))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Oracle Tables",
+    pageNum: basePage + 27,
+    label: `ORACLE TABLES · p.${basePage + 27}`
+  }, /*#__PURE__*/React.createElement("table", {
+    className: "tbl-chen tbl-chen--oracle"
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `97-98`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, `Medium Shift`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Reality operates as a different medium. Everything moves like underwater, or in stop- motion, or as animated painting. Physics unchanged, perception warped. 99 Full Stray Timeline Conversion The Chronoclast has successfully broken this branch. Roll Chronoscape: ERA + STRUCTURE + CONFLICT to determine what it's become. Irreversible. 00 The Chronoclast Leaves a Gift No shift occurs. Instead, you find an unstable Chrono-Tech device. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(`: `), /*#__PURE__*/React.createElement("b", null, inline(`1-2`)), inline(` Paradox Engine, `), /*#__PURE__*/React.createElement("b", null, inline(`3-4`)), inline(` Reality Splicer, 5 Temporal Graffiti Kit, 6 The Chronoclast's Personal Card.`)))))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Oracle Tables",
-    pageNum: basePage + 27,
-    label: `ORACLE TABLES · p.${basePage + 27}`
-  })));
+  }, inline(`Reality operates as a different medium. Everything moves like underwater, or in stop- motion, or as animated painting. Physics unchanged, perception warped. 99 Full Stray Timeline Conversion The Chronoclast has successfully broken this branch. Roll Chronoscape: ERA + STRUCTURE + CONFLICT to determine what it's become. Irreversible. 00 The Chronoclast Leaves a Gift No shift occurs. Instead, you find an unstable Chrono-Tech device. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d6`)), inline(`: `), /*#__PURE__*/React.createElement("b", null, inline(`1-2`)), inline(` Paradox Engine, `), /*#__PURE__*/React.createElement("b", null, inline(`3-4`)), inline(` Reality Splicer, 5 Temporal Graffiti Kit, 6 The Chronoclast's Personal Card.`))))))));
 }
 AppendixC.pages = 28;
 Object.assign(window, {

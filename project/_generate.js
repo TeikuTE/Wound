@@ -1042,63 +1042,36 @@ function emitSpreads(section) {
       const labelAttr = labelStr.includes('"')
         ? `label={${JSON.stringify(labelStr)}}`
         : `label="${labelStr.replace(/"/g, '&quot;')}"`;
-      // Art-layer chapter sigil
-      const sigil = chapterSigilFor(section.id);
-      const sigilJSX = sigil
-        ? `<div className="chapter-sigil"><Glyph name="${sigil.glyph}" size="sigil" stage={${sigil.stage || 0}} /></div>`
-        : '';
       spreads.push({
         idTag: section.id + '-opener',
         label: labelStr,
         verso: `<ChPage side="verso" label="(blank)" />`,
         recto: `<ChPage side="recto" showWatermark ${labelAttr}>
-  ${sigilJSX}
   <ChenChapterHead icon="${icon}" number="${roman}" ${titleAttr} />
 </ChPage>`,
       });
     } else {
       const coordEra = 14 + (num - 1) * 12;
       const subTag = openerTitle.replace(/^(chapter\s+\d+:?\s*)/i, '').toUpperCase().slice(0, 28);
-      const sigil = chapterSigilFor(section.id);
-      const sigilJSX = sigil
-        ? `<div className="chapter-sigil"><Glyph name="${sigil.glyph}" size="sigil" stage={${sigil.stage || 0}} /></div>`
-        : '';
       spreads.push({
         idTag: section.id + '-opener',
         label: `${openerTitle.toUpperCase()} · opener`,
         verso: `<AlPage side="verso" label="(blank)" />`,
         recto: `<AlPage side="recto" label="${section.id} · opener">
-  ${sigilJSX}
   <AlanChapterHead entry={${num}} sub=${JSON.stringify(subTag)} coord="[TEMPORAL LOG // ENTRY_${String(num).padStart(3,'0')} // ERA: ${coordEra} // NODE: ${subTag.split(/\s+/)[0]}]" />
   <AlanFragment top={170} right={4} rotate={-3} size={9}>// 2287.${String(num*48).padStart(3,'0')}.0001</AlanFragment>
 </AlPage>`,
       });
     }
   } else if (isFront) {
-    // Title spread:
-    // - Verso (half-title) doubles as the cover surface: master sigil
-    //   intact, Footnote 1 scrawled in Caveat lower-right (the twine
-    //   note), and a tiny late-insertion COLLAPSE glyph at 99% sat.
-    // - Recto is the full title page.
+    // Title spread: half-title on verso, full title on recto.
     spreads.push({
       idTag: section.id + '-cover',
       label: 'Front Matter · title',
-      verso: `<IlPage side="verso" showTexture={false} label="cover/half-title">
+      verso: `<IlPage side="verso" showTexture={false} label="half-title">
   <div className="il-halftitle">
-    <div className="il-cover-sigil">
-      <Glyph kind="sigil" name="master" size="sigil" />
-    </div>
     <div className="il-halftitle__mark">WOUND</div>
     <div className="il-halftitle__sub">Temporal Echoes / emiT</div>
-    <div className="il-cover-footnote">
-      Twine on the cover finally snapped this morning. One smells like ozone. The other like copper and cold air. Calling them the Wounds — Chen the Anachron, Rose the Apikoros. Tell me you'd resist.
-    </div>
-    {/* late-insertion COLLAPSE glyph in lower-left — 99% saturation */}
-    <div className="il-cover-ghost">
-      <Glyph name="collapse" size="ghost" late />
-    </div>
-    {/* late-insertion "Anachron / Apikoros" scrawl — over the title */}
-    <div className="il-cover-scrawl">Anachron / Apikoros</div>
   </div>
 </IlPage>`,
       recto: `<IlPage side="recto" showTexture={false} label="title">

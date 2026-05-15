@@ -31,13 +31,7 @@ function ChenCh5({
     side: "recto",
     showWatermark: true,
     label: "MEMORY MANAGEMENT \xB7 opener"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "chapter-sigil"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "rendition",
-    size: "sigil",
-    stage: 0
-  })), /*#__PURE__*/React.createElement(ChenChapterHead, {
+  }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-handless-clock.svg",
     number: "V",
     title: "Memory Management"
@@ -48,24 +42,13 @@ function ChenCh5({
     side: "verso",
     runHead: "Memory Management",
     pageNum: basePage + 2,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 20,
-        "text": "Spent an hour today looking for an old photograph of my zayde. Wanted to see if it felt like an Anchor. It did. Heavier than a piece of paper should be.",
-        "act": 2,
-        "late": false
-      }]
-    }),
     label: `MEMORY MANAGEMENT · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`The Architecture of Self`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
-  }, /*#__PURE__*/React.createElement("p", null, inline(`When memory fails, identity collapses. Collapses start small. First, the Echo can't remember `), /*#__PURE__*/React.createElement("i", null, inline(`why`)), inline(` they were trying to remember while writing, then they can't remember what the chronicle is for, and eventually, they can't remember themselves.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 20,
-    act: 2
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`When memory fails, identity collapses. Collapses start small. First, the Echo can't remember `), /*#__PURE__*/React.createElement("i", null, inline(`why`)), inline(` they were trying to remember while writing, then they can't remember what the chronicle is for, and eventually, they can't remember themselves.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Sometimes there are pieces of the old person in the rubble. Those pieces are valuable, but they aren't the person before the collapse.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
@@ -127,22 +110,14 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Phantom Habit:`)), inline(` you perform a ritual you don't understand. The body remembers what the mind has lost.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`False Story:`)), inline(` you've constructed a lie to fill the gap. You believe it. That's the dangerous part.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Persistent Ache:`)), inline(` physical pain tied to the loss. Location unknown. Cause unverifiable.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`False Story:`)), inline(` you've constructed a lie to fill the gap. You believe it. That's the dangerous part.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Memory Management",
     pageNum: basePage + 5,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 22,
-        "text": "This table is harder to read than the rest of the chapter. Like the book doesn't want me to look directly at it. Will note that and move on.",
-        "act": 2,
-        "late": false
-      }]
-    }),
     label: `MEMORY MANAGEMENT · p.${basePage + 5}`
   }, /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Persistent Ache:`)), inline(` physical pain tied to the loss. Location unknown. Cause unverifiable.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Emotional Void:`)), inline(` numbness where feeling used to be, or feeling where numbness would be appropriate.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -160,16 +135,7 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`MUTATIONS (TEMPORAL ECHOES)`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`When you gain a Mutation — from Paradox Breach, from a Faction trade, from a Crisis outcome that specifies it — choose one from this list, or create your own in the same register. These are not personality quirks. They are the Chronoverse writing itself onto your body.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 22,
-    act: 2
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "drift",
-    size: "inline",
-    stage: 0
-  }))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`When you gain a Mutation — from Paradox Breach, from a Faction trade, from a Crisis outcome that specifies it — choose one from this list, or create your own in the same register. These are not personality quirks. They are the Chronoverse writing itself onto your body.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-5-04",
     label: "MEMORY MANAGEMENT · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -191,14 +157,6 @@ function ChenCh5({
     side: "recto",
     runHead: "Memory Management",
     pageNum: basePage + 7,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 23,
-        "text": "Started noticing little circle marks in Chen's margins next to certain mechanical terms. They look like physics notation. There's a key in Appendix A. Saving it for later.",
-        "act": 2,
-        "late": false
-      }]
-    }),
     label: `MEMORY MANAGEMENT · p.${basePage + 7}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -218,16 +176,7 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You make a desperate attempt to dredge a Lost Memory from the void. This is not remembering — it's excavation. Spend 3 Coherence. Name the Lost Memory you are trying to recover. Then roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + ENDURE against `), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 12`)), inline(`.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Against all odds, it returns. The Memory enters an Active slot, pushing all others down — this may force another Memory to become Fading. Gain +1 Paradox from the strain on causality.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 23,
-    act: 2
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "ripple",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("table", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Against all odds, it returns. The Memory enters an Active slot, pushing all others down — this may force another Memory to become Fading. Gain +1 Paradox from the strain on causality.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
   }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
     className: "col-num"
@@ -248,14 +197,6 @@ function ChenCh5({
     side: "verso",
     runHead: "Memory Management",
     pageNum: basePage + 8,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 28,
-        "text": "The Holding Action is the most honest mechanic in the book. You can refuse the consequence once. Once. Then the bill comes due. I have used it twice this week in real life.",
-        "act": 3,
-        "late": false
-      }]
-    }),
     label: `MEMORY MANAGEMENT · p.${basePage + 8}`
   }, /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
@@ -285,16 +226,7 @@ function ChenCh5({
     className: "el-subsection"
   }, inline(`CHRONICLE BONUSES`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Detailed Entries grant +1 Coherence once per session, when your entry: describes a scene in vivid detail, reflects on your emotional state, connects to your Anchor or Memories, and advances your understanding of your condition.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 28,
-    act: 3
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "burden",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Detailed Entries grant +1 Coherence once per session, when your entry: describes a scene in vivid detail, reflects on your emotional state, connects to your Anchor or Memories, and advances your understanding of your condition.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Reference Bonus: When facing a situation similar to a previous encounter, read the relevant past Chronicle entries. Gain +1 to the Resolution roll if past experience genuinely applies.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -302,14 +234,6 @@ function ChenCh5({
     side: "recto",
     runHead: "Memory Management",
     pageNum: basePage + 9,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 24,
-        "text": "This page is in Chen's voice but it reads like a confession. She did everything right and lost everything anyway. The Chronicle is becoming more than a journal. I am writing things in here I have never told anyone.",
-        "act": 2,
-        "late": false
-      }]
-    }),
     label: `MEMORY MANAGEMENT · p.${basePage + 9}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -323,16 +247,7 @@ function ChenCh5({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`[ CHRONICLE ENTRY FRAGMENT — Found inserted between pages `), /*#__PURE__*/React.createElement("b", null, inline(`47-48`)), inline(` of a recovered Chronicle, author unknown ]`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`I followed every procedure. Every rule. Every preservation protocol in Chen's manual. I maintained Coherence above +5 for two centuries. I Locked my defining Memory. I reinforced my Anchor quarterly. I wrote in the Chronicle every single day.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 24,
-    act: 2
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "null",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`I followed every procedure. Every rule. Every preservation protocol in Chen's manual. I maintained Coherence above +5 for two centuries. I Locked my defining Memory. I reinforced my Anchor quarterly. I wrote in the Chronicle every single day.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`And this morning I read my first entry. The one I wrote on Day 1, right after Displacement. The one where I described my lab, my daughter, my life.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

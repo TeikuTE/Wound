@@ -17,7 +17,7 @@ function AppendixH({ tweaks, basePage = 1 }) {
       </ChPage>
     </Spread>
     <Spread id="appendix-h-01" label={"RECOVERED TESTIMONY — THE SAUL FILES · spread 1"}>
-      <ChPage side="verso" runHead={"Recovered Testimony — The Saul Files"} pageNum={basePage + 0} footnotes={<FinderFootnotes notes={[{"n":53,"text":"His name was Saul. I named my Echo Saul. I did not know. I am not sure anymore that I named him at all.","act":5,"late":false}]} />} label={`RECOVERED TESTIMONY — TH · p.${basePage + 0}`}>
+      <ChPage side="verso" runHead={"Recovered Testimony — The Saul Files"} pageNum={basePage + 0} label={`RECOVERED TESTIMONY — TH · p.${basePage + 0}`}>
         <aside className="el-reflection"><p>{inline(`The pages that follow were not part of the original manuscript. They arrived after. A man who was not the man whose name he used spent fourteen months building a record of an event he was not present for, in a name he did not own, because the name fit better than anything he had been called before. He filed fifteen reports. He stopped at fifteen. We have arranged them here in chronological order, lightly annotated, because they belong with the rest of what this book is.`)}</p><div className="el-sign">— EC</div></aside>
         <Zaaken><p>{inline(`He kept looking. That is the thing the original could not do. The original froze. The journalist who took his name could not stop. He is in this book because he earned a place in it.`)}</p><p>{inline(`— Fragment`)}</p></Zaaken>
         <AlanIntrusionInline tier={tier}><p>{inline(`Read these last. They will not change the rules. They will change what you understand the rules to be the record of.`)}</p></AlanIntrusionInline>

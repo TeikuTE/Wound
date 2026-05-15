@@ -9,14 +9,13 @@ function ChenCh3({ tweaks, basePage = 1 }) {
     <Spread id="chen-3-opener" label={"A SESSION OF \"PLAY\" · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label={"A SESSION OF \"PLAY\" · opener"}>
-        <div className="chapter-sigil"><Glyph name="ripple" size="sigil" stage={0} /></div>
         <ChenChapterHead icon="assets/chen-icon-irregular-sine.svg" number="III" title={"A Session Of \"Play\""} />
       </ChPage>
     </Spread>
     <Spread id="chen-3-02" label={"A SESSION OF \"PLAY\" · spread 2"}>
-      <ChPage side="verso" runHead={"A Session Of \"Play\""} pageNum={basePage + 2} footnotes={<FinderFootnotes notes={[{"n":14,"text":"Saul's question for tonight: what would it have been like to grow up with both parents alive. Wrote it down. Closed the book. Made tea.","act":2,"late":false}]} />} label={`A SESSION OF "PLAY" · p.${basePage + 2}`}>
+      <ChPage side="verso" runHead={"A Session Of \"Play\""} pageNum={basePage + 2} label={`A SESSION OF "PLAY" · p.${basePage + 2}`}>
         <h4 className="el-subsection">{inline(`Opening the Session`)}</h4>
-        <div className="el-body el-dropcap" data-firstpara><p>{inline(`Before you write anything else, write down at least one question your Echo is trying to find out the answer to right now.`)}<FootnoteMarker n={14} act={2} /></p><span className="gly-inline-row"><Glyph name="momentum" size="inline" stage={0} /></span></div>
+        <div className="el-body el-dropcap" data-firstpara><p>{inline(`Before you write anything else, write down at least one question your Echo is trying to find out the answer to right now.`)}</p></div>
         <div className="el-body"><p>{inline(`This question is your compass. A scene that answers it — partly, badly, ambiguously — is a scene that did its job. Examples I see often: `)}<i>{inline(`Can I trust this professor? What happened to my daughter in this timeline? Why does this era feel wrong? What are the Factions hiding here?`)}</i></p></div>
         <div className="el-body"><p>{inline(`Not what they want to achieve. What they need to understand. A question, not a goal. This question is your compass for the session. When a scene answers it — even partially, even badly — that scene is complete.`)}</p></div>
         <div className="el-body"><p>{inline(`Examples: Can I trust this professor? What happened to my daughter in this timeline? Why does this era feel wrong? What are the Factions hiding here?`)}</p></div>
@@ -24,13 +23,11 @@ function ChenCh3({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`A scene begins when your Echo wants something specific from a specific person or place. To frame it, answer three things in your Chronicle:`)}</p></div>
         <div className="el-body"><p>{inline(`Where am I? Use your established Era and Location, or roll a new`)}</p></div>
         <div className="el-body"><p>{inline(`Location if you've moved.`)}</p></div>
-        <div className="el-body"><p>{inline(`Who's here? An NPC from a previous session, a new character from an`)}</p></div>
-        <div className="el-body"><p>{inline(`oracle, or no one.`)}</p></div>
-        <div className="el-body"><p>{inline(`What do I want from them? Information, safe passage, a moment of`)}</p></div>
-        <div className="el-body"><p>{inline(`peace, to hurt them, to save them.`)}</p></div>
+        <div className="el-body"><p>{inline(`Who's here? An NPC from a previous session, a new character from an oracle, or no one.`)}</p></div>
+        <div className="el-body"><p>{inline(`What do I want from them? Information, safe passage, a moment of peace, to hurt them, to save them.`)}</p></div>
+        <div className="el-body"><p>{inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`)}</p></div>
       </ChPage>
       <ChPage side="recto" runHead={"A Session Of \"Play\""} pageNum={basePage + 3} label={`A SESSION OF "PLAY" · p.${basePage + 3}`}>
-        <div className="el-body"><p>{inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`)}</p></div>
         <h4 className="el-subsection">{inline(`When to Roll`)}</h4>
         <div className="el-body"><p>{inline(`Three conditions decide whether to roll. The Echo wants the thing badly enough to risk something getting it. The outcome is uncertain. And failure would change the story in a way you'd want to write down.`)}</p></div>
         <div className="el-body"><p>{inline(`When all three are present, roll. When any is missing, just write what happens. That said, If you don't give the Chronoverse a chance to push back on you regularly, it will end up taking from you catastrophically.`)}</p></div>
@@ -41,10 +38,10 @@ function ChenCh3({ tweaks, basePage = 1 }) {
       </ChPage>
     </Spread>
     <Spread id="chen-3-03" label={"A SESSION OF \"PLAY\" · spread 3"}>
-      <ChPage side="verso" runHead={"A Session Of \"Play\""} pageNum={basePage + 4} footnotes={<FinderFootnotes notes={[{"n":15,"text":"Got into a clean flow tonight. Played three scenes in 45 minutes. Saul stayed at +4 Coherence. This is just resource management with a poetic coat of paint.","act":2,"late":false}]} />} label={`A SESSION OF "PLAY" · p.${basePage + 4}`}>
+      <ChPage side="verso" runHead={"A Session Of \"Play\""} pageNum={basePage + 4} label={`A SESSION OF "PLAY" · p.${basePage + 4}`}>
         <aside className="el-alan-block" data-tier={tier}><p>{inline(`One of my favorite lies in this whole manual. You rolled a 12, congratulations. Reality bends for you. You feel synchronized. Chen calls this Complete Success.`)}</p><p>{inline(`I call it Borrowed Time.`)}</p><p>{inline(`Because I've rolled `)}<b>{inline(`10+`)}</b>{inline(` on Navigation a dozen times, landed exactly where I wanted, felt that sweet surge of Coherence — and then watched the timeline I just successfully navigated collapse three weeks later because I didn't understand what I was aligning with.`)}</p><p>{inline(`Your dice said success. The Chronoverse is still deciding.`)}</p><div className="el-alan-sign">—AR</div></aside>
         <h4 className="el-subsection">{inline(`Ending a Scene`)}</h4>
-        <div className="el-body"><p>{inline(`A scene ends when: you get what you wanted (success, clean or complicated), you clearly don't get what you wanted (failure), or the situation changes so completely that a new want replaces the old one.`)}<FootnoteMarker n={15} act={2} /></p><span className="gly-inline-row"><Glyph name="null" size="inline" stage={0} /></span></div>
+        <div className="el-body"><p>{inline(`A scene ends when: you get what you wanted (success, clean or complicated), you clearly don't get what you wanted (failure), or the situation changes so completely that a new want replaces the old one.`)}</p></div>
         <div className="el-body"><p>{inline(`When the scene ends, write in your Chronicle: what changed? And what question are you carrying into the next scene?`)}</p></div>
         <h4 className="el-subsection">{inline(`Moving Between Scenes`)}</h4>
         <div className="el-body"><p>{inline(`Ask: do I stay here, or go somewhere else? If you stay, the next scene happens in the same location — moments or hours later. Something has changed. If you go, decide where. If you're leaving the era entirely, that's a Navigation roll (see below) or forced displacement.`)}</p></div>

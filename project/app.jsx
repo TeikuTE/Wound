@@ -24,7 +24,6 @@ const CHAPTER_ORDER = [
   { fn: () => ChenCh7,                section: "chen",       label: "Ch VII · Advanced Systems",     num: 7 },
   { fn: () => ChenCh8,                section: "chen",       label: "Ch VIII · Long-Term Play",      num: 8 },
   { fn: () => PlayingBothInterlude,   section: "interlude",  label: "Interlude · Playing Both" },
-  { fn: () => EmitTitle,              section: "alan",       label: "emiT · Title Page" },
   { fn: () => AlanCh1,                section: "alan",       label: "Entry 001 · After the Tutorial", num: 1 },
   { fn: () => AlanCh2,                section: "alan",       label: "Entry 002 · Calibration",       num: 2 },
   { fn: () => AlanCh3,                section: "alan",       label: "Entry 003 · Operational",       num: 3 },
@@ -39,7 +38,6 @@ const CHAPTER_ORDER = [
   { fn: () => AppendixF,              section: "appendix",   label: "Appendix F · Examples of Play" },
   { fn: () => AppendixG,              section: "appendix",   label: "Appendix G · Temporal Pathologies" },
   { fn: () => AppendixH,              section: "appendix",   label: "Appendix H · The Saul Files" },
-  { fn: () => SaulClosing,            section: "appendix",   label: "Saul Files · Closing" },
   { fn: () => BM_quick_reference_sheet, section: "appendix", label: "Quick Reference Sheet" },
 ];
 

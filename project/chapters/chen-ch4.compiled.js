@@ -31,13 +31,7 @@ function ChenCh4({
     side: "recto",
     showWatermark: true,
     label: "CORE RESOLUTION & FACTION PRESSURE \xB7 opener"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "chapter-sigil"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "drift",
-    size: "sigil",
-    stage: 0
-  })), /*#__PURE__*/React.createElement(ChenChapterHead, {
+  }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-broken-compass.svg",
     number: "IV",
     title: "Core Resolution & Faction Pressure"
@@ -48,30 +42,13 @@ function ChenCh4({
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
     pageNum: basePage + 2,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 16,
-        "text": "2d6 + Mode + Memory tag — same math as Forged in the Dark. Comfortable territory. I can play this in my sleep.",
-        "act": 2,
-        "late": false
-      }]
-    }),
     label: `CORE RESOLUTION & FACTIO · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`The Resolution Roll`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
-  }, /*#__PURE__*/React.createElement("p", null, inline(`When the outcome matters, you roll. Two six-sided dice, plus the relevant Mode, plus your Memory bonus if one applies.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 16,
-    act: 2
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "momentum",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`When the outcome matters, you roll. Two six-sided dice, plus the relevant Mode, plus your Memory bonus if one applies.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` is success. `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` is success with cost. `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` is failure with an opening.`))), /*#__PURE__*/React.createElement(ChenMarginaliaInline, null, /*#__PURE__*/React.createElement("p", null, inline(`I want to say something about the `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` before we go further. New Echoes treat it as the bad result. It isn't. The `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` ends the question; the `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` changes it. Both move the story. Only one of them surprises you.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -111,16 +88,16 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`MEMORY BONUS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Active Memory matching context +2 Fading Memory matching context +1 Locked Memory matching context +3 No relevant Memory +0`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Active Memory matching context +2 Fading Memory matching context +1 Locked Memory matching context +3 No relevant Memory +0`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Navigation`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You will be displaced whether you want to be or not. Faction interference, Crisis events, and temporal instability will throw you between eras involuntarily. But you can also attempt Precision Navigation — using resonance principles to target specific coordinates in time.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Core Resolution & Faction Pressure",
     pageNum: basePage + 3,
     label: `CORE RESOLUTION & FACTIO · p.${basePage + 3}`
   }, /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`Navigation`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You will be displaced whether you want to be or not. Faction interference, Crisis events, and temporal instability will throw you between eras involuntarily. But you can also attempt Precision Navigation — using resonance principles to target specific coordinates in time.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`PRECISION NAVIGATION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -138,23 +115,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Step 3: Roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + OBSERVE + Memory Bonus (if applicable).`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Step 4: Read the result:`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-4-03",
-    label: "CORE RESOLUTION & FACTION PRESSURE · spread 3"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 4,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 17,
-        "text": "Coherence is the only resource that matters. The rest are decoration.",
-        "act": 2,
-        "late": false
-      }]
-    }),
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Step 4: Read the result:`))), /*#__PURE__*/React.createElement("div", {
     className: "el-resolution"
   }, /*#__PURE__*/React.createElement("div", {
     className: "resolution-row"
@@ -196,31 +157,25 @@ function ChenCh4({
     className: "resolution-title"
   }, inline(`Lost in Transit`)), /*#__PURE__*/React.createElement("div", {
     className: "resolution-text"
-  }, inline(`Navigation fails. Consult the Anomaly Tables (see below). Choose: Lose 1 Coherence OR Mark +2 Paradox.`))))), /*#__PURE__*/React.createElement("h4", {
+  }, inline(`Navigation fails. Consult the Anomaly Tables (see below). Choose: Lose 1 Coherence OR Mark +2 Paradox.`))))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-4-03",
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 3"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 4,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 4}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`STRUCTURED CORRECTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`After rolling all four Anomaly Tables, you may spend 1 Coherence to reroll one result. Choose which table to reroll (ERA, LOCATION, ANOMALY, or COMPLICATION), spend the Coherence, and accept the new result. You may do this once per displacement event.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 17,
-    act: 2
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "anchor",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`After rolling all four Anomaly Tables, you may spend 1 Coherence to reroll one result. Choose which table to reroll (ERA, LOCATION, ANOMALY, or COMPLICATION), spend the Coherence, and accept the new result. You may do this once per displacement event.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Initial observations can contain measurement error. Temporal resonance creates interference. If you invest the Coherence to recalibrate, you can refine your assessment. This isn't changing reality. It's correcting your perception of what exists.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
   }, "\u2014 EC")), /*#__PURE__*/React.createElement(AlanIntrusionInline, {
     tier: tier
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Chen's into spending Coherence to make the dice lie more comfortably. Sure, it works. It's also false comfort.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 5,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Chen's into spending Coherence to make the dice lie more comfortably. Sure, it works. It's also false comfort.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`NAVIGATION COLLAPSE (PARADOX 7+)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -241,7 +196,12 @@ function ChenCh4({
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Chen frames it as agency vs. passivity. She's way offbase. The only choice is between paying for the illusion of control and admitting you don't have any. Anomaly Tables are cheaper because they're not selling you anything.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-alan-sign"
-  }, "\u2014AR")), /*#__PURE__*/React.createElement("h4", {
+  }, "\u2014AR"))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 5,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Wave Coherence`)), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
@@ -249,15 +209,7 @@ function ChenCh4({
     className: "el-sign"
   }, "\u2014 EC")), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Wave Coherence measures how aligned you are with the timestream. It ranges from -6 to your Anchor Strength + 5 (usually 8).`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-4-04",
-    label: "CORE RESOLUTION & FACTION PRESSURE · spread 4"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 6,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Wave Coherence measures how aligned you are with the timestream. It ranges from -6 to your Anchor Strength + 5 (usually 8).`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`COHERENCE STATE EFFECT`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -271,17 +223,19 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`GAINING AND LOSING COHERENCE`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You gain Coherence when you succeed (+1 on a 10+), when you write something true in your Chronicle (+1), when you reinforce your Anchor (+2). You lose it when you fail (-1 on a 6-, or choose Paradox instead), when you're Displaced (see Displacement Costs below), when you let a Memory fade (-1), when your Anchor takes Stress (see Anchor Stress below). The math is simple. The choices aren't.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You gain Coherence when you succeed (+1 on a 10+), when you write something true in your Chronicle (+1), when you reinforce your Anchor (+2). You lose it when you fail (-1 on a 6-, or choose Paradox instead), when you're Displaced (see Displacement Costs below), when you let a Memory fade (-1), when your Anchor takes Stress (see Anchor Stress below). The math is simple. The choices aren't.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-4-04",
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 4"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 6,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 6}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`DISPLACEMENT COSTS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Every time you are Displaced — voluntarily or not — you lose Coherence from the wrenching dislocation.`)), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "drift",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Every time you are Displaced — voluntarily or not — you lose Coherence from the wrenching dislocation.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Displacement Type Coherence Cost`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -297,12 +251,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`collapse, Breach`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Involuntary jumps always cost 2. Crisis-level displacement costs 3. You don't get to choose when those happen. That's the point.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 7,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 7}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Involuntary jumps always cost 2. Crisis-level displacement costs 3. You don't get to choose when those happen. That's the point.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`ANCHOR STRESS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -312,9 +261,7 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`Mark 1 Anchor Stress when:`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A Church Templar successfully captures or touches you (their rituals`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`target your origin frequency directly)`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A Church Templar successfully captures or touches you (their rituals target your origin frequency directly)`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You fail a roll involving your Locked Memory while in`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -324,7 +271,12 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Connection (you knew her as alive; here she died before you were born)`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A Crisis outcome specifies Anchor Stress`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A Crisis outcome specifies Anchor Stress`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 7,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 7}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`When all 3 Anchor Stress boxes are marked, your Anchor is Strained. While Strained: you cannot invoke Anchor Connections for Coherence bonuses. The Reinforce Anchor move (Ch. 7) clears Stress as normal — but on a 6-, you lose 1 Anchor Strength permanently instead of just failing.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -334,15 +286,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`When you would gain Coherence but are already at your maximum, choose one: Stabilize an Asset (clear 1 Stress from any Asset), Reduce Contamination (reduce Paradox by 1, if above 0), or Bank It (mark +1 Banked Coherence, maximum 3 Banked). Spend Banked Coherence 1-for-1 to prevent Coherence loss.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`This mechanic exists in Temporal Echoes only. Wrecks do not bank Coherence. You're not preserving anything.`)))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-4-05",
-    label: "CORE RESOLUTION & FACTION PRESSURE · spread 5"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 8,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 8}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`This mechanic exists in Temporal Echoes only. Wrecks do not bank Coherence. You're not preserving anything.`)))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Paradox: The Universe Pushing Back`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -354,29 +298,25 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Share knowledge from the wrong era (a technique, a fact, a warning) +1`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Change something small — redirect one person, save one life, +1`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Change something small — redirect one person, save one life, +1 alter one decision`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`alter one decision`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Change something documented — an event with witnesses, +2`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`a death with records`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Change something documented — an event with witnesses, +2 a death with records`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Create a causal loop (you caused the thing that caused you here) +2`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Meet yourself (any version — past, future, alternate) +2`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Change something load-bearing — a battle's outcome, +3`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Change something load-bearing — a battle's outcome, +3 a discovery's timing, a leader's survival`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-4-05",
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 5"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 8,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 8}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`a discovery's timing, a leader's survival`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Cause a Shattering deliberately +3`)), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "collapse",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Cause a Shattering deliberately +3`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`When in doubt: if people would write it down afterward, it's +2. If people would change how they understand history, it's +3. If only you noticed, it's +1.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -386,12 +326,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Flux (4-6)`)), inline(` — `), /*#__PURE__*/React.createElement("b", null, inline(`-1`)), inline(` to Resolution rolls. Noticeable anomalies. Memory Fading accelerates. Faction Scouts appear when you roll `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Anomaly (7-9)`)), inline(` — `), /*#__PURE__*/React.createElement("b", null, inline(`-1`)), inline(` to Resolution rolls. Memory Fading doubles. Reality actively hostile. Faction Agents appear as complication on `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 9,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 9}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Anomaly (7-9)`)), inline(` — `), /*#__PURE__*/React.createElement("b", null, inline(`-1`)), inline(` to Resolution rolls. Memory Fading doubles. Reality actively hostile. Faction Agents appear as complication on `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`Breach (10+)`)), inline(` — `), /*#__PURE__*/React.createElement("b", null, inline(`-2`)), inline(` to Resolution rolls. Timeline collapsing. Immediate Paradox Crisis. Faction Intervention during Crisis Phase 2.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
@@ -401,7 +336,12 @@ function ChenCh4({
     className: "el-reflection el-reflection--theory"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Gödel proved that any formal system rich enough to express arithmetic contains true statements it cannot prove. Reality, under CTH, is the same. There are facts about the timeline that are true and that the timeline cannot accommodate. Echoes bear those facts carved into their identity, but Paradox is what happens when an unprovable truth tries to find a place to stand. — EC`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
-  }, "\u2014 EC")), /*#__PURE__*/React.createElement("h4", {
+  }, "\u2014 EC"))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 9,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 9}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Faction Pressure`)), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
@@ -411,23 +351,7 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`SHADOW (0-3): INVISIBLE`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You're background noise. Factions have no reason to notice something they can't measure. Enjoy it. It won't last.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-4-06",
-    label: "CORE RESOLUTION & FACTION PRESSURE · spread 6"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 10,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 18,
-        "text": "The Offers mechanic is mean. Real mean. Saul refused his first one (Loop Authority, of course) and now the Mark stays. I respect the design.",
-        "act": 2,
-        "late": false
-      }]
-    }),
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 10}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You're background noise. Factions have no reason to notice something they can't measure. Enjoy it. It won't last.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`FLUX (4-6): SCOUTS APPEAR`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -439,31 +363,25 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`BREACH (10+): INTERVENTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`During Crisis Phase 2, Factions arrive in force. You're not a nuisance anymore. You're a crisis event. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`, or `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(` twice for a Factional War — two Factions competing over what to do with you. See Crisis Interventions in Chapter 6.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`During Crisis Phase 2, Factions arrive in force. You're not a nuisance anymore. You're a crisis event. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`, or `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(` twice for a Factional War — two Factions competing over what to do with you. See Crisis Interventions in Chapter 6.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-4-06",
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 6"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 10,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 10}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Agent Encounters`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`When an Agent appears at Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, they bring an Offer. The form varies — surveillance, interference, demand, or direct confrontation. Not every Agent encounter is a fight.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 18,
-    act: 2
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "paradox",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`When an Agent appears at Paradox `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, they bring an Offer. The form varies — surveillance, interference, demand, or direct confrontation. Not every Agent encounter is a fight.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You choose one of three responses:`))), /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Accept the Offer. Pay the cost, gain the benefit. Offers are trades, not rolls.`)), /*#__PURE__*/React.createElement("li", null, inline(`Refuse. They impose a consequence and Mark you.`)), /*#__PURE__*/React.createElement("li", null, inline(`Drive Off. Make a roll to force them away.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Offers are your non-roll path to Paradox relief. If Downtime moves aren't working, an Agent's trade is how you buy back control — by selling pieces of yourself.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 11,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 11}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Offers are your non-roll path to Paradox relief. If Downtime moves aren't working, an Agent's trade is how you buy back control — by selling pieces of yourself.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`THE DRIVE OFF MOVE`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -491,7 +409,12 @@ function ChenCh4({
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The four below are not exhaustive. They are the four I have met often enough to describe consistently. Each Faction has variations — older Templars, younger Auditors, Heralds wearing a face you have not yet lost, Chronoclasts who have learned restraint. The descriptions are what holds across the variations. The faces change. The function does not.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
-  }, "\u2014 EC")), /*#__PURE__*/React.createElement("h4", {
+  }, "\u2014 EC"))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 11,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 11}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`1. CHURCH TEMPLAR`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -501,15 +424,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Trade: Take 1 Scar immediately + lose 2 Coherence →Reduce Paradox by 3. Mark: Church knows you're a viable battery. They'll return.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`If Refused: Impose — their prayer weighs on you, lose 1 Coherence. Mark — next Scout/Agent encounter is automatically Church.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-4-07",
-    label: "CORE RESOLUTION & FACTION PRESSURE · spread 7"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 12,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 12}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`If Refused: Impose — their prayer weighs on you, lose 1 Coherence. Mark — next Scout/Agent encounter is automatically Church.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`2. AUTHORITY AUDITOR`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -527,7 +442,15 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Offer: I can end the pain. All of it. Right now.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The Trade: Character retired. You cease. Peacefully. Game over. Write a final Chronicle entry: I let go. This is a valid ending — choosing peace over continued suffering.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`The Trade: Character retired. You cease. Peacefully. Game over. Write a final Chronicle entry: I let go. This is a valid ending — choosing peace over continued suffering.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-4-07",
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 7"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 12,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 12}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`If Refused: Impose — -1 to ENDURE while they're present. Mark — the offer stands, always. They'll return during your next Crisis.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -537,12 +460,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Offer: You're making art! Here — let's make it louder.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The Trade: Gain +2 Paradox now →Gain +3 to your next DISRUPT or OBSERVE roll only. Regardless of result, that roll triggers a Complication. Mark: they think you're interesting.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 13,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 13}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`The Trade: Gain +2 Paradox now →Gain +3 to your next DISRUPT or OBSERVE roll only. Regardless of result, that roll triggers a Complication. Mark: they think you're interesting.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`If Refused: Impose — roll on Timeline Shift Oracle immediately (reality changes around you). Mark — they'll bring a gift next time (unstable Chrono-Tech that glitches constantly).`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -553,7 +471,12 @@ function ChenCh4({
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Being Marked means you're screwed. You drew their attention, refused their offer, and now they know you're worth effort. I've been Marked by all four Factions simultaneously. It's like having four different kinds of cancer. Each one convinced they're helping.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-alan-sign"
-  }, "\u2014AR")), /*#__PURE__*/React.createElement("h4", {
+  }, "\u2014AR"))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 13,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 13}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Downtime`)), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
@@ -567,17 +490,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`After every Oracle Displacement (rolling all four Anomaly Tables), OR`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`At the end of your real-world play session, if neither of the above`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`occurred.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-4-08",
-    label: "CORE RESOLUTION & FACTION PRESSURE · spread 8"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 14,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 14}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`At the end of your real-world play session, if neither of the above occurred.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`DOWNTIME STEPS (DO THESE IN ORDER)`)), /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
@@ -591,13 +504,15 @@ function ChenCh4({
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Tend to Assets.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`For each Asset with Stress marked, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + relevant Mode (usually OBSERVE for tech, SYNC for connections). On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: clear all Stress. On `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: clear 1 Stress. On `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`: no Stress cleared. If an Asset has all Stress marked, it's broken — spend a Downtime move repairing it (narrate the work, no roll) or replace it with a new Asset at Level 1.`)), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "burden",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("ol", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`For each Asset with Stress marked, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + relevant Mode (usually OBSERVE for tech, SYNC for connections). On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`: clear all Stress. On `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`: clear 1 Stress. On `), /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(`: no Stress cleared. If an Asset has all Stress marked, it's broken — spend a Downtime move repairing it (narrate the work, no roll) or replace it with a new Asset at Level 1.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-4-08",
+    label: "CORE RESOLUTION & FACTION PRESSURE · spread 8"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 14,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 14}`
+  }, /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
   }, /*#__PURE__*/React.createElement("li", null, inline(`Process Memory.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -605,12 +520,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`When a memory passes from Active to Fading, you notice it as effort — the thing you used to recall instantly now requires you to reach. Fading to Lost is quieter. You don't notice the moment it goes. You notice, weeks later, that something used to be there and now is not. You reach for the cup that isn't there. You start the sentence and find no end to it. The Scar is the shape the absence leaves.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Your Locked Memory never fades.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 15,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 15}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Your Locked Memory never fades.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`If something significant happened this session, you may create a new Memory: write the event, choose Context Tags, write a description. It enters Active Slot 1, pushing everything else forward.`))), /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
@@ -624,7 +534,12 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Ignore: Accept your current contamination level.`))), /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
-  }, /*#__PURE__*/React.createElement("li", null, inline(`Plan Next Move.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Plan Next Move.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Core Resolution & Faction Pressure",
+    pageNum: basePage + 15,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 15}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Answer one of these questions in your Chronicle: What am I trying to accomplish? What am I afraid will happen next? What do I need that I don't have?`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
@@ -632,53 +547,31 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`This game explores identity dissolution, memory loss, isolation, and the horror of losing yourself piece by piece.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The Temporal Pause (X-Card): At any point, if the content becomes too intense, stop writing. Close the Chronicle. Breathe. Narratively, your Echo phases out of local time for a micro-second, avoiding the trauma. Mechanically, skip the scene. No penalty. Reality redraws itself around the gap.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`The Temporal Pause (X-Card): At any point, if the content becomes too intense, stop writing. Close the Chronicle. Breathe. Narratively, your Echo phases out of local time for a micro-second, avoiding the trauma. Mechanically, skip the scene. No penalty. Reality redraws itself around the gap.`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Lines and Veils: Lines are events that don't happen in your timeline — write them in the back of your Chronicle under Redacted Data. If an Oracle prompts them, reroll. Veils are events that happen off-screen — describe the setup and aftermath, but the event itself is Lost to Static.`))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`EXPANDED SAFETY TOOLS`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`Temporal Echoes is a game about loss, memory, and identity erosion. Played at length, it will put you in proximity to real feelings you may not have scheduled time for. The following tools exist to help you engage with difficult material without getting genuinely hurt.`)))), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Lines and Veils`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Before your first session, take ten minutes to write two short lists in the front of your Chronicle.`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Lines — content that will not appear in your game, ever. Hard stops. If the Oracle rolls toward it, you reroll or narrate around it. There is no mechanical cost for this. The game's rules have no authority over what you're willing to encounter.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-4-09",
     label: "CORE RESOLUTION & FACTION PRESSURE · spread 9"
   }, /*#__PURE__*/React.createElement(ChPage, {
     side: "verso",
     runHead: "Core Resolution & Faction Pressure",
     pageNum: basePage + 16,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 19,
-        "text": "Safety tools written by someone who has used them. The \"talk to a person who exists in your life before you pick the book up again\" line is good advice. Going to ignore it because the baby finally went down and this is my window.",
-        "act": 2,
-        "late": false
-      }]
-    }),
     label: `CORE RESOLUTION & FACTIO · p.${basePage + 16}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Lines and Veils: Lines are events that don't happen in your timeline — write them in the back of your Chronicle under Redacted Data. If an Oracle prompts them, reroll. Veils are events that happen off-screen — describe the setup and aftermath, but the event itself is Lost to Static.`))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`EXPANDED SAFETY TOOLS`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("i", null, inline(`Temporal Echoes is a game about loss, memory, and identity erosion. Played at length, it will put you in proximity to real feelings you may not have scheduled time for. The following tools exist to help you engage with difficult material without getting genuinely hurt.`)), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 19,
-    act: 2
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "null",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`Lines and Veils`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Before your first session, take ten minutes to write two short lists in the front of your Chronicle.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Lines — content that will not appear in your game, ever. Hard stops. If the Oracle rolls toward it, you reroll or narrate around it. There is no mechanical cost for this. The game's rules have no authority over what you're willing to encounter.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Veils — content that may exist in the world of the game but is not described on-page. Violence happens, but you don't zoom in on it. A character dies, but you cut to the next scene. Fade to black is a legitimate move.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Your Lines and Veils can change between sessions. Cross things out. Add new ones. You are not locked in.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 17,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 17}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Your Lines and Veils can change between sessions. Cross things out. Add new ones. You are not locked in.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`The Temporal Pause (X-Card Equivalent)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -696,14 +589,11 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`If you make a narrative choice and, an hour later, realize it sent the story somewhere you don't want to go, you may Rewind. Cross out the last paragraph of your Chronicle. Return to the prior decision point. Choose differently.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Pay the mechanical costs of any rolls that occurred. Keep any Scars. The fiction is yours to revise. The accumulated damage is not.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-4-10",
-    label: "CORE RESOLUTION & FACTION PRESSURE · spread 10"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Pay the mechanical costs of any rolls that occurred. Keep any Scars. The fiction is yours to revise. The accumulated damage is not.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
     runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 18,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 18}`
+    pageNum: basePage + 17,
+    label: `CORE RESOLUTION & FACTIO · p.${basePage + 17}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Processing Difficult Content`)), /*#__PURE__*/React.createElement("div", {
@@ -718,14 +608,9 @@ function ChenCh4({
     className: "el-subsection"
   }, inline(`A Note on Crisis`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`If you are in genuine mental-health crisis — the kind that does not belong in a game — please set the book aside and contact a crisis line in your region, or a trusted person. The game will still be here. You need to be too.`))), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Memoria finita est.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Core Resolution & Faction Pressure",
-    pageNum: basePage + 19,
-    label: `CORE RESOLUTION & FACTIO · p.${basePage + 19}`
-  })));
+  }, /*#__PURE__*/React.createElement("p", null, inline(`If you are in genuine mental-health crisis — the kind that does not belong in a game — please set the book aside and contact a crisis line in your region, or a trusted person. The game will still be here. You need to be too.`))), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Memoria finita est.`))))));
 }
-ChenCh4.pages = 20;
+ChenCh4.pages = 18;
 Object.assign(window, {
   ChenCh4
 });

@@ -69,10 +69,6 @@ const CHAPTER_ORDER = [{
   section: "interlude",
   label: "Interlude · Playing Both"
 }, {
-  fn: () => EmitTitle,
-  section: "alan",
-  label: "emiT · Title Page"
-}, {
   fn: () => AlanCh1,
   section: "alan",
   label: "Entry 001 · After the Tutorial",
@@ -134,10 +130,6 @@ const CHAPTER_ORDER = [{
   fn: () => AppendixH,
   section: "appendix",
   label: "Appendix H · The Saul Files"
-}, {
-  fn: () => SaulClosing,
-  section: "appendix",
-  label: "Saul Files · Closing"
 }, {
   fn: () => BM_quick_reference_sheet,
   section: "appendix",

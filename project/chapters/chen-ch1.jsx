@@ -9,7 +9,6 @@ function ChenCh1({ tweaks, basePage = 1 }) {
     <Spread id="chen-1-opener" label={"UNDERSTANDING DISPLACEMENT · opener"}>
       <ChPage side="verso" label="(blank)" />
       <ChPage side="recto" showWatermark label="UNDERSTANDING DISPLACEMENT · opener">
-        <div className="chapter-sigil"><Glyph name="momentum" size="sigil" stage={0} /></div>
         <ChenChapterHead icon="assets/chen-icon-broken-compass.svg" number="I" title="Understanding Displacement" />
       </ChPage>
     </Spread>
@@ -32,8 +31,8 @@ function ChenCh1({ tweaks, basePage = 1 }) {
       </ChPage>
     </Spread>
     <Spread id="chen-1-03" label={"UNDERSTANDING DISPLACEMENT · spread 3"}>
-      <ChPage side="verso" runHead={"Understanding Displacement"} pageNum={basePage + 4} footnotes={<FinderFootnotes notes={[{"n":8,"text":"Yes Chen, the three questions are also in every TTRPG essay since 2018. Solid framing though.","act":1,"late":false}]} />} label={`UNDERSTANDING DISPLACEME · p.${basePage + 4}`}>
-        <div className="el-body"><p>{inline(`These are the three questions I have never met an Echo who could avoid for long.`)}<FootnoteMarker n={8} act={1} /></p></div>
+      <ChPage side="verso" runHead={"Understanding Displacement"} pageNum={basePage + 4} label={`UNDERSTANDING DISPLACEME · p.${basePage + 4}`}>
+        <div className="el-body"><p>{inline(`These are the three questions I have never met an Echo who could avoid for long.`)}</p></div>
         <div className="el-body"><p>{inline(`Every Echo must eventually answer these:`)}</p></div>
         <ul className="el-list"><li>{inline(`Can I return to my origin?`)}</li><li>{inline(`Should I preserve my original identity?`)}</li><li>{inline(`What happens if I forget who I was?`)}</li></ul>
         <AlanIntrusionInline tier={tier}><p>{inline(`She's wrong about the order. The first question every Echo asks is "what year is it." The second is "where am I." She skips both because she had a lab and is into math. Most people have neither.`)}</p></AlanIntrusionInline>

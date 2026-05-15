@@ -31,13 +31,7 @@ function ChenCh3({
     side: "recto",
     showWatermark: true,
     label: "A SESSION OF \"PLAY\" · opener"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "chapter-sigil"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "ripple",
-    size: "sigil",
-    stage: 0
-  })), /*#__PURE__*/React.createElement(ChenChapterHead, {
+  }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-irregular-sine.svg",
     number: "III",
     title: "A Session Of \"Play\""
@@ -48,30 +42,13 @@ function ChenCh3({
     side: "verso",
     runHead: "A Session Of \"Play\"",
     pageNum: basePage + 2,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 14,
-        "text": "Saul's question for tonight: what would it have been like to grow up with both parents alive. Wrote it down. Closed the book. Made tea.",
-        "act": 2,
-        "late": false
-      }]
-    }),
     label: `A SESSION OF "PLAY" · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Opening the Session`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Before you write anything else, write down at least one question your Echo is trying to find out the answer to right now.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 14,
-    act: 2
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "momentum",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Before you write anything else, write down at least one question your Echo is trying to find out the answer to right now.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`This question is your compass. A scene that answers it — partly, badly, ambiguously — is a scene that did its job. Examples I see often: `), /*#__PURE__*/React.createElement("i", null, inline(`Can I trust this professor? What happened to my daughter in this timeline? Why does this era feel wrong? What are the Factions hiding here?`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -87,20 +64,16 @@ function ChenCh3({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Location if you've moved.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Who's here? An NPC from a previous session, a new character from an`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Who's here? An NPC from a previous session, a new character from an oracle, or no one.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`oracle, or no one.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`What do I want from them? Information, safe passage, a moment of peace, to hurt them, to save them.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`What do I want from them? Information, safe passage, a moment of`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`peace, to hurt them, to save them.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "A Session Of \"Play\"",
     pageNum: basePage + 3,
     label: `A SESSION OF "PLAY" · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`When to Roll`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -151,14 +124,6 @@ function ChenCh3({
     side: "verso",
     runHead: "A Session Of \"Play\"",
     pageNum: basePage + 4,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 15,
-        "text": "Got into a clean flow tonight. Played three scenes in 45 minutes. Saul stayed at +4 Coherence. This is just resource management with a poetic coat of paint.",
-        "act": 2,
-        "late": false
-      }]
-    }),
     label: `A SESSION OF "PLAY" · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
@@ -169,16 +134,7 @@ function ChenCh3({
     className: "el-subsection"
   }, inline(`Ending a Scene`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A scene ends when: you get what you wanted (success, clean or complicated), you clearly don't get what you wanted (failure), or the situation changes so completely that a new want replaces the old one.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 15,
-    act: 2
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "null",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A scene ends when: you get what you wanted (success, clean or complicated), you clearly don't get what you wanted (failure), or the situation changes so completely that a new want replaces the old one.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`When the scene ends, write in your Chronicle: what changed? And what question are you carrying into the next scene?`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"

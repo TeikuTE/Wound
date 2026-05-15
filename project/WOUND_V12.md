@@ -2,9 +2,7 @@
 
 *A Solo Journaling RPG Duology About Memory, Loss, and What We Become*
 
-First Edition, 2025 · ©2026 All Rights Reserved
-
-temporalechoesgame@gmail.com
+First Edition, 2025 · ©2026 All Rights Reserved temporalechoesgame@gmail.com
 
 ---
 
@@ -383,7 +381,7 @@ You begin with 5 Active Memories. Each represents a moment from before Displacem
 
 For each Memory, write:
 
-- **A Title** — brief and evocative, the way you'd refer to it in your head
+- **A Title** — brief and evocative, the way you'd refer to it in your head.
 - **Two Context Tags** — situations where this Memory's experience applies
 - **A short description** — what happened, in your own voice
 
@@ -503,13 +501,9 @@ Where am I? Use your established Era and Location, or roll a new
 
 Location if you've moved.
 
-Who's here? An NPC from a previous session, a new character from an
+Who's here? An NPC from a previous session, a new character from an oracle, or no one.
 
-oracle, or no one.
-
-What do I want from them? Information, safe passage, a moment of
-
-peace, to hurt them, to save them.
+What do I want from them? Information, safe passage, a moment of peace, to hurt them, to save them.
 
 If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?
 
@@ -721,9 +715,7 @@ Your Anchor has a Stress track: ○○○
 
 **Mark 1 Anchor Stress when:**
 
-A Church Templar successfully captures or touches you (their rituals
-
-target your origin frequency directly)
+A Church Templar successfully captures or touches you (their rituals target your origin frequency directly)
 
 You fail a roll involving your Locked Memory while in
 
@@ -755,21 +747,15 @@ Contradict your own Chronicle +1
 
 Share knowledge from the wrong era (a technique, a fact, a warning) +1
 
-Change something small — redirect one person, save one life, +1
+Change something small — redirect one person, save one life, +1 alter one decision
 
-alter one decision
-
-Change something documented — an event with witnesses, +2
-
-a death with records
+Change something documented — an event with witnesses, +2 a death with records
 
 Create a causal loop (you caused the thing that caused you here) +2
 
 Meet yourself (any version — past, future, alternate) +2
 
-Change something load-bearing — a battle's outcome, +3
-
-a discovery's timing, a leader's survival
+Change something load-bearing — a battle's outcome, +3 a discovery's timing, a leader's survival
 
 Cause a Shattering deliberately +3
 
@@ -923,9 +909,7 @@ After every Precision Navigation roll, OR
 
 After every Oracle Displacement (rolling all four Anomaly Tables), OR
 
-At the end of your real-world play session, if neither of the above
-
-occurred.
+At the end of your real-world play session, if neither of the above occurred.
 
 **DOWNTIME STEPS (DO THESE IN ORDER)**
 
@@ -1494,19 +1478,15 @@ An Identity Crisis resolves at **10-11** (Anchor restored to 1, but any
 
 Strength above that is gone)
 
-A Faction Agent's Imposed consequence specifically targets your
+A Faction Agent's Imposed consequence specifically targets your Anchor.
 
 Anchor (this is rare; it will be stated explicitly when it occurs)
 
-You voluntarily sever an Anchor Connection to gain a mechanical
-
-benefit — when you burn the last real thing tethering you to your
+You voluntarily sever an Anchor Connection to gain a mechanical benefit — when you burn the last real thing tethering you to your origin, the cost is permanent.
 
 origin for short-term survival, the Anchor notices
 
-You complete The Return and choose Return Changed — your Anchor binds
-
-permanently, but at whatever Strength it was when you arrived
+You complete The Return and choose Return Changed — your Anchor binds permanently, but at whatever Strength it was when you arrived
 
 **[CHEN]**
 
@@ -1570,9 +1550,7 @@ Rest & Recover: restore +2 Coherence, clear 1 Stress from all Assets
 
 Repair Asset: see Asset Repair rules above
 
-Study Era: immerse in the current time period, create a new Memory
-
-related to its culture or technology
+Study Era: immerse in the current time period, create a new Memory related to its culture or technology
 
 Reinforce Anchor: see Anchor Reinforcement above
 
@@ -1878,7 +1856,7 @@ Write these in pencil. By session 10, you'll have different answers than you sta
 
 Name: What they called you
 
-Origin Era: When and where you're from
+Origin Era: When and where you're from.
 
 Displacement Event: What unmoored you
 
@@ -2146,13 +2124,9 @@ Choose ONE option you have NOT chosen since your last Repreival. If all options 
 
 Mutation — gain a permanent personality change immediately
 
-Scar Loss — one Active Scar becomes Lost immediately (gain Mutation
+Scar Loss — one Active Scar becomes Lost immediately (gain Mutation from the loss)
 
-from the loss)
-
-Witnessed — mark WITNESSED; your next social interaction this era
-
-takes -1 SYNC and the Oracle introduces someone responding to what they
+Witnessed — mark WITNESSED; your next social interaction this era takes -1 SYNC and the Oracle introduces someone responding to what they
 
 saw you become
 
@@ -3242,9 +3216,7 @@ You're clearly from somewhere, but the place you claim doesn't exist. They're ca
 - **ANOMALY 76:** Chronal Sickness
 - **COMPLICATION 66:** Temporal Sickness (Personal)
 
-Climate refugee medical processing center, North America, 2043. The facility is overwhelmed with people suffering temporal contamination — side effects of living near displacement zones that have opened across the continent due to climate-driven reality breakdown. Symptoms include rapid aging,
-
-remembering futures that haven't occurred, bodies flickering between temporal states. You arrive already visibly sick with your own high-Paradox contamination symptoms. The intake staff immediately assume you're another refugee with chronal radiation poisoning. They think you're contagious. Quarantine protocols are beginning. Your actual displacement might worsen the local instability — and medical intervention from this era might help or destroy you.
+Climate refugee medical processing center, North America, 2043. The facility is overwhelmed with people suffering temporal contamination — side effects of living near displacement zones that have opened across the continent due to climate-driven reality breakdown. Symptoms include rapid aging, remembering futures that haven't occurred, bodies flickering between temporal states. You arrive already visibly sick with your own high-Paradox contamination symptoms. The intake staff immediately assume you're another refugee with chronal radiation poisoning. They think you're contagious. Quarantine protocols are beginning. Your actual displacement might worsen the local instability — and medical intervention from this era might help or destroy you.
 
 **C.2 — The Chronoscape (emiT)**
 
@@ -3498,11 +3470,11 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **NPC Motivation Table (d100)**
 
-**01-05** Survival — ensure personal safety, secure basic ne
+**01-05** Survival — ensure personal safety, secure basic needs (food, shelter, warmth), avoid lethal threats.
 
-**06-10** Revenge — settle old scores, right past wrongs, jus
+**06-10** Revenge — settle old scores, right past wrongs, justice on their own terms.
 
-**11-15** Greed — accumulate wealth, power, or influence; m
+**11-15** Greed — accumulate wealth, power, or influence; more is never enough.
 
 **16-20** Love — protect, reconnect with, or win over someo
 
@@ -3510,37 +3482,37 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **26-30** Ambition — achieve status, recognition, or advanc hierarchy
 
-**31-35** Fear — avoid danger, exposure, or consequence; o
+**31-35** Fear — avoid danger, exposure, or consequence; obey the threat that scares them most.
 
 **36-40** Curiosity — understand mystery, acquire knowledg
 
 **41-45** Faith — serve a higher power, ideological cause, or
 
-**46-50** Justice — right systemic wrongs, restore balance; j
+**46-50** Justice — right systemic wrongs, restore balance; judge the wrongdoer.
 
-**51-55** Redemption — atone for past failures; seeking forg forgiveness
+**51-55** Redemption — atone for past failures; seeking forgiveness.
 
-**56-60** Control — maintain order, prevent chaos; need for
+**56-60** Control — maintain order, prevent chaos; need for predictability.
 
-**61-65** Freedom — escape constraint, oppression, or oblig
+**61-65** Freedom — escape constraint, oppression, or obligation.
 
-**66-70** Protection — guard something precious: family, se
+**66-70** Protection — guard something precious: family, secret, faith, place.
 
-**71-75** Discovery — uncover truth, reveal hidden informat
+**71-75** Discovery — uncover truth, reveal hidden information.
 
-**76-80** Belonging — find community, gain acceptance, ear
+**76-80** Belonging — find community, gain acceptance, earn a place among people who matter to them.
 
-**81-85** Legacy — leave lasting mark, be remembered, sha
+**81-85** Legacy — leave lasting mark, be remembered, shape what comes next.
 
-**86-90** Desperation — backed into a corner, out of options everything
+**86-90** Desperation — backed into a corner, out of options, everything they had is at stake.
 
-**91-93** Obsession — pursue singular goal regardless of co
+**91-93** Obsession — pursue singular goal regardless of cost.
 
-**94-96** Confusion — seeking clarity of chaotic situation; lo
+**94-96** Confusion — seeking clarity of chaotic situation; looking for someone to explain what is happening.
 
-**97-98** Manipulation — use others as tools for a hidden ag game
+**97-98** Manipulation — use others as tools for a hidden agenda; the game is theirs alone.
 
-**99-00** Faction Aligned — roll **d4**: 1=Church, 2=Authority, 4=Chronoclasts
+**99-00** Faction Aligned — roll **d4**: 1=Church, 2=Authority, 3=Scionfall, 4=Chronoclasts
 
 **Theme Oracle (d100)**
 
@@ -3779,9 +3751,7 @@ The Authority doesn't preserve anything. They delete you one iteration at a time
 
 **CORE DOCTRINE**
 
-Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions
-
-— signal noise. Solution: trap regions in precise
+Time must be standardized through recursion. Deviation is error. The Chronoverse is a corrupted dataset. Paradoxes, Echoes, emotions — signal noise. Solution: trap regions in precise
 
 recursive loops, use iterative normalization to average out deviations until only base intended reality remains.
 
@@ -3813,9 +3783,7 @@ Resist: Generate Paradox inside the loop. Contradiction is poison to their norma
 
 **Negotiate: Impossible. They don't recognize**
 
-individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit
-
-— they assimilate. Once normalized, you're
+individual agency. You're data to be corrected, not a person to be reasoned with. Escape: Break the loop through drastic action — massive Paradox generation, or triggering a Shattering. The violence required will cost you. Join: Not really possible. They don't recruit — they assimilate. Once normalized, you're
 
 not you anymore. You're a functioning Archive component.
 
@@ -3879,9 +3847,7 @@ compassion.
 
 **Escape: Run. They don't chase aggressively**
 
-— but they remember you. They'll find you
-
-again when you're weaker, when the Paradox is higher, when you're alone in the middle of the night in some era where nothing makes sense. Accept: Game ends. Character dissolved. Choosing peace over continued suffering is a mechanically valid ending. Some Echoes choose this. It's valid.
+— but they remember you. They'll find you again when you're weaker, when the Paradox is higher, when you're alone in the middle of the night in some era where nothing makes sense. Accept: Game ends. Character dissolved. Choosing peace over continued suffering is a mechanically valid ending. Some Echoes choose this. It's valid.
 
 **The Chronoclasts**
 
@@ -3935,9 +3901,7 @@ deals, games, creative solutions. But they're tricksters — terms always have i
 
 **Escape: Not usually necessary. They lose**
 
-interest quickly. Unless you're fascinating
-
-— then you're trapped in their attention
+interest quickly. Unless you're fascinating — then you're trapped in their attention
 
 until you do something boring or catastrophic enough to satisfy them.
 
@@ -3979,7 +3943,7 @@ Mostly ignore each other. Differen goals, minimal conflict. Authority vs.
 
 **Constant warfare. Ordered univer**
 
-Both try to undo each other's wor
+Both try to undo each other's work.
 
 **Scionfall vs. Chronoclasts**
 
@@ -4069,9 +4033,7 @@ You've been captured by Church Templars. They bind you in a causal contradiction
 
 Each iteration, you experience the full Memory up to the moment of failure. Then it resets. You remember all previous iterations. Roll **2d6** + ENDURE vs. **Difficulty 10** for each loop:
 
- **10+** Hold. Reduce your Paradox by 1 (they
-
-harvest it). Lose 1 Coherence. You may attempt escape after 3 loops.
+ **10+** Hold. Reduce your Paradox by 1 (they harvest it). Lose 1 Coherence. You may attempt escape after 3 loops.
 
  **7-9** Weaken. They harvest 1 Paradox. Lose 1
 
@@ -4081,17 +4043,11 @@ Coherence. Cannot escape yet.
 
 Coherence. One Active Memory related to this scene becomes Fading. After 3 loops regardless of result, you may attempt escape. Roll **2d6** + DISRUPT or SYNC (**Difficulty 10**):
 
- **10+** Break free. Templars release you —you're
+ **10+** Break free. Templars release you —you're no longer useful. Take Scar: Phantom Screams.
 
-no longer useful. Take Scar: Phantom Screams.
+ **7-9** Escape. But they Mark you. They'll hunt you specifically next encounter.
 
- **7-9** Escape. But they Mark you. They'll hunt you
-
-specifically next encounter.
-
- **6-** Remain captured. Three more loops. Then
-
-choose: automatic release (you're exhausted and useless), or undergo Lockstep Binding and become a Templar (character retired to NPC status).
+ **6-** Remain captured. Three more loops. Then choose: automatic release (you're exhausted and useless), or undergo Lockstep Binding and become a Templar (character retired to NPC status).
 
 **Authority: Loop Containment Protocol**
 
@@ -4101,13 +4057,9 @@ Reality has stuttered. The same scene repeats. You're trapped in a Clone Loop wh
 
 Start Iteration Counter at 0. Each loop, increment by 1. The Difficulty of your escape attempt decreases as the pattern becomes clearer — but your memories are degrading. Roll **2d6** + OBSERVE each iteration (**Difficulty 10** minus Iteration Count):
 
- **10+** Notice the pattern. You can attempt to
+ **10+** Notice the pattern. You can attempt to break the loop. No memory loss this iteration.
 
-break the loop. No memory loss this iteration.
-
- **7-9** Something's wrong. Can't quite pin it
-
-down. Choose one Active Memory related to this scene — it becomes Fading.
+ **7-9** Something's wrong. Can't quite pin it down. Choose one Active Memory related to this scene — it becomes Fading.
 
  **6-** Don't notice. The loop feels natural. One
 
@@ -4115,15 +4067,11 @@ Active Memory becomes Fading, or if all are already Fading, one Fading becomes L
 
 After noticing the pattern, attempt escape: Roll **2d6** + DISRUPT (**Difficulty 12** minus Iteration Count):
 
- **10+** Break the loop. Gain +3 Paradox. Loop
+ **10+** Break the loop. Gain +3 Paradox. Loop shatters. You're free.
 
-shatters. You're free.
+ **7-9** Partially break. Released, but all memories from the looped scene are permanently Fading.
 
- **7-9** Partially break. Released, but all memories
-
-from the looped scene are permanently Fading.
-
- **6-** Fail. Loop continues. Lose 1 Coherence from
+ **6-** Fail. Loop continues. Lose 1 Coherence from the iteration.
 
 the effort. Try again next iteration. After 10 iterations: loop releases you automatically. All Active Memories become Fading. Reduce Paradox by **1d6**. Gain Scar: Recursive Doubt.
 
@@ -4135,9 +4083,7 @@ A Scionfall Herald has manifested. The Nullwave field expands around you. Realit
 
 Each round, describe one sense or aspect of reality fading — colors washing to grey, sounds becoming muffled, touch losing sensation, emotions flattening, meaning eroding from words. Roll **2d6** + ENDURE (**Difficulty 10**):
 
- **10+** Resist. Maintain coherence through will or
-
-passion. No loss this round. Herald observes, patient.
+ **10+** Resist. Maintain coherence through will or passion. No loss this round. Herald observes, patient.
 
  **7-9** Partially affected. Lose 1 Coherence. One
 
@@ -4168,13 +4114,9 @@ A Chronoclast has detonated a Time Bomb. Local reality has entered superposition
 
 Navigation: each action, roll **2d6** + OBSERVE (**Difficulty 10**):
 
- **10+** Navigate expertly. Find a stable path. No
+ **10+** Navigate expertly. Find a stable path. No cost.
 
-cost.
-
- **7-9** Progress, but exposure. Move toward
-
-escape but gain +1 Paradox.
+ **7-9** Progress, but exposure. Move toward escape but gain +1 Paradox.
 
  **6-** Lost. Lose **1d3** Coherence. No progress.
 

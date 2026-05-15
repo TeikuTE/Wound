@@ -31,13 +31,7 @@ function ChenCh8({
     side: "recto",
     showWatermark: true,
     label: "LONG-TERM PLAY \xB7 opener"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "chapter-sigil"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "recursion",
-    size: "sigil",
-    stage: 0
-  })), /*#__PURE__*/React.createElement(ChenChapterHead, {
+  }, /*#__PURE__*/React.createElement(ChenChapterHead, {
     icon: "assets/chen-icon-handless-clock.svg",
     number: "VIII",
     title: "Long-Term Play"
@@ -48,30 +42,13 @@ function ChenCh8({
     side: "verso",
     runHead: "Long-Term Play",
     pageNum: basePage + 2,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 30,
-        "text": "Campaign structures are good. Not going to use them. Saul and I are on the One True Run now. There is no other version of this campaign.",
-        "act": 3,
-        "late": false
-      }]
-    }),
     label: `LONG-TERM PLAY · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Campaign Structures`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes supports several campaign structures. They're not mutually exclusive — your campaign might move between them as circumstances change.`), /*#__PURE__*/React.createElement(FootnoteMarker, {
-    n: 30,
-    act: 3
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "gly-inline-row"
-  }, /*#__PURE__*/React.createElement(Glyph, {
-    name: "recursion",
-    size: "inline",
-    stage: 0
-  }))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes supports several campaign structures. They're not mutually exclusive — your campaign might move between them as circumstances change.`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`I followed every procedure. Every rule. Every preservation protocol in Chen's manual. I maintained Coherence above +5 for two centuries. I Locked my defining memory. I reinforced my Anchor quarterly. I wrote in the Chronicle every single day.`)), /*#__PURE__*/React.createElement("p", null, inline(`And this morning I read my first entry. The one I wrote on Day 1, right after Displacement. The one where I described my lab, my daughter, my life.`)), /*#__PURE__*/React.createElement("p", null, inline(`And I didn't recognize it.`)), /*#__PURE__*/React.createElement("p", null, inline(`Not that I'd forgotten — the mechanics were intact, the memory was still Active. But reading those words felt like reading someone else's diary. The person who wrote that entry cared about those things. The person reading it now... doesn't.`)), /*#__PURE__*/React.createElement("p", null, inline(`The Chronicle preserved everything Chen said it would.`)), /*#__PURE__*/React.createElement("p", null, inline(`It just couldn't preserve the person who cared about preserving it.`)), /*#__PURE__*/React.createElement("p", null, inline(`I think that might be the joke.`)), /*#__PURE__*/React.createElement("p", null, inline(`(No signature. No date. The handwriting changes halfway through.)`)), /*#__PURE__*/React.createElement("div", {

@@ -48,14 +48,6 @@ function AppendixH({
     side: "verso",
     runHead: "Recovered Testimony — The Saul Files",
     pageNum: basePage + 0,
-    footnotes: /*#__PURE__*/React.createElement(FinderFootnotes, {
-      notes: [{
-        "n": 53,
-        "text": "His name was Saul. I named my Echo Saul. I did not know. I am not sure anymore that I named him at all.",
-        "act": 5,
-        "late": false
-      }]
-    }),
     label: `RECOVERED TESTIMONY — TH · p.${basePage + 0}`
   }, /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
