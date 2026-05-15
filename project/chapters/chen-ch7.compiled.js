@@ -264,15 +264,19 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` Clear all Stress. Asset functions perfectly.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `7-9`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Clear 2 Stress.`))))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Clear 1 Stress. Mark +1 Paradox.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`Clear 2 Stress.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-7-04",
     label: "ADVANCED SYSTEMS · spread 4"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -281,6 +285,8 @@ function ChenCh7({
     pageNum: basePage + 6,
     label: `ADVANCED SYSTEMS · p.${basePage + 6}`
   }, /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Clear 1 Stress. Mark +1 Paradox.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Repair requires Downtime and a narrative explanation of the work.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"

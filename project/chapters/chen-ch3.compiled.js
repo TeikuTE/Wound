@@ -93,14 +93,14 @@ function ChenCh3({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`What do I want from them? Information, safe passage, a moment of`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`peace, to hurt them, to save them.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`peace, to hurt them, to save them.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "A Session Of \"Play\"",
     pageNum: basePage + 3,
     label: `A SESSION OF "PLAY" · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`When to Roll`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

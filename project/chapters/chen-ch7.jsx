@@ -73,12 +73,12 @@ function ChenCh7({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`)}<FootnoteMarker n={29} act={3} /></p><span className="gly-inline-row"><Glyph name="burden" size="inline" stage={0} /></span></div>
         <div className="el-body"><p>{inline(`To repair, roll `)}<b>{inline(`2d6`)}</b>{inline(` + OBSERVE (for Chrono-Tech) or ENDURE (for Echo Traits):`)}</p></div>
         <div className="el-body"><p><b>{inline(`10+`)}</b>{inline(` Clear all Stress. Asset functions perfectly.`)}</p></div>
-        <table className="tbl-chen tbl-chen--oracle"><tbody><tr><td className="num">{`7-9`}</td><td className="oracle-name">{``}</td><td className="oracle-desc">{inline(`Clear 2 Stress.`)}</td></tr></tbody></table>
-        <div className="el-body"><p><b>{inline(`6-`)}</b>{inline(` Clear 1 Stress. Mark +1 Paradox.`)}</p></div>
+        <table className="tbl-chen tbl-chen--oracle"><colgroup><col className="col-num"/><col className="col-name"/><col className="col-desc"/></colgroup><tbody><tr><td className="num">{`7-9`}</td><td className="oracle-name">{``}</td><td className="oracle-desc">{inline(`Clear 2 Stress.`)}</td></tr></tbody></table>
       </ChPage>
     </Spread>
     <Spread id="chen-7-04" label={"ADVANCED SYSTEMS · spread 4"}>
       <ChPage side="verso" runHead={"Advanced Systems"} pageNum={basePage + 6} label={`ADVANCED SYSTEMS · p.${basePage + 6}`}>
+        <div className="el-body"><p><b>{inline(`6-`)}</b>{inline(` Clear 1 Stress. Mark +1 Paradox.`)}</p></div>
         <div className="el-body"><p>{inline(`Repair requires Downtime and a narrative explanation of the work.`)}</p></div>
         <h4 className="el-subsection">{inline(`Downtime Moves Reference`)}</h4>
         <div className="el-body"><p>{inline(`After resolving a major situation or before forced Displacement, choose `)}<b>{inline(`1-2`)}</b>{inline(`:`)}</p></div>

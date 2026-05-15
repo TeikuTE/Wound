@@ -179,7 +179,13 @@ function parseMD(src) {
           while (j < lines.length && isBlank(lines[j])) j++;
           if (j >= lines.length) { i = j; break; }
           const nxt = lines[j];
-          if (/^\*\*\[(CHEN|ALAN|Z)\]\*\*/.test(nxt) || /^#+\s/.test(nxt) || /^---\s*$/.test(nxt)) {
+          // Hard terminators that mean the voice block is over.
+          if (/^\*\*\[(CHEN|ALAN|Z)\]\*\*/.test(nxt) || /^#+\s/.test(nxt) || /^---\s*$/.test(nxt)
+              // An oracle-row pattern after blank line — voice ends here, oracle starts.
+              || /^\*\*\d{1,3}(?:-\d{1,3})?\*\*\s+\S/.test(nxt)
+              // A `**Bold Section Header**` line on its own — voice ends, header starts.
+              || /^\*\*[A-Z][^*]+\*\*\s*$/.test(nxt)
+          ) {
             i = j; break;
           }
           buf.push('');
@@ -658,9 +664,10 @@ function paginate(sectionBlocks, host, opts = {}) {
     if (b._art) {
       const fnCount = b._art.reduce((a, p) => a + (p.footnotes || []).length, 0);
       if (fnCount > 0) {
-        // Each footnote takes ~28-34px when wrapping. Reserve generously
-        // so body content doesn't get truncated by the flex footnote area.
-        h += fnCount * 34 + 16;
+        // Footnotes wrap to ~2 lines on average in sans-serif 7.5pt body.
+        // ~44px per footnote + 28px overhead (rule + padding) keeps body
+        // from getting clipped behind the flex footnote area.
+        h += fnCount * 44 + 28;
       }
     }
     // h2 / h3 — strongly prefer a page break BEFORE them if we're past half a page already
@@ -823,7 +830,10 @@ function renderBlocks(blocks, host, opts = {}) {
         const cls = host === 'chen' ? 'el-subsection'
                   : host === 'alan' ? 'al-subsection'
                   : 'interlude-eyebrow';
-        out.push(`<h4 className="${cls}">${headingJSX(b.text)}</h4>`);
+        // Strip inner **bold** markdown that leaks through from headings
+        // like "Era Table (**d100**)" — the bold inside is markdown noise.
+        const cleaned = b.text.replace(/\*\*/g, '');
+        out.push(`<h4 className="${cls}">${headingJSX(cleaned)}</h4>`);
         break;
       }
       case 'hr': {
@@ -922,14 +932,17 @@ function renderBlocks(blocks, host, opts = {}) {
       case 'oracle-table': {
         const klass = host === 'chen' ? 'tbl-chen tbl-chen--oracle' : 'tbl-alan tbl-alan--oracle';
         const rows = b.rows.map(r => {
+          // Strip stray inline `**d100**` markdown leakage that ends up in
+          // names like "(**d100**)" or row text.
+          const cleanName = (r.name || '').replace(/\*\*/g, '');
           const cells = [
             `<td className="num">${escapeJSX(r.range)}</td>`,
-            `<td className="oracle-name">${escapeJSX(r.name)}</td>`,
+            `<td className="oracle-name">${escapeJSX(cleanName)}</td>`,
             `<td className="oracle-desc">${renderInline(r.desc)}</td>`,
           ].join('');
           return `<tr>${cells}</tr>`;
         }).join('');
-        out.push(`<table className="${klass}"><tbody>${rows}</tbody></table>`);
+        out.push(`<table className="${klass}"><colgroup><col className="col-num"/><col className="col-name"/><col className="col-desc"/></colgroup><tbody>${rows}</tbody></table>`);
         break;
       }
       case 'resolution': {

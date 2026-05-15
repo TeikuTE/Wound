@@ -1745,3 +1745,123 @@ h1.el-h1 [data-alan-quote] {
   font-weight: 400;
   font-size: 16pt;
 }
+
+/* ─────────────────────────────────────────────────────────────────────
+   ORACLE TABLE — premium refinement (round 6 audit)
+   The original spec packed name in column 2 (nowrap) which left ~30mm
+   for the description. With the full 304-row dataset now rendering,
+   that becomes unreadable. Allow the name to wrap, narrow the range,
+   give the description more breathing room.
+   ───────────────────────────────────────────────────────────────────── */
+
+.tbl-chen--oracle {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 1mm 0 5mm;
+}
+.tbl-chen--oracle colgroup col.col-num { width: 11mm; }
+.tbl-chen--oracle colgroup col.col-name { width: 33mm; }
+.tbl-chen--oracle colgroup col.col-desc { width: auto; }
+
+.tbl-chen--oracle tbody td {
+  vertical-align: baseline !important;
+  padding: 1.2mm 2mm 1.2mm 0 !important;
+  border-bottom: 0.2pt solid rgba(139, 105, 20, 0.18) !important;
+}
+.tbl-chen--oracle tbody td.num {
+  font-family: var(--ff-mono) !important;
+  font-weight: 700;
+  font-size: 8pt !important;
+  color: var(--el-burgundy);
+  text-align: right;
+  padding-right: 3mm !important;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+}
+.tbl-chen--oracle tbody td.oracle-name {
+  font-family: var(--ff-serif-display) !important;
+  font-weight: 700 !important;
+  font-size: 9pt !important;
+  color: var(--el-forest);
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  white-space: normal !important;  /* allow wrap */
+  padding-right: 3mm !important;
+  hyphens: none;
+}
+.tbl-chen--oracle tbody td.oracle-desc {
+  font-family: var(--ff-serif-body) !important;
+  font-size: 9pt !important;
+  line-height: 1.42 !important;
+  color: var(--el-ink);
+  hyphens: auto;
+}
+
+/* Oracle table header (section identifier like "ERA TABLE") */
+.el-subsection.tbl-header,
+h4.tbl-header {
+  border-bottom: 0.3pt solid rgba(139, 105, 20, 0.45);
+  padding-bottom: 1mm;
+  margin-bottom: 1mm;
+}
+
+/* Suppress oracle row hover effects in print — keep them clean */
+.tbl-chen--oracle tbody tr:hover { background: transparent; }
+
+/* Cover master sigil — thinner stroke at large scale so it doesn't read
+   as too heavy. SVG inner stroke-width still 5, we'll scale it down by
+   shrinking the rendered SVG container slightly (visual sweet spot). */
+.il-cover-sigil svg {
+  stroke-width: 3 !important;
+}
+.il-cover-sigil { opacity: 0.72; }
+
+/* emiT title sigil — same treatment but slightly heavier (it's Alan) */
+.emit-titlepage__sigil svg { stroke-width: 3.5 !important; }
+.emit-titlepage__sigil { opacity: 0.82; }
+
+/* Saul closing sigil — keep at default, it's the smallest of the 3 */
+.saul-closing__sigil svg { stroke-width: 3.5 !important; }
+
+/* Chapter sigils at chapter openers — thinner so they don't compete with
+   the existing pen-and-ink icon */
+.chapter-sigil .gly svg { stroke-width: 3.5 !important; }
+.chapter-sigil { opacity: 0.55; }
+
+/* Tighten the page-bottom footnote area visually so it takes less vertical
+   space — smaller text, tighter line-height, less padding above the rule. */
+.page__footnotes {
+  font-size: 7pt !important;
+  line-height: 1.28 !important;
+  padding-top: 1.2mm !important;
+}
+.page__footnotes li {
+  margin: 0 0 0.5mm 0 !important;
+}
+.page__footnotes-host { margin-top: 6mm !important; }
+
+/* Premium type refinements (round 6 polish) */
+/* Tighten Chen body paragraph rhythm so dense pages breathe better */
+.el-body p {
+  margin: 0 0 2.5mm 0 !important;
+  line-height: 1.52 !important;
+}
+/* Indent continuation paragraphs slightly less aggressively */
+.el-body p + p { text-indent: 3mm !important; }
+
+/* Section headings — slightly more pronounced rule, a touch more breathing */
+.el-section {
+  margin-top: 6mm !important;
+  padding-bottom: 1.5mm !important;
+}
+.el-subsection {
+  margin-top: 4mm !important;
+}
+
+/* Subtle page-number refinement — let it feel less like a footer label */
+.page-num--chen {
+  font-size: 8.5pt !important;
+  font-style: italic !important;
+  letter-spacing: 0.04em;
+}

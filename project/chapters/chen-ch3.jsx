@@ -28,9 +28,9 @@ function ChenCh3({ tweaks, basePage = 1 }) {
         <div className="el-body"><p>{inline(`oracle, or no one.`)}</p></div>
         <div className="el-body"><p>{inline(`What do I want from them? Information, safe passage, a moment of`)}</p></div>
         <div className="el-body"><p>{inline(`peace, to hurt them, to save them.`)}</p></div>
-        <div className="el-body"><p>{inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`)}</p></div>
       </ChPage>
       <ChPage side="recto" runHead={"A Session Of \"Play\""} pageNum={basePage + 3} label={`A SESSION OF "PLAY" · p.${basePage + 3}`}>
+        <div className="el-body"><p>{inline(`If you don't know what your Echo wants, roll on the Action Oracle and ask: what is the situation demanding of me?`)}</p></div>
         <h4 className="el-subsection">{inline(`When to Roll`)}</h4>
         <div className="el-body"><p>{inline(`Three conditions decide whether to roll. The Echo wants the thing badly enough to risk something getting it. The outcome is uncertain. And failure would change the story in a way you'd want to write down.`)}</p></div>
         <div className="el-body"><p>{inline(`When all three are present, roll. When any is missing, just write what happens. That said, If you don't give the Chronoverse a chance to push back on you regularly, it will end up taking from you catastrophically.`)}</p></div>

@@ -124,7 +124,13 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Full stabilization. Crisis ends. Restore some resources.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `10-11`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -146,7 +152,13 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Full Stabilization. You remember who you are. Crisis ends. Anchor Strength restored to 1. Gain Scar: Echo of Self — a permanent reminder of the time you almost stopped existing.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `10-11`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -159,7 +171,13 @@ function ChenCh6({
     label: `CRISIS MANAGEMENT · p.${basePage + 5}`
   }, /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `7-9`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -185,7 +203,13 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Fight them off. Gain +2 Paradox from the violence. They retreat.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `7-9`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -211,7 +235,13 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Notice the pattern immediately. Break the loop before it stabilizes. No cost.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `7-9`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -229,7 +259,13 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Resist through sheer emotional intensity. Generate +3 Paradox to disrupt Nullwave. Herald withdraws.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `7-9`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -247,7 +283,13 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Navigate the chaos expertly. Chronoclast applauds. They give you an unstable Asset of your choice.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `7-9`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
@@ -284,7 +326,13 @@ function ChenCh6({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`12+`)), inline(` Full stabilization. Both Crises end. Restore 2 Coherence and reduce Paradox by 2.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `10-11`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"

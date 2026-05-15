@@ -226,7 +226,7 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`At Paradox 7 or higher, your waveform is too unstable for resonance-targeting. You have lost fine control.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`AT PARADOX **7+**: NAVIGATION COLLAPSE`)), /*#__PURE__*/React.createElement("div", {
+  }, inline(`AT PARADOX 7+: NAVIGATION COLLAPSE`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You cannot roll Precision Navigation.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -399,9 +399,11 @@ function ChenCh4({
     className: "el-sign"
   }, "\u2014 EC")), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection el-reflection--theory"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Gödel proved that any formal system rich enough to express arithmetic contains true statements it cannot prove. Reality, under CTH, is the same. There are facts about the timeline that are true and that the timeline cannot accommodate. Echoes bear those facts carved into their identity, but Paradox is what happens when an unprovable truth tries to find a place to stand. — EC`)), /*#__PURE__*/React.createElement("p", null, inline(`Faction Pressure`)), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Gödel proved that any formal system rich enough to express arithmetic contains true statements it cannot prove. Reality, under CTH, is the same. There are facts about the timeline that are true and that the timeline cannot accommodate. Echoes bear those facts carved into their identity, but Paradox is what happens when an unprovable truth tries to find a place to stand. — EC`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
-  }, "\u2014 EC")), /*#__PURE__*/React.createElement("aside", {
+  }, "\u2014 EC")), /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`Faction Pressure`)), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You are a foreign object in a closed system. The Chronoverse has an immune response, and your Paradox is the fever it is responding to. The Factions are antibodies with philosophies. Containment, harvest, euthanasia — none of these are moral failures on their part, and accepting an Offer is not a moral failure on yours. They are not after you because they hate you. They are after you because you are fuel.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
@@ -469,7 +471,13 @@ function ChenCh4({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(` Success. You drive them off through violence or intimidation. No additional cost. They retreat. You're not Marked.`))), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
-  }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("colgroup", null, /*#__PURE__*/React.createElement("col", {
+    className: "col-num"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-name"
+  }), /*#__PURE__*/React.createElement("col", {
+    className: "col-desc"
+  })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `7-9`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"

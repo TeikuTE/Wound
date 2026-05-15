@@ -2994,7 +2994,7 @@ The Oracles are not random number generators. They are the Chronoverse talking b
 
 Roll ERA + LOCATION + ANOMALY + COMPLICATION when Navigation fails, when forced displacement occurs, or when you arrive in a completely new era for the first time.
 
-**Era Table (**d100**)**
+**Era Table (d100)**
 
 **01-05** PALEOLITHIC (50,000-10,000 BCE) — Ice sheets advancing and receding, megafauna, pre-linguistic cultures, tool-making beginning. Survival conditions are absolute.
 
@@ -3038,7 +3038,7 @@ Roll ERA + LOCATION + ANOMALY + COMPLICATION when Navigation fails, when forced 
 
 **97-98** FAR FUTURE (2100-2200 CE) — Post-climate world either stabilized or sustained at high cost. Off-world colonies established. Body modifications routine. The category "human" itself is contested vocabulary.
 
-**Location Table (**d100**)**
+**Location Table (d100)**
 
 **01-03** MAJOR URBAN CENTER — Capital city, cultural and economic hub, dense population, government seat. Markets, monuments, crowds.
 
@@ -3100,7 +3100,7 @@ Roll ERA + LOCATION + ANOMALY + COMPLICATION when Navigation fails, when forced 
 
 **99-00** [PARADOX] — Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive with opposing interventions. Introduce both forces. Do not resolve the contradiction. Mark +1 Paradox immediately.
 
-**Anomaly Table (**d100**)**
+**Anomaly Table (d100)**
 
 **01-05** TEMPORAL ECHO — Events repeat in exact or near-exact 24-hour loops. Locals may or may not be aware. Loop breaks unpredictably or when a specific condition is met.
 
@@ -3146,7 +3146,7 @@ Roll ERA + LOCATION + ANOMALY + COMPLICATION when Navigation fails, when forced 
 
 **99-00** [PARADOX] — Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive with opposing interventions. Introduce both forces. Do not resolve the contradiction. Mark +1 Paradox immediately.
 
-**Complication Table (**d100**)**
+**Complication Table (d100)**
 
 **01-05** HOSTILE AUTHORITIES — Police, military, or government officials identify you as a threat. Arrest or detention imminent. Documentation demanded.
 
@@ -3254,7 +3254,7 @@ To consult an Oracle is to press your ear against a crack in the world.
 
 If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stray Timeline. Don't reroll. Lean into the impossibility.
 
-**Era Table (**d100**) — Atmospheric States**
+**Era Table (d100) — Atmospheric States**
 
 **01-05** Hunter's Dawn — Fires, bones, red ochre, massive fauna. Hunger as a constant. Language still finding its shape.
 
@@ -3300,7 +3300,7 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **97-98** Post-Human Drift — Minds split across bodies, upload silence. The question of what counts as a person, unresolved. 99 Silent Earth Dying sun, long shadows, dust settling on monuments. The ending everyone knew was coming. 00 The Void Blankness. No era at all. The space between moments. You are alone here in a way that has no name.
 
-**Structure Table (**d100**) — How Reality Behaves**
+**Structure Table (d100) — How Reality Behaves**
 
 **01-05** Soft Time — Moments melt together. Cause and effect blur at the edges. You can't tell if you're remembering or experiencing.
 
@@ -3346,7 +3346,7 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **97-98** Crash-State — Multiple realities overlap. The building is a ruin and brand new simultaneously. 99 Entropy Acceleration Things age years in seconds. You watch a flower become dust. You don't want to know what that means for you. 00 Inverted Physics Gravity pulls up. Time moves sideways. The sun rises from the ground.
 
-**Conflict Table (**d100**) — The Named Phenomenon**
+**Conflict Table (d100) — The Named Phenomenon**
 
 **01-05** The Causal Knot
 
@@ -3394,7 +3394,7 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **C.3 — Shared Oracles**
 
-**Action Oracle (**d100**)**
+**Action Oracle (d100)**
 
 **01-02** Discover
 
@@ -3496,7 +3496,7 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **99-00** [PARADOX] — Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive simultaneously with opposing interventions. Introduce both forces. Do not resolve the contradiction. Play into it. Mark +1 Paradox immediately.
 
-**NPC Motivation Table (**d100**)**
+**NPC Motivation Table (d100)**
 
 **01-05** Survival — ensure personal safety, secure basic ne
 
@@ -3542,7 +3542,7 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **99-00** Faction Aligned — roll **d4**: 1=Church, 2=Authority, 4=Chronoclasts
 
-**Theme Oracle (**d100**)**
+**Theme Oracle (d100)**
 
 **01-02** Identity
 
@@ -3644,7 +3644,7 @@ If Structure contradicts Era — Ancient Rome + Neon Glitch — you're in a Stra
 
 **99-00** Liminality
 
-**Timeline Shift Oracle (**d100**)**
+**Timeline Shift Oracle (d100)**
 
 **01-05** Color Inversion — All colors shift to complementary hues. Visually disorienting but functionally harmless. Lasts **1d6** hours.
 
@@ -4246,7 +4246,7 @@ Target: 1851, London, The Great Exhibition Target Precision: Year + City = **Dif
 
 **ANOMALY TABLE ROLLS**
 
-ERA (**d100**): 47 →INDUSTRIAL (1800-1850) LOCATION (**d100**): 29 →ACADEMIC INSTITUTION ANOMALY (**d100**): 22 →PROPHETIC RESONANCE COMPLICATION (**d100**): 67 →TEMPORAL SICKNESS (Personal) Interpretation: Cambridge University, approximately 1842. Something terrible is scheduled to happen tomorrow — everyone here knows it with prophetic certainty. They're debating whether to try to prevent it or accept fate. And I just materialized in their library, glowing faintly with temporal radiation sickness. "She's the catalyst," one student whispers. "The warning said a woman in strange clothes — Chronicle Entry:
+ERA (**d100**): 47 →INDUSTRIAL (1800-1850) LOCATION (d100)**: 29 →ACADEMIC INSTITUTION ANOMALY (**d100**): 22 →PROPHETIC RESONANCE COMPLICATION (d100)**: 67 →TEMPORAL SICKNESS (Personal) Interpretation: Cambridge University, approximately 1842. Something terrible is scheduled to happen tomorrow — everyone here knows it with prophetic certainty. They're debating whether to try to prevent it or accept fate. And I just materialized in their library, glowing faintly with temporal radiation sickness. "She's the catalyst," one student whispers. "The warning said a woman in strange clothes — Chronicle Entry:
 
 **DAY 1 — DISPLACEMENT FAILURE**
 
