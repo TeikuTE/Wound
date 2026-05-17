@@ -193,7 +193,9 @@ function parseMD(src) {
           continue;
         }
         // Inline trailing signature, e.g.  "...Most people have neither. — AR"
-        const inlineSig = L.match(/^(.*?)\s+—\s*(EC|AR|Z)\s*$/);
+        // Inline trailing signature: match "...text — EC", "...text — EC*",
+        // "...text — EC.", and other trailing markdown noise.
+        const inlineSig = L.match(/^(.*?)\s+—\s*(EC|AR|Z)\s*[*.,;:!?)*\]]*\s*$/);
         if (inlineSig) {
           buf.push(inlineSig[1].trim());
           sign = inlineSig[2];
@@ -482,12 +484,44 @@ function estimateHeight(block, host) {
       return Math.min(h, 720);
     }
     case 'voice': {
-      // The actual rendering shape depends on length — see emitVoice.
+      // Voice block estimates calibrated from puppeteer overflow detection.
+      // Each paragraph also adds margin. We split on \n\n to count paragraphs.
+      const paras = (block.body || '').split(/\n{2,}/).filter(p => p.trim());
       const text = stripMD(block.body);
-      // Short → margin/anchor; medium → inline; long → spans top of page.
-      if (text.length < 100) return 4;   // floats, takes negligible flow
-      if (text.length < 350) return Math.ceil(text.length / 64) * 16 + 14;
-      return Math.ceil(text.length / 64) * 16 + 22;
+      let cpl, lh, perParaMargin;
+      const isHandwritten = (host === 'chen' && (block.who === 'ALAN' || block.who === 'CHEN'));
+
+      if (host === 'chen' && block.who === 'CHEN') {
+        // Italic Garamond 9.8pt × 1.45  OR Caveat marginalia
+        cpl = 60; lh = 18; perParaMargin = 8;
+      } else if (host === 'chen' && block.who === 'ALAN') {
+        // Caveat 13pt × 1.25 on dark void — TALL
+        cpl = 42; lh = 24; perParaMargin = 8;
+      } else if (host === 'alan' && block.who === 'CHEN') {
+        // Plex Mono 9pt × 1.35 + parchment patch padding/header
+        cpl = 50; lh = 17; perParaMargin = 8;
+      } else if (host === 'alan' && block.who === 'ALAN') {
+        // Plex Mono italic 9pt × 1.4 fragment + left rule + padding
+        cpl = 54; lh = 18; perParaMargin = 8;
+      } else if (host === 'interlude') {
+        // Manrope italic 9.5pt × 1.55
+        cpl = 56; lh = 19; perParaMargin = 6;
+      } else if (block.who === 'Z') {
+        // Zaaken italic mono 9pt × 1.5
+        cpl = 56; lh = 18; perParaMargin = 8;
+      } else {
+        cpl = 56; lh = 18; perParaMargin = 8;
+      }
+
+      let total = 0;
+      for (const p of paras) {
+        const pLen = stripMD(p).length;
+        const lines = Math.max(1, Math.ceil(pLen / cpl));
+        total += lines * lh + perParaMargin;
+      }
+      // Container overhead: padding + signature line + margin
+      const overhead = isHandwritten ? 36 : (host === 'alan' && block.who === 'CHEN' ? 32 : 22);
+      return total + overhead;
     }
     case 'oracle-row': {
       // Short rows (single word, no description) render in compact 2-col
@@ -496,7 +530,7 @@ function estimateHeight(block, host) {
       const name = stripMD(block.name || '');
       const combined = (name + ' ' + desc).trim();
       if (combined.length <= 22 && combined.split(/\s+/).filter(Boolean).length <= 3) {
-        return 7;  // compact 2-col halves the effective vertical cost 2-col halves the effective vertical cost
+        return 10;  // compact 2-col — calibrated from overflow measurements
       }
       const cpl = host === 'chen' ? 48 : 46;
       const lines = Math.max(1, Math.ceil(desc.length / cpl));
@@ -579,16 +613,48 @@ function detectMemos(blocks) {
 function detectResolutionBlocks(blocks) {
   // A paragraph starts with **range** if its first inline token is bold + matches
   // \d+\+? or \d+\-\d+ or \d+\- (e.g. 12+, 10-11, 7-9, 6-)
+  // Also catch oracle-rows whose range looks like a 2d6 result (no leading
+  // zero, max value ≤19) and whose desc reads as a sentence — these are
+  // resolution rolls the parser misclassified as oracle rows.
+  const looksLikeRollRange = (r) => {
+    // 12+, 6-, 10-11, 7-9, 13+
+    if (/^\d+\+$/.test(r)) return true;
+    if (/^\d+\-$/.test(r)) return true;
+    const dash = r.match(/^(\d+)\-(\d+)$/);
+    if (dash) {
+      const a = parseInt(dash[1], 10), b = parseInt(dash[2], 10);
+      // 2d6 spread fits 2-12, identity-crisis goes up to 13.
+      // Leading-zero pad (01-05) or values ≥20 = oracle row, not resolution.
+      if (dash[1].length === 2 && a < 10) return false;
+      if (a >= 20 || b >= 20) return false;
+      return true;
+    }
+    return false;
+  };
   const isRoll = (block) => {
-    if (block.kind !== 'p') return null;
-    const m = block.text.match(/^\*\*(\d+(?:\-\d+)?\+?|\d+\-)\*\*\s*(.+)$/);
-    if (!m) return null;
-    const range = m[1];
-    const rest = m[2];
-    // Try to split out a title: "Title Phrase. body…"  OR  "TITLE OF ROLL. body…"
-    const t = rest.match(/^([^.]{2,40})\.\s+(.+)$/);
-    if (t) return { range, title: t[1].trim(), text: t[2].trim() };
-    return { range, title: '', text: rest };
+    if (block.kind === 'p') {
+      const m = block.text.match(/^\*\*(\d+(?:\-\d+)?\+?|\d+\-)\*\*\s*(.+)$/);
+      if (!m) return null;
+      const range = m[1];
+      const rest = m[2];
+      const t = rest.match(/^([^.]{2,40})\.\s+(.+)$/);
+      if (t) return { range, title: t[1].trim(), text: t[2].trim() };
+      return { range, title: '', text: rest };
+    }
+    if (block.kind === 'oracle-row') {
+      if (!looksLikeRollRange(block.range)) return null;
+      const name = (block.name || '').trim();
+      const desc = (block.desc || '').trim();
+      // The oracle parser eagerly splits on em-dash; rejoin so we can
+      // analyze the full row text. Resolution rolls always read as
+      // "Title. Body sentence(s)…" — they contain a period mid-text.
+      // Plain single-phrase rows (e.g. `**11-12** Sever`) are oracle rows.
+      const full = name ? `${name} — ${desc}` : desc;
+      const t = full.match(/^([^.]{2,40})\.\s+(.+)$/);
+      if (!t) return null;
+      return { range: block.range, title: t[1].trim(), text: t[2].trim() };
+    }
+    return null;
   };
   const out = [];
   let i = 0;
@@ -637,7 +703,7 @@ function paginate(sectionBlocks, host, opts = {}) {
     }
   }
 
-  let budget = opts.budget || 690;       // px of content per page
+  let budget = opts.budget || 580;       // px of content per page (conservative — page is ~680 net)
   const pages = [];
   let curr = [];
   let used = 0;
@@ -955,6 +1021,14 @@ function renderBlocks(blocks, host, opts = {}) {
           out.push(`<aside className="al-fragment">${bodyHTML}<div className="al-fragment__sign">// AR</div></aside>`);
         } else if (b.who === 'Z') {
           out.push(`<Zaaken>${bodyHTML}</Zaaken>`);
+        } else if (host === 'interlude') {
+          // Interlude pages: render voice blocks as the Finder's own
+          // commentary — italic Manrope set in the same column as body.
+          // Sign with -- EC / -- AR / -- Z so readers know who's speaking.
+          const sigLabel = b.who === 'CHEN' ? '— Dr. Chen'
+            : b.who === 'ALAN' ? '— A. Rose'
+            : b.who === 'Z' ? '— Z' : '';
+          out.push(`<aside className="il-voice il-voice--${b.who.toLowerCase()}">${bodyHTML}${sigLabel ? `<div className="il-voice__sign">${sigLabel}</div>` : ''}</aside>`);
         }
         break;
       }
@@ -1069,11 +1143,13 @@ function emitSpreads(section) {
   const isAppendix = section.id.startsWith('appendix-');
   const isBack    = section.id.startsWith('backmatter-');
 
-  // Interlude pages use the Manrope sans-serif font which renders a bit
-  // taller per line than the serif body — bump budget so dense content
-  // doesn't strand short tails on the next page.
+  // Page budget is the available vertical pixels for body content.
+  // Conservative values prevent clipping. Page is 816px tall, minus
+  // top margin (49px @13mm), bottom margin (60px @16mm), and chrome
+  // (running head / page number adds ~12px each). Net ~680px available.
+  // We budget LESS than that so content reliably fits with some breathing room.
   const isInterlude = host === 'interlude';
-  const budget = isAppendix ? 700 : (isInterlude ? 720 : 660);
+  const budget = isAppendix ? 620 : (isInterlude ? 620 : 580);
   const pages = paginate(blocks, host, { budget, sectionId: section.id });
 
   const spreads = [];

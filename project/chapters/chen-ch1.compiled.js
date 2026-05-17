@@ -65,7 +65,15 @@ function ChenCh1({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Your mind is finite; I wrote the mathematics that proved your memory capacity is quantifiable and limited. New experiences push old ones out at a rate that doesn't care how much you loved the old ones. Without active intervention, you'll forget what makes you yourself inside of fifty years. I'm sorry. That's the substrate we're working against.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`The timeline treats you as a foreign object. Actions that contradict history generate Paradox. Paradox destabilizes the timeline and you both. The CTH metaphor I usually reach for is a cello playing the wrong note in a string quartet. The metaphor breaks down when you remember the cello is also dissolving while it plays.`))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`The timeline treats you as a foreign object. Actions that contradict history generate Paradox. Paradox destabilizes the timeline and you both. The CTH metaphor I usually reach for is a cello playing the wrong note in a string quartet. The metaphor breaks down when you remember the cello is also dissolving while it plays.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-1-03",
+    label: "UNDERSTANDING DISPLACEMENT · spread 3"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Understanding Displacement",
+    pageNum: basePage + 4,
+    label: `UNDERSTANDING DISPLACEME · p.${basePage + 4}`
+  }, /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`In my years of displacement, I've developed a working theory about what we are. We're not travelers — we're dissonant waveforms attempting to maintain coherence within the harmonic field of causality. Every moment in history has a specific resonance, an emotional weight, and a stubborn resistance to change. When we displace, we're forcing our personal waveform to resonate with a target node's frequency.`)), /*#__PURE__*/React.createElement("p", null, inline(`The math holds under pressure. Coherence is measurable. Echoes are literally waveforms trying not to collapse amidst an ocean of static and competing waves.`)), /*#__PURE__*/React.createElement("p", null, inline(`You don't need to understand the equations to play. But if you want to know where the road ends, see Appendix A: The Harmonic Codex.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
@@ -74,14 +82,11 @@ function ChenCh1({
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`You're not trying to 'maintain coherence,' kid. You already failed. The moment you displaced, your waveform shattered.`)), /*#__PURE__*/React.createElement("p", null, inline(`Chen writes like the ocean is something you can negotiate with. I've been in it for 340 years. It doesn't negotiate.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-alan-sign"
-  }, "\u2014AR")))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-1-03",
-    label: "UNDERSTANDING DISPLACEMENT · spread 3"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
+  }, "\u2014AR"))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
     runHead: "Understanding Displacement",
-    pageNum: basePage + 4,
-    label: `UNDERSTANDING DISPLACEME · p.${basePage + 4}`
+    pageNum: basePage + 5,
+    label: `UNDERSTANDING DISPLACEME · p.${basePage + 5}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Three Questions`)), /*#__PURE__*/React.createElement("div", {
@@ -96,11 +101,14 @@ function ChenCh1({
     tier: tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`She's wrong about the order. The first question every Echo asks is "what year is it." The second is "where am I." She skips both because she had a lab and is into math. Most people have neither.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`This game is the process of living with those questions. It does not guarantee answers.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
+  }, /*#__PURE__*/React.createElement("p", null, inline(`This game is the process of living with those questions. It does not guarantee answers.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-1-04",
+    label: "UNDERSTANDING DISPLACEMENT · spread 4"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
     runHead: "Understanding Displacement",
-    pageNum: basePage + 5,
-    label: `UNDERSTANDING DISPLACEME · p.${basePage + 5}`
+    pageNum: basePage + 6,
+    label: `UNDERSTANDING DISPLACEME · p.${basePage + 6}`
   }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`The Four Factions`)), /*#__PURE__*/React.createElement("div", {
@@ -113,17 +121,14 @@ function ChenCh1({
     className: "el-reflection el-reflection--fieldnote"
   }, /*#__PURE__*/React.createElement("p", null, inline(`I've heard Echoes call the Factions evil. That's a mistake and an understatement. Each Faction has looked at the mathematics of temporal displacement and drawn a different answer to the same question.`)), /*#__PURE__*/React.createElement("p", null, inline(`The Church is correct that focused belief collapses probability. The Authority is right that recursion normalizes waveforms. Scionfall is fundamentally correct that cessation ends suffering. The Revel are right that instability creates infinite possibility.`)), /*#__PURE__*/React.createElement("p", null, inline(`I've worked with the Loop Authority dozens of times. They are at least coherent and dependable.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
-  }, "\u2014 EC")), /*#__PURE__*/React.createElement(AlanIntrusionInline, {
-    tier: tier
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Think of them as immune responses. The Chronoverse doesn't want you here, and neither do they. You're the infection. And there are way more than four.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-1-04",
-    label: "UNDERSTANDING DISPLACEMENT · spread 4"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
+  }, "\u2014 EC"))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
     runHead: "Understanding Displacement",
-    pageNum: basePage + 6,
-    label: `UNDERSTANDING DISPLACEME · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("h4", {
+    pageNum: basePage + 7,
+    label: `UNDERSTANDING DISPLACEME · p.${basePage + 7}`
+  }, /*#__PURE__*/React.createElement(AlanIntrusionInline, {
+    tier: tier
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Think of them as immune responses. The Chronoverse doesn't want you here, and neither do they. You're the infection. And there are way more than four.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`What You Need to Play`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -135,24 +140,32 @@ function ChenCh1({
     className: "el-subsection"
   }, inline(`The Loop: How a Session Runs`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A session follows a rhythm. Learn it so well that it feels like breathing. You should be able to do it without thinking.`))), /*#__PURE__*/React.createElement("ol", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A session follows a rhythm. Learn it so well that it feels like breathing. You should be able to do it without thinking.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-1-05",
+    label: "UNDERSTANDING DISPLACEMENT · spread 5"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Understanding Displacement",
+    pageNum: basePage + 8,
+    label: `UNDERSTANDING DISPLACEME · p.${basePage + 8}`
+  }, /*#__PURE__*/React.createElement("ol", {
     className: "el-numlist"
-  }, /*#__PURE__*/React.createElement("li", null, inline(`Play. Navigate through time, encounter situations, make choices. When the outcome is uncertain and the stakes are real, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + Mode + Memory bonus.`)), /*#__PURE__*/React.createElement("li", null, inline(`Resolve. On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`, you succeed. On `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, you succeed with a cost or complication. On 6-, you fail and face consequences.`)), /*#__PURE__*/React.createElement("li", null, inline(`Record. Write what happened in your Chronicle. This is how you preserve yourself.`)), /*#__PURE__*/React.createElement("li", null, inline(`End Session. When you reach a natural stopping point, perform Downtime. This is when Memories fade, Assets repair, and you prepare for the next session.`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Play. Navigate through time, encounter situations, make choices. When the outcome is uncertain and the stakes are real, roll `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + Mode + Memory bonus.`)), /*#__PURE__*/React.createElement("li", null, inline(`Resolve. On `), /*#__PURE__*/React.createElement("b", null, inline(`10+`)), inline(`, you succeed. On `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(`, you succeed with a cost or complication. On 6-, you fail and face consequences.`)), /*#__PURE__*/React.createElement("li", null, inline(`Record. Write what happened in your Chronicle. This is how you preserve yourself.`)), /*#__PURE__*/React.createElement("li", null, inline(`End Session. When you reach a natural stopping point, perform Downtime. This is when Memories fade, Assets repair, and you prepare for the next session.`))), /*#__PURE__*/React.createElement("aside", {
+    className: "el-reflection el-reflection--theory"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Hofstadter wrote about strange loops, systems that contain themselves, that reference themselves into being. An Echo is a strange loop, where the Echo's identity is the system that observes the system. When the loop tightens, you become more yourself. When it slackens, you become less.`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-sign"
+  }, "\u2014 EC"))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Understanding Displacement",
-    pageNum: basePage + 7,
-    label: `UNDERSTANDING DISPLACEME · p.${basePage + 7}`
+    pageNum: basePage + 9,
+    label: `UNDERSTANDING DISPLACEME · p.${basePage + 9}`
   }, /*#__PURE__*/React.createElement("aside", {
-    className: "el-reflection el-reflection--theory"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Hofstadter wrote about strange loops, systems that contain themselves, that reference themselves into being. An Echo is a strange loop, where the Echo's identity is the system that observes the system. When the loop tightens, you become more yourself. When it slackens, you become less. — EC`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-sign"
-  }, "\u2014 EC")), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`An example, from my own field notes.`)), /*#__PURE__*/React.createElement("p", null, inline(`Cambridge, May of 1842. I was tracking an Echo who had been displaced during the Anomaly cluster of 2031 and had landed inside the run-up to the Great Exhibition. The light there was thicker than any light I have stood in since. Coal smoke held in the air the way fog holds. People walked through it without remarking on it. I asked the Echo what it smelled like. She said it smelled like the inside of a kettle, which I have remembered ever since because it was the right answer.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
   }, "\u2014 EC")), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Laudare.`))))));
 }
-ChenCh1.pages = 8;
+ChenCh1.pages = 10;
 Object.assign(window, {
   ChenCh1
 });

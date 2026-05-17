@@ -37,6 +37,28 @@ const OUT = path.join(__dirname, 'WOUND_V12.pdf');
   const pageCount = await page.evaluate(() => document.querySelectorAll('.print-page').length);
   console.log(`rendering ${pageCount} pages → PDF`);
 
+  // Verify no page overflows its bottom margin before producing the PDF.
+  // The React app populates window.__OVERFLOW_REPORT__ in PrintApp.
+  const overflows = await page.evaluate(() => {
+    const pages = document.querySelectorAll('.print-page');
+    const out = [];
+    pages.forEach((pp, i) => {
+      const content = pp.querySelector('.page__content');
+      if (!content) return;
+      const over = content.scrollHeight - content.clientHeight;
+      if (over > 2) out.push({ page: i + 1, over });
+    });
+    return out;
+  });
+  if (overflows.length) {
+    console.error(`✗ ${overflows.length} pages overflow their bottom margin:`);
+    for (const o of overflows) console.error(`  - p${o.page} (+${o.over}px)`);
+    console.error('Refusing to export PDF with clipped content.');
+    await browser.close();
+    process.exit(1);
+  }
+  console.log(`✓ All ${pageCount} pages fit within bounds.`);
+
   await page.emulateMediaType('print');
   await page.pdf({
     path: OUT,

@@ -147,11 +147,7 @@ function ChenCh7({
     className: "resolution-title"
   }, inline(`The memory was a lie`)), /*#__PURE__*/React.createElement("div", {
     className: "resolution-text"
-  }, inline(`Decrease Anchor Strength by 1.`))))), /*#__PURE__*/React.createElement("aside", {
-    className: "el-reflection"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Why two different stats? Downtime maintenance uses SYNC because you are reconnecting emotionally — revisiting the people and places that anchor your waveform. The standalone Reinforce move uses ENDURE because you are rebuilding the connection rather than visiting it. One is memory. The other is labor. The distinction matters in the same way the distinction between reading about a country and walking through it matters.`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-sign"
-  }, "\u2014 EC")))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`Decrease Anchor Strength by 1.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "chen-7-03",
     label: "ADVANCED SYSTEMS · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -159,7 +155,11 @@ function ChenCh7({
     runHead: "Advanced Systems",
     pageNum: basePage + 4,
     label: `ADVANCED SYSTEMS · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("aside", {
+    className: "el-reflection"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Why two different stats? Downtime maintenance uses SYNC because you are reconnecting emotionally — revisiting the people and places that anchor your waveform. The standalone Reinforce move uses ENDURE because you are rebuilding the connection rather than visiting it. One is memory. The other is labor. The distinction matters in the same way the distinction between reading about a country and walking through it matters.`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-sign"
+  }, "\u2014 EC")), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`ANCHOR STRENGTH LOSS TRIGGERS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -175,18 +175,18 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You voluntarily sever an Anchor Connection to gain a mechanical benefit — when you burn the last real thing tethering you to your origin, the cost is permanent.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`origin for short-term survival, the Anchor notices`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`origin for short-term survival, the Anchor notices`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Advanced Systems",
+    pageNum: basePage + 5,
+    label: `ADVANCED SYSTEMS · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You complete The Return and choose Return Changed — your Anchor binds permanently, but at whatever Strength it was when you arrived`))), /*#__PURE__*/React.createElement("aside", {
     className: "el-reflection"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Anchor Strength does not decrease passively. It decreases when you make a choice that costs you your origin. I have watched Echoes give it away in installments small enough that they did not register the transaction until the Anchor was gone.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-sign"
-  }, "\u2014 EC"))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Advanced Systems",
-    pageNum: basePage + 5,
-    label: `ADVANCED SYSTEMS · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, "\u2014 EC")), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Asset Management ASSET EVOLUTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -206,7 +206,15 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Level 2 requires Anchor Strength `), /*#__PURE__*/React.createElement("b", null, inline(`2+`)))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Level 3 requires Anchor Strength `), /*#__PURE__*/React.createElement("b", null, inline(`4+`)))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Level 3 requires Anchor Strength `), /*#__PURE__*/React.createElement("b", null, inline(`4+`)))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-7-04",
+    label: "ADVANCED SYSTEMS · spread 4"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Advanced Systems",
+    pageNum: basePage + 6,
+    label: `ADVANCED SYSTEMS · p.${basePage + 6}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`ACQUIRING NEW ASSETS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -216,15 +224,7 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Alternatively, a Faction Agent may offer a new Asset as part of a trade — usually unstable, usually with a catch, always tempting.`))), /*#__PURE__*/React.createElement(AlanIntrusionInline, {
     tier: tier
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-7-04",
-    label: "ADVANCED SYSTEMS · spread 4"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Advanced Systems",
-    pageNum: basePage + 6,
-    label: `ADVANCED SYSTEMS · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Five Coherence is a lot. That's the point. You want a new toy, pay for it. The Chronoverse doesn't give things away.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Assets take damage from critical failures when using them, high Paradox effects, direct attacks, environmental hazards, and temporal Crises.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -244,7 +244,12 @@ function ChenCh7({
     className: "oracle-name"
   }, ``), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Clear 2 Stress.`))))), /*#__PURE__*/React.createElement("div", {
+  }, inline(`Clear 2 Stress.`)))))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Advanced Systems",
+    pageNum: basePage + 7,
+    label: `ADVANCED SYSTEMS · p.${basePage + 7}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, inline(`6-`)), inline(` Clear 1 Stress. Mark +1 Paradox.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -262,12 +267,7 @@ function ChenCh7({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Reinforce Anchor: see Anchor Reinforcement above`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Reduce Paradox: see Stabilize Reality Move above`))), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Ludum longum lude.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Advanced Systems",
-    pageNum: basePage + 7,
-    label: `ADVANCED SYSTEMS · p.${basePage + 7}`
-  })));
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Reduce Paradox: see Stabilize Reality Move above`))), /*#__PURE__*/React.createElement(Zaaken, null, /*#__PURE__*/React.createElement("i", null, inline(`Ludum longum lude.`))))));
 }
 ChenCh7.pages = 8;
 Object.assign(window, {

@@ -48,16 +48,7 @@ function ChenCh8({
   }, inline(`Campaign Structures`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body el-dropcap",
     "data-firstpara": true
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes supports several campaign structures. They're not mutually exclusive — your campaign might move between them as circumstances change.`))), /*#__PURE__*/React.createElement("aside", {
-    className: "el-alan-block",
-    "data-tier": tier
-  }, /*#__PURE__*/React.createElement("p", null, inline(`I followed every procedure. Every rule. Every preservation protocol in Chen's manual. I maintained Coherence above +5 for two centuries. I Locked my defining memory. I reinforced my Anchor quarterly. I wrote in the Chronicle every single day.`)), /*#__PURE__*/React.createElement("p", null, inline(`And this morning I read my first entry. The one I wrote on Day 1, right after Displacement. The one where I described my lab, my daughter, my life.`)), /*#__PURE__*/React.createElement("p", null, inline(`And I didn't recognize it.`)), /*#__PURE__*/React.createElement("p", null, inline(`Not that I'd forgotten — the mechanics were intact, the memory was still Active. But reading those words felt like reading someone else's diary. The person who wrote that entry cared about those things. The person reading it now... doesn't.`)), /*#__PURE__*/React.createElement("p", null, inline(`The Chronicle preserved everything Chen said it would.`)), /*#__PURE__*/React.createElement("p", null, inline(`It just couldn't preserve the person who cared about preserving it.`)), /*#__PURE__*/React.createElement("p", null, inline(`I think that might be the joke.`)), /*#__PURE__*/React.createElement("p", null, inline(`(No signature. No date. The handwriting changes halfway through.)`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-alan-sign"
-  }, "\u2014AR")), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`THE RETURN (10-15 SESSIONS)`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Goal: gather knowledge and resources to attempt a return Navigation. Milestones: increase Anchor Strength to 5, reduce Paradox to 0, acquire specific Chrono-Tech Assets, Lock your defining Memory, make the final Navigation roll (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 13`)), inline(`+).`)))), /*#__PURE__*/React.createElement(ChPage, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes supports several campaign structures. They're not mutually exclusive — your campaign might move between them as circumstances change.`)))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Long-Term Play",
     pageNum: basePage + 3,
@@ -65,9 +56,39 @@ function ChenCh8({
   }, /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
+  }, /*#__PURE__*/React.createElement("p", null, inline(`I followed every procedure. Every rule. Every preservation protocol in Chen's manual. I maintained Coherence above +5 for two centuries. I Locked my defining memory. I reinforced my Anchor quarterly. I wrote in the Chronicle every single day.`)), /*#__PURE__*/React.createElement("p", null, inline(`And this morning I read my first entry. The one I wrote on Day 1, right after Displacement. The one where I described my lab, my daughter, my life.`)), /*#__PURE__*/React.createElement("p", null, inline(`And I didn't recognize it.`)), /*#__PURE__*/React.createElement("p", null, inline(`Not that I'd forgotten — the mechanics were intact, the memory was still Active. But reading those words felt like reading someone else's diary. The person who wrote that entry cared about those things. The person reading it now... doesn't.`)), /*#__PURE__*/React.createElement("p", null, inline(`The Chronicle preserved everything Chen said it would.`)), /*#__PURE__*/React.createElement("p", null, inline(`It just couldn't preserve the person who cared about preserving it.`)), /*#__PURE__*/React.createElement("p", null, inline(`I think that might be the joke.`)), /*#__PURE__*/React.createElement("p", null, inline(`(No signature. No date. The handwriting changes halfway through.)`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-alan-sign"
+  }, "\u2014AR")))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-8-03",
+    label: "LONG-TERM PLAY · spread 3"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Long-Term Play",
+    pageNum: basePage + 4,
+    label: `LONG-TERM PLAY · p.${basePage + 4}`
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`THE RETURN (10-15 SESSIONS)`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Goal: gather knowledge and resources to attempt a return Navigation. Milestones: increase Anchor Strength to 5, reduce Paradox to 0, acquire specific Chrono-Tech Assets, Lock your defining Memory, make the final Navigation roll (`), /*#__PURE__*/React.createElement("b", null, inline(`Difficulty 13`)), inline(`+).`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Long-Term Play",
+    pageNum: basePage + 5,
+    label: `LONG-TERM PLAY · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("aside", {
+    className: "el-alan-block",
+    "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Addendum she didn't write:`)), /*#__PURE__*/React.createElement("p", null, inline(`End: Success means discovering home doesn't exist anymore. Failure means staying alive long enough to realize you didn't want to go back anyway.`)), /*#__PURE__*/React.createElement("p", null, inline(`I've met four Echoes who successfully Navigated home. Two dissolved on arrival (temporal rejection). One lasted three days before voluntary Displacement — couldn't stand what their era had become. The fourth is still there, I think. Last I heard they'd been committed for claiming to be a time traveler.`)), /*#__PURE__*/React.createElement("p", null, inline(`You want to go home? Fine. Here's what you'll find: Everyone you knew is dead or doesn't know you. Your life has been lived by someone else, or never lived at all. The version of you that belonged there is a ghost. And you're the thing haunting it.`)), /*#__PURE__*/React.createElement("p", null, inline(`Chen will help you try. She's good like that. I'm just telling you what you'll wish you'd known after.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-alan-sign"
-  }, "\u2014AR")), /*#__PURE__*/React.createElement("h4", {
+  }, "\u2014AR")))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-8-04",
+    label: "LONG-TERM PLAY · spread 4"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
+    runHead: "Long-Term Play",
+    pageNum: basePage + 6,
+    label: `LONG-TERM PLAY · p.${basePage + 6}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`THE INVESTIGATOR (15-20 SESSIONS)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -79,19 +100,16 @@ function ChenCh8({
     className: "el-subsection"
   }, inline(`THE SURVIVOR (CRISIS-FOCUSED)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Goal: simply endure as long as possible. High-difficulty mode: start with Anchor Strength 2, forced Displacement every `), /*#__PURE__*/React.createElement("b", null, inline(`2-3`)), inline(` scenes, higher Paradox generation. Ends when you finally dissolve, transform, or find unexpected peace.`))))), /*#__PURE__*/React.createElement(Spread, {
-    id: "chen-8-03",
-    label: "LONG-TERM PLAY · spread 3"
-  }, /*#__PURE__*/React.createElement(ChPage, {
-    side: "verso",
-    runHead: "Long-Term Play",
-    pageNum: basePage + 4,
-    label: `LONG-TERM PLAY · p.${basePage + 4}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Goal: simply endure as long as possible. High-difficulty mode: start with Anchor Strength 2, forced Displacement every `), /*#__PURE__*/React.createElement("b", null, inline(`2-3`)), inline(` scenes, higher Paradox generation. Ends when you finally dissolve, transform, or find unexpected peace.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Evolving Threats FACTION ESCALATION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`As Paradox rises, Faction interference increases: Shadow (0-3) — unaware of you. Flux (4-6) — Scouts observe. Anomaly (7-9) — Agents intervene. Breach (10+) — active hunting, capture attempts, violence.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`As Paradox rises, Faction interference increases: Shadow (0-3) — unaware of you. Flux (4-6) — Scouts observe. Anomaly (7-9) — Agents intervene. Breach (10+) — active hunting, capture attempts, violence.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Long-Term Play",
+    pageNum: basePage + 7,
+    label: `LONG-TERM PLAY · p.${basePage + 7}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`TIMELINE INSTABILITY`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -107,14 +125,17 @@ function ChenCh8({
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`You finally reach home. Ask yourself: are you the same person who left? Then choose:`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Return Intact: you maintain all Memories (even Fading), you return as close to your original self as possible, but you can never leave again — your Anchor binds you permanently. You're home. You're also trapped. And linearity can be painful after displacement.`))), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Return Changed: you accept the Mutations and lost Memories, you return as a transformed version of yourself, the people you left behind don't fully recognize you. You're 'home,' but you're a stranger.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Return Intact: you maintain all Memories (even Fading), you return as close to your original self as possible, but you can never leave again — your Anchor binds you permanently. You're home. You're also trapped. And linearity can be painful after displacement.`))))), /*#__PURE__*/React.createElement(Spread, {
+    id: "chen-8-05",
+    label: "LONG-TERM PLAY · spread 5"
+  }, /*#__PURE__*/React.createElement(ChPage, {
+    side: "verso",
     runHead: "Long-Term Play",
-    pageNum: basePage + 5,
-    label: `LONG-TERM PLAY · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+    pageNum: basePage + 8,
+    label: `LONG-TERM PLAY · p.${basePage + 8}`
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Return Changed: you accept the Mutations and lost Memories, you return as a transformed version of yourself, the people you left behind don't fully recognize you. You're 'home,' but you're a stranger.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`DISSOLUTION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -126,14 +147,19 @@ function ChenCh8({
     className: "el-subsection"
   }, inline(`TRANSFORMATION`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`You deliberately let go of your origin. You become something new. You retire your Echo to the timestream. Chronicle entry: I remember who I was. I choose to forget.`))), /*#__PURE__*/React.createElement("aside", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`You deliberately let go of your origin. You become something new. You retire your Echo to the timestream. Chronicle entry: I remember who I was. I choose to forget.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Long-Term Play",
+    pageNum: basePage + 9,
+    label: `LONG-TERM PLAY · p.${basePage + 9}`
+  }, /*#__PURE__*/React.createElement("aside", {
     className: "el-alan-block",
     "data-tier": tier
   }, /*#__PURE__*/React.createElement("p", null, inline(`Chen wrote this chapter in 2038. I checked.`)), /*#__PURE__*/React.createElement("p", null, inline(`She still believed The Return was possible then. She had a route mapped out. She had Anchor reinforcement protocols and a list of likely landing eras and a plan for the first month back.`)), /*#__PURE__*/React.createElement("p", null, inline(`She doesn't write like this anymore.`)), /*#__PURE__*/React.createElement("p", null, inline(`If you reach Chapter 8 and you can still feel her certainty, hold it carefully. It was real once.`)), /*#__PURE__*/React.createElement("div", {
     className: "el-alan-sign"
   }, "\u2014AR")))));
 }
-ChenCh8.pages = 6;
+ChenCh8.pages = 10;
 Object.assign(window, {
   ChenCh8
 });

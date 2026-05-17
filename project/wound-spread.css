@@ -1918,3 +1918,27 @@ h4.tbl-header {
 .tbl-chen--oracle tbody td.num {
   font-size: 7.5pt !important;
 }
+
+/* Interlude voice blocks (Chen / Alan / Z appearing in the Foreword) */
+.il-voice {
+  margin: 3mm 0 4mm;
+  padding-left: 5mm;
+  border-left: 0.5pt solid #aaa3a3;
+  font-family: 'Manrope', sans-serif;
+  font-style: italic;
+  font-size: 9.5pt;
+  line-height: 1.55;
+  color: #44423d;
+}
+.il-voice p { margin: 0 0 2mm 0; }
+.il-voice p:last-of-type { margin-bottom: 1mm; }
+.il-voice__sign {
+  font-style: italic;
+  font-size: 9pt;
+  text-align: right;
+  color: #6b6657;
+  margin-top: 1mm;
+}
+.il-voice--chen { border-left-color: #5C1A2E; }
+.il-voice--alan { border-left-color: #1E4D6B; }
+.il-voice--z    { border-left-color: #4A3560; }

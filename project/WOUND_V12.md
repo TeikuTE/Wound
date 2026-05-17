@@ -1946,45 +1946,41 @@ Being a wreck means you never stop moving. The Moves below are the six ways you 
 
 Memory is not storage. Memory is structure. When the structure fails, the building does not empty — it collapses. In the rubble, we find weapons.
 
-Resolution (The Collapse Protocol)
+— Z
+
+**Resolution (The Collapse Protocol)**
 
 When outcomes are uncertain, roll **2d6** + Mode + Scar Bonus (if applicable).
 
-12+ Complete Success. Achieve goal cleanly. Reality bends. Gain +1 Coherence.
+**12+** Complete Success. Achieve goal cleanly. Reality bends. Gain +1 Coherence.
 
-7-9 Success with Complication. Achieve goal but the Oracle introduces cost, twist, or new danger.
+**7-9** Success with Complication. Achieve goal but the Oracle introduces cost, twist, or new danger.
 
-6- Failure with Discovery. Goal fails, but you learn something useful. Choose: lose 1 Coherence OR mark +1 Paradox.
+**6-** Failure with Discovery. Goal fails, but you learn something useful. Choose: lose 1 Coherence OR mark +1 Paradox.
 
-Navigation (Controlled Displacement)
+**Navigation (Controlled Displacement)**
 
 Jumping is usually something that happens to you — but you can attempt Precision Navigation.
 
 Roll **2d6** + OBSERVE + Scar Bonus (if applicable). Every Navigation attempt costs 1 Coherence, paid before rolling. Involuntary jumps don't cost Coherence — they just happen to you.
 
-TARGET DIFFICULTY EXAMPLE
+**TARGET DIFFICULTY EXAMPLE**
 
-**Difficulty 7**: Nearby (±0 years) or a 1890s London, again
+**Difficulty 7** — Nearby (±10 years) or a place you've been before. 1890s London, again.
 
-place you've been before
+**Difficulty 10** — Distant (±100-500 years) or unfamiliar location. Ming Dynasty China.
 
-**Difficulty 10**: Distant (±00-500 years) Ming Dynasty China
+**Difficulty 12** — Extreme (±1000+ years) or a specific moment. The exact hour of the First Scar.
 
-or unfamiliar location
+**12+** Perfect Landing. Arrive exactly when and where intended. No complications. Gain +1 Coherence.
 
-**Difficulty 12**: Extreme (±000+ years) The exact hour of the First Scar
+**10-11** Successful Navigation. Arrive at intended destination. Mark +1 Paradox from the effort.
 
-or a specific moment
+**7-9** Close Enough. Arrive in correct era but wrong location, or correct location but off by **1d10** years. Mark +1 Paradox. Oracle introduces a complication at arrival.
 
-12+ Perfect Landing. Arrive exactly when and where intended. No complications. Gain +1 Coherence.
+**6-** Crash Landing. You missed and hit something harder. Roll the Chronoscape Oracle. Pay the toll: System Shock (lose 1 Coherence, stay clean) OR Embrace the Glitch (mark +2 Paradox, let the Corruption in).
 
-10-11 Successful Navigation. Arrive at intended destination. Mark +1 Paradox from the effort.
-
-7-9 Close Enough. Arrive in correct era but wrong location, or correct location but off by **1d10** years. Mark +1 Paradox. Oracle introduces a complication at arrival.
-
-6- Crash Landing. You missed and hit something harder. Roll the Chronoscape Oracle. Pay the toll: System Shock (lose 1 Coherence, stay clean) OR Embrace the Glitch (mark +2 Paradox, let the Corruption in).
-
-AT PARADOX **7+**: NAVIGATION COLLAPSE
+**AT PARADOX 7+: NAVIGATION COLLAPSE**
 
 You cannot roll Precision Navigation. State your intention, roll the Chronoscape, and argue with the results. If you want the wheel back, you have to sell parts of yourself — lower Paradox via Agent Offers — to get it.
 
