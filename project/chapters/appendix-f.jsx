@@ -65,11 +65,11 @@ function AppendixF({ tweaks, basePage = 1 }) {
         <hr className="el-section-rule" />
         <h4 className="el-subsection">{inline(`Example 4: Faction Encounter`)}</h4>
         <div className="el-body"><p>{inline(`Several sessions later. Paradox is now at `)}<b>{inline(`7`)}</b>{inline(` (Anomaly band). Sarah is in Paris, 1871 — post-Commune chaos. She rolls `)}<b>{inline(`7-9`)}</b>{inline(` on a Resolution roll. At `)}<b>{inline(`Paradox 7-9`)}</b>{inline(`, Agents appear as complications on `)}<b>{inline(`7-9`)}</b>{inline(` results. Roll `)}<b>{inline(`d4`)}</b>{inline(` for Faction: result = 2 (Loop Authority).`)}</p></div>
+        <div className="el-body"><p>{inline(`A forgettable person materializes mid-conversation. Average height, average build, clothing that shifts slightly between blinks. They're taking notes on a device that shouldn't exist for 130 years. "Dr. Martinez," they say, voice flat. "You're glitching. We can smooth you out. Painless."`)}</p></div>
       </ChPage>
     </Spread>
     <Spread id="appendix-f-03" label={"EXAMPLES OF PLAY · spread 3"}>
       <ChPage side="verso" runHead={"Examples Of Play"} pageNum={basePage + 4} label={`EXAMPLES OF PLAY · p.${basePage + 4}`}>
-        <div className="el-body"><p>{inline(`A forgettable person materializes mid-conversation. Average height, average build, clothing that shifts slightly between blinks. They're taking notes on a device that shouldn't exist for 130 years. "Dr. Martinez," they say, voice flat. "You're glitching. We can smooth you out. Painless."`)}</p></div>
         <div className="el-body"><p>{inline(`The Authority's Offer: normalize one Active Memory (bonus drops from `)}<b>{inline(`+2`)}</b>{inline(` to `)}<b>{inline(`+0`)}</b>{inline(`, emotional context erased) → Reduce Paradox by `)}<b>{inline(`2`)}</b>{inline(`, clear `)}<b>{inline(`1 Stress`)}</b>{inline(` from one Asset. Sarah's options: Accept, Refuse, or Drive Off. She refuses. "No. I'm not letting you erase Elena. I'm not letting you normalize any of this."`)}</p></div>
         <div className="el-body"><p>{inline(`Consequence: they Mark her (`)}<b>{inline(`-1`)}</b>{inline(` to Navigation until next Downtime), and begin preparing a Clone Loop (`)}<b>{inline(`Difficulty 8`)}</b>{inline(` instead of 10 next time Paradox reaches `)}<b>{inline(`10+`)}</b>{inline(`).`)}</p></div>
         <h4 className="el-subsection">{inline(`CHRONICLE NOTE: MARKED — LOOP AUTHORITY`)}</h4>
@@ -77,12 +77,12 @@ function AppendixF({ tweaks, basePage = 1 }) {
         <hr className="el-section-rule" />
         <h4 className="el-subsection">{inline(`Example 5: Downtime`)}</h4>
         <div className="el-body"><p>{inline(`End of session. Coherence: `)}<b>{inline(`+3`)}</b>{inline(`. Paradox: `)}<b>{inline(`7`)}</b>{inline(`. Location: Cambridge 1842, Prophetic Resonance still active.`)}</p></div>
-      </ChPage>
-      <ChPage side="recto" runHead={"Examples Of Play"} pageNum={basePage + 5} label={`EXAMPLES OF PLAY · p.${basePage + 5}`}>
         <h4 className="el-subsection">{inline(`STEP 1: CHRONICLE (+1 COHERENCE)`)}</h4>
         <div className="el-body"><p>{inline(`Write session summary in Chronicle. Effect: Coherence +3 →+4.`)}</p></div>
         <h4 className="el-subsection">{inline(`STEP 2: REINFORCE ANCHOR`)}</h4>
         <div className="el-body"><p>{inline(`Anchor took no Stress this session. Skip.`)}</p></div>
+      </ChPage>
+      <ChPage side="recto" runHead={"Examples Of Play"} pageNum={basePage + 5} label={`EXAMPLES OF PLAY · p.${basePage + 5}`}>
         <h4 className="el-subsection">{inline(`STEP 3: TEND ASSETS`)}</h4>
         <div className="el-body"><p>{inline(`Temporal Compass: no Stress marked. No repair needed.`)}</p></div>
         <h4 className="el-subsection">{inline(`STEP 4: PROCESS MEMORY`)}</h4>

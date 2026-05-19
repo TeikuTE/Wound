@@ -135,7 +135,9 @@ function AppendixF({
     className: "el-subsection"
   }, inline(`Example 4: Faction Encounter`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Several sessions later. Paradox is now at `), /*#__PURE__*/React.createElement("b", null, inline(`7`)), inline(` (Anomaly band). Sarah is in Paris, 1871 — post-Commune chaos. She rolls `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` on a Resolution roll. At `), /*#__PURE__*/React.createElement("b", null, inline(`Paradox 7-9`)), inline(`, Agents appear as complications on `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` results. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(` for Faction: result = 2 (Loop Authority).`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Several sessions later. Paradox is now at `), /*#__PURE__*/React.createElement("b", null, inline(`7`)), inline(` (Anomaly band). Sarah is in Paris, 1871 — post-Commune chaos. She rolls `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` on a Resolution roll. At `), /*#__PURE__*/React.createElement("b", null, inline(`Paradox 7-9`)), inline(`, Agents appear as complications on `), /*#__PURE__*/React.createElement("b", null, inline(`7-9`)), inline(` results. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(` for Faction: result = 2 (Loop Authority).`))), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A forgettable person materializes mid-conversation. Average height, average build, clothing that shifts slightly between blinks. They're taking notes on a device that shouldn't exist for 130 years. "Dr. Martinez," they say, voice flat. "You're glitching. We can smooth you out. Painless."`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-f-03",
     label: "EXAMPLES OF PLAY · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -144,8 +146,6 @@ function AppendixF({
     pageNum: basePage + 4,
     label: `EXAMPLES OF PLAY · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A forgettable person materializes mid-conversation. Average height, average build, clothing that shifts slightly between blinks. They're taking notes on a device that shouldn't exist for 130 years. "Dr. Martinez," they say, voice flat. "You're glitching. We can smooth you out. Painless."`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`The Authority's Offer: normalize one Active Memory (bonus drops from `), /*#__PURE__*/React.createElement("b", null, inline(`+2`)), inline(` to `), /*#__PURE__*/React.createElement("b", null, inline(`+0`)), inline(`, emotional context erased) → Reduce Paradox by `), /*#__PURE__*/React.createElement("b", null, inline(`2`)), inline(`, clear `), /*#__PURE__*/React.createElement("b", null, inline(`1 Stress`)), inline(` from one Asset. Sarah's options: Accept, Refuse, or Drive Off. She refuses. "No. I'm not letting you erase Elena. I'm not letting you normalize any of this."`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -159,12 +159,7 @@ function AppendixF({
     className: "el-subsection"
   }, inline(`Example 5: Downtime`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`End of session. Coherence: `), /*#__PURE__*/React.createElement("b", null, inline(`+3`)), inline(`. Paradox: `), /*#__PURE__*/React.createElement("b", null, inline(`7`)), inline(`. Location: Cambridge 1842, Prophetic Resonance still active.`)))), /*#__PURE__*/React.createElement(ChPage, {
-    side: "recto",
-    runHead: "Examples Of Play",
-    pageNum: basePage + 5,
-    label: `EXAMPLES OF PLAY · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`End of session. Coherence: `), /*#__PURE__*/React.createElement("b", null, inline(`+3`)), inline(`. Paradox: `), /*#__PURE__*/React.createElement("b", null, inline(`7`)), inline(`. Location: Cambridge 1842, Prophetic Resonance still active.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`STEP 1: CHRONICLE (+1 COHERENCE)`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -172,7 +167,12 @@ function AppendixF({
     className: "el-subsection"
   }, inline(`STEP 2: REINFORCE ANCHOR`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Anchor took no Stress this session. Skip.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Anchor took no Stress this session. Skip.`)))), /*#__PURE__*/React.createElement(ChPage, {
+    side: "recto",
+    runHead: "Examples Of Play",
+    pageNum: basePage + 5,
+    label: `EXAMPLES OF PLAY · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`STEP 3: TEND ASSETS`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

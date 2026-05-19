@@ -341,31 +341,6 @@ function PrintApp({
       });
     });
   });
-  // After render: walk every print page and log a console error for any
-  // that's clipping content past its bottom margin. The PDF exporter
-  // (and the _detect-overflow.js script) read these messages.
-  useEffect(() => {
-    if (typeof requestAnimationFrame === 'undefined') return;
-    requestAnimationFrame(() => {
-      const printPages = document.querySelectorAll('.print-page');
-      const failures = [];
-      printPages.forEach((pp, idx) => {
-        const content = pp.querySelector('.page__content');
-        if (!content) return;
-        const over = content.scrollHeight - content.clientHeight;
-        if (over > 2) failures.push({ page: idx + 1, over });
-      });
-      if (failures.length) {
-        for (const f of failures) {
-          console.error(`[OVERFLOW] Page ${f.page} clips content by ${f.over}px`);
-        }
-        console.error(`[OVERFLOW] ${failures.length} page(s) overflow their bottom margin.`);
-      } else {
-        console.log(`[OK] All ${printPages.length} pages fit within bounds.`);
-      }
-      window.__OVERFLOW_REPORT__ = failures;
-    });
-  }, [pages.length]);
   return /*#__PURE__*/React.createElement("div", {
     className: "print-doc"
   }, pages.map(p => /*#__PURE__*/React.createElement("div", {

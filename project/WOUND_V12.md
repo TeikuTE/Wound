@@ -2398,17 +2398,17 @@ These are not transcendence states. They are what survival looks like when you'v
 
 **Final Transformations**
 
-WEAPONIZED →THE PARADOX ENGINE You've become walking instability. Immune to contamination because you are contamination. Mechanics: immune to Paradox effects, can spend 2 Coherence to generate +1 Paradox in a target, Faction Agents flee on sight. Cost: everyone flees on sight. You're functionally alone.
+**WEAPONIZED → THE PARADOX ENGINE.** You've become walking instability. Immune to contamination because you are contamination. Mechanics: immune to Paradox effects, can spend 2 Coherence to generate +1 Paradox in a target, Faction Agents flee on sight. Cost: everyone flees on sight. You're functionally alone.
 
-HOLLOWED →THE VESSEL Perfect adaptability through complete amnesia. You can be anyone because you're no one. Mechanics: inhabit any era without Coherence cost, adopt any identity instantly (perfect SYNC disguise), no Scars can fade. Cost: you don't remember why any identity matters. Including your own.
+**HOLLOWED → THE VESSEL.** Perfect adaptability through complete amnesia. You can be anyone because you're no one. Mechanics: inhabit any era without Coherence cost, adopt any identity instantly (perfect SYNC disguise), no Scars can fade. Cost: you don't remember why any identity matters. Including your own.
 
-FRAGMENTED →THE SWARM You exist in multiple timelines simultaneously. Mechanics: exist in **1d6** timelines simultaneously, roll twice on any roll and choose the best result, sacrifice one fragment to auto-succeed (that version dies, you continue). Cost: which one is really you? They're diverging. Eventually they'll have different goals. You'll be your own enemy.
+**FRAGMENTED → THE SWARM.** You exist in multiple timelines simultaneously. Mechanics: exist in **1d6** timelines simultaneously, roll twice on any roll and choose the best result, sacrifice one fragment to auto-succeed (that version dies, you continue). Cost: which one is really you? They're diverging. Eventually they'll have different goals. You'll be your own enemy.
 
-RECURSIVE →THE OUROBOROS You've become a closed causal loop. Mechanics: communicate with past/future versions during Crisis, summon past-you as an ally once per session (with your stats from 5 sessions ago). Cost: you're trapped in your own timeline. Can't grow because every action feeds back.
+**RECURSIVE → THE OUROBOROS.** You've become a closed causal loop. Mechanics: communicate with past/future versions during Crisis, summon past-you as an ally once per session (with your stats from 5 sessions ago). Cost: you're trapped in your own timeline. Can't grow because every action feeds back.
 
-INFECTIOUS →THE CARRIER You spread instability to everyone you touch. Mechanics: any NPC you interact with gains +1 Paradox, spend 3 Coherence to force Displacement on a target, Faction Agents prioritize you above all others. Cost: everyone you care about becomes contaminated. You're contagion. You're alone.
+**INFECTIOUS → THE CARRIER.** You spread instability to everyone you touch. Mechanics: any NPC you interact with gains +1 Paradox, spend 3 Coherence to force Displacement on a target, Faction Agents prioritize you above all others. Cost: everyone you care about becomes contaminated. You're contagion. You're alone.
 
-TRANSCENDENT →THE OBSERVER Four-dimensional consciousness. Mechanics: immune to Faction intervention (they can't perceive you correctly), rewrite one roll per session to any result, Navigate at will without rolling. Cost: you can't meaningfully interact with three-dimensional beings anymore. You're a ghost watching through glass.
+**TRANSCENDENT → THE OBSERVER.** Four-dimensional consciousness. Mechanics: immune to Faction intervention (they can't perceive you correctly), rewrite one roll per session to any result, Navigate at will without rolling. Cost: you can't meaningfully interact with three-dimensional beings anymore. You're a ghost watching through glass.
 
 **The Exit Question**
 
@@ -4421,21 +4421,27 @@ Title: ________________________________________ Tags: __________________________
 
 **Asset 1:** ____________________________
 
-- Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor
-- Level: ○ 1 ○ 2 ○ 3
-- Stress: ○○○○○
+Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor
+
+Level: ○ 1 ○ 2 ○ 3
+
+Stress: ○○○○○
 
 **Asset 2:** ____________________________
 
-- Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor
-- Level: ○ 1 ○ 2 ○ 3
-- Stress: ○○○○○
+Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor
+
+Level: ○ 1 ○ 2 ○ 3
+
+Stress: ○○○○○
 
 **Asset 3:** ____________________________
 
-- Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor
-- Level: ○ 1 ○ 2 ○ 3
-- Stress: ○○○○○
+Type: ○ Chrono-Tech ○ Echo Trait ○ Temporal Anchor
+
+Level: ○ 1 ○ 2 ○ 3
+
+Stress: ○○○○○
 
 **FACTION TRACKING**
 
@@ -4517,24 +4523,27 @@ Violence Count (reset at Repreival): ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ Tax
 
 **Asset 1:** ____________________________
 
-- Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
-- Level: ○ 1 ○ 2 ○ 3
+Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
+
+Level: ○ 1 ○ 2 ○ 3
 - State: ○ Clean ○ Compromised ○ Weaponized
-- Stress: ○○○○○
+Stress: ○○○○○
 
 **Asset 2:** ____________________________
 
-- Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
-- Level: ○ 1 ○ 2 ○ 3
+Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
+
+Level: ○ 1 ○ 2 ○ 3
 - State: ○ Clean ○ Compromised ○ Weaponized
-- Stress: ○○○○○
+Stress: ○○○○○
 
 **Asset 3:** ____________________________
 
-- Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
-- Level: ○ 1 ○ 2 ○ 3
+Type: ○ Chrono-Tech ○ Echo Trait ○ Scar-Derived
+
+Level: ○ 1 ○ 2 ○ 3
 - State: ○ Clean ○ Compromised ○ Weaponized
-- Stress: ○○○○○
+Stress: ○○○○○
 
 **FACTION TRACKING**
 
@@ -4542,13 +4551,19 @@ Marked: ○ Church ○ Authority ○ Scionfall ○ Chronoclasts
 
 **REPREIVAL CHECKLIST**
 
-- □ Chronicle
-- □ Reinforce Anchor
-- □ Tend Assets
-- □ Process Scars
-- □ Reduce Paradox (optional)
-- □ Plan Next Move
-- □ Reset Violence Count
+□ Chronicle
+
+□ Reinforce Anchor
+
+□ Tend Assets
+
+□ Process Scars
+
+□ Reduce Paradox (optional)
+
+□ Plan Next Move
+
+□ Reset Violence Count
 
 **THE HOLDING ACTION** (once per session) — Used this session: ○
 
@@ -4558,8 +4573,9 @@ What was the last thing you cared about that wasn't useful?
 
 Answer: ____________________________
 
-- ○ Preserve It — one final scene, then Dissolve.
-- ○ Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.
+○ Preserve It — one final scene, then Dissolve.
+
+○ Delete It — become Terminal Configuration. Rename SYNC to INTERFACE.
 
 **[Z]**
 

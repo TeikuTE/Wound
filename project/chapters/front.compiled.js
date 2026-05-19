@@ -87,7 +87,9 @@ function FrontMatter({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Of course, that didn't count for much when I arrived back in the office. After a week back, my boss and the manager called me in for a meeting on a half hour's notice. They didn't tell me what it was about. They slid some papers across the table at me. Performance Improvement Plan. 'We want this to work, but your numbers were just too low these past few months. But we like you. The problem is that you're just too damn likable.' They slapped me on the back and said I was a good man. I was numb, but I'd been through tougher straits before. I'd buckle down and beat the PIP. After all, what is getting told that you're not good enough compared to watching your child fight for his life?`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`But then, the kicker came.`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`But then, the kicker came.`))), /*#__PURE__*/React.createElement("div", {
+    className: "interlude-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`I lost my tefillin. If you know you know. Between my kid's health issues, the pressures of my job, and my newfound inability to connect with God in the way I'd done for over two decades, I finally crumpled. I sat down in my office's wellness room — reserved for nursing mothers, but I didn't care — and cried like my baby couldn't.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "front-02",
     label: "FRONT MATTER · spread 2"
   }, /*#__PURE__*/React.createElement(IlPage, {
@@ -96,8 +98,6 @@ function FrontMatter({
     pageNum: basePage + 2,
     label: `FRONT MATTER · p.${basePage + 2}`
   }, /*#__PURE__*/React.createElement("div", {
-    className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`I lost my tefillin. If you know you know. Between my kid's health issues, the pressures of my job, and my newfound inability to connect with God in the way I'd done for over two decades, I finally crumpled. I sat down in my office's wellness room — reserved for nursing mothers, but I didn't care — and cried like my baby couldn't.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`I saw these two manuscripts in the corner of the room, tied together with a bit of twine. Stains streaked the pages — I couldn't tell if it was ink, blood or something else.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -111,12 +111,7 @@ function FrontMatter({
     className: "il-voice__sign"
   }, "\u2014 Dr. Chen")), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`They call it the First Scar.`)))), /*#__PURE__*/React.createElement(IlPage, {
-    side: "recto",
-    showTexture: false,
-    pageNum: basePage + 3,
-    label: `FRONT MATTER · p.${basePage + 3}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`They call it the First Scar.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Dr. Chen won't speak of it. Alan mentions it only to wound. The other two — you'll meet their echoes later — have become something else entirely.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -124,7 +119,12 @@ function FrontMatter({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`This game came out of that room.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`A note on what follows.`))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`A note on what follows.`)))), /*#__PURE__*/React.createElement(IlPage, {
+    side: "recto",
+    showTexture: false,
+    pageNum: basePage + 3,
+    label: `FRONT MATTER · p.${basePage + 3}`
+  }, /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`I tried to transcribe both manuscripts the way I found them. Chen's writing was neat and orderly but Alan's was a hot mess. His pages came out of order, some in pencil, gone over in pen later. Most were pages from old IBM style terminal printout style which doesn't make any sense considering when he says he lives.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -132,7 +132,11 @@ function FrontMatter({
     className: "il-voice il-voice--alan"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Doesn't need to be accurate to be true.`)), /*#__PURE__*/React.createElement("div", {
     className: "il-voice__sign"
-  }, "\u2014 A. Rose")))), /*#__PURE__*/React.createElement(Spread, {
+  }, "\u2014 A. Rose")), /*#__PURE__*/React.createElement("div", {
+    className: "interlude-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes is Dr. Eleanor Chen's preservation manual. She believes you can come home intact. She's spent thirty years documenting how to survive displacement without losing yourself.`))), /*#__PURE__*/React.createElement("div", {
+    className: "interlude-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`emiT is Alan Rose's transformation protocol. He believes trying to preserve your original identity is expensive, painful, and ultimately futile. His book is about becoming operationally effective through change — about finding out what you're capable of when you stop spending everything you have on staying the same.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "front-03",
     label: "FRONT MATTER · spread 3"
   }, /*#__PURE__*/React.createElement(IlPage, {
@@ -142,22 +146,13 @@ function FrontMatter({
     label: `FRONT MATTER · p.${basePage + 4}`
   }, /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes is Dr. Eleanor Chen's preservation manual. She believes you can come home intact. She's spent thirty years documenting how to survive displacement without losing yourself.`))), /*#__PURE__*/React.createElement("div", {
-    className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`emiT is Alan Rose's transformation protocol. He believes trying to preserve your original identity is expensive, painful, and ultimately futile. His book is about becoming operationally effective through change — about finding out what you're capable of when you stop spending everything you have on staying the same.`))), /*#__PURE__*/React.createElement("div", {
-    className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Both books use the same mechanical systems. Both are brutal. Neither wins.`))), /*#__PURE__*/React.createElement("h4", {
     className: "interlude-eyebrow"
   }, inline(`HOW TO USE THIS BOOK`)), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`This duology is two complete, playable games. You can read and play either book independently. If you play both with the same Echo — first Chen's path, then Alan's — something additional opens up: a conversation between the two books about what preservation costs and what transformation takes. The rules for carrying a character between them are in the section called Playing Both.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes is designed for progressive complexity. Do not read it cover to cover. You will be overwhelmed and you will quit. Read in stages.`)))), /*#__PURE__*/React.createElement(IlPage, {
-    side: "recto",
-    showTexture: false,
-    pageNum: basePage + 5,
-    label: `FRONT MATTER · p.${basePage + 5}`
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Temporal Echoes is designed for progressive complexity. Do not read it cover to cover. You will be overwhelmed and you will quit. Read in stages.`))), /*#__PURE__*/React.createElement("h4", {
     className: "interlude-eyebrow"
   }, inline(`YOUR FIRST 3 OR 4 SESSIONS — READ ONLY THIS`)), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -165,7 +160,12 @@ function FrontMatter({
     className: "interlude-eyebrow"
   }, inline(`WHEN CRISIS HITS (PARADOX 7+ OR COHERENCE −6) — ADD THIS`)), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Chapter 6: Crisis Management Chapter 7: Advanced Systems Faction Profiles (Appendix D) The universe has noticed you. Now you need the rules of engagement.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Chapter 6: Crisis Management Chapter 7: Advanced Systems Faction Profiles (Appendix D) The universe has noticed you. Now you need the rules of engagement.`)))), /*#__PURE__*/React.createElement(IlPage, {
+    side: "recto",
+    showTexture: false,
+    pageNum: basePage + 5,
+    label: `FRONT MATTER · p.${basePage + 5}`
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "interlude-eyebrow"
   }, inline(`ENDGAME & DEEP REFERENCE — UNLOCK WHEN READY`)), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -173,7 +173,11 @@ function FrontMatter({
     className: "interlude-eyebrow"
   }, inline(`YOUR FIRST SESSION — A GUIDED START`)), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Don't read the whole book. Do this instead:`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Don't read the whole book. Do this instead:`))), /*#__PURE__*/React.createElement("ol", {
+    className: "interlude-numlist"
+  }, /*#__PURE__*/React.createElement("li", null, inline(`Read the Foreword — 'A Note Before You Begin.' Feel the vibe.`)), /*#__PURE__*/React.createElement("li", null, inline(`Create your Echo (Chapter 2). Follow the steps. Use pencil. Spend no more than 30 minutes. Perfect is the enemy of started.`)), /*#__PURE__*/React.createElement("li", null, inline(`Read 'Opening the Session' (Chapter 3). Answer the question: What is my Echo trying to find out right now?`)), /*#__PURE__*/React.createElement("li", null, inline(`Roll on the Anomaly Tables (Appendix C.1). This is where you land. Don't try to Navigate yet.`)), /*#__PURE__*/React.createElement("li", null, inline(`Write in your Chronicle. What do you see? Who is here? What feels wrong?`)), /*#__PURE__*/React.createElement("li", null, inline(`Want something? Roll for it. `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + your best Mode. If a Memory fits, add +2.`)), /*#__PURE__*/React.createElement("li", null, inline(`End the scene. Write what changed.`))), /*#__PURE__*/React.createElement("div", {
+    className: "interlude-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`That's it. You've played your first session. The Factions, the Crises, the full Navigation system — they'll find you when you're ready. You don't need to understand the whole ocean. You just need to survive this wave.`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "front-04",
     label: "FRONT MATTER · spread 4"
   }, /*#__PURE__*/React.createElement(IlPage, {
@@ -181,22 +185,13 @@ function FrontMatter({
     showTexture: false,
     pageNum: basePage + 6,
     label: `FRONT MATTER · p.${basePage + 6}`
-  }, /*#__PURE__*/React.createElement("ol", {
-    className: "interlude-numlist"
-  }, /*#__PURE__*/React.createElement("li", null, inline(`Read the Foreword — 'A Note Before You Begin.' Feel the vibe.`)), /*#__PURE__*/React.createElement("li", null, inline(`Create your Echo (Chapter 2). Follow the steps. Use pencil. Spend no more than 30 minutes. Perfect is the enemy of started.`)), /*#__PURE__*/React.createElement("li", null, inline(`Read 'Opening the Session' (Chapter 3). Answer the question: What is my Echo trying to find out right now?`)), /*#__PURE__*/React.createElement("li", null, inline(`Roll on the Anomaly Tables (Appendix C.1). This is where you land. Don't try to Navigate yet.`)), /*#__PURE__*/React.createElement("li", null, inline(`Write in your Chronicle. What do you see? Who is here? What feels wrong?`)), /*#__PURE__*/React.createElement("li", null, inline(`Want something? Roll for it. `), /*#__PURE__*/React.createElement("b", null, inline(`2d6`)), inline(` + your best Mode. If a Memory fits, add +2.`)), /*#__PURE__*/React.createElement("li", null, inline(`End the scene. Write what changed.`))), /*#__PURE__*/React.createElement("div", {
-    className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`That's it. You've played your first session. The Factions, the Crises, the full Navigation system — they'll find you when you're ready. You don't need to understand the whole ocean. You just need to survive this wave.`))), /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "interlude-eyebrow"
   }, inline(`DOCUMENT STRUCTURE`)), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Book 1: Temporal Echoes (Chapters 1-8) Dr. Eleanor Chen's preservation manual.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Book 2: emiT (Chapters 1-6) Alan Rose's transformation protocol.`)))), /*#__PURE__*/React.createElement(IlPage, {
-    side: "recto",
-    showTexture: false,
-    pageNum: basePage + 7,
-    label: `FRONT MATTER · p.${basePage + 7}`
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Book 2: emiT (Chapters 1-6) Alan Rose's transformation protocol.`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`Appendices: Appendix A: The Harmonic Codex Appendix B: Asset Catalogs Appendix C: Oracle Tables C.1: Anomaly Tables (Temporal Echoes) C.2: The Chronoscape (emiT) C.3: Shared Oracles Appendix D: The Factions Appendix D.1: Recovered Field Intelligence Appendix E: Captivity Vignettes Appendix F: Examples of Play Appendix G: Temporal Pathologies Appendix H: Recovered Testimony — The Saul Files Quick Reference Sheet Character Sheets`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-body"
@@ -206,7 +201,12 @@ function FrontMatter({
     className: "interlude-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`By Dr. Eleanor Chen`))), /*#__PURE__*/React.createElement("div", {
     className: "interlude-pull"
-  }, /*#__PURE__*/React.createElement("i", null, inline(`Hoc fit, ergo diligenter lege.`))))));
+  }, /*#__PURE__*/React.createElement("i", null, inline(`Hoc fit, ergo diligenter lege.`)))), /*#__PURE__*/React.createElement(IlPage, {
+    side: "recto",
+    showTexture: false,
+    pageNum: basePage + 7,
+    label: `FRONT MATTER · p.${basePage + 7}`
+  })));
 }
 FrontMatter.pages = 8;
 Object.assign(window, {

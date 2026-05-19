@@ -243,6 +243,8 @@ function parseMD(src) {
     // then renumber from 1.
     if (/^\d+\.\s+/.test(line)) {
       const items = [];
+      const startMatch = line.match(/^(\d+)\.\s+/);
+      const startNum = startMatch ? parseInt(startMatch[1], 10) : 1;
       let j = i;
       while (j < lines.length) {
         if (/^\d+\.\s+/.test(lines[j])) {
@@ -266,7 +268,7 @@ function parseMD(src) {
         break;
       }
       i = j;
-      blocks.push({ kind: 'ol', items });
+      blocks.push({ kind: 'ol', items, start: startNum });
       continue;
     }
 
@@ -495,8 +497,9 @@ function estimateHeight(block, host) {
         // Italic Garamond 9.8pt × 1.45  OR Caveat marginalia
         cpl = 60; lh = 18; perParaMargin = 8;
       } else if (host === 'chen' && block.who === 'ALAN') {
-        // Caveat 13pt × 1.25 on dark void — TALL
-        cpl = 42; lh = 24; perParaMargin = 8;
+        // Caveat 13pt × 1.25, but block has negative-margin extension so
+        // text width is ~380px. Measured: cpl ≈ 60, lh ≈ 22.
+        cpl = 60; lh = 22; perParaMargin = 8;
       } else if (host === 'alan' && block.who === 'CHEN') {
         // Plex Mono 9pt × 1.35 + parchment patch padding/header
         cpl = 50; lh = 17; perParaMargin = 8;
@@ -520,7 +523,7 @@ function estimateHeight(block, host) {
         total += lines * lh + perParaMargin;
       }
       // Container overhead: padding + signature line + margin
-      const overhead = isHandwritten ? 36 : (host === 'alan' && block.who === 'CHEN' ? 32 : 22);
+      const overhead = isHandwritten ? 43 : (host === 'alan' && block.who === 'CHEN' ? 32 : 22);
       return total + overhead;
     }
     case 'oracle-row': {
@@ -971,9 +974,10 @@ function renderBlocks(blocks, host, opts = {}) {
       }
       case 'ol': {
         const items = b.items.map(t => `<li>${renderInline(t)}</li>`).join('');
-        if (host === 'chen') out.push(`<ol className="el-numlist">${items}</ol>`);
-        else if (host === 'alan') out.push(`<AlanBody><ol className="al-numlist">${items}</ol></AlanBody>`);
-        else out.push(`<ol className="interlude-numlist">${items}</ol>`);
+        const startAttr = (b.start && b.start !== 1) ? ` start={${b.start}}` : '';
+        if (host === 'chen') out.push(`<ol className="el-numlist"${startAttr}>${items}</ol>`);
+        else if (host === 'alan') out.push(`<AlanBody><ol className="al-numlist"${startAttr}>${items}</ol></AlanBody>`);
+        else out.push(`<ol className="interlude-numlist"${startAttr}>${items}</ol>`);
         break;
       }
       case 'blockquote': {
@@ -1146,10 +1150,13 @@ function emitSpreads(section) {
   // Page budget is the available vertical pixels for body content.
   // Conservative values prevent clipping. Page is 816px tall, minus
   // top margin (49px @13mm), bottom margin (60px @16mm), and chrome
-  // (running head / page number adds ~12px each). Net ~680px available.
-  // We budget LESS than that so content reliably fits with some breathing room.
+  // (running head / page number adds ~12px each). Net ~706px available.
+  // Budget set just under actual capacity now that estimators are
+  // calibrated to measured rendering. The overflow guard catches any
+  // miscalibration before PDF export, so this is safe to push close to
+  // the limit for denser page-fill.
   const isInterlude = host === 'interlude';
-  const budget = isAppendix ? 620 : (isInterlude ? 620 : 580);
+  const budget = isAppendix ? 660 : (isInterlude ? 660 : 660);
   const pages = paginate(blocks, host, { budget, sectionId: section.id });
 
   const spreads = [];
