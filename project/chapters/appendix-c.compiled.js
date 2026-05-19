@@ -69,43 +69,43 @@ function AppendixC({
     className: "num"
   }, `01-05`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `PALEOLITHIC (50,000-10,000 BCE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Paleolithic (50,000-10,000 BCE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Ice sheets advancing and receding, megafauna, pre-linguistic cultures, tool-making beginning. Survival conditions are absolute.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `06-10`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `NEOLITHIC (10,000-3,000 BCE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Neolithic (10,000-3,000 BCE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`First agriculture, permanent settlements, stone monuments, proto-cities forming, domestication.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `11-15`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `BRONZE AGE (3,000-1,200 BCE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Bronze Age (3,000-1,200 BCE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Early empires rising, cuneiform and hieroglyphics, urban centers, long-distance trade networks.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `16-20`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `IRON AGE / CLASSICAL (1,200 BCE-500`), /*#__PURE__*/React.createElement("td", {
+  }, `Iron Age / Classical (1,200 BCE-500`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`CE) Greece, Rome, Han, Maurya — philosophy emerging, organized warfare, major religions forming.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `21-25`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `EARLY MEDIEVAL (500-1000 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Early Medieval (500-1000 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Post-Roman collapse, Byzantine continuation, Islamic Golden Age, monastery culture, feudalism emerging.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `26-30`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `HIGH MEDIEVAL (1000-1300 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `High Medieval (1000-1300 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Castles and cathedrals, Crusades, universities founding, Gothic architecture, chivalric culture.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `31-35`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `LATE MEDIEVAL (1300-1500 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Late Medieval (1300-1500 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`The Black Death and its aftermath, peasant revolts, gunpowder reshaping warfare, universities expanding, early Renaissance stirrings. A population that has just buried half of itself and does not yet know it is becoming modern.`)))))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
@@ -124,51 +124,69 @@ function AppendixC({
     className: "num"
   }, `36-40`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `EARLY MODERN (1500-1700 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Early Modern (1500-1700 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Age of Exploration, Protestant Reformation, Scientific Revolution, colonial expansion, absolute monarchies.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `41-45`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `ENLIGHTENMENT (1700-1800 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Enlightenment (1700-1800 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Age of Reason, American and French Revolutions, industrial revolution beginning, philosophical rationalism.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `46-50`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `INDUSTRIAL (1800-1850 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Industrial (1800-1850 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Factories and railways spreading, rapid urbanization, steam power, telegraph, class conflict.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `51-55`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `VICTORIAN (1850-1900 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Victorian (1850-1900 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`British Empire at height, mechanization accelerating, photography and cinema emerging, scientific advancement.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `56-60`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `EARLY 20TH CENTURY (1900-1920 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Early 20th Century (1900-1920 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Electricity widespread, aviation beginning, World War I, Spanish Flu, women's suffrage movements.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `61-65`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `INTERWAR (1920-1939 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Interwar (1920-1939 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Jazz Age, Great Depression, fascism rising, radio broadcasting, artistic modernism.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `66-70`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `WORLD WAR II ERA (1939-1945 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `World War II Era (1939-1945 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Industrial-scale warfare across multiple continents, occupation regimes, partisan resistance, ration books, blackouts, propaganda saturating every medium. The Holocaust ongoing. Atomic weapons by period's end.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `71-75`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `EARLY COLD WAR (1945-1970 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Early Cold War (1945-1970 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Nuclear standoff, space race, decolonization, civil rights, television dominance, counterculture.`))))))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`Nuclear standoff, space race, decolonization, civil rights, television dominance, counterculture.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `76-80`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Late Cold War (1970-1991 CE)`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`Déente and renewed tensions, personal computing, fall of Berlin Wall, Soviet collapse.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `81-85`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Digital Age (1991-2010 CE)`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`Internet mainstream, globalization accelerating, 9/11, mobile technology, social networking.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `86-90`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Late Digital (2010-2030 CE)`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`Social media dominance, climate crisis accelerating, AI emergence, political polarization, pandemic responses.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-02",
     label: "ORACLE TABLES · spread 2"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -186,41 +204,29 @@ function AppendixC({
     className: "col-desc"
   })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
-  }, `76-80`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `LATE COLD WAR (1970-1991 CE)`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`Déente and renewed tensions, personal computing, fall of Berlin Wall, Soviet collapse.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `81-85`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `DIGITAL AGE (1991-2010 CE)`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`Internet mainstream, globalization accelerating, 9/11, mobile technology, social networking.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `86-90`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `LATE DIGITAL (2010-2030 CE)`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`Social media dominance, climate crisis accelerating, AI emergence, political polarization, pandemic responses.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
   }, `91-93`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `NEAR FUTURE (2030-2050 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Near Future (2030-2050 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Climate adaptation infrastructure, gene technology widespread, mass migration, automation displacement.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `94-96`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `MID FUTURE (2050-2100 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Mid Future (2050-2100 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Post-scarcity attempts, radical life extension, off-world colonies possible, demographic transformation.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `97-98`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `FAR FUTURE (2100-2200 CE)`), /*#__PURE__*/React.createElement("td", {
+  }, `Far Future (2100-2200 CE)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Post-climate world either stabilized or sustained at high cost. Off-world colonies established. Body modifications routine. The category "human" itself is contested vocabulary.`))))), /*#__PURE__*/React.createElement("h4", {
+  }, inline(`Post-climate world either stabilized or sustained at high cost. Off-world colonies established. Body modifications routine. The category "human" itself is contested vocabulary.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `99-00`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `[PARADOX ERA]`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`You arrive in an era that records say never happened, or that historians cannot agree on. The dates are unstable. The events refuse to settle. Treat this as an Era that exists between or outside the timeline's official version. Mark +1 Paradox immediately.`))))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Location Table (d100)`)), /*#__PURE__*/React.createElement("table", {
     className: "tbl-chen tbl-chen--oracle"
@@ -234,33 +240,39 @@ function AppendixC({
     className: "num"
   }, `01-03`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `MAJOR URBAN CENTER`), /*#__PURE__*/React.createElement("td", {
+  }, `Major Urban Center`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Capital city, cultural and economic hub, dense population, government seat. Markets, monuments, crowds.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `04-06`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `RESIDENTIAL DISTRICT`), /*#__PURE__*/React.createElement("td", {
+  }, `Residential District`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Neighborhoods, housing blocks, suburbs. Domestic spaces where people actually live. Family dynamics, local gossip.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `07-09`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `MARKETPLACE`), /*#__PURE__*/React.createElement("td", {
+  }, `Marketplace`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Bazaar, trading post, commercial district. Exchange and commerce. Merchants, hagglers, information brokers.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `10-12`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `PORT CITY`), /*#__PURE__*/React.createElement("td", {
+  }, `Port City`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Harbor facilities, international trade, diverse transient population, gateway location.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `13-16`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `INDUSTRIAL CENTER`), /*#__PURE__*/React.createElement("td", {
+  }, `Industrial Center`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Factories, worker housing, pollution and noise. Smokestacks, assembly lines, shift whistles.`)))))), /*#__PURE__*/React.createElement(ChPage, {
+  }, inline(`Factories, worker housing, pollution and noise. Smokestacks, assembly lines, shift whistles.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `17-20`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Rural Village`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`Agricultural community, traditional social structures, relative isolation. Everyone knows everyone.`)))))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Oracle Tables",
     pageNum: basePage + 3,
@@ -275,89 +287,89 @@ function AppendixC({
     className: "col-desc"
   })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
-  }, `17-20`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `RURAL VILLAGE`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`Agricultural community, traditional social structures, relative isolation. Everyone knows everyone.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
   }, `21-24`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `WILDERNESS`), /*#__PURE__*/React.createElement("td", {
+  }, `Wilderness`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Forest, mountain range, desert, or wasteland. Minimal human presence, survival conditions, natural dangers.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `25-28`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `RELIGIOUS SITE`), /*#__PURE__*/React.createElement("td", {
+  }, `Religious Site`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Temple, monastery, church, mosque, shrine. Pilgrims, priests, ceremonies. Spiritual authority concentrated.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `29-32`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `ACADEMIC INSTITUTION`), /*#__PURE__*/React.createElement("td", {
+  }, `Academic Institution`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`University, library, research facility. Scholars, students, knowledge repositories.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `33-35`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `ENTERTAINMENT VENUE`), /*#__PURE__*/React.createElement("td", {
+  }, `Entertainment Venue`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Theater, arena, festival ground. Performance, spectacle, crowd energy. Era-dependent.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `36-38`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `MILITARY INSTALLATION`), /*#__PURE__*/React.createElement("td", {
+  }, `Military Installation`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Fort, base, training ground, armory. Hierarchies, drills, readiness.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `39-42`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `TRANSPORTATION HUB`), /*#__PURE__*/React.createElement("td", {
+  }, `Transportation Hub`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Train stations, airports, bus terminals, depots. Schedules and surveillance. Transient populations: harder to track, harder to hide.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `43-45`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `MEDICAL FACILITY`), /*#__PURE__*/React.createElement("td", {
+  }, `Medical Facility`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Hospital, sanitarium, clinic, quarantine. Concentration of sick and injured. Healing and horror.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `46-48`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `GOVERNMENT CENTER`), /*#__PURE__*/React.createElement("td", {
+  }, `Government Center`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Palace, parliament, administrative offices. Decisions, decrees, corruption.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `49-51`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `UNDERGROUND / SUBTERRANEAN`), /*#__PURE__*/React.createElement("td", {
+  }, `Underground / Subterranean`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Mines, catacombs, bunkers, subway systems, cave networks. Hidden, claustrophobic, forgotten.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `52-54`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `TRANSPORTATION VESSEL`), /*#__PURE__*/React.createElement("td", {
+  }, `Transportation Vessel`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Ship at sea, train in motion, aircraft in flight. Mobile, confined, can't easily leave.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `55-57`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `MARGINAL SETTLEMENT`), /*#__PURE__*/React.createElement("td", {
+  }, `Marginal Settlement`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Slums, refugee camps, squatter zones. Poverty, desperation, resilience.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `58-60`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `SACRED / FORBIDDEN GROUND`), /*#__PURE__*/React.createElement("td", {
+  }, `Sacred / Forbidden Ground`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Burial site, cursed land, quarantine zone. Taboo, danger, dread.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `61-63`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `ENTERTAINMENT DISTRICT`), /*#__PURE__*/React.createElement("td", {
+  }, `Entertainment District`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Red light district, gambling halls, taverns. Pleasure, excess, danger.`))))))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`Red light district, gambling halls, taverns. Pleasure, excess, danger.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `64-66`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Institutional Facility`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`Asylum, orphanage, workhouse, sanatorium. Confinement disguised as care. People processed by paperwork.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-03",
     label: "ORACLE TABLES · spread 3"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -375,63 +387,57 @@ function AppendixC({
     className: "col-desc"
   })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
-  }, `64-66`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `INSTITUTIONAL FACILITY`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`Asylum, orphanage, workhouse, sanatorium. Confinement disguised as care. People processed by paperwork.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
   }, `67-69`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `ARTISAN QUARTER`), /*#__PURE__*/React.createElement("td", {
+  }, `Artisan Quarter`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Workshops, studios, guildhalls. Craftspeople, artists, builders. Skilled labor.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `70-72`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `PRISON / DETENTION CENTER`), /*#__PURE__*/React.createElement("td", {
+  }, `Prison / Detention Center`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Jail, internment camp, forced containment. Inmates, sentences, escape attempts.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `73-76`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `DISASTER ZONE`), /*#__PURE__*/React.createElement("td", {
+  }, `Disaster Zone`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Active fire, flood damage, earthquake, war devastation. Chaos, rescue, collapse.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `77-80`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `BORDERLAND`), /*#__PURE__*/React.createElement("td", {
+  }, `Borderland`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Frontier territory, no man's land, crossing point, checkpoint. Smugglers, refugees, patrol guards.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `81-84`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `AGRICULTURAL LAND`), /*#__PURE__*/React.createElement("td", {
+  }, `Agricultural Land`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Fields, plantations, farms, orchards. Labor, harvest, seasonal cycles.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `85-88`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `RITUAL / CEREMONIAL SPACE`), /*#__PURE__*/React.createElement("td", {
+  }, `Ritual / Ceremonial Space`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Coronation hall, execution ground, courthouse. Locations defined by significant life events.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `89-92`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `RESEARCH OUTPOST`), /*#__PURE__*/React.createElement("td", {
+  }, `Research Outpost`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Observatory, field station, laboratory, archaeological dig. Scientists in remote locations pursuing knowledge.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `93-95`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `COLLAPSED INFRASTRUCTURE`), /*#__PURE__*/React.createElement("td", {
+  }, `Collapsed Infrastructure`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Earthquake aftermath, abandoned cities, climate-ruined zones. Structures still settling and failing. Salvage operations, scavengers, the dangers of incomplete falls.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `96-98`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `LIMINAL SPACE`), /*#__PURE__*/React.createElement("td", {
+  }, `Liminal Space`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Hallway that's too long, empty parking structure, service corridors. Architecturally wrong non-places.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
@@ -458,49 +464,49 @@ function AppendixC({
     className: "num"
   }, `01-05`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `TEMPORAL ECHO`), /*#__PURE__*/React.createElement("td", {
+  }, `Temporal Echo`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Events repeat in exact or near-exact 24-hour loops. Locals may or may not be aware. Loop breaks unpredictably or when a specific condition is met.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `06-10`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `CAUSAL DRIFT`), /*#__PURE__*/React.createElement("td", {
+  }, `Causal Drift`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Cause and effect operate in reverse locally. Wounds appear before the injury. Conversations answer questions not yet asked.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `11-15`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `ANACHRONISM BLEED`), /*#__PURE__*/React.createElement("td", {
+  }, `Anachronism Bleed`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Objects from other eras appear in this one and refuse to leave. A smartphone in a medieval market. A bronze sword in a 1950s living room. Locals see them and accept them, or see them and do not.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `16-20`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `IDENTITY FOG`), /*#__PURE__*/React.createElement("td", {
+  }, `Identity Fog`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Locals cannot consistently remember their own names, relationships, or histories. They function but don't know why.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `21-25`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `PROPHETIC RESONANCE`), /*#__PURE__*/React.createElement("td", {
+  }, `Prophetic Resonance`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Everyone knows with certainty what will happen in the next 24 hours. Free will becomes questionable. Some try to prevent it anyway.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `26-30`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `LINGUISTIC DECAY`), /*#__PURE__*/React.createElement("td", {
+  }, `Linguistic Decay`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Languages shift and mutate mid-conversation. Words change meaning while being spoken. Written text alters when unobserved.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `31-35`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `TEMPORAL PRESSURE`), /*#__PURE__*/React.createElement("td", {
+  }, `Temporal Pressure`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Local time moves at an observably wrong speed — compressed (hours feel like minutes) or dilated (minutes feel like hours).`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `36-40`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `MEMORY BLEED`), /*#__PURE__*/React.createElement("td", {
+  }, `Memory Bleed`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Your personal memories become visible to locals as hallucinations, prophetic dreams, or shared visions. Your past manifests in their present.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-04",
@@ -522,55 +528,55 @@ function AppendixC({
     className: "num"
   }, `41-45`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `PARADOX ZONE`), /*#__PURE__*/React.createElement("td", {
+  }, `Paradox Zone`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`A bounded region where causal contradictions accumulate without resolving. Inside, two incompatible histories operate simultaneously. Outside, only one. The boundary is visible if you know what to look for: a ripple-line, a temperature change, a sound that arrives twice.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `46-50`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `DISPLACEMENT FIELD`), /*#__PURE__*/React.createElement("td", {
+  }, `Displacement Field`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Objects and people jump through time spontaneously. Temporal instability is contagious. Prolonged exposure causes involuntary displacement.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `51-55`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `FACTION PRESENCE`), /*#__PURE__*/React.createElement("td", {
+  }, `Faction Presence`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Temporal Faction agents operating openly, deliberately altering the timeline. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`: 1=Church, 2=Authority, 3=Scionfall, 4=Chronoclasts.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `56-60`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `HISTORICAL DEVIATION`), /*#__PURE__*/React.createElement("td", {
+  }, `Historical Deviation`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Major recorded events happened differently here. This timeline diverged. Records you know are wrong.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `61-65`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `TEMPORAL REFUGEES`), /*#__PURE__*/React.createElement("td", {
+  }, `Temporal Refugees`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Other displaced persons present — confused, desperate, competing for resources. Some helpful, some predatory.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `66-70`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `REALITY THIN`), /*#__PURE__*/React.createElement("td", {
+  }, `Reality Thin`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`The barrier between adjacent timelines is weakening. See ghosts of other timeline versions overlapping. Hear voices from parallel possibilities.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `71-75`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `PROPHETIC ARTIFACTS`), /*#__PURE__*/React.createElement("td", {
+  }, `Prophetic Artifacts`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Objects in this era contain information about events that have not yet occurred. Newspapers dated tomorrow. Photographs of people who have not been born. Recordings of conversations that will be held next week. The artifacts are accurate. They cannot be destroyed without consequence.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `76-80`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `CHRONAL SICKNESS`), /*#__PURE__*/React.createElement("td", {
+  }, `Chronal Sickness`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`The local population suffers visible temporal contamination — rapid aging, remembering futures, bodies flickering between states.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `81-85`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `LOCKED TIMELINE`), /*#__PURE__*/React.createElement("td", {
+  }, `Locked Timeline`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Cannot leave this era through normal displacement. All Navigation attempts fail. External intervention required.`)))))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
@@ -589,25 +595,25 @@ function AppendixC({
     className: "num"
   }, `86-90`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `TEMPORAL SURVEILLANCE`), /*#__PURE__*/React.createElement("td", {
+  }, `Temporal Surveillance`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`You're being observed across multiple timelines simultaneously. Watchers from different eras coordinating to track you.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `91-93`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `PARADOX WOUND`), /*#__PURE__*/React.createElement("td", {
+  }, `Paradox Wound`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`The timeline is damaged from a major contradiction. Reality bleeds temporal instability like radiation. Proximity increases your contamination.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `94-96`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `CONVERGENCE POINT`), /*#__PURE__*/React.createElement("td", {
+  }, `Convergence Point`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Multiple timelines intersecting at this location. Different versions of the same place overlapping physically.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `97-98`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `TEMPORAL DEAD ZONE`), /*#__PURE__*/React.createElement("td", {
+  }, `Temporal Dead Zone`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Time has stopped in this specific location. Nothing changes, nothing progresses. Only you continue to move and age.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
@@ -629,39 +635,27 @@ function AppendixC({
     className: "num"
   }, `01-05`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `HOSTILE AUTHORITIES`), /*#__PURE__*/React.createElement("td", {
+  }, `Hostile Authorities`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Police, military, or government officials identify you as a threat. Arrest or detention imminent. Documentation demanded.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `06-10`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `DISEASE OUTBREAK`), /*#__PURE__*/React.createElement("td", {
+  }, `Disease Outbreak`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Plague, epidemic, or pandemic in active progress. Quarantine conditions enforced or breaking down. High infection risk.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `11-15`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `ACTIVE COMBAT`), /*#__PURE__*/React.createElement("td", {
+  }, `Active Combat`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`War, riot, uprising, or violent conflict in your immediate vicinity. Physical danger imminent.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `16-20`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `ENVIRONMENTAL HAZARD`), /*#__PURE__*/React.createElement("td", {
+  }, `Environmental Hazard`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Fire, flood, earthquake, severe storm, or other disaster. Structural collapse possible. Escape urgent.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `21-25`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, ``), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`FACTION AGENT`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `26-30`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `TEMPORAL PREDATOR`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`A non-human entity that specifically hunts displaced persons. Feeds on Paradox, memories, or temporal energy. Intelligent, patient, dangerous.`))))))), /*#__PURE__*/React.createElement(Spread, {
+  }, inline(`Fire, flood, earthquake, severe storm, or other disaster. Structural collapse possible. Escape urgent.`))))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-05",
     label: "ORACLE TABLES · spread 5"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -679,71 +673,71 @@ function AppendixC({
     className: "col-desc"
   })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
+  }, `21-25`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Faction Agent`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`A single Faction operative makes contact within minutes of arrival. They know who you are. Roll `), /*#__PURE__*/React.createElement("b", null, inline(`d4`)), inline(`: 1=Church, 2=Authority, 3=Scionfall, 4=Chronoclasts. Their offer comes before you've recovered.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `26-30`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Temporal Predator`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`A non-human entity that specifically hunts displaced persons. Feeds on Paradox, memories, or temporal energy. Intelligent, patient, dangerous.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
   }, `31-35`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `PARADOX BACKLASH`), /*#__PURE__*/React.createElement("td", {
+  }, `Paradox Backlash`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Your arrival triggers immediate visible causal disruption. Reality actively rejecting your presence. Locals notice and react.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `36-40`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `MOB PANIC`), /*#__PURE__*/React.createElement("td", {
+  }, `Mob Panic`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`A crowd identifies you as witch, demon, foreign spy, or alien presence. Mass hysteria forming. Violence likely. Logic won't help.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `41-45`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `RESOURCE CRISIS`), /*#__PURE__*/React.createElement("td", {
+  }, `Resource Crisis`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`No food, water, shelter, currency, or basic supplies accessible. Infrastructure collapsed or non-existent.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `46-50`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `IDENTITY EXPOSURE`), /*#__PURE__*/React.createElement("td", {
+  }, `Identity Exposure`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Someone recognizes or has proof you shouldn't exist here — records showing you died, haven't been born, or are from an impossible origin.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `51-55`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `TECHNOLOGICAL INCOMPATIBILITY`), /*#__PURE__*/React.createElement("td", {
+  }, `Technological Incompatibility`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Your Assets and Chrono-Tech don't function in this era. Tools useless, advantages stripped.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `56-60`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `LANGUAGE BARRIER`), /*#__PURE__*/React.createElement("td", {
+  }, `Language Barrier`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Cannot communicate effectively at all. Locals speak a dead language with no modern cognates, or a far-future dialect.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `61-65`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `LEGAL RESTRICTION`), /*#__PURE__*/React.createElement("td", {
+  }, `Legal Restriction`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Documentation required immediately for movement or activity. You have none that are valid here.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `66-70`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `TEMPORAL SICKNESS`), /*#__PURE__*/React.createElement("td", {
+  }, `Temporal Sickness`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`You're suffering visible contamination symptoms upon arrival. Locals notice. Medical attention is needed but dangerous to seek.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `71-75`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `WITNESS BURDEN`), /*#__PURE__*/React.createElement("td", {
+  }, `Witness Burden`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
-  }, inline(`Multiple locals witnessed your actual arrival. They're demanding explanation. Some want to help. Others want to capture or kill.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `76-80`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `PHYSICALLY TRAPPED`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`A building has collapsed around you, a bridge is out, a border is sealed. Cannot leave the immediate area through normal means.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
-    className: "num"
-  }, `81-85`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-name"
-  }, `HUNTED (CROSS-TIMELINE)`), /*#__PURE__*/React.createElement("td", {
-    className: "oracle-desc"
-  }, inline(`Something has been pursuing you across multiple eras. It followed you here. It knows your patterns. It's close.`)))))), /*#__PURE__*/React.createElement(ChPage, {
+  }, inline(`Multiple locals witnessed your actual arrival. They're demanding explanation. Some want to help. Others want to capture or kill.`)))))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Oracle Tables",
     pageNum: basePage + 9,
@@ -758,27 +752,39 @@ function AppendixC({
     className: "col-desc"
   })), /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
+  }, `76-80`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Physically Trapped`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`A building has collapsed around you, a bridge is out, a border is sealed. Cannot leave the immediate area through normal means.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
+  }, `81-85`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-name"
+  }, `Hunted (Cross-Timeline)`), /*#__PURE__*/React.createElement("td", {
+    className: "oracle-desc"
+  }, inline(`Something has been pursuing you across multiple eras. It followed you here. It knows your patterns. It's close.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    className: "num"
   }, `86-90`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `BETRAYAL APPARENT`), /*#__PURE__*/React.createElement("td", {
+  }, `Betrayal Apparent`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Someone you thought was allied reveals immediate hostility. Your friend is a Faction asset, your contact is an informant.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `91-93`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `COLLAPSING INFRASTRUCTURE`), /*#__PURE__*/React.createElement("td", {
+  }, `Collapsing Infrastructure`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`The building you're in is failing right now. Escape window closing rapidly.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `94-96`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `CAUSAL LOOP ACTIVE`), /*#__PURE__*/React.createElement("td", {
+  }, `Causal Loop Active`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Your arrival directly caused or contributed to the danger currently threatening you. You're both victim and cause.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
   }, `97-98`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-name"
-  }, `FACTION AMBUSH (COORDINATED)`), /*#__PURE__*/React.createElement("td", {
+  }, `Faction Ambush (Coordinated)`), /*#__PURE__*/React.createElement("td", {
     className: "oracle-desc"
   }, inline(`Multiple Faction agents from potentially different Factions. This was planned. They predicted or caused your arrival.`))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     className: "num"
@@ -788,17 +794,13 @@ function AppendixC({
     className: "oracle-desc"
   }, inline(`Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive with opposing interventions. Introduce both forces. Do not resolve the contradiction. Mark +1 Paradox immediately.`))))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`Example Interpretations EXAMPLE INTERPRETATIONS`)), /*#__PURE__*/React.createElement("div", {
+  }, inline(`Example Interpretations`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
   }, /*#__PURE__*/React.createElement("p", null, inline(`How four dice results combine into coherent situations.`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`Example 1: Oxford`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`Uprising`))), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`ROLLED`)), /*#__PURE__*/React.createElement("div", {
-    className: "el-body"
-  }, /*#__PURE__*/React.createElement("p", null, inline(`ERA 47: Industrial (1800-1850) LOCATION 61: Academic Institution ANOMALY 23: Prophetic Resonance`))))), /*#__PURE__*/React.createElement(Spread, {
+  }, /*#__PURE__*/React.createElement("p", null, inline(`Uprising`))))), /*#__PURE__*/React.createElement(Spread, {
     id: "appendix-c-06",
     label: "ORACLE TABLES · spread 6"
   }, /*#__PURE__*/React.createElement(ChPage, {
@@ -807,6 +809,10 @@ function AppendixC({
     pageNum: basePage + 10,
     label: `ORACLE TABLES · p.${basePage + 10}`
   }, /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`ROLLED`)), /*#__PURE__*/React.createElement("div", {
+    className: "el-body"
+  }, /*#__PURE__*/React.createElement("p", null, inline(`ERA 47: Industrial (1800-1850) LOCATION 61: Academic Institution ANOMALY 23: Prophetic Resonance`))), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
   }, inline(`COMPLICATION 15: Active Combat`)), /*#__PURE__*/React.createElement("div", {
     className: "el-body"
@@ -818,14 +824,14 @@ function AppendixC({
     className: "el-section-rule"
   }), /*#__PURE__*/React.createElement("h4", {
     className: "el-subsection"
-  }, inline(`Example 2: Berlin Divergence`)), /*#__PURE__*/React.createElement("h4", {
-    className: "el-subsection"
-  }, inline(`ROLLED`))), /*#__PURE__*/React.createElement(ChPage, {
+  }, inline(`Example 2: Berlin Divergence`))), /*#__PURE__*/React.createElement(ChPage, {
     side: "recto",
     runHead: "Oracle Tables",
     pageNum: basePage + 11,
     label: `ORACLE TABLES · p.${basePage + 11}`
-  }, /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: "el-subsection"
+  }, inline(`ROLLED`)), /*#__PURE__*/React.createElement("ul", {
     className: "el-list"
   }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`ERA 71:`)), inline(` Early Cold War (1945-1970)`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`LOCATION 76:`)), inline(` Transportation Hub`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`ANOMALY 56:`)), inline(` Historical Deviation`)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, inline(`COMPLICATION 46:`)), inline(` Identity Exposure Tempelhof Airport, West Berlin, 1961. But something is fundamentally wrong. The Berlin Wall — which in your timeline was built in August 1961 — was never constructed here. The city remains unified but occupied by a different power structure than you know.`))), /*#__PURE__*/React.createElement("div", {
     className: "el-body"

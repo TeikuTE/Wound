@@ -2916,203 +2916,205 @@ Roll ERA + LOCATION + ANOMALY + COMPLICATION when Navigation fails, when forced 
 
 **Era Table (d100)**
 
-**01-05** PALEOLITHIC (50,000-10,000 BCE) — Ice sheets advancing and receding, megafauna, pre-linguistic cultures, tool-making beginning. Survival conditions are absolute.
+**01-05** Paleolithic (50,000-10,000 BCE) — Ice sheets advancing and receding, megafauna, pre-linguistic cultures, tool-making beginning. Survival conditions are absolute.
 
-**06-10** NEOLITHIC (10,000-3,000 BCE) — First agriculture, permanent settlements, stone monuments, proto-cities forming, domestication.
+**06-10** Neolithic (10,000-3,000 BCE) — First agriculture, permanent settlements, stone monuments, proto-cities forming, domestication.
 
-**11-15** BRONZE AGE (3,000-1,200 BCE) — Early empires rising, cuneiform and hieroglyphics, urban centers, long-distance trade networks.
+**11-15** Bronze Age (3,000-1,200 BCE) — Early empires rising, cuneiform and hieroglyphics, urban centers, long-distance trade networks.
 
-**16-20** IRON AGE / CLASSICAL (1,200 BCE-500 — CE) Greece, Rome, Han, Maurya — philosophy emerging, organized warfare, major religions forming.
+**16-20** Iron Age / Classical (1,200 BCE-500 — CE) Greece, Rome, Han, Maurya — philosophy emerging, organized warfare, major religions forming.
 
-**21-25** EARLY MEDIEVAL (500-1000 CE) — Post-Roman collapse, Byzantine continuation, Islamic Golden Age, monastery culture, feudalism emerging.
+**21-25** Early Medieval (500-1000 CE) — Post-Roman collapse, Byzantine continuation, Islamic Golden Age, monastery culture, feudalism emerging.
 
-**26-30** HIGH MEDIEVAL (1000-1300 CE) — Castles and cathedrals, Crusades, universities founding, Gothic architecture, chivalric culture.
+**26-30** High Medieval (1000-1300 CE) — Castles and cathedrals, Crusades, universities founding, Gothic architecture, chivalric culture.
 
-**31-35** LATE MEDIEVAL (1300-1500 CE) — The Black Death and its aftermath, peasant revolts, gunpowder reshaping warfare, universities expanding, early Renaissance stirrings. A population that has just buried half of itself and does not yet know it is becoming modern.
+**31-35** Late Medieval (1300-1500 CE) — The Black Death and its aftermath, peasant revolts, gunpowder reshaping warfare, universities expanding, early Renaissance stirrings. A population that has just buried half of itself and does not yet know it is becoming modern.
 
-**36-40** EARLY MODERN (1500-1700 CE) — Age of Exploration, Protestant Reformation, Scientific Revolution, colonial expansion, absolute monarchies.
+**36-40** Early Modern (1500-1700 CE) — Age of Exploration, Protestant Reformation, Scientific Revolution, colonial expansion, absolute monarchies.
 
-**41-45** ENLIGHTENMENT (1700-1800 CE) — Age of Reason, American and French Revolutions, industrial revolution beginning, philosophical rationalism.
+**41-45** Enlightenment (1700-1800 CE) — Age of Reason, American and French Revolutions, industrial revolution beginning, philosophical rationalism.
 
-**46-50** INDUSTRIAL (1800-1850 CE) — Factories and railways spreading, rapid urbanization, steam power, telegraph, class conflict.
+**46-50** Industrial (1800-1850 CE) — Factories and railways spreading, rapid urbanization, steam power, telegraph, class conflict.
 
-**51-55** VICTORIAN (1850-1900 CE) — British Empire at height, mechanization accelerating, photography and cinema emerging, scientific advancement.
+**51-55** Victorian (1850-1900 CE) — British Empire at height, mechanization accelerating, photography and cinema emerging, scientific advancement.
 
-**56-60** EARLY 20TH CENTURY (1900-1920 CE) — Electricity widespread, aviation beginning, World War I, Spanish Flu, women's suffrage movements.
+**56-60** Early 20th Century (1900-1920 CE) — Electricity widespread, aviation beginning, World War I, Spanish Flu, women's suffrage movements.
 
-**61-65** INTERWAR (1920-1939 CE) — Jazz Age, Great Depression, fascism rising, radio broadcasting, artistic modernism.
+**61-65** Interwar (1920-1939 CE) — Jazz Age, Great Depression, fascism rising, radio broadcasting, artistic modernism.
 
-**66-70** WORLD WAR II ERA (1939-1945 CE) — Industrial-scale warfare across multiple continents, occupation regimes, partisan resistance, ration books, blackouts, propaganda saturating every medium. The Holocaust ongoing. Atomic weapons by period's end.
+**66-70** World War II Era (1939-1945 CE) — Industrial-scale warfare across multiple continents, occupation regimes, partisan resistance, ration books, blackouts, propaganda saturating every medium. The Holocaust ongoing. Atomic weapons by period's end.
 
-**71-75** EARLY COLD WAR (1945-1970 CE) — Nuclear standoff, space race, decolonization, civil rights, television dominance, counterculture.
+**71-75** Early Cold War (1945-1970 CE) — Nuclear standoff, space race, decolonization, civil rights, television dominance, counterculture.
 
-**76-80** LATE COLD WAR (1970-1991 CE) — Déente and renewed tensions, personal computing, fall of Berlin Wall, Soviet collapse.
+**76-80** Late Cold War (1970-1991 CE) — Déente and renewed tensions, personal computing, fall of Berlin Wall, Soviet collapse.
 
-**81-85** DIGITAL AGE (1991-2010 CE) — Internet mainstream, globalization accelerating, 9/11, mobile technology, social networking.
+**81-85** Digital Age (1991-2010 CE) — Internet mainstream, globalization accelerating, 9/11, mobile technology, social networking.
 
-**86-90** LATE DIGITAL (2010-2030 CE) — Social media dominance, climate crisis accelerating, AI emergence, political polarization, pandemic responses.
+**86-90** Late Digital (2010-2030 CE) — Social media dominance, climate crisis accelerating, AI emergence, political polarization, pandemic responses.
 
-**91-93** NEAR FUTURE (2030-2050 CE) — Climate adaptation infrastructure, gene technology widespread, mass migration, automation displacement.
+**91-93** Near Future (2030-2050 CE) — Climate adaptation infrastructure, gene technology widespread, mass migration, automation displacement.
 
-**94-96** MID FUTURE (2050-2100 CE) — Post-scarcity attempts, radical life extension, off-world colonies possible, demographic transformation.
+**94-96** Mid Future (2050-2100 CE) — Post-scarcity attempts, radical life extension, off-world colonies possible, demographic transformation.
 
-**97-98** FAR FUTURE (2100-2200 CE) — Post-climate world either stabilized or sustained at high cost. Off-world colonies established. Body modifications routine. The category "human" itself is contested vocabulary.
+**97-98** Far Future (2100-2200 CE) — Post-climate world either stabilized or sustained at high cost. Off-world colonies established. Body modifications routine. The category "human" itself is contested vocabulary.
+
+**99-00** [PARADOX ERA] — You arrive in an era that records say never happened, or that historians cannot agree on. The dates are unstable. The events refuse to settle. Treat this as an Era that exists between or outside the timeline's official version. Mark +1 Paradox immediately.
 
 **Location Table (d100)**
 
-**01-03** MAJOR URBAN CENTER — Capital city, cultural and economic hub, dense population, government seat. Markets, monuments, crowds.
+**01-03** Major Urban Center — Capital city, cultural and economic hub, dense population, government seat. Markets, monuments, crowds.
 
-**04-06** RESIDENTIAL DISTRICT — Neighborhoods, housing blocks, suburbs. Domestic spaces where people actually live. Family dynamics, local gossip.
+**04-06** Residential District — Neighborhoods, housing blocks, suburbs. Domestic spaces where people actually live. Family dynamics, local gossip.
 
-**07-09** MARKETPLACE — Bazaar, trading post, commercial district. Exchange and commerce. Merchants, hagglers, information brokers.
+**07-09** Marketplace — Bazaar, trading post, commercial district. Exchange and commerce. Merchants, hagglers, information brokers.
 
-**10-12** PORT CITY — Harbor facilities, international trade, diverse transient population, gateway location.
+**10-12** Port City — Harbor facilities, international trade, diverse transient population, gateway location.
 
-**13-16** INDUSTRIAL CENTER — Factories, worker housing, pollution and noise. Smokestacks, assembly lines, shift whistles.
+**13-16** Industrial Center — Factories, worker housing, pollution and noise. Smokestacks, assembly lines, shift whistles.
 
-**17-20** RURAL VILLAGE — Agricultural community, traditional social structures, relative isolation. Everyone knows everyone.
+**17-20** Rural Village — Agricultural community, traditional social structures, relative isolation. Everyone knows everyone.
 
-**21-24** WILDERNESS — Forest, mountain range, desert, or wasteland. Minimal human presence, survival conditions, natural dangers.
+**21-24** Wilderness — Forest, mountain range, desert, or wasteland. Minimal human presence, survival conditions, natural dangers.
 
-**25-28** RELIGIOUS SITE — Temple, monastery, church, mosque, shrine. Pilgrims, priests, ceremonies. Spiritual authority concentrated.
+**25-28** Religious Site — Temple, monastery, church, mosque, shrine. Pilgrims, priests, ceremonies. Spiritual authority concentrated.
 
-**29-32** ACADEMIC INSTITUTION — University, library, research facility. Scholars, students, knowledge repositories.
+**29-32** Academic Institution — University, library, research facility. Scholars, students, knowledge repositories.
 
-**33-35** ENTERTAINMENT VENUE — Theater, arena, festival ground. Performance, spectacle, crowd energy. Era-dependent.
+**33-35** Entertainment Venue — Theater, arena, festival ground. Performance, spectacle, crowd energy. Era-dependent.
 
-**36-38** MILITARY INSTALLATION — Fort, base, training ground, armory. Hierarchies, drills, readiness.
+**36-38** Military Installation — Fort, base, training ground, armory. Hierarchies, drills, readiness.
 
-**39-42** TRANSPORTATION HUB — Train stations, airports, bus terminals, depots. Schedules and surveillance. Transient populations: harder to track, harder to hide.
+**39-42** Transportation Hub — Train stations, airports, bus terminals, depots. Schedules and surveillance. Transient populations: harder to track, harder to hide.
 
-**43-45** MEDICAL FACILITY — Hospital, sanitarium, clinic, quarantine. Concentration of sick and injured. Healing and horror.
+**43-45** Medical Facility — Hospital, sanitarium, clinic, quarantine. Concentration of sick and injured. Healing and horror.
 
-**46-48** GOVERNMENT CENTER — Palace, parliament, administrative offices. Decisions, decrees, corruption.
+**46-48** Government Center — Palace, parliament, administrative offices. Decisions, decrees, corruption.
 
-**49-51** UNDERGROUND / SUBTERRANEAN — Mines, catacombs, bunkers, subway systems, cave networks. Hidden, claustrophobic, forgotten.
+**49-51** Underground / Subterranean — Mines, catacombs, bunkers, subway systems, cave networks. Hidden, claustrophobic, forgotten.
 
-**52-54** TRANSPORTATION VESSEL — Ship at sea, train in motion, aircraft in flight. Mobile, confined, can't easily leave.
+**52-54** Transportation Vessel — Ship at sea, train in motion, aircraft in flight. Mobile, confined, can't easily leave.
 
-**55-57** MARGINAL SETTLEMENT — Slums, refugee camps, squatter zones. Poverty, desperation, resilience.
+**55-57** Marginal Settlement — Slums, refugee camps, squatter zones. Poverty, desperation, resilience.
 
-**58-60** SACRED / FORBIDDEN GROUND — Burial site, cursed land, quarantine zone. Taboo, danger, dread.
+**58-60** Sacred / Forbidden Ground — Burial site, cursed land, quarantine zone. Taboo, danger, dread.
 
-**61-63** ENTERTAINMENT DISTRICT — Red light district, gambling halls, taverns. Pleasure, excess, danger.
+**61-63** Entertainment District — Red light district, gambling halls, taverns. Pleasure, excess, danger.
 
-**64-66** INSTITUTIONAL FACILITY — Asylum, orphanage, workhouse, sanatorium. Confinement disguised as care. People processed by paperwork.
+**64-66** Institutional Facility — Asylum, orphanage, workhouse, sanatorium. Confinement disguised as care. People processed by paperwork.
 
-**67-69** ARTISAN QUARTER — Workshops, studios, guildhalls. Craftspeople, artists, builders. Skilled labor.
+**67-69** Artisan Quarter — Workshops, studios, guildhalls. Craftspeople, artists, builders. Skilled labor.
 
-**70-72** PRISON / DETENTION CENTER — Jail, internment camp, forced containment. Inmates, sentences, escape attempts.
+**70-72** Prison / Detention Center — Jail, internment camp, forced containment. Inmates, sentences, escape attempts.
 
-**73-76** DISASTER ZONE — Active fire, flood damage, earthquake, war devastation. Chaos, rescue, collapse.
+**73-76** Disaster Zone — Active fire, flood damage, earthquake, war devastation. Chaos, rescue, collapse.
 
-**77-80** BORDERLAND — Frontier territory, no man's land, crossing point, checkpoint. Smugglers, refugees, patrol guards.
+**77-80** Borderland — Frontier territory, no man's land, crossing point, checkpoint. Smugglers, refugees, patrol guards.
 
-**81-84** AGRICULTURAL LAND — Fields, plantations, farms, orchards. Labor, harvest, seasonal cycles.
+**81-84** Agricultural Land — Fields, plantations, farms, orchards. Labor, harvest, seasonal cycles.
 
-**85-88** RITUAL / CEREMONIAL SPACE — Coronation hall, execution ground, courthouse. Locations defined by significant life events.
+**85-88** Ritual / Ceremonial Space — Coronation hall, execution ground, courthouse. Locations defined by significant life events.
 
-**89-92** RESEARCH OUTPOST — Observatory, field station, laboratory, archaeological dig. Scientists in remote locations pursuing knowledge.
+**89-92** Research Outpost — Observatory, field station, laboratory, archaeological dig. Scientists in remote locations pursuing knowledge.
 
-**93-95** COLLAPSED INFRASTRUCTURE — Earthquake aftermath, abandoned cities, climate-ruined zones. Structures still settling and failing. Salvage operations, scavengers, the dangers of incomplete falls.
+**93-95** Collapsed Infrastructure — Earthquake aftermath, abandoned cities, climate-ruined zones. Structures still settling and failing. Salvage operations, scavengers, the dangers of incomplete falls.
 
-**96-98** LIMINAL SPACE — Hallway that's too long, empty parking structure, service corridors. Architecturally wrong non-places.
+**96-98** Liminal Space — Hallway that's too long, empty parking structure, service corridors. Architecturally wrong non-places.
 
 **99-00** [PARADOX] — Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive with opposing interventions. Introduce both forces. Do not resolve the contradiction. Mark +1 Paradox immediately.
 
 **Anomaly Table (d100)**
 
-**01-05** TEMPORAL ECHO — Events repeat in exact or near-exact 24-hour loops. Locals may or may not be aware. Loop breaks unpredictably or when a specific condition is met.
+**01-05** Temporal Echo — Events repeat in exact or near-exact 24-hour loops. Locals may or may not be aware. Loop breaks unpredictably or when a specific condition is met.
 
-**06-10** CAUSAL DRIFT — Cause and effect operate in reverse locally. Wounds appear before the injury. Conversations answer questions not yet asked.
+**06-10** Causal Drift — Cause and effect operate in reverse locally. Wounds appear before the injury. Conversations answer questions not yet asked.
 
-**11-15** ANACHRONISM BLEED — Objects from other eras appear in this one and refuse to leave. A smartphone in a medieval market. A bronze sword in a 1950s living room. Locals see them and accept them, or see them and do not.
+**11-15** Anachronism Bleed — Objects from other eras appear in this one and refuse to leave. A smartphone in a medieval market. A bronze sword in a 1950s living room. Locals see them and accept them, or see them and do not.
 
-**16-20** IDENTITY FOG — Locals cannot consistently remember their own names, relationships, or histories. They function but don't know why.
+**16-20** Identity Fog — Locals cannot consistently remember their own names, relationships, or histories. They function but don't know why.
 
-**21-25** PROPHETIC RESONANCE — Everyone knows with certainty what will happen in the next 24 hours. Free will becomes questionable. Some try to prevent it anyway.
+**21-25** Prophetic Resonance — Everyone knows with certainty what will happen in the next 24 hours. Free will becomes questionable. Some try to prevent it anyway.
 
-**26-30** LINGUISTIC DECAY — Languages shift and mutate mid-conversation. Words change meaning while being spoken. Written text alters when unobserved.
+**26-30** Linguistic Decay — Languages shift and mutate mid-conversation. Words change meaning while being spoken. Written text alters when unobserved.
 
-**31-35** TEMPORAL PRESSURE — Local time moves at an observably wrong speed — compressed (hours feel like minutes) or dilated (minutes feel like hours).
+**31-35** Temporal Pressure — Local time moves at an observably wrong speed — compressed (hours feel like minutes) or dilated (minutes feel like hours).
 
-**36-40** MEMORY BLEED — Your personal memories become visible to locals as hallucinations, prophetic dreams, or shared visions. Your past manifests in their present.
+**36-40** Memory Bleed — Your personal memories become visible to locals as hallucinations, prophetic dreams, or shared visions. Your past manifests in their present.
 
-**41-45** PARADOX ZONE — A bounded region where causal contradictions accumulate without resolving. Inside, two incompatible histories operate simultaneously. Outside, only one. The boundary is visible if you know what to look for: a ripple-line, a temperature change, a sound that arrives twice.
+**41-45** Paradox Zone — A bounded region where causal contradictions accumulate without resolving. Inside, two incompatible histories operate simultaneously. Outside, only one. The boundary is visible if you know what to look for: a ripple-line, a temperature change, a sound that arrives twice.
 
-**46-50** DISPLACEMENT FIELD — Objects and people jump through time spontaneously. Temporal instability is contagious. Prolonged exposure causes involuntary displacement.
+**46-50** Displacement Field — Objects and people jump through time spontaneously. Temporal instability is contagious. Prolonged exposure causes involuntary displacement.
 
-**51-55** FACTION PRESENCE — Temporal Faction agents operating openly, deliberately altering the timeline. Roll **d4**: 1=Church, 2=Authority, 3=Scionfall, 4=Chronoclasts.
+**51-55** Faction Presence — Temporal Faction agents operating openly, deliberately altering the timeline. Roll **d4**: 1=Church, 2=Authority, 3=Scionfall, 4=Chronoclasts.
 
-**56-60** HISTORICAL DEVIATION — Major recorded events happened differently here. This timeline diverged. Records you know are wrong.
+**56-60** Historical Deviation — Major recorded events happened differently here. This timeline diverged. Records you know are wrong.
 
-**61-65** TEMPORAL REFUGEES — Other displaced persons present — confused, desperate, competing for resources. Some helpful, some predatory.
+**61-65** Temporal Refugees — Other displaced persons present — confused, desperate, competing for resources. Some helpful, some predatory.
 
-**66-70** REALITY THIN — The barrier between adjacent timelines is weakening. See ghosts of other timeline versions overlapping. Hear voices from parallel possibilities.
+**66-70** Reality Thin — The barrier between adjacent timelines is weakening. See ghosts of other timeline versions overlapping. Hear voices from parallel possibilities.
 
-**71-75** PROPHETIC ARTIFACTS — Objects in this era contain information about events that have not yet occurred. Newspapers dated tomorrow. Photographs of people who have not been born. Recordings of conversations that will be held next week. The artifacts are accurate. They cannot be destroyed without consequence.
+**71-75** Prophetic Artifacts — Objects in this era contain information about events that have not yet occurred. Newspapers dated tomorrow. Photographs of people who have not been born. Recordings of conversations that will be held next week. The artifacts are accurate. They cannot be destroyed without consequence.
 
-**76-80** CHRONAL SICKNESS — The local population suffers visible temporal contamination — rapid aging, remembering futures, bodies flickering between states.
+**76-80** Chronal Sickness — The local population suffers visible temporal contamination — rapid aging, remembering futures, bodies flickering between states.
 
-**81-85** LOCKED TIMELINE — Cannot leave this era through normal displacement. All Navigation attempts fail. External intervention required.
+**81-85** Locked Timeline — Cannot leave this era through normal displacement. All Navigation attempts fail. External intervention required.
 
-**86-90** TEMPORAL SURVEILLANCE — You're being observed across multiple timelines simultaneously. Watchers from different eras coordinating to track you.
+**86-90** Temporal Surveillance — You're being observed across multiple timelines simultaneously. Watchers from different eras coordinating to track you.
 
-**91-93** PARADOX WOUND — The timeline is damaged from a major contradiction. Reality bleeds temporal instability like radiation. Proximity increases your contamination.
+**91-93** Paradox Wound — The timeline is damaged from a major contradiction. Reality bleeds temporal instability like radiation. Proximity increases your contamination.
 
-**94-96** CONVERGENCE POINT — Multiple timelines intersecting at this location. Different versions of the same place overlapping physically.
+**94-96** Convergence Point — Multiple timelines intersecting at this location. Different versions of the same place overlapping physically.
 
-**97-98** TEMPORAL DEAD ZONE — Time has stopped in this specific location. Nothing changes, nothing progresses. Only you continue to move and age.
+**97-98** Temporal Dead Zone — Time has stopped in this specific location. Nothing changes, nothing progresses. Only you continue to move and age.
 
 **99-00** [PARADOX] — Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive with opposing interventions. Introduce both forces. Do not resolve the contradiction. Mark +1 Paradox immediately.
 
 **Complication Table (d100)**
 
-**01-05** HOSTILE AUTHORITIES — Police, military, or government officials identify you as a threat. Arrest or detention imminent. Documentation demanded.
+**01-05** Hostile Authorities — Police, military, or government officials identify you as a threat. Arrest or detention imminent. Documentation demanded.
 
-**06-10** DISEASE OUTBREAK — Plague, epidemic, or pandemic in active progress. Quarantine conditions enforced or breaking down. High infection risk.
+**06-10** Disease Outbreak — Plague, epidemic, or pandemic in active progress. Quarantine conditions enforced or breaking down. High infection risk.
 
-**11-15** ACTIVE COMBAT — War, riot, uprising, or violent conflict in your immediate vicinity. Physical danger imminent.
+**11-15** Active Combat — War, riot, uprising, or violent conflict in your immediate vicinity. Physical danger imminent.
 
-**16-20** ENVIRONMENTAL HAZARD — Fire, flood, earthquake, severe storm, or other disaster. Structural collapse possible. Escape urgent.
+**16-20** Environmental Hazard — Fire, flood, earthquake, severe storm, or other disaster. Structural collapse possible. Escape urgent.
 
-**21-25** FACTION AGENT
+**21-25** Faction Agent — A single Faction operative makes contact within minutes of arrival. They know who you are. Roll **d4**: 1=Church, 2=Authority, 3=Scionfall, 4=Chronoclasts. Their offer comes before you've recovered.
 
-**26-30** TEMPORAL PREDATOR — A non-human entity that specifically hunts displaced persons. Feeds on Paradox, memories, or temporal energy. Intelligent, patient, dangerous.
+**26-30** Temporal Predator — A non-human entity that specifically hunts displaced persons. Feeds on Paradox, memories, or temporal energy. Intelligent, patient, dangerous.
 
-**31-35** PARADOX BACKLASH — Your arrival triggers immediate visible causal disruption. Reality actively rejecting your presence. Locals notice and react.
+**31-35** Paradox Backlash — Your arrival triggers immediate visible causal disruption. Reality actively rejecting your presence. Locals notice and react.
 
-**36-40** MOB PANIC — A crowd identifies you as witch, demon, foreign spy, or alien presence. Mass hysteria forming. Violence likely. Logic won't help.
+**36-40** Mob Panic — A crowd identifies you as witch, demon, foreign spy, or alien presence. Mass hysteria forming. Violence likely. Logic won't help.
 
-**41-45** RESOURCE CRISIS — No food, water, shelter, currency, or basic supplies accessible. Infrastructure collapsed or non-existent.
+**41-45** Resource Crisis — No food, water, shelter, currency, or basic supplies accessible. Infrastructure collapsed or non-existent.
 
-**46-50** IDENTITY EXPOSURE — Someone recognizes or has proof you shouldn't exist here — records showing you died, haven't been born, or are from an impossible origin.
+**46-50** Identity Exposure — Someone recognizes or has proof you shouldn't exist here — records showing you died, haven't been born, or are from an impossible origin.
 
-**51-55** TECHNOLOGICAL INCOMPATIBILITY — Your Assets and Chrono-Tech don't function in this era. Tools useless, advantages stripped.
+**51-55** Technological Incompatibility — Your Assets and Chrono-Tech don't function in this era. Tools useless, advantages stripped.
 
-**56-60** LANGUAGE BARRIER — Cannot communicate effectively at all. Locals speak a dead language with no modern cognates, or a far-future dialect.
+**56-60** Language Barrier — Cannot communicate effectively at all. Locals speak a dead language with no modern cognates, or a far-future dialect.
 
-**61-65** LEGAL RESTRICTION — Documentation required immediately for movement or activity. You have none that are valid here.
+**61-65** Legal Restriction — Documentation required immediately for movement or activity. You have none that are valid here.
 
-**66-70** TEMPORAL SICKNESS — You're suffering visible contamination symptoms upon arrival. Locals notice. Medical attention is needed but dangerous to seek.
+**66-70** Temporal Sickness — You're suffering visible contamination symptoms upon arrival. Locals notice. Medical attention is needed but dangerous to seek.
 
-**71-75** WITNESS BURDEN — Multiple locals witnessed your actual arrival. They're demanding explanation. Some want to help. Others want to capture or kill.
+**71-75** Witness Burden — Multiple locals witnessed your actual arrival. They're demanding explanation. Some want to help. Others want to capture or kill.
 
-**76-80** PHYSICALLY TRAPPED — A building has collapsed around you, a bridge is out, a border is sealed. Cannot leave the immediate area through normal means.
+**76-80** Physically Trapped — A building has collapsed around you, a bridge is out, a border is sealed. Cannot leave the immediate area through normal means.
 
-**81-85** HUNTED (CROSS-TIMELINE) — Something has been pursuing you across multiple eras. It followed you here. It knows your patterns. It's close.
+**81-85** Hunted (Cross-Timeline) — Something has been pursuing you across multiple eras. It followed you here. It knows your patterns. It's close.
 
-**86-90** BETRAYAL APPARENT — Someone you thought was allied reveals immediate hostility. Your friend is a Faction asset, your contact is an informant.
+**86-90** Betrayal Apparent — Someone you thought was allied reveals immediate hostility. Your friend is a Faction asset, your contact is an informant.
 
-**91-93** COLLAPSING INFRASTRUCTURE — The building you're in is failing right now. Escape window closing rapidly.
+**91-93** Collapsing Infrastructure — The building you're in is failing right now. Escape window closing rapidly.
 
-**94-96** CAUSAL LOOP ACTIVE — Your arrival directly caused or contributed to the danger currently threatening you. You're both victim and cause.
+**94-96** Causal Loop Active — Your arrival directly caused or contributed to the danger currently threatening you. You're both victim and cause.
 
-**97-98** FACTION AMBUSH (COORDINATED) — Multiple Faction agents from potentially different Factions. This was planned. They predicted or caused your arrival.
+**97-98** Faction Ambush (Coordinated) — Multiple Faction agents from potentially different Factions. This was planned. They predicted or caused your arrival.
 
 **99-00** [PARADOX] — Two things are true at once and cannot both be true. Two NPCs have irreconcilable claims. Two Factions arrive with opposing interventions. Introduce both forces. Do not resolve the contradiction. Mark +1 Paradox immediately.
 
-**Example Interpretations EXAMPLE INTERPRETATIONS**
+**Example Interpretations**
 
 
 How four dice results combine into coherent situations.
