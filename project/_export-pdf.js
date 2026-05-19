@@ -9,7 +9,7 @@ const path = require('node:path');
 const fs = require('node:fs');
 
 const URL = 'http://localhost:8765/WOUND%20V12.html?print';
-const OUT = path.join(__dirname, 'WOUND_V12.pdf');
+const OUT = path.join(__dirname, 'WOUND_V13.pdf');
 
 (async () => {
   console.log('launching chrome…');

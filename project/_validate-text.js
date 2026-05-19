@@ -15,7 +15,7 @@ const path = require('node:path');
 const { execSync } = require('node:child_process');
 
 const MD = path.join(__dirname, 'WOUND_V12.md');
-const PDF = path.join(__dirname, 'WOUND_V12.pdf');
+const PDF = path.join(__dirname, 'WOUND_V13.pdf');
 
 if (!fs.existsSync(PDF)) {
   console.error(`PDF not found: ${PDF}`);
